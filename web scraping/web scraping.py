@@ -41,7 +41,7 @@ def ScrapeSeasonData(function, fileType, startYear, endYear):
         currentYear = currentYear + 1
 
 # Scrape player and team box scores
-ScrapeBoxScores(client.player_box_scores, 'player', '01/01/2010', '05/02/2019')
+ScrapeBoxScores(client.player_box_scores, 'player', '01/01/2011', '05/02/2019')
 ScrapeBoxScores(client.team_box_scores, 'team', '01/01/2010', '05/02/2019')
 
 # Scrape seasons schedules and player season totals
