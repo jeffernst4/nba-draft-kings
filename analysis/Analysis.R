@@ -21,6 +21,7 @@ library(plyr)
 library(randomForest)
 library(reshape2)
 library(stringr)
+library(tcltk2)
 library(zoo)
 
 
@@ -42,6 +43,22 @@ dataLoad <- list(
       
       # Print selected date
       print(selectedDate)
+      
+      test <- list.files(path = paste0("data/", type, " box scores/"), pattern="*.csv")
+      
+      # pb <- tkProgressBar("Loading Data", "Loading...",
+      #                     0, 100, 0)
+      # Sys.sleep(0.5)
+      # u <- c(0, sort(runif(20, 0, 100)), 100)
+      # for(i in u) {
+      #   Sys.sleep(0.1)
+      #   info <- sprintf("%d%% done", round(i))
+      #   setTkProgressBar(pb, i, "Loading Data", info)
+      # }
+      # Sys.sleep(5)
+      # close(pb)
+      
+      # insert a progress bar
       
       # Read data for selected date
       boxScores <-
