@@ -35,6 +35,59 @@ dataLoad <- list(
     # Create empty data list
     dataList <- list()
     
+    test <- list.files(path = paste0("data/", type, " box scores/"), pattern="*.csv")
+    
+    progressBar <- tkProgressBar("Loading Data", "Loading...",
+                        0, 1, 0)
+    
+    for(i in 1:length(test)) {
+      
+      # Extract date
+      fileDate <-
+        as.Date(str_extract(test[i], "\\[[0-9]{4}-[0-9]{2}-[0-9]{2}\\]"),
+                format = "[%Y-%m-%d]")
+      
+      # Read data for selected date
+      boxScores <-
+        read.csv(
+          paste0(
+            "data/",
+            type,
+            " box scores/",
+            test[i]
+          ),
+          stringsAsFactors = FALSE,
+          encoding = "utf-8"
+        )
+      
+      # Check if data has more than one row
+      if (nrow(boxScores) > 0) {
+        
+        # Add date column to data
+        boxScores$date <- fileDate
+        
+        # Add data to list
+        dataList <- c(dataList, list(boxScores))
+        
+      }
+      
+      setTkProgressBar(progressBar, i/length(test), "Loading Data", sprintf("%d%% done", round(i * 100/length(test))))
+      
+    }
+    
+    close(progressBar)
+    
+    # Combine list into a single data frame
+    boxScores <- do.call("rbind", dataList)
+    
+
+    
+    
+    
+    
+    
+    
+    
     # Load data to a list of data frames
     for (date in as.numeric(as.Date(startDate)):as.numeric(as.Date(endDate))) {
       
@@ -44,19 +97,7 @@ dataLoad <- list(
       # Print selected date
       print(selectedDate)
       
-      test <- list.files(path = paste0("data/", type, " box scores/"), pattern="*.csv")
       
-      # pb <- tkProgressBar("Loading Data", "Loading...",
-      #                     0, 100, 0)
-      # Sys.sleep(0.5)
-      # u <- c(0, sort(runif(20, 0, 100)), 100)
-      # for(i in u) {
-      #   Sys.sleep(0.1)
-      #   info <- sprintf("%d%% done", round(i))
-      #   setTkProgressBar(pb, i, "Loading Data", info)
-      # }
-      # Sys.sleep(5)
-      # close(pb)
       
       # insert a progress bar
       
