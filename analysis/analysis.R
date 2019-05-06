@@ -30,156 +30,77 @@ library(zoo)
 # Create a list of data load functions
 dataLoad <- list(
   
-  BoxScores = function(startDate, endDate, type) {
+  GameStats = function(fileType) {
     
     # Create empty data list
     dataList <- list()
     
-    test <- list.files(path = paste0("data/", type, " box scores/"), pattern="*.csv")
+    # Create file list
+    fileList <-
+      list.files(path = paste0("data/", fileType, "/"),
+                 pattern = "*.csv")
     
+    # Create progress bar
     progressBar <- tkProgressBar("Loading Data", "Loading...",
-                        0, 1, 0)
+                                 0, 1, 0)
     
-    for(i in 1:length(test)) {
+    # Load data to a list of data frames
+    for(i in 1:length(fileList)) {
       
-      # Extract date
-      fileDate <-
-        as.Date(str_extract(test[i], "\\[[0-9]{4}-[0-9]{2}-[0-9]{2}\\]"),
-                format = "[%Y-%m-%d]")
+      if (fileType %in% c("player box scores", "team box scores")) {
+        
+        # Extract date
+        fileDate <-
+          as.Date(str_extract(fileList[i], "[0-9]{4}-[0-9]{2}-[0-9]{2}"),
+                  format = "%Y-%m-%d")
+        
+      } else if (fileType %in% c("player season totals", "season schedules")) {
+        
+        # Extract date
+        fileDate <- str_extract(fileList[i], "[0-9]{4}")
+        
+      }
       
-      # Read data for selected date
-      boxScores <-
+      # Read data
+      data <-
         read.csv(
           paste0(
             "data/",
-            type,
-            " box scores/",
-            test[i]
+            fileType,
+            "/",
+            fileList[i]
           ),
           stringsAsFactors = FALSE,
           encoding = "utf-8"
         )
       
       # Check if data has more than one row
-      if (nrow(boxScores) > 0) {
+      if (nrow(data) > 0) {
         
         # Add date column to data
-        boxScores$date <- fileDate
+        data$date <- fileDate
         
         # Add data to list
-        dataList <- c(dataList, list(boxScores))
+        dataList <- c(dataList, list(data))
         
       }
       
-      setTkProgressBar(progressBar, i/length(test), "Loading Data", sprintf("%d%% done", round(i * 100/length(test))))
+      # Update progress bar
+      setTkProgressBar(progressBar,
+                       i / length(fileList),
+                       paste0("Loading ", fileType, " box scores"),
+                       sprintf("%d%% done", round(i * 100 / length(fileList))))
       
     }
     
+    # Close progress bar
     close(progressBar)
     
     # Combine list into a single data frame
-    boxScores <- do.call("rbind", dataList)
+    data <- do.call("rbind", dataList)
     
-
-    
-    
-    
-    
-    
-    
-    
-    # Load data to a list of data frames
-    for (date in as.numeric(as.Date(startDate)):as.numeric(as.Date(endDate))) {
-      
-      # Transform date to date format
-      selectedDate <- as.Date(date, origin = "1970-01-01")
-      
-      # Print selected date
-      print(selectedDate)
-      
-      
-      
-      # insert a progress bar
-      
-      # Read data for selected date
-      boxScores <-
-        read.csv(
-          paste0(
-            "Data/",
-            type,
-            " Box Scores/",
-            type,
-            " Box Scores [",
-            year(selectedDate),
-            "-",
-            str_pad(month(selectedDate), width = 2, pad = 0),
-            "-",
-            str_pad(day(selectedDate), width = 2, pad = 0),
-            "].csv"
-          ),
-          stringsAsFactors = FALSE,
-          encoding = "utf-8"
-        )
-      
-      # Check if data has more than one row
-      if (nrow(boxScores) > 0) {
-        
-        # Add date column to data
-        boxScores$date <- as.Date(paste0(
-          year(selectedDate),
-          "-",
-          str_pad(month(selectedDate), width = 2, pad = 0),
-          "-",
-          str_pad(day(selectedDate), width = 2, pad = 0)
-        ))
-        
-        # Add data to list
-        dataList <- c(dataList, list(boxScores))
-        
-      }
-      
-    }
-    
-    # Combine list into a single data frame
-    boxScores <- do.call("rbind", dataList)
-    
-    # Return player box scores
-    return(boxScores)
-    
-  },
-  
-  SeasonTotals = function(yearStart, yearEnd, type) {
-    
-    # Create empty data list
-    dataList <- list()
-    
-    # Load data to a list of data frames
-    for (year in seq(yearStart, yearEnd)) {
-      
-      # Print selected date
-      print(year)
-      
-      # Read data for selected date
-      data <-
-        read.csv(paste0("Data/", type, "/", type, " [",
-                        year,
-                        "].csv"),
-                 stringsAsFactors = FALSE,
-                 encoding = "utf-8")
-      
-      # Add year column to data
-      data$season <- year
-      
-      # Add data to list
-      dataList <- c(dataList, list(data))
-      
-    }
-    
-    # Combine list into a single data frame
-    seasonTotals <- do.call("rbind", dataList)
-    
-    # Return player box scores
-    return(seasonTotals)
+    # Return data
+    return(data)
     
   }
   
@@ -187,144 +108,25 @@ dataLoad <- list(
 
 # Aggregate data
 data <- list(
-  SeasonSchedules = dataLoad$SeasonTotals(
-    yearStart = 2010,
-    yearEnd = 2019,
-    type = "Season Schedules"
+  PlayerBoxScores = dataLoad$GameStats(
+    fileType = "player box scores"
   ),
-  TeamBoxScores = dataLoad$BoxScores(
-    startDate = "2010-01-01",
-    endDate = "2019-04-05",
-    type = "Team"
+  TeamBoxScores = dataLoad$GameStats(
+    type = "team box scores"
   ),
-  PlayerSeasonTotals = dataLoad$SeasonTotals(
-    yearStart = 2010,
-    yearEnd = 2019,
-    type = "Player Season Totals"
+  PlayerSeasonTotals = dataLoad$GameStats(
+    fileType = "player season totals"
   ),
-  PlayerBoxScores = dataLoad$BoxScores(
-    startDate = "2010-01-01",
-    endDate = "2019-04-05",
-    type = "Player"
+  SeasonSchedules = dataLoad$GameStats(
+    fileType = "season schedules"
   )
 )
 
 
 # Team Data Transformation -----
 
-teamDataTransformation <- list(
+dataTransformation <- list(
   
-  # Transform season schedules
-  SeasonSchedules = function(seasonSchedules) {
-    
-    # Convert start_time to include time zone attribute
-    seasonSchedules$start_time <-
-      as.POSIXct(strptime(seasonSchedules$start_time, format = "%Y-%m-%d %H:%M:%S", tz = "GMT"))
-    
-    # Convert start time to date
-    seasonSchedules$start_time <- as.Date(seasonSchedules$start_time, tz = "US/Eastern")
-    
-    # Change column name
-    names(seasonSchedules)[names(seasonSchedules) == "start_time"] <- "date"
-    
-    # Reshape home games
-    homeSchedule <- melt(
-      seasonSchedules[, names(seasonSchedules)[-grep("away_team_score", names(seasonSchedules))]],
-      id.vars = c("date", "season", "away_team", "home_team_score"),
-      variable.name = "location",
-      value.name = "team"
-    )
-    
-    # Reshape away games
-    awaySchedule <- melt(
-      seasonSchedules[, names(seasonSchedules)[-grep("home_team_score", names(seasonSchedules))]],
-      id.vars = c("date", "season", "home_team", "away_team_score"),
-      variable.name = "location",
-      value.name = "team"
-    )
-    
-    # Rename columns
-    names(homeSchedule) <- gsub("home_team_score", "points", names(homeSchedule))
-    names(awaySchedule) <- gsub("away_team_score", "points", names(awaySchedule))
-    names(homeSchedule) <- gsub("away_team", "opponent", names(homeSchedule))
-    names(awaySchedule) <- gsub("home_team", "opponent", names(awaySchedule))
-    
-    # Combine home and away schedules
-    seasonSchedules <- rbind(homeSchedule, awaySchedule)
-    
-    # Change location text
-    seasonSchedules$location <- toupper(gsub("_team", "", seasonSchedules$location))
-    
-    # Return season schedules
-    return(seasonSchedules)
-    
-  },
-  
-  # Transform team box scores
-  TeamBoxScores = function(teamBoxScores) {
-    
-    # Calculate possessions
-    teamBoxScores$possessions <-
-      0.96 * (
-        teamBoxScores$attempted_field_goals + teamBoxScores$turnovers + 0.44 * teamBoxScores$attempted_free_throws - teamBoxScores$offensive_rebounds
-      )
-    
-    # Create opponent version of team box scores
-    oppTeamBoxScores <- teamBoxScores[, c("date", "team", "points")]
-    
-    # Rename columns
-    names(oppTeamBoxScores) <-
-      gsub("team", "opponent", names(oppTeamBoxScores))
-    names(oppTeamBoxScores) <-
-      gsub("points", "opp_points", names(oppTeamBoxScores))
-    
-    # Join opponent team box scores with team box scores
-    teamBoxScores <- join(teamBoxScores, oppTeamBoxScores)
-    
-    # Calculate offensive efficiency
-    teamBoxScores$offensive_efficiency <-
-      teamBoxScores$points / teamBoxScores$possessions
-    
-    # Calculate defensive efficiency
-    teamBoxScores$defensive_efficiency <-
-      teamBoxScores$opp_points / teamBoxScores$possessions
-    
-    # Return team box scores
-    return(teamBoxScores)
-    
-  }
-  
-)
-
-# Transform season schedules
-data$SeasonSchedules <-
-  teamDataTransformation$SeasonSchedules(data$SeasonSchedules)
-
-# Join season schedules with team box scores
-data$TeamBoxScores <-
-  join(data$TeamBoxScores, data$SeasonSchedules[, c("date", "team", "points", "opponent")])
-
-# Transform team box scores
-data$TeamBoxScores <-
-  teamDataTransformation$TeamBoxScores(data$TeamBoxScores)
-
-
-# Player Data Transformation -----
-
-playerDataTransformation <- list(
-  
-  # Transform player season totals
-  PlayerSeasonTotals = function(playerSeasonTotals) {
-    
-    # Rename column
-    names(playerSeasonTotals)[names(playerSeasonTotals) == "positions"] <-
-      "position"
-    
-    # Return player season totals
-    return(playerSeasonTotals)
-    
-  },
-    
   # Transform player box scores
   PlayerBoxScores = function(playerBoxScores) {
     
@@ -420,9 +222,113 @@ playerDataTransformation <- list(
     # Return player box scores
     return(playerBoxScores)
     
+  },
+  
+  # Transform team box scores
+  TeamBoxScores = function(teamBoxScores) {
+    
+    # Calculate possessions
+    teamBoxScores$possessions <-
+      0.96 * (
+        teamBoxScores$attempted_field_goals + teamBoxScores$turnovers + 0.44 * teamBoxScores$attempted_free_throws - teamBoxScores$offensive_rebounds
+      )
+    
+    # Create opponent version of team box scores
+    oppTeamBoxScores <- teamBoxScores[, c("date", "team", "points")]
+    
+    # Rename columns
+    names(oppTeamBoxScores) <-
+      gsub("team", "opponent", names(oppTeamBoxScores))
+    names(oppTeamBoxScores) <-
+      gsub("points", "opp_points", names(oppTeamBoxScores))
+    
+    # Join opponent team box scores with team box scores
+    teamBoxScores <- join(teamBoxScores, oppTeamBoxScores)
+    
+    # Calculate offensive efficiency
+    teamBoxScores$offensive_efficiency <-
+      teamBoxScores$points / teamBoxScores$possessions
+    
+    # Calculate defensive efficiency
+    teamBoxScores$defensive_efficiency <-
+      teamBoxScores$opp_points / teamBoxScores$possessions
+    
+    # Return team box scores
+    return(teamBoxScores)
+    
+  },
+  
+  # Transform player season totals
+  PlayerSeasonTotals = function(playerSeasonTotals) {
+    
+    # Rename column
+    names(playerSeasonTotals)[names(playerSeasonTotals) == "positions"] <-
+      "position"
+    
+    # Return player season totals
+    return(playerSeasonTotals)
+    
+  },
+  
+  # Transform season schedules
+  SeasonSchedules = function(seasonSchedules) {
+    
+    # Convert start_time to include time zone attribute
+    seasonSchedules$start_time <-
+      as.POSIXct(strptime(seasonSchedules$start_time, format = "%Y-%m-%d %H:%M:%S", tz = "GMT"))
+    
+    # Convert start time to date
+    seasonSchedules$start_time <- as.Date(seasonSchedules$start_time, tz = "US/Eastern")
+    
+    # Change column name
+    names(seasonSchedules)[names(seasonSchedules) == "start_time"] <- "date"
+    
+    # Reshape home games
+    homeSchedule <- melt(
+      seasonSchedules[, names(seasonSchedules)[-grep("away_team_score", names(seasonSchedules))]],
+      id.vars = c("date", "season", "away_team", "home_team_score"),
+      variable.name = "location",
+      value.name = "team"
+    )
+    
+    # Reshape away games
+    awaySchedule <- melt(
+      seasonSchedules[, names(seasonSchedules)[-grep("home_team_score", names(seasonSchedules))]],
+      id.vars = c("date", "season", "home_team", "away_team_score"),
+      variable.name = "location",
+      value.name = "team"
+    )
+    
+    # Rename columns
+    names(homeSchedule) <- gsub("home_team_score", "points", names(homeSchedule))
+    names(awaySchedule) <- gsub("away_team_score", "points", names(awaySchedule))
+    names(homeSchedule) <- gsub("away_team", "opponent", names(homeSchedule))
+    names(awaySchedule) <- gsub("home_team", "opponent", names(awaySchedule))
+    
+    # Combine home and away schedules
+    seasonSchedules <- rbind(homeSchedule, awaySchedule)
+    
+    # Change location text
+    seasonSchedules$location <- toupper(gsub("_team", "", seasonSchedules$location))
+    
+    # Return season schedules
+    return(seasonSchedules)
+    
   }
   
 )
+
+# Transform season schedules
+data$SeasonSchedules <-
+  teamDataTransformation$SeasonSchedules(data$SeasonSchedules)
+
+# Join season schedules with team box scores
+data$TeamBoxScores <-
+  join(data$TeamBoxScores, data$SeasonSchedules[, c("date", "team", "points", "opponent")])
+
+# Transform team box scores
+data$TeamBoxScores <-
+  teamDataTransformation$TeamBoxScores(data$TeamBoxScores)
 
 # Transform player season totals
 data$PlayerSeasonTotals <-
