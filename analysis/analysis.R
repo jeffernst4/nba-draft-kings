@@ -9,6 +9,11 @@
 
 # Clean up code
 
+# pass arguments using eval(parse(text = ))
+
+# find out what the roster is for each game to determine who was missing from
+# each game and try to predict if player will play in the game
+
 
 
 # Setup -----
@@ -88,7 +93,7 @@ dataLoad <- list(
       # Update progress bar
       setTkProgressBar(progressBar,
                        i / length(fileList),
-                       paste0("Loading ", fileType, " box scores"),
+                       paste0("Loading ", fileType),
                        sprintf("%d%% done", round(i * 100 / length(fileList))))
       
     }
@@ -112,7 +117,7 @@ data <- list(
     fileType = "player box scores"
   ),
   TeamBoxScores = dataLoad$GameStats(
-    type = "team box scores"
+    fileType = "team box scores"
   ),
   PlayerSeasonTotals = dataLoad$GameStats(
     fileType = "player season totals"
@@ -261,9 +266,11 @@ dataTransformation <- list(
   # Transform player season totals
   PlayerSeasonTotals = function(playerSeasonTotals) {
     
-    # Rename column
-    names(playerSeasonTotals)[names(playerSeasonTotals) == "positions"] <-
-      "position"
+    # Rename columns
+    names(playerSeasonTotals) <-
+      gsub("positions", "position", names(playerSeasonTotals))
+    names(playerSeasonTotals) <-
+      gsub("date", "season", names(playerSeasonTotals))
     
     # Return player season totals
     return(playerSeasonTotals)
@@ -272,6 +279,10 @@ dataTransformation <- list(
   
   # Transform season schedules
   SeasonSchedules = function(seasonSchedules) {
+    
+    # Rename columns
+    names(seasonSchedules) <-
+      gsub("date", "season", names(seasonSchedules))
     
     # Convert start_time to include time zone attribute
     seasonSchedules$start_time <-
@@ -320,7 +331,7 @@ dataTransformation <- list(
 
 # Transform season schedules
 data$SeasonSchedules <-
-  teamDataTransformation$SeasonSchedules(data$SeasonSchedules)
+  dataTransformation$SeasonSchedules(data$SeasonSchedules)
 
 # Join season schedules with team box scores
 data$TeamBoxScores <-
@@ -328,15 +339,15 @@ data$TeamBoxScores <-
 
 # Transform team box scores
 data$TeamBoxScores <-
-  teamDataTransformation$TeamBoxScores(data$TeamBoxScores)
+  dataTransformation$TeamBoxScores(data$TeamBoxScores)
 
 # Transform player season totals
 data$PlayerSeasonTotals <-
-  playerDataTransformation$PlayerSeasonTotals(data$PlayerSeasonTotals)
+  dataTransformation$PlayerSeasonTotals(data$PlayerSeasonTotals)
 
 # Transform player box scores
 data$PlayerBoxScores <-
-  playerDataTransformation$PlayerBoxScores(data$PlayerBoxScores)
+  dataTransformation$PlayerBoxScores(data$PlayerBoxScores)
 
 # Join season schedules with player box scores
 data$PlayerBoxScores <-
@@ -924,7 +935,7 @@ test <- test %>%
     ))
   )
 
-# calculate [team rolling 25] / [mean rolling 25 for all teams] for every stat
+# calculate [team rolling 25] / [mean rolling 100 for all teams] for every stat
 
 test$points_multiplier <- test$points_25 / test$points_100
 test$three_pointers_multiplier <- test$three_pointers_25 / test$three_pointers_100
