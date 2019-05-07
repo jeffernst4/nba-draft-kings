@@ -135,6 +135,14 @@ dataTransformation <- list(
   # Transform player box scores
   PlayerBoxScores = function(playerBoxScores) {
     
+    # Rename columns
+    names(playerBoxScores) <- gsub("made_field_goals", "field_goals_made", names(playerBoxScores))
+    names(playerBoxScores) <- gsub("attempted_field_goals", "field_goals_attempted", names(playerBoxScores))
+    names(playerBoxScores) <- gsub("made_three_point_field_goals", "three_pointers_made", names(playerBoxScores))
+    names(playerBoxScores) <- gsub("attempted_three_point_field_goals", "three_pointers_attempted", names(playerBoxScores))
+    names(playerBoxScores) <- gsub("made_free_throws", "free_throws_made", names(playerBoxScores))
+    names(playerBoxScores) <- gsub("attempted_free_throws", "free_throws_attempted", names(playerBoxScores))
+    
     # Convert seconds to minutes
     playerBoxScores$seconds_played <- playerBoxScores$seconds_played / 60
     
@@ -142,12 +150,12 @@ dataTransformation <- list(
     names(playerBoxScores) <- gsub("seconds_played", "minutes_played", names(playerBoxScores))
     
     # Calculate made two points field goals
-    playerBoxScores$made_two_point_field_goals <-
-      playerBoxScores$made_field_goals - playerBoxScores$made_three_point_field_goals
+    playerBoxScores$two_pointers_made <-
+      playerBoxScores$field_goals_made - playerBoxScores$three_pointers_made
     
     # Calculate attempted two point field goals
-    playerBoxScores$attempted_two_point_field_goals <-
-      playerBoxScores$attempted_field_goals - playerBoxScores$attempted_three_point_field_goals
+    playerBoxScores$two_pointers_attempted <-
+      playerBoxScores$field_goals_attempted - playerBoxScores$three_pointers_attempted
     
     # Calculate rebounds
     playerBoxScores$rebounds <- playerBoxScores$offensive_rebounds + playerBoxScores$defensive_rebounds
@@ -155,9 +163,9 @@ dataTransformation <- list(
     # Calculate points
     playerBoxScores$points <-
       colSums(apply(
-        X = playerBoxScores[, c("made_two_point_field_goals",
-                                "made_three_point_field_goals",
-                                "made_free_throws")],
+        X = playerBoxScores[, c("two_pointers_made",
+                                "three_pointers_made",
+                                "free_throws_made")],
         MARGIN = 1,
         FUN = function(x)
           x * c(2, 3, 1)
@@ -176,7 +184,7 @@ dataTransformation <- list(
       colSums(apply(
         X = playerBoxScores[, c(
           "points",
-          "made_three_point_field_goals",
+          "three_pointers_made",
           "rebounds",
           "assists",
           "steals",
@@ -195,8 +203,8 @@ dataTransformation <- list(
       aggregate(
         cbind(
           minutes_played,
-          attempted_field_goals,
-          attempted_free_throws,
+          field_goals_attempted,
+          free_throws_attempted,
           turnovers
         ) ~ date + team,
         playerBoxScores,
@@ -207,7 +215,7 @@ dataTransformation <- list(
     teamStats$team_minutes_per_possession <-
       #teamStats$minutes_played / 
       (
-        teamStats$attempted_field_goals + 0.44 * teamStats$attempted_free_throws + teamStats$turnovers
+        teamStats$field_goals_attempted + 0.44 * teamStats$free_throws_attempted + teamStats$turnovers
       )
     
     # Filter team stats
@@ -220,7 +228,7 @@ dataTransformation <- list(
     # Calculate usage rate
     playerBoxScores$usage_rate <-
       (
-        playerBoxScores$attempted_field_goals + 0.44 * playerBoxScores$attempted_free_throws + playerBoxScores$turnovers
+        playerBoxScores$field_goals_attempted + 0.44 * playerBoxScores$free_throws_attempted + playerBoxScores$turnovers
       ) / playerBoxScores$team_minutes_per_possession
     #/ (5 * playerBoxScores$minutes_played)
     
@@ -232,10 +240,18 @@ dataTransformation <- list(
   # Transform team box scores
   TeamBoxScores = function(teamBoxScores) {
     
+    # Rename columns
+    names(teamBoxScores) <- gsub("made_field_goals", "field_goals_made", names(teamBoxScores))
+    names(teamBoxScores) <- gsub("attempted_field_goals", "field_goals_attempted", names(teamBoxScores))
+    names(teamBoxScores) <- gsub("made_three_point_field_goals", "three_pointers_made", names(teamBoxScores))
+    names(teamBoxScores) <- gsub("attempted_three_point_field_goals", "three_pointers_attempted", names(teamBoxScores))
+    names(teamBoxScores) <- gsub("made_free_throws", "free_throws_made", names(teamBoxScores))
+    names(teamBoxScores) <- gsub("attempted_free_throws", "free_throws_attempted", names(teamBoxScores))
+    
     # Calculate possessions
     teamBoxScores$possessions <-
       0.96 * (
-        teamBoxScores$attempted_field_goals + teamBoxScores$turnovers + 0.44 * teamBoxScores$attempted_free_throws - teamBoxScores$offensive_rebounds
+        teamBoxScores$field_goals_attempted + teamBoxScores$turnovers + 0.44 * teamBoxScores$free_throws_attempted - teamBoxScores$offensive_rebounds
       )
     
     # Create opponent version of team box scores
@@ -367,6 +383,15 @@ data$Analysis <-
                            "team",
                            "opponent",
                            "location",
+                           "points",
+                           "three_pointers_made",
+                           "rebounds",
+                           "assists",
+                           "steals",
+                           "blocks",
+                           "turnovers",
+                           "double_doubles",
+                           "triple_doubles",
                            "fantasy_points")]
 
 
@@ -798,7 +823,7 @@ test <-
   aggregate(
     cbind(
       points,
-      made_three_point_field_goals,
+      three_pointers_made,
       rebounds,
       assists,
       steals,
@@ -815,7 +840,7 @@ test2 <-
   aggregate(
     cbind(
       points,
-      made_three_point_field_goals,
+      three_pointers_made,
       rebounds,
       assists,
       steals,
@@ -854,7 +879,7 @@ test <-
   aggregate(
     cbind(
       points,
-      made_three_point_field_goals,
+      three_pointers_made,
       rebounds,
       assists,
       steals,
@@ -874,7 +899,7 @@ test <- test %>%
       rollmean(points, 25, na.pad = TRUE, align = "right"), -1
     )),
     three_pointers_25 = c(NA, head(
-      rollmean(made_three_point_field_goals, 25, na.pad = TRUE, align = "right"), -1
+      rollmean(three_pointers_made, 25, na.pad = TRUE, align = "right"), -1
     )),
     rebounds_25 = c(NA, head(
       rollmean(rebounds, 25, na.pad = TRUE, align = "right"), -1
@@ -910,7 +935,7 @@ test <- test %>%
       rollmean(points, 100, na.pad = TRUE, align = "right"), -1
     )),
     three_pointers_100 = c(NA, head(
-      rollmean(made_three_point_field_goals, 100, na.pad = TRUE, align = "right"), -1
+      rollmean(three_pointers_made, 100, na.pad = TRUE, align = "right"), -1
     )),
     rebounds_100 = c(NA, head(
       rollmean(rebounds, 100, na.pad = TRUE, align = "right"), -1
