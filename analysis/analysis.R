@@ -341,6 +341,31 @@ dataTransformation <- list(
     # Return season schedules
     return(seasonSchedules)
     
+  },
+  
+  OpponentStats = function(playerBoxScores) {
+    
+    # Create team stats
+    opponentStats <-
+      aggregate(
+        cbind(
+          points,
+          three_pointers_made,
+          rebounds,
+          assists,
+          steals,
+          blocks,
+          turnovers,
+          double_doubles,
+          triple_doubles
+        ) ~ opponent + date + season,
+        playerBoxScores,
+        sum
+      )
+    
+    # Return team stats
+    return(opponentStats)
+    
   }
   
 )
@@ -373,6 +398,10 @@ data$PlayerBoxScores <-
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$PlayerSeasonTotals[, c("slug", "season", "team", "position")])
 
+# Create team stats
+data$OpponentStats <-
+  dataTransformation$OpponentStats(data$PlayerBoxScores)
+
 # Create analysis data frame
 data$Analysis <-
   data$PlayerBoxScores[, c("date",
@@ -398,6 +427,55 @@ data$Analysis <-
 # Feature Engineering -----
 
 FeatureEngineering <- list(
+  
+  # Calculate opponent stats
+  Opponent_Stats = function(opponentStats) {
+    
+    # Create rolling averages
+    opponentStats <- eval(parse(
+      text = paste0(
+        "opponentStats %>% group_by(opponent) %>% dplyr::mutate(",
+        paste0(
+          "opponent_",
+          c(
+            "points",
+            "three_pointers",
+            "rebounds",
+            "assists",
+            "steals",
+            "blocks",
+            "turnovers",
+            "double_doubles",
+            "triple_doubles"
+          ),
+          "_25 = c(NA, head(rollmean(points, 25, na.pad = TRUE, align = 'right'), -1))",
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    opponentStats <-
+      subset(
+        opponentStats,
+        select = -c(
+          points,
+          three_pointers_made,
+          rebounds,
+          assists,
+          steals,
+          blocks,
+          turnovers,
+          double_doubles,
+          triple_doubles
+        )
+      )
+    
+    # Return opponent stats
+    return(opponentStats)
+    
+  },
   
   # Calculate player fantasy points
   Player_FP = function(playerBoxScores) {
@@ -605,6 +683,11 @@ FeatureEngineering <- list(
   }
   
 )
+
+# Create opponent stats
+data$OpponentStats <-
+  join(data$OpponentStats,
+       FeatureEngineering$Opponent_Stats(data$OpponentStats))
 
 # Create player fantasy points
 data$Analysis <-
