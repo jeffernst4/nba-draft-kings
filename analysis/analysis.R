@@ -9,10 +9,16 @@
 
 # Clean up code
 
-# pass arguments using eval(parse(text = ))
-
 # find out what the roster is for each game to determine who was missing from
 # each game and try to predict if player will play in the game
+
+# Order columns same, date opponent slug, etc...
+
+# make stats and amounts for fantasy points as config
+
+### SHOULD BE COMPARING average team stats vs how many opponent gives up vs league average!!!
+
+# I was making changes to player stats and opponent multipliers
 
 
 
@@ -128,7 +134,7 @@ data <- list(
 )
 
 
-# Team Data Transformation -----
+# Data Transformation -----
 
 dataTransformation <- list(
   
@@ -343,10 +349,10 @@ dataTransformation <- list(
     
   },
   
-  OpponentStats = function(playerBoxScores) {
+  TeamStats = function(playerBoxScores) {
     
     # Create team stats
-    opponentStats <-
+    teamStats <-
       aggregate(
         cbind(
           points,
@@ -355,16 +361,14 @@ dataTransformation <- list(
           assists,
           steals,
           blocks,
-          turnovers,
-          double_doubles,
-          triple_doubles
-        ) ~ opponent + date + season,
+          turnovers
+        ) ~ location + team + opponent + season + date,
         playerBoxScores,
         sum
       )
     
     # Return team stats
-    return(opponentStats)
+    return(teamStats)
     
   }
   
@@ -399,11 +403,11 @@ data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$PlayerSeasonTotals[, c("slug", "season", "team", "position")])
 
 # Create team stats
-data$OpponentStats <-
-  dataTransformation$OpponentStats(data$PlayerBoxScores)
+data$TeamStats <-
+  dataTransformation$TeamStats(data$PlayerBoxScores)
 
-# Create analysis data frame
-data$Analysis <-
+# Create player analysis
+data$PlayerAnalysis <-
   data$PlayerBoxScores[, c("date",
                            "season",
                            "slug",
@@ -412,43 +416,48 @@ data$Analysis <-
                            "team",
                            "opponent",
                            "location",
-                           "points",
-                           "three_pointers_made",
-                           "rebounds",
-                           "assists",
-                           "steals",
-                           "blocks",
-                           "turnovers",
-                           "double_doubles",
-                           "triple_doubles",
                            "fantasy_points")]
+
+# Create team analysis
+data$OpponentAnalysis <-
+  data$TeamStats[, c("opponent", "date", "season", "location")]
 
 
 # Feature Engineering -----
 
 FeatureEngineering <- list(
   
-  # Calculate opponent stats
-  Opponent_Stats = function(opponentStats) {
+  # Calculate opponent multipliers
+  Opponent_Multipliers = function(teamStats) {
     
-    # Create rolling averages
+    # Create stats analysis
+    statsAnalysis <- teamStats[, c("opponent", "date", "season", "location")]
+    
+    # Specify stats
+    stats <- c(
+      "points",
+      "three_pointers_made",
+      "rebounds",
+      "assists",
+      "steals",
+      "blocks",
+      "turnovers"
+    )
+    
+    # Filter team stats
+    teamStats <-
+      teamStats[, c("opponent", "date", "season", "location", stats)]
+    
+    # Create opponent stats
     opponentStats <- eval(parse(
       text = paste0(
-        "opponentStats %>% group_by(opponent) %>% dplyr::mutate(",
+        "teamStats %>% group_by(opponent, location) %>% dplyr::mutate(",
         paste0(
           "opponent_",
-          c(
-            "points",
-            "three_pointers",
-            "rebounds",
-            "assists",
-            "steals",
-            "blocks",
-            "turnovers",
-            "double_doubles",
-            "triple_doubles"
-          ),
-          "_25 = c(NA, head(rollmean(points, 25, na.pad = TRUE, align = 'right'), -1))",
+          stats,
+          "_25 = c(NA, head(rollmean(",
+          stats,
+          ", 25, na.pad = TRUE, align = 'right'), -1))",
           collapse = ", "
         ),
         ")"
@@ -457,26 +466,300 @@ FeatureEngineering <- list(
     
     # Remove columns
     opponentStats <-
-      subset(
-        opponentStats,
-        select = -c(
-          points,
-          three_pointers_made,
-          rebounds,
-          assists,
-          steals,
-          blocks,
-          turnovers,
-          double_doubles,
-          triple_doubles
-        )
-      )
+      opponentStats[, !(names(opponentStats) %in% stats)]
     
-    # Return opponent stats
-    return(opponentStats)
+    # Join opponent stats
+    statsAnalysis <- join(statsAnalysis, opponentStats)
+    
+    # Create league stats
+    leagueStats <- eval(parse(
+      text = paste0(
+        "teamStats %>% group_by() %>% dplyr::mutate(",
+        paste0(
+          "league_",
+          stats,
+          "_100 = c(NA, head(rollmean(",
+          stats,
+          ", 100, na.pad = TRUE, align = 'right'), -1))",
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    leagueStats <-
+      leagueStats[, !(names(leagueStats) %in% stats)]
+    
+    # Join league stats
+    statsAnalysis <- join(statsAnalysis, leagueStats)
+    
+    # Calculate opponent multipliers
+    opponentMultipliers <- eval(parse(
+      text = paste0(
+        "statsAnalysis %>% group_by() %>% dplyr::mutate(",
+        paste0(
+          "opponent_",
+          stats,
+          "_multiplier = opponent_",
+          stats,
+          "_25 / league_",
+          stats,
+          "_100",
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    opponentMultipliers <-
+      opponentMultipliers[,!(names(opponentMultipliers) %in% c(
+        stats,
+        paste0("opponent_", stats, "_25"),
+        paste0("league_", stats, "_100")
+      ))]
+    
+    # Return opponent multipliers
+    return(opponentMultipliers)
     
   },
   
+  # # Calculate opponent multipliers
+  # Opponent_Multipliers = function(teamStats) {
+  #   
+  #   # Create stats analysis
+  #   statsAnalysis <- teamStats[, c("opponent", "date", "season")]
+  #   
+  #   # Specify stats
+  #   stats <- c(
+  #     "points",
+  #     "three_pointers_made",
+  #     "rebounds",
+  #     "assists",
+  #     "steals",
+  #     "blocks",
+  #     "turnovers"
+  #   )
+  #   
+  #   # Filter team stats
+  #   teamStats <-
+  #     teamStats[, c("opponent", "date", "season", stats)]
+  #   
+  #   # Create opponent stats
+  #   opponentStats <- eval(parse(
+  #     text = paste0(
+  #       "teamStats %>% group_by(opponent) %>% dplyr::mutate(",
+  #       paste0(
+  #         "opponent_",
+  #         stats,
+  #         "_25 = c(NA, head(rollmean(",
+  #         stats,
+  #         ", 25, na.pad = TRUE, align = 'right'), -1))",
+  #         collapse = ", "
+  #       ),
+  #       ")"
+  #     )
+  #   ))
+  #   
+  #   # Remove columns
+  #   opponentStats <-
+  #     opponentStats[, !(names(opponentStats) %in% stats)]
+  #   
+  #   # Join opponent stats
+  #   statsAnalysis <- join(statsAnalysis, opponentStats)
+  #   
+  #   # Create league stats
+  #   leagueStats <- eval(parse(
+  #     text = paste0(
+  #       "teamStats %>% group_by() %>% dplyr::mutate(",
+  #       paste0(
+  #         "league_",
+  #         stats,
+  #         "_100 = c(NA, head(rollmean(",
+  #         stats,
+  #         ", 100, na.pad = TRUE, align = 'right'), -1))",
+  #         collapse = ", "
+  #       ),
+  #       ")"
+  #     )
+  #   ))
+  #   
+  #   # Remove columns
+  #   leagueStats <-
+  #     leagueStats[, !(names(leagueStats) %in% stats)]
+  #   
+  #   # Join league stats
+  #   statsAnalysis <- join(statsAnalysis, leagueStats)
+  #   
+  #   # Calculate opponent multipliers
+  #   opponentMultipliers <- eval(parse(
+  #     text = paste0(
+  #       "statsAnalysis %>% group_by() %>% dplyr::mutate(",
+  #       paste0(
+  #         "opponent_",
+  #         stats,
+  #         "_multiplier = opponent_",
+  #         stats,
+  #         "_25 / league_",
+  #         stats,
+  #         "_100",
+  #         collapse = ", "
+  #       ),
+  #       ")"
+  #     )
+  #   ))
+  #   
+  #   # Remove columns
+  #   opponentMultipliers <-
+  #     opponentMultipliers[,!(names(opponentMultipliers) %in% c(
+  #       stats,
+  #       paste0("opponent_", stats, "_25"),
+  #       paste0("league_", stats, "_100")
+  #     ))]
+  #   
+  #   # Return opponent multipliers
+  #   return(opponentMultipliers)
+  #   
+  # },
+  
+  # Calculate player fantasy points
+  Player_Stats = function(playerBoxScores, opponentAnalysis) {
+    
+    # Specify stats
+    stats <- c(
+      "points",
+      "three_pointers_made",
+      "rebounds",
+      "assists",
+      "steals",
+      "blocks",
+      "turnovers"
+    )
+    
+    # Filter player box scores
+    playerBoxScores <-
+      playerBoxScores[, c("slug", "date", "opponent", "location", stats)]
+    
+    # Filter opponent analysis
+    opponentAnalysis <-
+      opponentAnalysis[, c("date", "opponent", "location", paste0("opponent_", stats, "_multiplier"))]
+    
+    # Join opponent analysis
+    playerBoxScores <- join(playerBoxScores, opponentAnalysis)
+    
+    # Create rolling averages
+    playerStats <- eval(parse(
+      text = paste0(
+        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+        paste0(sapply(c(1, 2, 3, 5, 10), function(x)
+          paste0(
+            "player_",
+            stats,
+            "_",
+            x,
+            " = c(NA, head(rollmean(",
+            stats,
+            ", ",
+            x,
+            ", na.pad = TRUE, align = 'right'), -1)) * opponent_",
+            stats,
+            "_multiplier",
+            collapse = ", "
+          )), collapse = ", "),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    playerStats <-
+      playerStats[,!(names(playerStats) %in% c(stats, paste0("opponent_", stats, "_multiplier")))]
+    
+    # Calculate fantasy points
+    playerStats$player_fp_10 <-
+      colSums(apply(
+        X = playerStats[, c(paste0("player_",
+                                       stats,
+                                       "_",
+                                       10))],
+        MARGIN = 1,
+        FUN = function(x)
+          x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)
+      ))
+    
+    playerStats$player_fp_5 <-
+      colSums(apply(
+        X = playerStats[, c(paste0("player_",
+                                   stats,
+                                   "_",
+                                   5))],
+        MARGIN = 1,
+        FUN = function(x)
+          x * c(1, 0.5, 1.25, 1.5, 2, 2,-0.5)
+      ))
+    
+    playerStats$player_fp_1 <-
+      colSums(apply(
+        X = playerStats[, c(paste0("player_",
+                                   stats,
+                                   "_",
+                                   1))],
+        MARGIN = 1,
+        FUN = function(x)
+          x * c(1, 0.5, 1.25, 1.5, 2, 2,-0.5)
+      ))
+    
+    playerStats$player_fp_2 <-
+      colSums(apply(
+        X = playerStats[, c(paste0("player_",
+                                   stats,
+                                   "_",
+                                   2))],
+        MARGIN = 1,
+        FUN = function(x)
+          x * c(1, 0.5, 1.25, 1.5, 2, 2,-0.5)
+      ))
+    
+    playerStats <-
+      playerStats %>% group_by() %>% dplyr::mutate(player_fp_10 = colSums(apply(
+        X = playerStats[, c(paste0("player_",
+                                   stats,
+                                   "_",
+                                   10))],
+        MARGIN = 1,
+        FUN = function(x)
+          x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)
+      )))
+
+    # 
+    # # Create rolling averages
+    # playerStats <- eval(parse(
+    #   text = paste0(
+    #     "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+    #     paste0(sapply(c(1, 2, 3, 5, 10), function(x)
+    #       paste0(
+    #         "player_",
+    #         stats,
+    #         "_",
+    #         x,
+    #         " = c(NA, head(rollmean(",
+    #         stats,
+    #         ", ",
+    #         x,
+    #         ", na.pad = TRUE, align = 'right'), -1)) * opponent_",
+    #         stats,
+    #         "_multiplier",
+    #         collapse = ", "
+    #       )), collapse = ", "),
+    #     ")"
+    #   )
+    # ))
+    
+    # Return player stats
+    return(playerStats)
+    
+  },
+
   # Calculate player fantasy points
   Player_FP = function(playerBoxScores) {
     
@@ -684,40 +967,51 @@ FeatureEngineering <- list(
   
 )
 
-# Create opponent stats
-data$OpponentStats <-
-  join(data$OpponentStats,
-       FeatureEngineering$Opponent_Stats(data$OpponentStats))
+# Create opponent multipliers
+data$OpponentAnalysis <-
+  FeatureEngineering$Opponent_Multipliers(data$TeamStats)
 
-# Create player fantasy points
-data$Analysis <-
-  join(data$Analysis,
-       FeatureEngineering$Player_FP(data$PlayerBoxScores))
 
-# Calculate player minutes
-data$Analysis <-
-  join(data$Analysis,
-       FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
 
-# Calculate opponent fantasy points by position
-data$Analysis <-
-  join(data$Analysis,
-       FeatureEngineering$Opponent_FP_Position(data$PlayerBoxScores))
+# Create player stats
+data$PlayerAnalysis <-
+  join(data$PlayerAnalysis,
+       FeatureEngineering$Player_Stats(data$PlayerBoxScores, data$OpponentAnalysis))
 
-# Calculate team offensive efficiency
-data$Analysis <-
-  join(data$Analysis,
-       FeatureEngineering$Team_Offensive_Efficiency(data$TeamBoxScores))
 
-# Calculate opponent defensive efficiency
-data$Analysis <-
-  join(data$Analysis,
-       FeatureEngineering$Opponent_Defensive_Efficiency(data$TeamBoxScores))
 
-# Calculate player usage rate
-data$Analysis <-
-  join(data$Analysis,
-       FeatureEngineering$Player_Usage_Rate(data$PlayerBoxScores))
+
+
+
+# # Create player fantasy points
+# data$Analysis <-
+#   join(data$Analysis,
+#        FeatureEngineering$Player_FP(data$PlayerBoxScores))
+# 
+# # Calculate player minutes
+# data$Analysis <-
+#   join(data$Analysis,
+#        FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
+# 
+# # Calculate opponent fantasy points by position
+# data$Analysis <-
+#   join(data$Analysis,
+#        FeatureEngineering$Opponent_FP_Position(data$PlayerBoxScores))
+# 
+# # Calculate team offensive efficiency
+# data$Analysis <-
+#   join(data$Analysis,
+#        FeatureEngineering$Team_Offensive_Efficiency(data$TeamBoxScores))
+# 
+# # Calculate opponent defensive efficiency
+# data$Analysis <-
+#   join(data$Analysis,
+#        FeatureEngineering$Opponent_Defensive_Efficiency(data$TeamBoxScores))
+# 
+# # Calculate player usage rate
+# data$Analysis <-
+#   join(data$Analysis,
+#        FeatureEngineering$Player_Usage_Rate(data$PlayerBoxScores))
 
 
 # Model -----
@@ -728,17 +1022,26 @@ model <- list()
 # Specify outcome variable
 model$Outcome <- "fantasy_points"
 
+# Specify stats
+stats <- c(
+  "points",
+  "three_pointers_made",
+  "rebounds",
+  "assists",
+  "steals",
+  "blocks",
+  "turnovers",
+  "double_doubles"
+)
+
 # Specify predictor variables
 model$Predictors <-
   c(
     "player_fp_1",
     "player_fp_2",
     "player_fp_3",
-    "player_fp_4",
     "player_fp_5",
-    "player_fp_6",
-    "player_fp_10",
-    "player_fp_20"
+    "player_fp_10"
     # "player_minutes_3",
     # "player_minutes_10",
     # "opp_fp_position_3",
@@ -755,7 +1058,9 @@ model$Predictors <-
 model$OLS <- lm(as.formula(paste0(
   model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
 )),
-data$Analysis)
+data$PlayerAnalysis)
+
+summary(model$OLS)
 
 # # Create random forest model
 # model$RandomForest <- randomForest(as.formula(paste0(
