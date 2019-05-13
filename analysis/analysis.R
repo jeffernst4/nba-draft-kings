@@ -16,9 +16,7 @@
 
 # make stats and amounts for fantasy points as config
 
-### SHOULD BE COMPARING average team stats vs how many opponent gives up vs league average!!!
-
-# I was making changes to player stats and opponent multipliers
+# remove all group_by()
 
 
 
@@ -499,7 +497,6 @@ FeatureEngineering <- list(
       text = paste0(
         "statsAnalysis %>% group_by() %>% dplyr::mutate(",
         paste0(
-          "opponent_",
           stats,
           "_multiplier = opponent_",
           stats,
@@ -643,7 +640,7 @@ FeatureEngineering <- list(
     
     # Filter opponent analysis
     opponentAnalysis <-
-      opponentAnalysis[, c("date", "opponent", "location", paste0("opponent_", stats, "_multiplier"))]
+      opponentAnalysis[, c("date", "opponent", "location", paste0(stats, "_multiplier"))]
     
     # Join opponent analysis
     playerBoxScores <- join(playerBoxScores, opponentAnalysis)
@@ -652,7 +649,7 @@ FeatureEngineering <- list(
     playerStats <- eval(parse(
       text = paste0(
         "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
-        paste0(sapply(c(1, 2, 3, 5, 10), function(x)
+        paste0(sapply(c(1:10, 15, 20), function(x)
           paste0(
             "player_",
             stats,
@@ -662,7 +659,7 @@ FeatureEngineering <- list(
             stats,
             ", ",
             x,
-            ", na.pad = TRUE, align = 'right'), -1)) * opponent_",
+            ", na.pad = TRUE, align = 'right'), -1)) * ",
             stats,
             "_multiplier",
             collapse = ", "
@@ -673,87 +670,24 @@ FeatureEngineering <- list(
     
     # Remove columns
     playerStats <-
-      playerStats[,!(names(playerStats) %in% c(stats, paste0("opponent_", stats, "_multiplier")))]
-    
-    # Calculate fantasy points
-    playerStats$player_fp_10 <-
-      colSums(apply(
-        X = playerStats[, c(paste0("player_",
-                                       stats,
-                                       "_",
-                                       10))],
-        MARGIN = 1,
-        FUN = function(x)
-          x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)
-      ))
-    
-    playerStats$player_fp_5 <-
-      colSums(apply(
-        X = playerStats[, c(paste0("player_",
-                                   stats,
-                                   "_",
-                                   5))],
-        MARGIN = 1,
-        FUN = function(x)
-          x * c(1, 0.5, 1.25, 1.5, 2, 2,-0.5)
-      ))
-    
-    playerStats$player_fp_1 <-
-      colSums(apply(
-        X = playerStats[, c(paste0("player_",
-                                   stats,
-                                   "_",
-                                   1))],
-        MARGIN = 1,
-        FUN = function(x)
-          x * c(1, 0.5, 1.25, 1.5, 2, 2,-0.5)
-      ))
-    
-    playerStats$player_fp_2 <-
-      colSums(apply(
-        X = playerStats[, c(paste0("player_",
-                                   stats,
-                                   "_",
-                                   2))],
-        MARGIN = 1,
-        FUN = function(x)
-          x * c(1, 0.5, 1.25, 1.5, 2, 2,-0.5)
-      ))
-    
-    playerStats <-
-      playerStats %>% group_by() %>% dplyr::mutate(player_fp_10 = colSums(apply(
-        X = playerStats[, c(paste0("player_",
-                                   stats,
-                                   "_",
-                                   10))],
-        MARGIN = 1,
-        FUN = function(x)
-          x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)
-      )))
+      playerStats[,!(names(playerStats) %in% c(stats, paste0(stats, "_multiplier")))]
 
-    # 
-    # # Create rolling averages
-    # playerStats <- eval(parse(
-    #   text = paste0(
-    #     "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
-    #     paste0(sapply(c(1, 2, 3, 5, 10), function(x)
-    #       paste0(
-    #         "player_",
-    #         stats,
-    #         "_",
-    #         x,
-    #         " = c(NA, head(rollmean(",
-    #         stats,
-    #         ", ",
-    #         x,
-    #         ", na.pad = TRUE, align = 'right'), -1)) * opponent_",
-    #         stats,
-    #         "_multiplier",
-    #         collapse = ", "
-    #       )), collapse = ", "),
-    #     ")"
-    #   )
-    # ))
+    # Create rolling averages
+    playerStats <- eval(parse(
+      text = paste0(
+        "playerStats %>% group_by() %>% dplyr::mutate(",
+        paste0(sapply(c(1:10, 15, 20), function(x)
+          paste0(
+            "player_fp_",
+            x,
+            " = colSums(apply(X = playerStats[, c(paste0('player_', stats, '_', ",
+            x,
+            "))], MARGIN = 1, FUN = function(x) x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)))",
+            collapse = ", "
+          )), collapse = ", "),
+        ")"
+      )
+    ))
     
     # Return player stats
     return(playerStats)
@@ -1040,8 +974,15 @@ model$Predictors <-
     "player_fp_1",
     "player_fp_2",
     "player_fp_3",
+    "player_fp_4",
     "player_fp_5",
-    "player_fp_10"
+    "player_fp_6",
+    "player_fp_7",
+    "player_fp_8",
+    "player_fp_9",
+    "player_fp_10",
+    "player_fp_15",
+    "player_fp_20"
     # "player_minutes_3",
     # "player_minutes_10",
     # "opp_fp_position_3",
