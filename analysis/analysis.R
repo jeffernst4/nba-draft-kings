@@ -18,6 +18,10 @@
 
 # remove all group_by()
 
+# What if you used salaries to determine what the % chance of player playing in the game
+
+
+
 
 
 # Setup -----
@@ -974,25 +978,9 @@ model$Predictors <-
     "player_fp_1",
     "player_fp_2",
     "player_fp_3",
-    "player_fp_4",
-    "player_fp_5",
     "player_fp_6",
-    "player_fp_7",
-    "player_fp_8",
-    "player_fp_9",
     "player_fp_10",
-    "player_fp_15",
     "player_fp_20"
-    # "player_minutes_3",
-    # "player_minutes_10",
-    # "opp_fp_position_3",
-    # "opp_fp_position_10",
-    # "team_offeff_3",
-    # "team_offeff_10",
-    # "opp_defeff_3",
-    # "opp_defeff_10",
-    # "player_usagerate_3",
-    # "player_usagerate_10"
   )
 
 # Create linear model
@@ -1009,6 +997,8 @@ summary(model$OLS)
 # )),
 # data = na.omit(data$Analysis[sample(257015, 5000), ]),
 # importance = TRUE)
+
+### R2 currently at .5471 with "player_fp_1", "player_fp_2", "player_fp_3", "player_fp_6", "player_fp_10", "player_fp_20"
 
 
 # Prediction -----
