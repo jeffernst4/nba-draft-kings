@@ -1,0 +1,60 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Irving, Kyrie^",42,$40,CLEVELAND CAVALIERS,v tor, 125-103,30:25,   22pt 11as 2st 2to 3trey 6-19fg 7-7ft
+SG,"Harden, James^",37.4,$60,HOUSTON ROCKETS,@ sas, 96-121,33:39,   13pt 7rb 10as 2st 4to 2trey 3-17fg 5-6ft
+PG,"Joseph, Cory",33.7,$10,TORONTO RAPTORS,@ cle, 103-125,25:15,   22pt 6rb 1as 1st 1bl 2to 2trey 9-14fg 2-2ft
+PG,"Parker, Tony^",30.6,$17,SAN ANTONIO SPURS,v hou, 121-96,25:47,   18pt 3rb 4as 1st 2trey 8-13fg
+PG,"Lowry, Kyle^",27.7,$36,TORONTO RAPTORS,@ cle, 103-125,29:31,   20pt 1rb 5as 2to 2trey 7-12fg 4-5ft
+SG,"Gordon, Eric",25.1,$16,HOUSTON ROCKETS,@ sas, 96-121,28:31,   15pt 3rb 2as 1st 1bl 2to 3trey 6-12fg
+PG,"Shumpert, Iman",22.2,$10,CLEVELAND CAVALIERS,v tor, 125-103,27:19,   14pt 6rb 1as 1to 1trey 6-8fg 1-1ft
+PG,"Beverley, Patrick^",19.4,$19,HOUSTON ROCKETS,@ sas, 96-121,29:50,   12pt 2rb 3as 1st 2to 1trey 5-13fg 1-1ft
+SG,"Green, Danny^",19.1,$10,SAN ANTONIO SPURS,v hou, 121-96,31:11,   12pt 3rb 3as 2to 2trey 5-7fg
+SG,"Smith, J.R.^",18.1,$11,CLEVELAND CAVALIERS,v tor, 125-103,31:23,   6pt 3rb 1as 2st 1bl 2trey 2-4fg
+SG,"Ginobili, Manu",16.5,$10,SAN ANTONIO SPURS,v hou, 121-96,18:04,   6pt 5rb 3as 2-7fg 2-2ft
+SG,"DeRozan, DeMar^",13.1,$39,TORONTO RAPTORS,@ cle, 103-125,31:08,   5pt 3rb 3as 2-11fg 1-3ft
+PG,"Mills, Patty",12.1,$10,SAN ANTONIO SPURS,v hou, 121-96,20:43,   7pt 3rb 2as 2to 1trey 3-5fg
+PG,"Williams, Deron",11.2,$10,CLEVELAND CAVALIERS,v tor, 125-103,17:35,   5pt 1rb 5as 3to 1trey 2-3fg
+SG,"Korver, Kyle",11.1,$10,CLEVELAND CAVALIERS,v tor, 125-103,19:31,   3pt 3rb 2as 1st 1to 1trey 1-4fg
+PG,"Wright, Delon",10.2,$10,TORONTO RAPTORS,@ cle, 103-125,14:40,   4pt 1rb 2as 1st 2-4fg
+SG,"Brown, Bobby",5.5,$10,HOUSTON ROCKETS,@ sas, 96-121,3:54,   5pt 1trey 2-3fg
+PG,"Williams, Louis",2,$18,HOUSTON ROCKETS,@ sas, 96-121,18:13,   4pt 2to 2-7fg
+PG,"Taylor, Isaiah",1.5,$10,HOUSTON ROCKETS,@ sas, 96-121,3:54,   0pt 1as
+PG,"VanVleet, Fred",1.2,$10,TORONTO RAPTORS,@ cle, 103-125,1:40,   0pt 1rb
+PG,"Murray, Dejounte",0,$10,SAN ANTONIO SPURS,v hou, 121-96,3:57,   0pt 0-1fg
+SG,"Jones, Dahntay",0,$10,CLEVELAND CAVALIERS,v tor, 125-103,1:40,   0pt
+PG,"Forbes, Bryn",0,$10,SAN ANTONIO SPURS,v hou, 121-96,DNP,   
+PG,"Felder, Kay",0,$10,CLEVELAND CAVALIERS,v tor, 125-103,NA,   
+SG,"Jones, James",-1,$10,CLEVELAND CAVALIERS,v tor, 125-103,1:40,   0pt 1to
+SF,"Leonard, Kawhi^",61.9,$48,SAN ANTONIO SPURS,v hou, 121-96,37:43,   34pt 7rb 8as 3st 1bl 2to 3trey 13-16fg 5-5ft
+SF,"James, LeBron^",61.2,$58,CLEVELAND CAVALIERS,v tor, 125-103,36:36,   39pt 6rb 4as 3st 2bl 3to 4trey 10-14fg 15-21ft
+PF,"Anderson, Ryan^",31.1,$19,HOUSTON ROCKETS,@ sas, 96-121,35:11,   18pt 8rb 1as 4trey 7-9fg
+PF,"Frye, Channing",28,$10,CLEVELAND CAVALIERS,v tor, 125-103,17:52,   18pt 5rb 1as 5trey 6-9fg 1-2ft
+PF,"Aldridge, LaMarcus^",27.6,$28,SAN ANTONIO SPURS,v hou, 121-96,30:08,   15pt 8rb 2bl 1to 6-14fg 3-4ft
+SF,"Powell, Norman^",18,$13,TORONTO RAPTORS,@ cle, 103-125,26:47,   8pt 5rb 2as 1st 1bl 3to 3-6fg 2-2ft
+PF,"Love, Kevin^",17.4,$36,CLEVELAND CAVALIERS,v tor, 125-103,20:44,   9pt 7rb 1as 1st 4to 1trey 4-9fg
+SF,"Simmons, Jonathon",16,$10,SAN ANTONIO SPURS,v hou, 121-96,19:58,   14pt 1as 1trey 5-9fg 3-3ft
+PF,"Patterson, Patrick^",12.9,$10,TORONTO RAPTORS,@ cle, 103-125,17:33,   3pt 2rb 4as 1st 1to 1trey 1-3fg
+SF,"Ariza, Trevor^",11.5,$20,HOUSTON ROCKETS,@ sas, 96-121,32:38,   2pt 5rb 1as 1st 1-5fg
+PF,"Carroll, DeMarre",6.7,$10,TORONTO RAPTORS,@ cle, 103-125,19:01,   0pt 1rb 1as 2st 1bl 2to 0-6fg
+SF,"Tucker, P.J.",5.6,$10,TORONTO RAPTORS,@ cle, 103-125,15:33,   0pt 3rb 2as 1to 0-3fg
+PF,"Siakam, Pascal",4.7,$10,TORONTO RAPTORS,@ cle, 103-125,6:45,   0pt 1rb 1as 1st 0-2fg
+SF,"Williams, Troy",2.4,$10,HOUSTON ROCKETS,@ sas, 96-121,3:54,   0pt 2rb 0-1fg
+PF,"Bertans, Davis",1.5,$10,SAN ANTONIO SPURS,v hou, 121-96,3:57,   0pt 1as 0-1fg
+SF,"Anderson, Kyle",1.2,$10,SAN ANTONIO SPURS,v hou, 121-96,4:28,   0pt 1rb
+SF,"Dekker, Sam",0,$10,HOUSTON ROCKETS,@ sas, 96-121,3:54,   0pt 0-1fg
+PF,"Anthony, Joel",0,$10,SAN ANTONIO SPURS,v hou, 121-96,DNP,   
+SF,"Williams, Derrick",0,$10,CLEVELAND CAVALIERS,v tor, 125-103,DNP,   
+SF,"Caboclo, Bruno",0,$10,TORONTO RAPTORS,@ cle, 103-125,NA,   
+PF,"Nogueira, Lucas",0,$10,TORONTO RAPTORS,@ cle, 103-125,NA,   
+SF,"Jefferson, Richard",-1,$10,CLEVELAND CAVALIERS,v tor, 125-103,6:10,   0pt 1to
+C,"Gasol, Pau^",36.1,$17,SAN ANTONIO SPURS,v hou, 121-96,29:21,   6pt 13rb 3as 1st 4bl 3-11fg
+C,"Valanciunas, Jonas",29,$14,TORONTO RAPTORS,@ cle, 103-125,20:09,   23pt 5rb 10-13fg 3-5ft
+C,"Capela, Clint^",26.6,$17,HOUSTON ROCKETS,@ sas, 96-121,24:53,   14pt 3rb 2as 1st 2bl 6-8fg 2-2ft
+C,"Thompson, Tristan^",24.8,$14,CLEVELAND CAVALIERS,v tor, 125-103,29:06,   9pt 9rb 2as 1bl 4-5fg 1-3ft
+C,"Ibaka, Serge^",24,$26,TORONTO RAPTORS,@ cle, 103-125,25:46,   16pt 5rb 1st 1bl 2to 7-14fg 2-2ft
+C,"Hilario, Nene",13.7,$11,HOUSTON ROCKETS,@ sas, 96-121,17:35,   10pt 1rb 1as 1st 1to 4-6fg 2-4ft
+C,"Lee, David",9.4,$11,SAN ANTONIO SPURS,v hou, 121-96,10:46,   4pt 2rb 2as 2-3fg
+C,"Dedmon, Dewayne",7.4,$10,SAN ANTONIO SPURS,v hou, 121-96,3:57,   5pt 2rb 1-1fg 3-4ft
+C,"Harrell, Montrezl",5.7,$10,HOUSTON ROCKETS,@ sas, 96-121,3:54,   3pt 1rb 1as 1-1fg 1-2ft
+C,"Poeltl, Jakob",5.6,$10,TORONTO RAPTORS,@ cle, 103-125,6:12,   2pt 3rb 1-2fg
+C,"Onuaku, Chinanu",0,$10,HOUSTON ROCKETS,@ sas, 96-121,DNP,   
+C,"Tavares, Walter",0,$10,CLEVELAND CAVALIERS,v tor, 125-103,NA,   

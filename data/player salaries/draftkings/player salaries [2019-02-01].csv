@@ -1,0 +1,162 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG/SG,"Harden, James^",58,"$12,900",HOUSTON ROCKETS,@ den, 122-136,37:12,   30pt 6rb 9as 2st 1bl 5to 7trey 9-21fg 5-9ft
+PG,"Westbrook, Russell^",56.5,"$11,000",OKLAHOMA CITY THUNDER,@ mia, 118-102,31:55,   14pt 12rb 14as 1st 1bl 4to 6-10fg 2-5ft
+PG,"Irving, Kyrie^",49,"$9,600",BOSTON CELTICS,@ nyk, 113-99,35:35,   23pt 10rb 6as 2st 4to 2trey 9-20fg 3-3ft
+PG,"Young, Trae^",48.75,"$7,000",ATLANTA HAWKS,@ uta, 112-128,37:11,   28pt 3rb 9as 1st 2to 5trey 9-20fg 5-7ft
+PG/SG,"Beasley, Malik^",45.5,"$4,400",DENVER NUGGETS,v hou, 136-122,41:26,   35pt 2rb 3as 1st 2to 5trey 12-17fg 6-7ft
+PG,"Rubio, Ricky^",44.5,"$6,100",UTAH JAZZ,v atl, 128-112,35:17,   22pt 2rb 11as 1st 2to 2trey 6-11fg 8-10ft
+PG,"Morris, Monte^",42.5,"$5,100",DENVER NUGGETS,v hou, 136-122,36:53,   18pt 6rb 8as 2st 1to 3trey 7-11fg 1-2ft
+PG/SG,"Mack, Shelvin^",38.25,"$3,500",MEMPHIS GRIZZLIES,@ cha, 92-100,35:52,   19pt 1rb 9as 2st 2to 3trey 8-15fg
+PG,"Paul, Chris^",33.75,"$6,800",HOUSTON ROCKETS,@ den, 122-136,29:14,   20pt 3rb 6as 1to 3trey 8-13fg 1-1ft
+PG/SG,"Schroder, Dennis",32,"$4,900",OKLAHOMA CITY THUNDER,@ mia, 118-102,29:22,   28pt 2rb 1to 4trey 11-13fg 2-2ft
+PG,"Walker, Kemba^",31.75,"$8,100",CHARLOTTE HORNETS,v mem, 100-92,37:14,   23pt 3rb 4as 6to 4trey 7-17fg 5-6ft
+PG/SG,"Monk, Malik",27.75,"$3,400",CHARLOTTE HORNETS,v mem, 100-92,25:38,   20pt 3rb 1bl 4trey 6-15fg 4-4ft
+PG/SG,"Mitchell, Donovan^",26.75,"$8,800",UTAH JAZZ,v atl, 128-112,32:54,   15pt 3rb 5as 1st 3to 7-18fg 1-1ft
+PG,"Parker, Tony",25.25,"$3,600",CHARLOTTE HORNETS,v mem, 100-92,21:37,   15pt 1rb 7as 3to 6-9fg 3-3ft
+PG/SG,"Carter, Jevon^",24,"$3,200",MEMPHIS GRIZZLIES,@ cha, 92-100,34:19,   8pt 2rb 3as 3st 1bl 2trey 3-11fg
+PG/SG,"Rozier, Terry",23.75,"$5,500",BOSTON CELTICS,@ nyk, 113-99,24:45,   6pt 3rb 6as 1st 1bl 2trey 2-9fg
+PG/SG,"Wade, Dwyane",21.75,"$5,000",MIAMI HEAT,v okc, 102-118,22:35,   7pt 1rb 6as 3st 3to 2-8fg 3-4ft
+PG/SF,"Winslow, Justise^",21,"$5,800",MIAMI HEAT,v okc, 102-118,31:04,   10pt 2rb 5as 2trey 4-11fg
+PG/SG,"Allen, Kadeem^",21,"$3,300",NEW YORK KNICKS,v bos, 99-113,35:20,   9pt 4rb 5as 2to 1trey 2-7fg 4-4ft
+PG/SG,"Trier, Allonzo",16.5,"$5,400",NEW YORK KNICKS,v bos, 99-113,25:47,   7pt 2rb 4as 1bl 3to 1trey 3-4fg
+PG/SG,"Johnson, Tyler^",11.25,"$4,200",MIAMI HEAT,v okc, 102-118,21:31,   6pt 1rb 3as 1to 3-7fg
+PG/SG,"Smart, Marcus^",11,"$5,100",BOSTON CELTICS,@ nyk, 113-99,28:31,   3pt 2rb 2as 1st 1trey 1-3fg
+PG/SG,"Rivers, Austin",9,"$4,200",HOUSTON ROCKETS,@ den, 122-136,24:41,   7pt 1as 1trey 3-7fg
+PG/SG,"Lin, Jeremy",8.25,"$4,000",ATLANTA HAWKS,@ uta, 112-128,10:49,   5pt 1rb 1st 1-3fg 3-3ft
+PG/SG,"Allen, Grayson",2,"$3,100",UTAH JAZZ,v atl, 128-112,8:15,   0pt 1bl 0-3fg
+PG/SG,"Mitrou-Long, Nazareth",1.25,"$3,000",UTAH JAZZ,v atl, 128-112,1:35,   0pt 1rb 0-1fg
+PG/SG,"Dorsey, Tyler",1,"$3,000",ATLANTA HAWKS,@ uta, 112-128,1:35,   1pt 1-2ft
+PG/SG,"Goodwin, Brandon",0,"$3,000",DENVER NUGGETS,v hou, 136-122,00:47,   0pt
+PG/SG,"Felton, Raymond",0,"$3,000",OKLAHOMA CITY THUNDER,@ mia, 118-102,DNP,   
+PG/SF,"Anderson, Kyle",0,"$4,400",MEMPHIS GRIZZLIES,@ cha, 92-100,DNP,   
+PG/SG,"Graham, Devonte'",0,"$3,200",CHARLOTTE HORNETS,v mem, 100-92,DNP,   
+PG/SG,"Knight, Brandon",0,"$3,200",HOUSTON ROCKETS,@ den, 122-136,DNP,   
+PG/SG,"Wanamaker, Brad",0,"$3,100",BOSTON CELTICS,@ nyk, 113-99,DNP,   
+PG,"Chealey, Joe",0,"$3,000",CHARLOTTE HORNETS,v mem, 100-92,NA,   
+PG/SG,"Ntilikina, Frank",0,"$4,100",NEW YORK KNICKS,v bos, 99-113,NA,   
+PG/SG,"Dozier, PJ",0,"$3,000",BOSTON CELTICS,@ nyk, 113-99,NA,   
+PG/SG,"Burton, Deonte",0,"$3,000",OKLAHOMA CITY THUNDER,@ mia, 118-102,NA,   
+PG,"Dragic, Goran",0,"$5,500",MIAMI HEAT,v okc, 102-118,NA,   
+PG,"Neto, Raul",0,"$3,700",UTAH JAZZ,v atl, 128-112,NA,   
+SG,"Macura, J.P.",0,"$3,000",CHARLOTTE HORNETS,v mem, 100-92,NA,   
+PG,"Mudiay, Emmanuel",0,"$5,000",NEW YORK KNICKS,v bos, 99-113,NA,   
+PG/SG,"Exum, Dante",0,"$3,800",UTAH JAZZ,v atl, 128-112,NA,   
+PG/SG,"Murray, Jamal",0,"$6,700",DENVER NUGGETS,v hou, 136-122,NA,   
+PG,"Thomas, Isaiah",0,"$4,000",DENVER NUGGETS,v hou, 136-122,NA,   
+PG,"Adams, Jaylen",0,"$3,000",ATLANTA HAWKS,@ uta, 112-128,NA,   
+PG/SF,"Edwards, Vincent",0,"$3,000",HOUSTON ROCKETS,@ den, 122-136,NA,   
+PG,"Conley, Mike",0,"$7,900",MEMPHIS GRIZZLIES,@ cha, 92-100,NA,   
+SG,"Hunter, R.J.",0,"$3,000",BOSTON CELTICS,@ nyk, 113-99,NA,   
+SG,"Harris, Gary",0,"$5,300",DENVER NUGGETS,v hou, 136-122,NA,   
+SF/PF,"George, Paul^",67.25,"$9,900",OKLAHOMA CITY THUNDER,@ mia, 118-102,35:27,   43pt 7rb 5as 2st 2to 10trey 14-23fg 5-6ft
+SG/SF,"Ingles, Joe^",37.75,"$5,300",UTAH JAZZ,v atl, 128-112,32:26,   19pt 7rb 5as 1bl 2to 3trey 7-12fg 2-2ft
+SG/SF,"Craig, Torrey",35,"$4,200",DENVER NUGGETS,v hou, 136-122,34:18,   22pt 4rb 2as 1st 1bl 2trey 8-11fg 4-4ft
+SF/PF,"Knox, Kevin^",32.75,"$5,700",NEW YORK KNICKS,v bos, 99-113,40:14,   21pt 5rb 2as 1st 1to 2trey 9-21fg 1-1ft
+SG/SF,"Richardson, Josh^",32,"$6,200",MIAMI HEAT,v okc, 102-118,33:45,   18pt 4rb 3as 2st 1to 2trey 7-18fg 2-2ft
+SG/SF,"Batum, Nicolas^",32,"$4,800",CHARLOTTE HORNETS,v mem, 100-92,35:02,   7pt 10rb 3as 2st 2bl 1to 1trey 2-4fg 2-2ft
+SF/PF,"Morris, Marcus^",31.75,"$5,300",BOSTON CELTICS,@ nyk, 113-99,29:39,   18pt 5rb 1as 2st 4trey 7-14fg
+SG/SF,"Dotson, Damyean^",30.5,"$3,700",NEW YORK KNICKS,v bos, 99-113,37:40,   22pt 6rb 2to 4trey 9-16fg
+SG/SF,"Huerter, Kevin^",29,"$4,400",ATLANTA HAWKS,@ uta, 112-128,28:59,   14pt 2rb 7as 4trey 5-10fg
+SF/PF,"Crowder, Jae",27,"$4,700",UTAH JAZZ,v atl, 128-112,30:07,   13pt 8rb 1as 1st 2to 3trey 5-12fg
+SG/SF,"Korver, Kyle",26.5,"$3,700",UTAH JAZZ,v atl, 128-112,24:30,   14pt 6rb 3as 1to 2trey 6-11fg
+SF/PF,"Tatum, Jayson^",26.25,"$5,800",BOSTON CELTICS,@ nyk, 113-99,25:38,   13pt 5rb 3as 1bl 1trey 6-15fg
+SF/PF,"Hayward, Gordon",25.75,"$5,000",BOSTON CELTICS,@ nyk, 113-99,21:03,   14pt 3rb 2as 2bl 2trey 5-8fg 2-2ft
+SG/SF,"Gordon, Eric^",24.5,"$5,000",HOUSTON ROCKETS,@ den, 122-136,25:09,   17pt 2rb 3as 1to 2trey 6-9fg 3-3ft
+SF/PF,"Williams, Marvin^",24.5,"$4,900",CHARLOTTE HORNETS,v mem, 100-92,33:22,   16pt 4rb 1st 3trey 5-10fg 3-4ft
+SG/SF,"Holiday, Justin^",23,"$4,100",MEMPHIS GRIZZLIES,@ cha, 92-100,34:58,   15pt 4rb 1as 1st 3to 2trey 6-13fg 1-1ft
+SG/SF,"Barton, Will^",22.5,"$6,600",DENVER NUGGETS,v hou, 136-122,24:12,   7pt 4rb 6as 1bl 2to 1trey 3-7fg
+SG/SF,"Brown, Jaylen",22.5,"$4,900",BOSTON CELTICS,@ nyk, 113-99,21:13,   11pt 2rb 1as 4st 1to 5-12fg 1-1ft
+SF/PF,"Tucker, P.J.^",20.75,"$4,600",HOUSTON ROCKETS,@ den, 122-136,33:55,   5pt 5rb 2as 3st 1trey 2-6fg
+PF,"Grant, Jerami^",20.25,"$5,800",OKLAHOMA CITY THUNDER,@ mia, 118-102,29:11,   8pt 7rb 1as 1st 1to 1trey 3-10fg 1-1ft
+SG/SF,"Bembry, DeAndre^",20,"$4,200",ATLANTA HAWKS,@ uta, 112-128,23:58,   6pt 8rb 2as 1st 2to 2-7fg 2-2ft
+SF/PF,"Kidd-Gilchrist, Michael",19,"$3,700",CHARLOTTE HORNETS,v mem, 100-92,24:49,   10pt 4rb 1st 1bl 3-6fg 4-4ft
+SG/SF,"Bazemore, Kent",18.5,"$4,900",ATLANTA HAWKS,@ uta, 112-128,17:29,   8pt 6rb 1as 1st 1to 3-11fg 2-2ft
+SF/PF,"Caboclo, Bruno",16.5,"$3,400",MEMPHIS GRIZZLIES,@ cha, 92-100,22:58,   7pt 4rb 1as 1st 1bl 2to 1-7fg 5-5ft
+SF/PF,"Hezonja, Mario",15.75,"$4,200",NEW YORK KNICKS,v bos, 99-113,22:16,   10pt 3rb 2as 2to 4-8fg 2-2ft
+SG/SF,"Waiters, Dion",15,"$4,000",MIAMI HEAT,v okc, 102-118,26:29,   5pt 4rb 2as 1st 1to 1trey 2-10fg
+SF/PF,"Green, JaMychal^",14.25,"$4,500",MEMPHIS GRIZZLIES,@ cha, 92-100,19:51,   10pt 3rb 1to 2trey 3-6fg 2-2ft
+SG/SF,"Lamb, Jeremy^",13.75,"$5,600",CHARLOTTE HORNETS,v mem, 100-92,13:48,   6pt 3rb 2st 2-7fg 2-2ft
+SF,"Prince, Taurean",13,"$4,900",ATLANTA HAWKS,@ uta, 112-128,22:30,   9pt 2rb 1as 1to 1trey 3-6fg 2-2ft
+SG/SF,"Green, Gerald",13,"$4,000",HOUSTON ROCKETS,@ den, 122-136,24:30,   7pt 2rb 1as 1bl 1to 1trey 3-7fg
+SF/PF,"Ennis, James",12,"$3,500",HOUSTON ROCKETS,@ den, 122-136,24:31,   9pt 2rb 1trey 3-5fg 2-2ft
+SF/PF,"Niang, Georges",10.75,"$3,100",UTAH JAZZ,v atl, 128-112,7:53,   6pt 3rb 2trey 2-3fg
+SF,"Nader, Abdel",9.25,"$3,100",OKLAHOMA CITY THUNDER,@ mia, 118-102,14:59,   2pt 5rb 1as 1to 0-5fg 2-2ft
+SG/SF,"Diallo, Hamidou",5.75,"$3,100",OKLAHOMA CITY THUNDER,@ mia, 118-102,2:44,   1pt 1rb 2st 1to 0-2fg 1-2ft
+SF/PF,"Lyles, Trey",5.75,"$3,700",DENVER NUGGETS,v hou, 136-122,17:21,   3pt 1rb 1as 1-6fg 1-2ft
+SG/SF,"Washburn, Julian",5,"$3,000",MEMPHIS GRIZZLIES,@ cha, 92-100,16:19,   0pt 4rb 0-2fg
+SF/PF,"Bridges, Miles",5,"$3,700",CHARLOTTE HORNETS,v mem, 100-92,11:05,   0pt 4rb
+SG/SF,"Ellington, Wayne",3.5,"$3,600",MIAMI HEAT,v okc, 102-118,4:18,   3pt 1trey 1-1fg
+SF,"O'Neale, Royce",2.25,"$3,600",UTAH JAZZ,v atl, 128-112,9:03,   0pt 1rb 1as 1to 0-1fg
+SF/PF,"Hernangomez, Juan",2,"$3,300",DENVER NUGGETS,v hou, 136-122,5:37,   0pt 1st 0-1fg
+SF/PF,"Carter, Vince",2,"$3,100",ATLANTA HAWKS,@ uta, 112-128,13:20,   0pt 1st 0-1fg
+SG/SF,"Ferguson, Terrance^",2,"$3,700",OKLAHOMA CITY THUNDER,@ mia, 118-102,22:56,   0pt 1st 0-1fg
+SG/SF,"McGruder, Rodney",1.5,"$3,200",MIAMI HEAT,v okc, 102-118,4:18,   2pt 1to 1-3fg
+SG/SF,"Hamilton, Daniel",0.75,"$3,200",ATLANTA HAWKS,@ uta, 112-128,1:35,   0pt 1rb 1to 0-1fg
+SF/PF,"Ojeleye, Semi",0,"$3,000",BOSTON CELTICS,@ nyk, 113-99,4:06,   0pt
+SG/SF,"Abrines, Alex",0,"$3,000",OKLAHOMA CITY THUNDER,@ mia, 118-102,9:21,   0pt 0-2fg
+PF,"Lydon, Tyler",0,"$3,000",DENVER NUGGETS,v hou, 136-122,00:47,   0pt
+SF/PF,"Watanabe, Yuta",0,"$3,000",MEMPHIS GRIZZLIES,@ cha, 92-100,DNP,   
+SG/SF,"Temple, Garrett",0,"$3,800",MEMPHIS GRIZZLIES,@ cha, 92-100,DNP,   
+SF/PF,"Thomas, Lance",0,"$3,100",NEW YORK KNICKS,v bos, 99-113,DNP,   
+PF,"Haslem, Udonis",0,"$3,000",MIAMI HEAT,v okc, 102-118,DNP,   
+PF,"Cavanaugh, Tyler",0,"$3,000",UTAH JAZZ,v atl, 128-112,DNP,   
+SF/PF,"Poythress, Alex",0,"$3,000",ATLANTA HAWKS,@ uta, 112-128,NA,   
+SG/SF,"Robinson, Duncan",0,"$3,000",MIAMI HEAT,v okc, 102-118,NA,   
+SG/SF,"Bacon, Dwayne",0,"$3,100",CHARLOTTE HORNETS,v mem, 100-92,NA,   
+SF/PF,"Vanderbilt, Jarred",0,"$3,000",DENVER NUGGETS,v hou, 136-122,NA,   
+SG/SF,"Brooks, Dillon",0,"$3,000",MEMPHIS GRIZZLIES,@ cha, 92-100,NA,   
+SG/SF,"Roberson, Andre",0,"$3,000",OKLAHOMA CITY THUNDER,@ mia, 118-102,NA,   
+SF/PF,"Anderson, Justin",0,"$3,000",ATLANTA HAWKS,@ uta, 112-128,NA,   
+SF/PF,"Grantham, Donte",0,"$3,000",OKLAHOMA CITY THUNDER,@ mia, 118-102,NA,   
+SF,"Maten, Yante",0,"$3,000",MIAMI HEAT,v okc, 102-118,NA,   
+SF/PF,"Sefolosha, Thabo",0,"$3,200",UTAH JAZZ,v atl, 128-112,NA,   
+SF/PF,"Parsons, Chandler",0,"$3,000",MEMPHIS GRIZZLIES,@ cha, 92-100,NA,   
+SF/PF,"House, Danuel",0,"$3,000",HOUSTON ROCKETS,@ den, 122-136,NA,   
+SF/PF,"Jones, Derrick",0,"$3,800",MIAMI HEAT,v okc, 102-118,NA,   
+SF/PF,"Casspi, Omri",0,"$3,400",MEMPHIS GRIZZLIES,@ cha, 92-100,NA,   
+SF/PF,"Porter, Michael",0,"$3,000",DENVER NUGGETS,v hou, 136-122,NA,   
+SG/SF,"Bird, Jabari",0,"$3,000",BOSTON CELTICS,@ nyk, 113-99,NA,   
+C,"Jokic, Nikola^",63.75,"$10,800",DENVER NUGGETS,v hou, 136-122,31:26,   31pt 13rb 9as 1st 2to 1trey 12-15fg 6-6ft
+C,"Gobert, Rudy^",46.75,"$8,500",UTAH JAZZ,v atl, 128-112,27:59,   25pt 13rb 1as 2bl 3to 7-7fg 11-15ft
+C,"Whiteside, Hassan^",36.5,"$6,700",MIAMI HEAT,v okc, 102-118,19:54,   12pt 16rb 1as 1st 1bl 5to 6-10fg 0-3ft
+PF/C,"Dedmon, Dewayne^",35.75,"$5,400",ATLANTA HAWKS,@ uta, 112-128,28:05,   15pt 7rb 2as 3st 1bl 1to 3trey 5-9fg 2-2ft
+PF/C,"Olynyk, Kelly",35.25,"$3,800",MIAMI HEAT,v okc, 102-118,30:49,   21pt 7rb 2as 1bl 3to 4trey 8-12fg 1-1ft
+PF/C,"Favors, Derrick^",34.25,"$5,100",UTAH JAZZ,v atl, 128-112,26:38,   14pt 7rb 4as 1st 2bl 1to 6-8fg 2-2ft
+PF/C,"Horford, Al^",32.75,"$7,000",BOSTON CELTICS,@ nyk, 113-99,26:59,   14pt 9rb 4as 1bl 1to 7-12fg
+PF/C,"Faried, Kenneth^",31.5,"$6,900",HOUSTON ROCKETS,@ den, 122-136,30:40,   23pt 6rb 1as 1to 9-13fg 5-6ft
+PF/C,"Vonleh, Noah^",30.25,"$6,000",NEW YORK KNICKS,v bos, 99-113,30:43,   7pt 11rb 7as 2to 2-9fg 3-3ft
+C,"Noah, Joakim",29.75,"$3,300",MEMPHIS GRIZZLIES,@ cha, 92-100,21:30,   10pt 11rb 2as 1bl 1to 4-5fg 2-2ft
+C,"Adams, Steven^",29.25,"$6,400",OKLAHOMA CITY THUNDER,@ mia, 118-102,27:11,   13pt 7rb 2as 3st 3to 6-15fg 1-1ft
+PF/C,"Collins, John^",28,"$7,400",ATLANTA HAWKS,@ uta, 112-128,27:02,   19pt 4rb 1as 1st 1bl 3to 8-16fg 3-4ft
+PF/C,"Rabb, Ivan",25.75,"$3,300",MEMPHIS GRIZZLIES,@ cha, 92-100,27:43,   15pt 5rb 2as 1st 1to 7-11fg 1-3ft
+PF/C,"Millsap, Paul^",24.75,"$5,000",DENVER NUGGETS,v hou, 136-122,28:02,   10pt 1rb 6as 1st 1bl 1to 2trey 4-6fg
+PF/C,"Adebayo, Bam",24.25,"$4,200",MIAMI HEAT,v okc, 102-118,24:51,   10pt 9rb 2as 4-5fg 2-3ft
+C,"Gasol, Marc^",22.5,"$7,800",MEMPHIS GRIZZLIES,@ cha, 92-100,26:30,   8pt 6rb 5as 1to 3-10fg 2-4ft
+PF/C,"Plumlee, Mason",21.25,"$4,100",DENVER NUGGETS,v hou, 136-122,19:11,   10pt 5rb 2as 1bl 4-8fg 2-2ft
+C,"Robinson, Mitchell",19,"$4,200",NEW YORK KNICKS,v bos, 99-113,18:10,   8pt 8rb 1bl 2to 3-4fg 2-2ft
+C,"Baynes, Aron",18.75,"$3,900",BOSTON CELTICS,@ nyk, 113-99,21:16,   9pt 3rb 1st 2bl 1to 1trey 3-6fg 2-4ft
+C,"Noel, Nerlens",18.25,"$3,900",OKLAHOMA CITY THUNDER,@ mia, 118-102,20:49,   4pt 7rb 3bl 1to 2-6fg
+C,"Biyombo, Bismack^",17.25,"$3,900",CHARLOTTE HORNETS,v mem, 100-92,32:01,   1pt 7rb 1as 3bl 0-3fg 1-2ft
+PF/C,"Johnson, James^",17.25,"$4,000",MIAMI HEAT,v okc, 102-118,20:26,   8pt 3rb 4as 2to 1trey 3-7fg 1-1ft
+C,"Kanter, Enes",15.25,"$5,200",NEW YORK KNICKS,v bos, 99-113,13:19,   6pt 7rb 1as 2to 3-8fg
+PF/C,"Spellman, Omari",14,"$3,400",ATLANTA HAWKS,@ uta, 112-128,18:44,   7pt 2rb 1st 1bl 1trey 3-10fg
+PF/C,"Kornet, Luke^",13.5,"$4,300",NEW YORK KNICKS,v bos, 99-113,16:31,   9pt 2rb 1st 1to 1trey 4-9fg
+PF/C,"Hartenstein, Isaiah",11.75,"$3,200",HOUSTON ROCKETS,@ den, 122-136,8:05,   4pt 3rb 1st 1bl 2-4fg
+C,"Len, Alex",9,"$4,400",ATLANTA HAWKS,@ uta, 112-128,8:43,   0pt 4rb 1st 1bl 0-4fg
+PF/C,"Patterson, Patrick",7.5,"$3,400",OKLAHOMA CITY THUNDER,@ mia, 118-102,16:05,   5pt 2rb 1to 1trey 2-4fg
+PF/C,"Yabusele, Guerschon",3.25,"$3,000",BOSTON CELTICS,@ nyk, 113-99,1:15,   2pt 1rb 1-1fg
+C,"Hernangomez, Guillermo",2.25,"$4,000",CHARLOTTE HORNETS,v mem, 100-92,5:24,   2pt 1rb 2to 1-2fg 0-1ft
+PF/C,"Clark, Gary",0.75,"$3,200",HOUSTON ROCKETS,@ den, 122-136,2:03,   0pt 1rb 1to
+C,"Udoh, Ekpe",0,"$3,000",UTAH JAZZ,v atl, 128-112,3:23,   0pt
+PF/C,"Chriss, Marquese",0,"$3,100",HOUSTON ROCKETS,@ den, 122-136,DNP,   
+PF/C,"Hicks, Isaiah",0,"$3,000",NEW YORK KNICKS,v bos, 99-113,DNP,   
+PF/C,"Kaminsky, Frank",0,"$3,000",CHARLOTTE HORNETS,v mem, 100-92,DNP,   
+C,"Hilario, Nene",0,"$3,300",HOUSTON ROCKETS,@ den, 122-136,DNP,   
+PF/C,"Theis, Daniel",0,"$3,300",BOSTON CELTICS,@ nyk, 113-99,DNP,   
+PF/C,"Jackson, Jaren",0,"$5,300",MEMPHIS GRIZZLIES,@ cha, 92-100,DNP,   
+C,"Zeller, Cody",0,"$4,000",CHARLOTTE HORNETS,v mem, 100-92,NA,   
+C,"Welsh, Thomas",0,"$3,000",DENVER NUGGETS,v hou, 136-122,NA,   
+C,"Capela, Clint",0,"$7,500",HOUSTON ROCKETS,@ den, 122-136,NA,   
+C,"Bradley, Tony",0,"$3,000",UTAH JAZZ,v atl, 128-112,NA,   
+C,"Plumlee, Miles",0,"$3,000",ATLANTA HAWKS,@ uta, 112-128,NA,   
+PF/C,"Williams, Robert",0,"$3,100",BOSTON CELTICS,@ nyk, 113-99,NA,   

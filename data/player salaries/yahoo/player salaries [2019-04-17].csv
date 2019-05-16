@@ -1,0 +1,91 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Irving, Kyrie^",61.7,$42,BOSTON CELTICS,v ind, 99-91,39:20,   37pt 6rb 7as 1st 2bl 2to 6trey 15-26fg 1-2ft
+SG,"Harden, James^",57.6,$60,HOUSTON ROCKETS,v uta, 118-98,33:26,   32pt 13rb 10as 1bl 8to 6trey 11-24fg 4-5ft
+PG,"Bledsoe, Eric^",51.8,$31,MILWAUKEE BUCKS,v det, 120-99,28:25,   27pt 4rb 6as 3st 1bl 1to 3trey 11-19fg 2-3ft
+PG,"Rubio, Ricky^",45.3,$18,UTAH JAZZ,@ hou, 98-118,31:47,   17pt 4rb 9as 4st 2to 1trey 7-17fg 2-2ft
+PG,"Jackson, Reggie^",32.6,$18,DETROIT PISTONS,@ mil, 99-120,24:59,   18pt 3rb 8as 1to 1trey 7-16fg 3-4ft
+PG,"Paul, Chris^",32.3,$31,HOUSTON ROCKETS,v uta, 118-98,28:31,   17pt 4rb 3as 2st 2bl 6to 1trey 5-11fg 6-6ft
+SG,"Gordon, Eric^",25.2,$15,HOUSTON ROCKETS,v uta, 118-98,29:47,   16pt 1rb 2st 1bl 1to 3trey 6-11fg 1-1ft
+SG,"Mitchell, Donovan^",23.2,$37,UTAH JAZZ,@ hou, 98-118,36:53,   11pt 1rb 6as 2st 4to 1trey 5-19fg 0-2ft
+SG,"Evans, Tyreke",22.4,$10,INDIANA PACERS,@ bos, 91-99,18:50,   13pt 7rb 1st 2to 3trey 5-9fg 0-2ft
+PG,"Smith, Ishmael",20.7,$10,DETROIT PISTONS,@ mil, 99-120,21:27,   7pt 6rb 5as 1to 3-13fg 1-2ft
+PG,"Hill, George",18.9,$10,MILWAUKEE BUCKS,v det, 120-99,25:38,   4pt 2rb 5as 2bl 1to 2-7fg
+PG,"Rozier, Terry",18.2,$20,BOSTON CELTICS,v ind, 99-91,20:35,   4pt 6rb 6as 2to 2-5fg
+SG,"Ellington, Wayne^",17.8,$10,DETROIT PISTONS,@ mil, 99-120,35:10,   8pt 4rb 2as 1st 1to 2trey 3-10fg
+SG,"Brown, Jaylen^",17.3,$17,BOSTON CELTICS,v ind, 99-91,26:54,   6pt 9rb 1as 1to 3-6fg
+PG,"Collison, Darren^",16.9,$19,INDIANA PACERS,@ bos, 91-99,32:59,   13pt 2rb 3as 3to 1trey 6-10fg
+SG,"Galloway, Langston",16.4,$10,DETROIT PISTONS,@ mil, 99-120,31:26,   9pt 2rb 2bl 1to 3trey 3-7fg
+SG,"Matthews, Wes^",15.1,$10,INDIANA PACERS,@ bos, 91-99,27:59,   6pt 3rb 5as 2to 2trey 2-8fg
+SG,"House, Danuel",14.8,$10,HOUSTON ROCKETS,v uta, 118-98,21:27,   8pt 4rb 1bl 1to 1trey 2-6fg 3-4ft
+SG,"Brown, Sterling^",14.1,$13,MILWAUKEE BUCKS,v det, 120-99,25:59,   8pt 3rb 1as 1bl 2to 1trey 3-5fg 1-3ft
+PG,"Rivers, Austin",10.7,$10,HOUSTON ROCKETS,v uta, 118-98,20:57,   8pt 1rb 1as 2trey 2-8fg 2-2ft
+PG,"Joseph, Cory",10.2,$10,INDIANA PACERS,@ bos, 91-99,20:47,   6pt 1rb 1st 3-6fg
+SG,"Allen, Grayson",10.2,$10,UTAH JAZZ,@ hou, 98-118,9:31,   9pt 1rb 2-5fg 5-7ft
+SG,"Thomas, Khyri",3,$10,DETROIT PISTONS,@ mil, 99-120,1:34,   0pt 1st 0-2fg
+PG,"Neto, Raul",2,$10,UTAH JAZZ,@ hou, 98-118,5:01,   2pt 1-3fg
+PG,"Holiday, Aaron",2,$10,INDIANA PACERS,@ bos, 91-99,5:31,   2pt 1-3fg
+SG,"Korver, Kyle",1.2,$10,UTAH JAZZ,@ hou, 98-118,2:14,   0pt 1rb 0-2fg
+PG,"Calderon, Jose",0,$10,DETROIT PISTONS,@ mil, 99-120,1:34,   0pt
+PG,"Frazier, Tim",0,$10,MILWAUKEE BUCKS,v det, 120-99,1:34,   0pt
+SG,"Brogdon, Malcolm",0,$10,MILWAUKEE BUCKS,v det, 120-99,DNP,   
+PG,"Sumner, Edmond",0,$10,INDIANA PACERS,@ bos, 91-99,DNP,   
+SG,"Wanamaker, Brad",0,$10,BOSTON CELTICS,v ind, 99-91,DNP,   
+SG,"Oladipo, Victor",0,$10,INDIANA PACERS,@ bos, 91-99,NA,   
+SG,"Smart, Marcus",0,$19,BOSTON CELTICS,v ind, 99-91,NA,   
+PG,"Exum, Dante",0,$10,UTAH JAZZ,@ hou, 98-118,NA,   
+SG,"DiVincenzo, Donte",0,$10,MILWAUKEE BUCKS,v det, 120-99,NA,   
+SG,"Gibson, Jonathan",0,$10,BOSTON CELTICS,v ind, 99-91,NA,   
+PG,"Chiozza, Chris",0,$10,HOUSTON ROCKETS,v uta, 118-98,NA,   
+SG,"Frazier, Michael",0,$10,HOUSTON ROCKETS,v uta, 118-98,NA,   
+PF,"Antetokounmpo, Giannis^",47.4,$55,MILWAUKEE BUCKS,v det, 120-99,29:50,   26pt 12rb 4as 2bl 5to 1trey 11-18fg 3-5ft
+SF,"Bogdanovic, Bojan^",47.1,$22,INDIANA PACERS,@ bos, 91-99,35:22,   23pt 8rb 3as 4st 2to 4trey 9-21fg 1-2ft
+SF,"Connaughton, Pat",45.3,$15,MILWAUKEE BUCKS,v det, 120-99,30:58,   18pt 9rb 3as 4bl 2trey 8-10fg
+SF,"Middleton, Khris^",43,$33,MILWAUKEE BUCKS,v det, 120-99,32:58,   24pt 5rb 8as 1st 2to 2trey 7-15fg 8-8ft
+PF,"Favors, Derrick^",39.4,$22,UTAH JAZZ,@ hou, 98-118,21:47,   14pt 12rb 1st 3bl 1to 7-11fg
+PF,"Young, Thaddeus^",38.7,$23,INDIANA PACERS,@ bos, 91-99,32:35,   15pt 6rb 3as 3st 1bl 1trey 6-13fg 2-2ft
+SF,"Tatum, Jayson^",34.8,$25,BOSTON CELTICS,v ind, 99-91,38:44,   26pt 4rb 2as 1st 2to 3trey 11-20fg 1-1ft
+SF,"Kennard, Luke^",29.8,$10,DETROIT PISTONS,@ mil, 99-120,35:05,   19pt 4rb 2as 1st 4trey 6-13fg 3-3ft
+PF,"Tucker, P.J.^",25.8,$13,HOUSTON ROCKETS,v uta, 118-98,33:39,   16pt 4rb 2st 1to 4trey 5-8fg 2-2ft
+SF,"O'Neale, Royce",25.4,$10,UTAH JAZZ,@ hou, 98-118,26:41,   17pt 2rb 4as 1st 3to 3trey 7-10fg
+SF,"Ingles, Joe^",24.2,$23,UTAH JAZZ,@ hou, 98-118,31:53,   7pt 1rb 2as 5st 2to 1trey 3-8fg
+PF,"Ilyasova, Ersan",22.5,$10,MILWAUKEE BUCKS,v det, 120-99,17:36,   3pt 10rb 3as 1bl 1trey 1-3fg
+PF,"Sabonis, Domantas",20.5,$24,INDIANA PACERS,@ bos, 91-99,22:02,   1pt 5rb 5as 2st 0-1fg 1-2ft
+PF,"Crowder, Jae",17.9,$15,UTAH JAZZ,@ hou, 98-118,19:08,   5pt 7rb 1as 1st 1trey 2-9fg
+SF,"Hayward, Gordon",17,$22,BOSTON CELTICS,v ind, 99-91,28:00,   13pt 5rb 2to 1trey 4-7fg 4-4ft
+SF,"Brown, Bruce",16.9,$10,DETROIT PISTONS,@ mil, 99-120,16:45,   5pt 2rb 1as 2st 1bl 1to 1trey 2-4fg
+SF,"Robinson III, Glenn",13.8,$10,DETROIT PISTONS,@ mil, 99-120,13:25,   9pt 4rb 1trey 3-10fg 2-2ft
+PF,"Niang, Georges",13.1,$10,UTAH JAZZ,@ hou, 98-118,12:00,   5pt 3rb 3as 1trey 2-4fg
+SF,"McDermott, Doug",8.2,$10,INDIANA PACERS,@ bos, 91-99,11:25,   4pt 1rb 2as 1-3fg 2-2ft
+PF,"Mirotic, Nikola",7.1,$16,MILWAUKEE BUCKS,v det, 120-99,11:40,   2pt 3rb 1as 1-5fg
+PF,"Sefolosha, Thabo",6.3,$10,UTAH JAZZ,@ hou, 98-118,8:48,   0pt 4rb 1as 0-3fg
+SF,"Green, Gerald",6,$10,HOUSTON ROCKETS,v uta, 118-98,10:38,   3pt 1bl 0-2fg 3-3ft
+PF,"Hartenstein, Isaiah",5.2,$10,HOUSTON ROCKETS,v uta, 118-98,1:38,   4pt 1rb 2-2fg
+PF,"Morris, Marcus",3.8,$18,BOSTON CELTICS,v ind, 99-91,21:07,   0pt 4rb 1to 0-8fg
+SF,"Shumpert, Iman",1.5,$10,HOUSTON ROCKETS,v uta, 118-98,10:29,   0pt 1as 0-1fg
+PF,"Clark, Gary",1.2,$10,HOUSTON ROCKETS,v uta, 118-98,3:06,   0pt 1rb
+PF,"Leaf, TJ",0,$10,INDIANA PACERS,@ bos, 91-99,DNP,   
+SF,"Yabusele, Guerschon",0,$10,BOSTON CELTICS,v ind, 99-91,DNP,   
+PF,"Leuer, Jon",0,$10,DETROIT PISTONS,@ mil, 99-120,DNP,   
+SF,"Snell, Tony",0,$10,MILWAUKEE BUCKS,v det, 120-99,DNP,   
+SF,"Ojeleye, Semi",0,$10,BOSTON CELTICS,v ind, 99-91,DNP,   
+PF,"Williams, Robert",0,$10,BOSTON CELTICS,v ind, 99-91,DNP,   
+PF,"Griffin, Blake",0,$36,DETROIT PISTONS,@ mil, 99-120,NA,   
+PF,"Johnson, Alize",0,$10,INDIANA PACERS,@ bos, 91-99,NA,   
+SF,"Mykhailiuk, Sviatoslav",0,$10,DETROIT PISTONS,@ mil, 99-120,NA,   
+C,"Drummond, Andre^",44.2,$47,DETROIT PISTONS,@ mil, 99-120,37:35,   18pt 16rb 2as 2bl 2to 8-15fg 2-4ft
+C,"Gobert, Rudy^",32.9,$40,UTAH JAZZ,@ hou, 98-118,31:11,   11pt 12rb 1as 2st 3-6fg 5-7ft
+C,"Capela, Clint^",31.5,$30,HOUSTON ROCKETS,v uta, 118-98,29:26,   7pt 10rb 1as 1st 3bl 1to 3-4fg 1-3ft
+C,"Horford, Al^",25,$22,BOSTON CELTICS,v ind, 99-91,37:18,   4pt 10rb 4as 2bl 3to 2-6fg
+C,"Faried, Kenneth",19.9,$10,HOUSTON ROCKETS,v uta, 118-98,16:56,   7pt 7rb 1as 1st 2-3fg 3-4ft
+C,"Lopez, Brook^",18.7,$22,MILWAUKEE BUCKS,v det, 120-99,33:48,   8pt 6rb 1as 1st 1to 1trey 3-8fg 1-2ft
+C,"Turner, Myles^",18.6,$27,INDIANA PACERS,@ bos, 91-99,32:30,   8pt 3rb 2as 2bl 2to 2trey 3-7fg
+C,"Maker, Thon^",17.9,$10,DETROIT PISTONS,@ mil, 99-120,21:00,   6pt 2rb 3as 2bl 1to 2-9fg 2-2ft
+C,"Baynes, Aron^",12.4,$11,BOSTON CELTICS,v ind, 99-91,14:36,   5pt 2rb 2as 1bl 1to 1trey 2-2fg
+C,"Theis, Daniel",9.4,$10,BOSTON CELTICS,v ind, 99-91,13:26,   4pt 2rb 1st 1-4fg 2-2ft
+C,"Wilson, D.J.",0,$10,MILWAUKEE BUCKS,v det, 120-99,1:34,   0pt
+C,"Udoh, Ekpe",0,$10,UTAH JAZZ,@ hou, 98-118,3:06,   0pt 0-1fg
+C,"Pachulia, Zaza",0,$10,DETROIT PISTONS,@ mil, 99-120,DNP,   
+C,"O'Quinn, Kyle",0,$10,INDIANA PACERS,@ bos, 91-99,DNP,   
+C,"Hilario, Nene",0,$10,HOUSTON ROCKETS,v uta, 118-98,DNP,   
+C,"Bradley, Tony",0,$10,UTAH JAZZ,@ hou, 98-118,NA,   
+C,"Gasol, Pau",0,$10,MILWAUKEE BUCKS,v det, 120-99,NA,   

@@ -1,0 +1,91 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG/SF,"Simmons, Ben^",52.5,"$10,200",PHILADELPHIA 76ERS,@ mia, 128-108,40:15,   19pt 12rb 7as 4st 3to 6-13fg 7-8ft
+PG,"Rondo, Rajon^",44.75,"$7,400",NEW ORLEANS PELICANS,v por, 119-102,28:29,   16pt 5rb 11as 2st 1bl 4to 1trey 7-12fg 1-2ft
+PG,"Dragic, Goran^",40,"$6,300",MIAMI HEAT,v phi, 108-128,27:14,   23pt 2rb 8as 1st 1trey 8-13fg 6-7ft
+PG/SG,"Holiday, Jrue^",36.25,"$7,900",NEW ORLEANS PELICANS,v por, 119-102,31:45,   16pt 3rb 7as 3st 2to 2trey 7-14fg
+PG/SG,"McCollum, C.J.^",28.75,"$6,700",PORTLAND TRAIL BLAZERS,@ nor, 102-119,33:17,   22pt 1rb 3as 1st 4to 2trey 9-16fg 2-3ft
+SG,"Thompson, Klay^",26.75,"$6,800",GOLDEN STATE WARRIORS,@ sas, 110-97,37:39,   19pt 3rb 2as 1to 3trey 8-16fg
+PG/SG,"Mills, Patty^",25,"$4,300",SAN ANTONIO SPURS,v gsw, 97-110,33:15,   14pt 2rb 2as 2st 1bl 3to 2trey 6-13fg
+PG,"Lillard, Damian^",24.25,"$8,900",PORTLAND TRAIL BLAZERS,@ nor, 102-119,35:00,   20pt 3rb 2as 8to 3trey 5-14fg 7-8ft
+PG/SG,"Livingston, Shaun",22.75,"$3,200",GOLDEN STATE WARRIORS,@ sas, 110-97,19:42,   16pt 3rb 1as 1st 1to 4-9fg 8-8ft
+PG,"Parker, Tony",21.75,"$2,900",SAN ANTONIO SPURS,v gsw, 97-110,16:33,   16pt 1rb 2as 1st 1to 6-12fg 4-5ft
+PG/SF,"Iguodala, Andre^",21.5,"$4,800",GOLDEN STATE WARRIORS,@ sas, 110-97,26:46,   10pt 4rb 4as 1trey 4-9fg 1-2ft
+PG/SG,"Wade, Dwyane",20,"$5,400",MIAMI HEAT,v phi, 108-128,25:04,   8pt 2rb 5as 1st 1bl 4to 2-10fg 4-4ft
+PG,"Murray, Dejounte^",19.5,"$4,900",SAN ANTONIO SPURS,v gsw, 97-110,15:50,   9pt 2rb 4as 1st 1to 1trey 3-7fg 2-2ft
+PG,"Cook, Quinn",19.25,"$4,400",GOLDEN STATE WARRIORS,@ sas, 110-97,20:49,   12pt 3rb 1as 1st 2to 2trey 5-9fg
+PG/SF,"Richardson, Josh^",19.25,"$5,500",MIAMI HEAT,v phi, 108-128,26:51,   14pt 1rb 2st 4to 4trey 5-9fg
+PG/SG,"Clark, Ian",13.5,"$3,400",NEW ORLEANS PELICANS,v por, 119-102,26:48,   7pt 2as 2st 2to 1trey 3-7fg
+PG/SG,"Napier, Shabazz",11.75,"$3,700",PORTLAND TRAIL BLAZERS,@ nor, 102-119,20:59,   5pt 1rb 2as 2st 3to 2-4fg 1-2ft
+PG/SG,"Johnson, Tyler^",10.5,"$3,900",MIAMI HEAT,v phi, 108-128,16:49,   10pt 1to 2trey 4-4fg
+PG/SG,"Baldwin, Wade",8.75,"$2,500",PORTLAND TRAIL BLAZERS,@ nor, 102-119,7:55,   1pt 1rb 2as 1st 1bl 1to 0-1fg 1-2ft
+PG/SG,"Crawford, Jordan",7.75,"$2,500",NEW ORLEANS PELICANS,v por, 119-102,7:05,   5pt 1rb 1st 2to 1trey 2-6fg
+PG/SG,"McConnell, T.J.",7,"$3,000",PHILADELPHIA 76ERS,@ mia, 128-108,5:29,   5pt 1st 2-3fg 1-1ft
+PG/SG,"Forbes, Bryn",3.5,"$2,900",SAN ANTONIO SPURS,v gsw, 97-110,8:41,   3pt 1trey 1-4fg
+SG,"Young, Nick",3.5,"$2,900",GOLDEN STATE WARRIORS,@ sas, 110-97,2:32,   3pt 1trey 1-2fg
+SG,"Paul, Brandon",2.75,"$2,500",SAN ANTONIO SPURS,v gsw, 97-110,2:32,   0pt 1rb 1as
+PG/SG,"Fultz, Markelle",2.75,"$3,400",PHILADELPHIA 76ERS,@ mia, 128-108,4:21,   0pt 1rb 1as
+PG/SG,"White, Derrick",2,"$2,500",SAN ANTONIO SPURS,v gsw, 97-110,2:32,   0pt 1bl
+PG/SG,"Jackson, Frank",0,"$2,500",NEW ORLEANS PELICANS,v por, 119-102,DNP,   
+PG/SG,"Curry, Stephen",0,"$9,800",GOLDEN STATE WARRIORS,@ sas, 110-97,NA,   
+PG/SF,"Waiters, Dion",0,"$2,500",MIAMI HEAT,v phi, 108-128,NA,   
+PG/SG,"Bayless, Jerryd",0,"$2,500",PHILADELPHIA 76ERS,@ mia, 128-108,NA,   
+PF,"Mirotic, Nikola^",53,"$7,000",NEW ORLEANS PELICANS,v por, 119-102,30:11,   30pt 8rb 2as 3st 1bl 4trey 12-15fg 2-2ft
+SF/PF,"Durant, Kevin^",44.75,"$10,300",GOLDEN STATE WARRIORS,@ sas, 110-97,34:00,   26pt 9rb 6as 4to 1trey 9-17fg 7-7ft
+SF/PF,"Winslow, Justise",44.5,"$4,600",MIAMI HEAT,v phi, 108-128,27:24,   19pt 10rb 3as 1st 2bl 2to 4trey 4-11fg 7-8ft
+SF/PF,"Aminu, Al-Farouq^",39,"$5,300",PORTLAND TRAIL BLAZERS,@ nor, 102-119,30:44,   21pt 8rb 1as 2st 1bl 2to 3trey 8-15fg 2-2ft
+SF/PF,"Saric, Dario^",37.75,"$6,600",PHILADELPHIA 76ERS,@ mia, 128-108,29:59,   21pt 7rb 4as 4trey 7-17fg 3-4ft
+SG/SF,"Belinelli, Marco",37.5,"$5,000",PHILADELPHIA 76ERS,@ mia, 128-108,32:55,   21pt 4rb 5as 1st 4trey 7-13fg 3-3ft
+SF/PF,"Covington, Robert^",26.25,"$5,600",PHILADELPHIA 76ERS,@ mia, 128-108,25:30,   11pt 1rb 4as 3st 1bl 2to 2trey 3-5fg 3-5ft
+SF/PF,"Gay, Rudy^",24,"$5,100",SAN ANTONIO SPURS,v gsw, 97-110,31:03,   11pt 6rb 2as 1st 1trey 4-11fg 2-4ft
+SF/PF,"Miller, Darius",16.75,"$3,200",NEW ORLEANS PELICANS,v por, 119-102,22:16,   8pt 1rb 2as 2st 1to 2trey 2-7fg 2-2ft
+SG/SF,"Green, Danny^",16.5,"$3,800",SAN ANTONIO SPURS,v gsw, 97-110,20:02,   9pt 4rb 1bl 1trey 4-10fg
+SF/PF,"Looney, Kevon",16,"$3,500",GOLDEN STATE WARRIORS,@ sas, 110-97,22:28,   4pt 2rb 1as 3st 1bl 2-4fg
+SF/PF,"Harkless, Maurice^",15.25,"$4,200",PORTLAND TRAIL BLAZERS,@ nor, 102-119,26:09,   5pt 3rb 4as 1trey 2-8fg
+SG/SF,"Redick, J.J.^",15,"$5,200",PHILADELPHIA 76ERS,@ mia, 128-108,28:17,   10pt 3as 1trey 4-9fg 1-1ft
+SF/PF,"Anderson, Kyle",13.5,"$4,000",SAN ANTONIO SPURS,v gsw, 97-110,17:05,   6pt 2rb 2as 1st 3-7fg
+SF/PF,"Layman, Jake",12.75,"$2,500",PORTLAND TRAIL BLAZERS,@ nor, 102-119,7:55,   6pt 1rb 1as 2st 3-3fg
+SF/PF,"Anderson, Justin",11.5,"$2,800",PHILADELPHIA 76ERS,@ mia, 128-108,9:18,   6pt 4rb 1to 2trey 2-3fg
+SG/SF,"Moore, E'Twaun^",10.5,"$4,100",NEW ORLEANS PELICANS,v por, 119-102,21:38,   4pt 4rb 1as 2-4fg
+SF/PF,"Hill, Solomon",8.5,"$2,900",NEW ORLEANS PELICANS,v por, 119-102,19:45,   4pt 4rb 1to 0-1fg 4-4ft
+SG/SF,"Ginobili, Manu",8,"$4,100",SAN ANTONIO SPURS,v gsw, 97-110,16:57,   0pt 2rb 2st 1bl 1to 0-5fg
+PF,"Swanigan, Caleb",6.5,"$2,500",PORTLAND TRAIL BLAZERS,@ nor, 102-119,7:55,   3pt 2rb 1as 1to 0-2fg 3-4ft
+SG/SF,"Ellington, Wayne",6,"$3,800",MIAMI HEAT,v phi, 108-128,18:44,   3pt 2rb 1trey 1-5fg
+SG/SF,"Connaughton, Pat",2.25,"$2,800",PORTLAND TRAIL BLAZERS,@ nor, 102-119,12:56,   0pt 1rb 1as 1to 0-1fg
+SG/SF,"McGruder, Rodney",1.25,"$2,800",MIAMI HEAT,v phi, 108-128,1:59,   0pt 1rb 0-1fg
+SG/SF,"Liggins, DeAndre",1,"$2,500",NEW ORLEANS PELICANS,v por, 119-102,5:59,   1pt 0-1fg 1-2ft
+SF/PF,"Babbitt, Luke",0,"$2,500",MIAMI HEAT,v phi, 108-128,00:56,   0pt 0-1fg
+SG/SF,"Luwawu, Timothe",0,"$2,500",PHILADELPHIA 76ERS,@ mia, 128-108,DNP,   
+SG/SF,"Korkmaz, Furkan",0,"$2,500",PHILADELPHIA 76ERS,@ mia, 128-108,NA,   
+SF/PF,"Leonard, Kawhi",0,"$5,800",SAN ANTONIO SPURS,v gsw, 97-110,NA,   
+SG/SF,"Turner, Evan",0,"$4,000",PORTLAND TRAIL BLAZERS,@ nor, 102-119,NA,   
+SG/SF,"McCaw, Patrick",0,"$2,500",GOLDEN STATE WARRIORS,@ sas, 110-97,NA,   
+PF/C,"Davis, Anthony^",56.25,"$10,900",NEW ORLEANS PELICANS,v por, 119-102,35:33,   28pt 11rb 2as 3st 2bl 11-18fg 6-7ft
+C,"Embiid, Joel^",45.75,"$8,800",PHILADELPHIA 76ERS,@ mia, 128-108,30:21,   23pt 7rb 4as 1st 3bl 3to 3trey 5-11fg 10-15ft
+PF/C,"Green, Draymond^",40,"$7,500",GOLDEN STATE WARRIORS,@ sas, 110-97,37:44,   10pt 6rb 7as 2st 4bl 2to 2trey 4-9fg
+PF/C,"Aldridge, LaMarcus^",37,"$9,400",SAN ANTONIO SPURS,v gsw, 97-110,36:33,   18pt 10rb 4as 2to 6-10fg 6-7ft
+PF/C,"Johnson, James^",34.75,"$5,700",MIAMI HEAT,v phi, 108-128,31:40,   12pt 7rb 5as 1st 2bl 1to 2trey 4-9fg 2-4ft
+PF/C,"Olynyk, Kelly",28.75,"$6,100",MIAMI HEAT,v phi, 108-128,35:35,   9pt 3rb 5as 1st 3bl 1to 2trey 2-6fg 3-4ft
+C,"Nurkic, Jusuf^",19.75,"$6,200",PORTLAND TRAIL BLAZERS,@ nor, 102-119,20:19,   5pt 7rb 2as 2st 2to 2-7fg 1-2ft
+C,"Gasol, Pau",15.75,"$4,500",SAN ANTONIO SPURS,v gsw, 97-110,18:28,   6pt 7rb 1bl 2to 3-5fg
+PF/C,"West, David",15.5,"$3,300",GOLDEN STATE WARRIORS,@ sas, 110-97,17:50,   2pt 4rb 3as 1st 1bl 1-3fg
+C,"McGee, JaVale^",14.5,"$3,800",GOLDEN STATE WARRIORS,@ sas, 110-97,15:26,   6pt 4rb 1as 1bl 3-3fg
+PF/C,"Ilyasova, Ersan",14.25,"$5,800",PHILADELPHIA 76ERS,@ mia, 128-108,19:42,   8pt 3rb 1bl 1to 2trey 3-5fg
+PF/C,"Bertans, Davis",13.5,"$2,700",SAN ANTONIO SPURS,v gsw, 97-110,20:29,   5pt 4rb 2as 1trey 1-3fg 2-2ft
+PF/C,"Collins, Zach",13,"$3,600",PORTLAND TRAIL BLAZERS,@ nor, 102-119,12:17,   6pt 4rb 1bl 2-5fg 2-2ft
+PF/C,"Leonard, Meyers",13,"$2,500",PORTLAND TRAIL BLAZERS,@ nor, 102-119,7:55,   8pt 4rb 4-4fg
+PF/C,"Adebayo, Bam",11.25,"$3,200",MIAMI HEAT,v phi, 108-128,14:30,   5pt 5rb 2-3fg 1-4ft
+PF/C,"Davis, Ed",9,"$3,600",PORTLAND TRAIL BLAZERS,@ nor, 102-119,16:39,   0pt 8rb 2to
+C,"Whiteside, Hassan^",8.5,"$5,400",MIAMI HEAT,v phi, 108-128,13:14,   5pt 2rb 1bl 2to 1-1fg 3-4ft
+PF/C,"Johnson, Amir",6.5,"$3,700",PHILADELPHIA 76ERS,@ mia, 128-108,13:53,   4pt 2rb 2-2fg
+C,"Jones, Damian",3.25,"$2,500",GOLDEN STATE WARRIORS,@ sas, 110-97,2:32,   2pt 1rb 1-1fg 0-1ft
+PF/C,"Diallo, Cheick",1.25,"$3,100",NEW ORLEANS PELICANS,v por, 119-102,6:55,   0pt 1rb 0-1fg
+PF/C,"Bell, Jordan",0,"$3,100",GOLDEN STATE WARRIORS,@ sas, 110-97,2:32,   0pt
+C,"Okafor, Emeka",0,"$2,900",NEW ORLEANS PELICANS,v por, 119-102,3:36,   0pt 0-1fg
+C,"Pachulia, Zaza",0,"$2,800",GOLDEN STATE WARRIORS,@ sas, 110-97,DNP,   
+PF/C,"Haslem, Udonis",0,"$2,500",MIAMI HEAT,v phi, 108-128,DNP,   
+PF/C,"Holmes, Richaun",0,"$3,200",PHILADELPHIA 76ERS,@ mia, 128-108,DNP,   
+PF/C,"Lauvergne, Joffrey",0,"$2,600",SAN ANTONIO SPURS,v gsw, 97-110,NA,   
+C,"Ajinca, Alexis",0,"$2,500",NEW ORLEANS PELICANS,v por, 119-102,NA,   
+PF/C,"Cousins, DeMarcus",0,"$2,500",NEW ORLEANS PELICANS,v por, 119-102,NA,   
+C,"Papagiannis, Georgios",0,"$2,500",PORTLAND TRAIL BLAZERS,@ nor, 102-119,NA,   
+PF/C,"Mickey, Jordan",0,"$2,500",MIAMI HEAT,v phi, 108-128,NA,   

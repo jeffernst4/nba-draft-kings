@@ -1,0 +1,100 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG/SF,"Simmons, Ben^",47,"$9,500",PHILADELPHIA 76ERS,v sac, 95-101,32:48,   13pt 12rb 9as 3st 4to 5-6fg 3-5ft
+SG,"Beal, Bradley^",44.25,"$7,700",WASHINGTON WIZARDS,v nor, 116-106,36:22,   26pt 5rb 4as 2st 1to 5trey 9-19fg 3-4ft
+PG,"Wall, John^",43.5,"$8,800",WASHINGTON WIZARDS,v nor, 116-106,33:29,   18pt 6rb 10as 1st 5to 4trey 6-18fg 2-4ft
+PG/SG,"Bledsoe, Eric^",38.75,"$6,700",MILWAUKEE BUCKS,v cle, 119-116,31:43,   26pt 5rb 2as 2st 3to 2trey 10-16fg 4-5ft
+PG/SG,"Holiday, Jrue^",33,"$7,100",NEW ORLEANS PELICANS,@ was, 106-116,35:14,   13pt 6rb 5as 2st 1bl 3to 1trey 4-11fg 4-4ft
+PG/SG,"Temple, Garrett^",27,"$3,600",SACRAMENTO KINGS,@ phi, 101-95,32:51,   9pt 8rb 4as 1st 4-9fg 1-4ft
+PG/SG,"Wade, Dwyane",27,"$4,800",CLEVELAND CAVALIERS,@ mil, 116-119,26:25,   14pt 4rb 2as 2st 2to 4trey 5-10fg
+PG/SG,"Brogdon, Malcolm",24.75,"$4,800",MILWAUKEE BUCKS,v cle, 119-116,30:00,   16pt 3rb 1as 1st 1to 4trey 5-10fg 2-2ft
+PG/SG,"Mason III, Frank",24.5,"$3,900",SACRAMENTO KINGS,@ phi, 101-95,22:13,   16pt 1as 1st 2bl 2trey 7-9fg
+PG/SG,"Bayless, Jerryd",22.25,"$3,400",PHILADELPHIA 76ERS,v sac, 95-101,26:24,   15pt 3rb 1st 1to 4trey 5-12fg 1-2ft
+PG/SG,"Satoransky, Tomas",21.75,"$3,500",WASHINGTON WIZARDS,v nor, 116-106,21:48,   6pt 7rb 2as 2st 3-4fg
+PG,"Calderon, Jose^",19.5,"$3,700",CLEVELAND CAVALIERS,@ mil, 116-119,23:37,   6pt 4rb 4as 1st 1trey 1-3fg 3-3ft
+PG,"McConnell, T.J.",13,"$4,100",PHILADELPHIA 76ERS,v sac, 95-101,21:05,   11pt 2as 2to 5-6fg 1-2ft
+PG/SG,"Nelson, Jameer",8.75,"$3,400",NEW ORLEANS PELICANS,@ was, 106-116,15:16,   4pt 1rb 2as 1st 4to 1trey 1-1fg 1-2ft
+PG/SG,"Dellavedova, Matthew^",8.5,"$3,200",MILWAUKEE BUCKS,v cle, 119-116,10:35,   6pt 1st 1to 2trey 2-4fg
+SG,"Meeks, Jodie",6.5,"$3,100",WASHINGTON WIZARDS,v nor, 116-106,17:10,   3pt 2as 1trey 1-4fg
+PG,"Rondo, Rajon^",6,"$6,000",NEW ORLEANS PELICANS,@ was, 106-116,13:57,   0pt 2rb 3as 2to 0-3fg
+PG/SG,"Clark, Ian",5.75,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,17:06,   2pt 1rb 1as 1st 2to 0-4fg 2-3ft
+SG,"Brown, Sterling",5.25,"$3,000",MILWAUKEE BUCKS,v cle, 119-116,5:46,   2pt 1rb 1st 1-3fg
+PG,"Frazier, Tim",5,"$3,500",WASHINGTON WIZARDS,v nor, 116-106,5:22,   2pt 1as 1st 1to 1-3fg
+SG,"Cooke, Charles",4.5,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,3:54,   4pt 1trey 1-1fg 1-2ft
+PG,"Fox, De'Aaron^",4.25,"$4,300",SACRAMENTO KINGS,@ phi, 101-95,11:22,   2pt 1rb 1as 1to 1-4fg 0-2ft
+PG/SG,"Terry, Jason",0,"$3,000",MILWAUKEE BUCKS,v cle, 119-116,DNP,   
+PG,"Pullen, Jacob",0,"$3,000",PHILADELPHIA 76ERS,v sac, 95-101,DNP,   
+SG,"Robinson, Devin",0,"$3,000",WASHINGTON WIZARDS,v nor, 116-106,NA,   
+PG/SG,"Hill, George",0,"$4,600",SACRAMENTO KINGS,@ phi, 101-95,NA,   
+PG,"Thomas, Isaiah",0,"$6,300",CLEVELAND CAVALIERS,@ mil, 116-119,NA,   
+SG,"McClellan, Sheldon",0,"$3,000",WASHINGTON WIZARDS,v nor, 116-106,NA,   
+PG,"Rose, Derrick",0,"$3,400",CLEVELAND CAVALIERS,@ mil, 116-119,NA,   
+PG,"Perrantes, London",0,"$3,000",CLEVELAND CAVALIERS,@ mil, 116-119,NA,   
+PG,"Jackson, Frank",0,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,NA,   
+PG/SG,"Shumpert, Iman",0,"$3,500",CLEVELAND CAVALIERS,@ mil, 116-119,NA,   
+PG/SG,"Fultz, Markelle",0,"$3,800",PHILADELPHIA 76ERS,v sac, 95-101,NA,   
+SF/PF,"Antetokounmpo, Giannis^",60.5,"$11,400",MILWAUKEE BUCKS,v cle, 119-116,40:05,   27pt 14rb 8as 2st 3to 8-14fg 11-12ft
+SF/PF,"James, LeBron^",60.25,"$11,600",CLEVELAND CAVALIERS,@ mil, 116-119,34:14,   39pt 1rb 7as 3st 2bl 7to 6trey 14-22fg 5-5ft
+SG/SF,"Hield, Buddy",39.25,"$4,600",SACRAMENTO KINGS,@ phi, 101-95,28:07,   24pt 5rb 2as 3st 3to 3trey 9-19fg 3-3ft
+SG/SF,"Middleton, Khris^",37,"$7,300",MILWAUKEE BUCKS,v cle, 119-116,39:54,   18pt 2rb 10as 1st 5to 1trey 7-15fg 3-4ft
+PF,"Scott, Mike",31,"$4,500",WASHINGTON WIZARDS,v nor, 116-106,23:22,   24pt 4rb 1as 1to 2trey 11-15fg
+SF/PF,"Covington, Robert^",28.75,"$6,200",PHILADELPHIA 76ERS,v sac, 95-101,32:09,   17pt 3rb 2as 1st 2bl 4to 2trey 5-19fg 5-5ft
+SG/SF,"Moore, E'Twaun^",22.5,"$4,600",NEW ORLEANS PELICANS,@ was, 106-116,32:14,   12pt 2rb 3as 2st 1to 6-12fg
+SF/PF,"Crowder, Jae^",22,"$3,500",CLEVELAND CAVALIERS,@ mil, 116-119,36:14,   10pt 6rb 2as 1st 1to 4-10fg 2-2ft
+SF/PF,"Green, Jeff",21.5,"$4,300",CLEVELAND CAVALIERS,@ mil, 116-119,25:01,   13pt 4rb 1as 1bl 3-5fg 7-9ft
+SF/PF,"Morris, Markieff^",17.5,"$4,600",WASHINGTON WIZARDS,v nor, 116-106,20:04,   13pt 4rb 1as 5to 1trey 5-6fg 2-2ft
+SG/SF,"Oubre, Kelly^",16.5,"$4,700",WASHINGTON WIZARDS,v nor, 116-106,29:49,   10pt 2rb 1as 1st 1trey 3-8fg 3-4ft
+SG/SF,"Snell, Tony",16,"$3,700",MILWAUKEE BUCKS,v cle, 119-116,23:06,   8pt 4rb 1st 2trey 3-7fg
+SG/SF,"Carter, Vince",14.25,"$3,100",SACRAMENTO KINGS,@ phi, 101-95,14:00,   0pt 3rb 3as 2st 1bl 0-3fg
+SG/SF,"Redick, J.J.^",12.5,"$5,400",PHILADELPHIA 76ERS,v sac, 95-101,20:15,   8pt 2rb 1as 1to 2trey 3-10fg
+SG/SF,"Jackson, Justin",11,"$3,000",SACRAMENTO KINGS,@ phi, 101-95,20:48,   3pt 2rb 2as 1st 1trey 1-4fg
+SG/SF,"Richardson, Malachi",9.5,"$3,000",SACRAMENTO KINGS,@ phi, 101-95,19:03,   3pt 4rb 1as 1-4fg 1-1ft
+SG/SF,"Bogdanovic, Bogdan^",8.75,"$4,300",SACRAMENTO KINGS,@ phi, 101-95,18:08,   4pt 1rb 3as 2to 1-6fg 2-2ft
+SG/SF,"Korver, Kyle",7.5,"$3,600",CLEVELAND CAVALIERS,@ mil, 116-119,23:19,   2pt 2rb 2as 1-7fg
+SG/SF,"Luwawu, Timothe",6.75,"$3,000",PHILADELPHIA 76ERS,v sac, 95-101,16:14,   3pt 3rb 1to 1trey 1-5fg
+PF,"Diallo, Cheick",5.75,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,3:54,   2pt 3rb 1-2fg 0-1ft
+SG/SF,"Smith, J.R.^",5,"$4,000",CLEVELAND CAVALIERS,@ mil, 116-119,17:34,   2pt 2as 1-3fg
+SG/SF,"Liggins, DeAndre",4.75,"$3,300",MILWAUKEE BUCKS,v cle, 119-116,16:01,   0pt 1rb 1as 1bl 0-2fg
+SF,"Miller, Darius",4.75,"$3,400",NEW ORLEANS PELICANS,@ was, 106-116,25:26,   2pt 1rb 1as 1-5fg
+SF/PF,"Cunningham, Dante",3.25,"$3,500",NEW ORLEANS PELICANS,@ was, 106-116,17:12,   2pt 1rb 1-2fg
+SG/SF,"Osman, Cedi",0.75,"$3,000",CLEVELAND CAVALIERS,@ mil, 116-119,5:24,   0pt 1rb 1to 0-1fg
+PF,"McAdoo, James Michael",0,"$3,000",PHILADELPHIA 76ERS,v sac, 95-101,DNP,   
+SG/SF,"Vaughn, Rashad",0,"$3,000",MILWAUKEE BUCKS,v cle, 119-116,DNP,   
+SG/SF,"Korkmaz, Furkan",0,"$3,000",PHILADELPHIA 76ERS,v sac, 95-101,NA,   
+SF,"Jones, Jalen",0,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,NA,   
+PF,"Cooley, Jack",0,"$3,000",SACRAMENTO KINGS,@ phi, 101-95,NA,   
+PF,"Young, Mike",0,"$3,000",WASHINGTON WIZARDS,v nor, 116-106,NA,   
+PF,"Bolomboy, Joel",0,"$3,000",MILWAUKEE BUCKS,v cle, 119-116,NA,   
+SG/SF,"Holland, John",0,"$3,000",CLEVELAND CAVALIERS,@ mil, 116-119,NA,   
+SF/PF,"Porter, Otto",0,"$5,800",WASHINGTON WIZARDS,v nor, 116-106,NA,   
+SF/PF,"Parker, Jabari",0,"$5,000",MILWAUKEE BUCKS,v cle, 119-116,NA,   
+SF/PF,"Sampson, JaKarr",0,"$3,200",SACRAMENTO KINGS,@ phi, 101-95,NA,   
+SG/SF,"Anderson, Justin",0,"$3,000",PHILADELPHIA 76ERS,v sac, 95-101,NA,   
+SF/PF,"Hill, Solomon",0,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,NA,   
+SF/PF,"Teletovic, Mirza",0,"$3,200",MILWAUKEE BUCKS,v cle, 119-116,NA,   
+SG/SF,"Allen, Tony",0,"$3,100",NEW ORLEANS PELICANS,@ was, 106-116,NA,   
+PF/C,"Davis, Anthony^",51.25,"$10,100",NEW ORLEANS PELICANS,@ was, 106-116,36:33,   37pt 9rb 1as 1st 2to 1trey 11-21fg 14-15ft
+PF/C,"Cousins, DeMarcus^",49.25,"$10,700",NEW ORLEANS PELICANS,@ was, 106-116,35:32,   26pt 13rb 4as 2to 1trey 8-17fg 9-11ft
+PF/C,"Love, Kevin^",44.5,"$7,800",CLEVELAND CAVALIERS,@ mil, 116-119,29:54,   21pt 10rb 4as 1st 2to 5trey 8-15fg
+C,"Gortat, Marcin^",37.5,"$4,700",WASHINGTON WIZARDS,v nor, 116-106,29:43,   10pt 14rb 2as 3bl 1to 5-7fg
+PF/C,"Randolph, Zach^",34.25,"$6,400",SACRAMENTO KINGS,@ phi, 101-95,28:23,   27pt 5rb 1bl 3to 1trey 12-19fg 2-4ft
+C,"Henson, John^",31,"$4,500",MILWAUKEE BUCKS,v cle, 119-116,28:30,   15pt 6rb 2as 2st 1bl 1to 7-11fg 1-2ft
+PF/C,"Saric, Dario^",27.75,"$6,100",PHILADELPHIA 76ERS,v sac, 95-101,30:37,   11pt 9rb 3as 1st 3to 1trey 3-10fg 4-4ft
+PF/C,"Cauley-Stein, Willie^",21.5,"$5,200",SACRAMENTO KINGS,@ phi, 101-95,29:36,   9pt 6rb 2st 1bl 2to 3-10fg 3-7ft
+PF/C,"Booker, Trevor",20.5,"$4,200",PHILADELPHIA 76ERS,v sac, 95-101,15:32,   6pt 6rb 2as 1st 1bl 2-4fg 2-4ft
+PF/C,"Thompson, Tristan",19.75,"$3,500",CLEVELAND CAVALIERS,@ mil, 116-119,18:18,   9pt 5rb 2as 1st 1to 3-4fg 3-5ft
+PF/C,"Johnson, Amir^",19.25,"$3,700",PHILADELPHIA 76ERS,v sac, 95-101,18:27,   7pt 9rb 1bl 2to 3-5fg 1-2ft
+PF/C,"Holmes, Richaun",18,"$4,400",PHILADELPHIA 76ERS,v sac, 95-101,26:29,   4pt 6rb 2as 2bl 1to 2-4fg
+PF/C,"Maker, Thon",15.75,"$3,400",MILWAUKEE BUCKS,v cle, 119-116,14:20,   1pt 5rb 3as 1st 1bl 1-2ft
+C,"Mahinmi, Ian",14.25,"$3,400",WASHINGTON WIZARDS,v nor, 116-106,16:34,   4pt 1rb 5as 1st 1to 2-2fg
+C,"Koufos, Kosta",13,"$3,400",SACRAMENTO KINGS,@ phi, 101-95,11:25,   2pt 4rb 3as 1st 1to 1-2fg
+C,"Asik, Omer",5.75,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,3:42,   2pt 3rb 0-1fg 2-2ft
+PF/C,"Labissiere, Skal",5.5,"$3,200",SACRAMENTO KINGS,@ phi, 101-95,4:04,   2pt 1as 1bl 1-2fg
+PF/C,"McCullough, Chris",1.25,"$3,000",WASHINGTON WIZARDS,v nor, 116-106,1:43,   0pt 1rb 0-3fg
+C,"Papagiannis, Georgios",0,"$3,000",SACRAMENTO KINGS,@ phi, 101-95,DNP,   
+PF/C,"Frye, Channing",0,"$3,200",CLEVELAND CAVALIERS,@ mil, 116-119,DNP,   
+PF/C,"Zizic, Ante",0,"$3,000",CLEVELAND CAVALIERS,@ mil, 116-119,DNP,   
+C,"Ajinca, Alexis",0,"$3,000",NEW ORLEANS PELICANS,@ was, 106-116,NA,   
+C,"Embiid, Joel",0,"$9,900",PHILADELPHIA 76ERS,v sac, 95-101,NA,   
+PF/C,"Giles, Harry",0,"$3,000",SACRAMENTO KINGS,@ phi, 101-95,NA,   
+PF/C,"Wilson, D.J.",0,"$3,000",MILWAUKEE BUCKS,v cle, 119-116,NA,   
+PF/C,"Smith, Jason",-0.5,"$3,000",WASHINGTON WIZARDS,v nor, 116-106,4:34,   0pt 1to 0-3fg

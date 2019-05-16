@@ -1,0 +1,104 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Bledsoe, Eric^",54.6,"$8,300",PHOENIX SUNS,@ hou, 115-102,37,   34pt 8rb 4as 3st 1bl 3to 2trey 11-18fg 10-11ft
+PG,"Jackson, Reggie^",43.1,"$7,400",DETROIT PISTONS,v chi, 107-91,28,   22pt 3rb 11as 1st 1to 1trey 9-16fg 3-3ft
+PG,"Curry, Stephen^",38.1,"$10,000",GOLDEN STATE WARRIORS,v uta, 106-91,32,   24pt 3rb 3as 3st 3trey 8-18fg 5-5ft
+PG,"Conley, Mike^",37.9,"$6,300",MEMPHIS GRIZZLIES,v por, 97-86,34,   21pt 2rb 9as 1st 1to 3trey 8-11fg 2-2ft
+PG,"Lillard, Damian^",36.1,"$8,200",PORTLAND TRAIL BLAZERS,@ mem, 86-97,39,   27pt 3rb 7as 5to 2trey 8-18fg 9-9ft
+PG,"Hill, George^",35.3,"$6,400",INDIANA PACERS,v bkn, 111-123,32,   18pt 4rb 9as 1to 8-15fg 2-3ft
+SG,"Allen, Tony^",34.7,"$4,700",MEMPHIS GRIZZLIES,v por, 97-86,35,   10pt 11rb 1as 6st 2to 1trey 4-6fg 1-2ft
+PG,"Brooks, Aaron^",31.1,"$5,800",CHICAGO BULLS,@ det, 91-107,37,   19pt 3rb 5as 1bl 1to 3trey 6-12fg 4-4ft
+SG,"Dinwiddie, Spencer",29.6,"$3,500",DETROIT PISTONS,v chi, 107-91,20,   10pt 3rb 10as 1st 1to 1trey 3-11fg 3-3ft
+PG,"Williams, Deron^",29.2,"$5,800",BROOKLYN NETS,@ ind, 123-111,24,   17pt 1rb 6as 1st 2trey 7-15fg 1-2ft
+SG,"Anderson, Alan",28.2,"$3,500",BROOKLYN NETS,@ ind, 123-111,34,   11pt 6rb 4as 3st 2to 1trey 4-7fg 2-2ft
+SG,"Barbosa, Leandro",27.9,"$3,600",GOLDEN STATE WARRIORS,v uta, 106-91,28,   19pt 2rb 1as 3st 1to 1trey 8-10fg 2-2ft
+PG,"Burke, Trey",26.5,"$5,000",UTAH JAZZ,@ gsw, 91-106,29,   20pt 5as 1to 5trey 7-16fg 1-2ft
+PG,"Jack, Jarrett",26.2,"$5,600",BROOKLYN NETS,@ ind, 123-111,24,   13pt 1rb 8as 2-7fg 9-9ft
+SG,"Harden, James^",24.9,"$11,000",HOUSTON ROCKETS,v pho, 102-115,33,   16pt 2rb 5as 2bl 5to 1trey 5-19fg 5-5ft
+PG,"Beverley, Patrick^",21.6,"$4,700",HOUSTON ROCKETS,v pho, 102-115,29,   10pt 3rb 4as 2st 2to 2trey 4-8fg 0-0ft
+SG,"McCollum, C.J.",20.7,"$3,500",PORTLAND TRAIL BLAZERS,@ mem, 86-97,26,   13pt 6rb 1as 1st 3to 2trey 5-11fg 1-1ft
+SG,"Caldwell-Pope, Kentavious^",19.7,"$4,900",DETROIT PISTONS,v chi, 107-91,39,   15pt 1rb 1as 1st 3trey 6-11fg 0-0ft
+SG,"Johnson, Joe^",17.6,"$5,400",BROOKLYN NETS,@ ind, 123-111,26,   14pt 3rb 6-12fg 2-2ft
+PG,"Livingston, Shaun",16.1,"$4,200",GOLDEN STATE WARRIORS,v uta, 106-91,24,   4pt 3rb 5as 1st 1to 2-8fg 0-0ft
+SG,"Meeks, Jodie",15.2,"$3,900",DETROIT PISTONS,v chi, 107-91,21,   12pt 1rb 1bl 2trey 5-11fg 0-0ft
+PG,"Goodwin, Archie",14.1,"$3,600",PHOENIX SUNS,@ hou, 115-102,22,   11pt 3rb 1as 1st 4to 5-10fg 1-4ft
+SG,"Afflalo, Arron^",13.1,"$4,200",PORTLAND TRAIL BLAZERS,@ mem, 86-97,36,   8pt 3rb 1as 3-6fg 2-3ft
+SG,"Snell, Tony^",10.4,"$4,200",CHICAGO BULLS,@ det, 91-107,36,   2pt 2rb 4as 1-8fg 0-0ft
+SG,"Terry, Jason",10.2,"$3,500",HOUSTON ROCKETS,v pho, 102-115,21,   5pt 1rb 2as 1bl 1to 1trey 2-5fg 0-0ft
+PG,"Udrih, Beno",9.2,"$3,900",MEMPHIS GRIZZLIES,v por, 97-86,14,   4pt 1rb 2as 1st 1to 1-4fg 2-4ft
+PG,"Hinrich, Kirk",7.6,"$3,500",CHICAGO BULLS,@ det, 91-107,25,   5pt 3rb 1to 1trey 2-6fg 0-1ft
+PG,"Blake, Steve",7.4,"$3,500",PORTLAND TRAIL BLAZERS,@ mem, 86-97,9,   2pt 2rb 2as 1-3fg 0-0ft
+PG,"Watson, C.J.",5.7,"$4,200",INDIANA PACERS,v bkn, 111-123,20,   0pt 1rb 3as 1st 2to 0-6fg 0-0ft
+PG,"Calathes, Nick",5.2,"$3,600",MEMPHIS GRIZZLIES,v por, 97-86,16,   3pt 1rb 1st 1to 1trey 1-3fg 0-0ft
+PG,"Prigioni, Pablo",5,"$3,500",HOUSTON ROCKETS,v pho, 102-115,12,   3pt 2as 1to 1trey 1-2fg 0-0ft
+SG,"Millsap, Elijah",3.2,"$3,500",UTAH JAZZ,@ gsw, 91-106,20,   4pt 1rb 2to 1trey 1-3fg 1-2ft
+SG,"Stuckey, Rodney",2.5,"$6,100",INDIANA PACERS,v bkn, 111-123,13,   2pt 1as 1to 0-3fg 2-2ft
+SG,"Johnson, Nick",2,"$3,500",HOUSTON ROCKETS,v pho, 102-115,1,   2pt 1-2fg 0-0ft
+PG,"Moore, E'Twaun",2,"$3,500",CHICAGO BULLS,@ det, 91-107,2,   2pt 1-1fg 0-0ft
+SG,"Brown, Markel^",2,"$3,700",BROOKLYN NETS,@ ind, 123-111,15,   2pt 0-1fg 2-2ft
+PG,"Exum, Dante^",0.5,"$3,500",UTAH JAZZ,@ gsw, 91-106,18,   0pt 1as 1st 3to 0-1fg 0-0ft
+PG,"Cotton, Bryce",0,"$3,500",UTAH JAZZ,@ gsw, 91-106,2,   0pt 0-0fg 0-0ft
+PF,"Favors, Derrick^",41.2,"$7,500",UTAH JAZZ,@ gsw, 91-106,35,   21pt 11rb 2as 1st 2bl 2to 1trey 8-15fg 4-5ft
+PF,"Gasol, Pau^",40.5,"$8,900",CHICAGO BULLS,@ det, 91-107,31,   27pt 10rb 1as 1trey 10-16fg 6-6ft
+SF,"Ariza, Trevor^",39.9,"$5,900",HOUSTON ROCKETS,v pho, 102-115,37,   15pt 12rb 5as 2st 1to 3trey 6-13fg 0-0ft
+PF,"Morris, Marcus^",38,"$5,200",PHOENIX SUNS,@ hou, 115-102,36,   17pt 10rb 4as 2st 1to 2trey 7-13fg 1-2ft
+SF,"Green, Draymond^",34.7,"$7,700",GOLDEN STATE WARRIORS,v uta, 106-91,32,   15pt 6rb 7as 2st 2to 2-10fg 11-13ft
+PF,"Morris, Markieff^",34,"$6,900",PHOENIX SUNS,@ hou, 115-102,31,   17pt 5rb 6as 1st 1bl 2to 1trey 7-11fg 2-2ft
+SF,"Green, Jeff^",33.8,"$5,000",MEMPHIS GRIZZLIES,v por, 97-86,40,   23pt 9rb 5trey 8-16fg 2-2ft
+SF,"Tucker, P.J.^",31.3,"$5,400",PHOENIX SUNS,@ hou, 115-102,35,   19pt 4rb 3as 1st 1bl 1to 3trey 8-12fg 0-0ft
+PF,"Motiejunas, Donatas^",29.6,"$5,600",HOUSTON ROCKETS,v pho, 102-115,38,   18pt 3rb 6as 1bl 3to 1trey 8-13fg 1-1ft
+SF,"Hill, Solomon^",29.2,"$4,100",INDIANA PACERS,v bkn, 111-123,35,   17pt 6rb 2as 1bl 2trey 7-16fg 1-2ft
+SF,"Butler, Caron^",28.5,"$3,500",DETROIT PISTONS,v chi, 107-91,29,   20pt 5rb 1as 1st 1to 4trey 7-11fg 2-2ft
+SF,"Brewer, Corey",26.9,"$5,500",HOUSTON ROCKETS,v pho, 102-115,30,   14pt 7rb 1as 2st 1to 5-11fg 4-4ft
+PF,"Randolph, Zach^",25.3,"$7,900",MEMPHIS GRIZZLIES,v por, 97-86,31,   17pt 4rb 3as 1to 1trey 8-20fg 0-0ft
+SF,"Hayward, Gordon^",25.1,"$8,000",UTAH JAZZ,@ gsw, 91-106,34,   11pt 3rb 7as 1st 2to 1trey 3-13fg 4-4ft
+SF,"Bogdanovic, Bojan",25,"$3,700",BROOKLYN NETS,@ ind, 123-111,29,   21pt 5rb 2to 3trey 8-8fg 2-3ft
+PF,"Smith, Josh",25,"$5,400",HOUSTON ROCKETS,v pho, 102-115,24,   17pt 5rb 2as 1st 3to 1trey 8-13fg 0-2ft
+SF,"Prince, Tayshaun",25,"$3,700",DETROIT PISTONS,v chi, 107-91,23,   4pt 10rb 2as 2st 1bl 2-6fg 0-0ft
+SF,"Wright, Dorell",24.2,"$3,500",PORTLAND TRAIL BLAZERS,@ mem, 86-97,25,   10pt 6rb 2as 2st 1bl 2to 2trey 4-11fg 0-0ft
+PF,"Scola, Luis",23,"$4,600",INDIANA PACERS,v bkn, 111-123,20,   17pt 5rb 6-7fg 5-7ft
+PF,"West, David^",22.8,"$5,700",INDIANA PACERS,v bkn, 111-123,28,   13pt 4rb 4as 1to 6-9fg 1-2ft
+PF,"Aldridge, LaMarcus^",22,"$9,600",PORTLAND TRAIL BLAZERS,@ mem, 86-97,18,   16pt 5rb 1bl 2to 7-12fg 2-2ft
+SF,"Miles, C.J.^",19.2,"$4,500",INDIANA PACERS,v bkn, 111-123,33,   14pt 6rb 2to 4trey 5-11fg 0-0ft
+SF,"Hood, Rodney^",19.2,"$4,600",UTAH JAZZ,@ gsw, 91-106,32,   19pt 1rb 1to 1trey 9-14fg 0-0ft
+PF,"Mirotic, Nikola",18,"$7,000",CHICAGO BULLS,@ det, 91-107,24,   8pt 5rb 4as 2to 1trey 1-8fg 5-5ft
+PF,"Young, Thaddeus^",17.9,"$5,800",BROOKLYN NETS,@ ind, 123-111,27,   6pt 7rb 3as 1to 3-6fg 0-0ft
+SF,"Barnes, Harrison^",17.3,"$4,300",GOLDEN STATE WARRIORS,v uta, 106-91,28,   12pt 4rb 1as 1to 2trey 5-10fg 0-0ft
+PF,"Gibson, Taj",16.6,"$4,800",CHICAGO BULLS,@ det, 91-107,19,   13pt 3rb 6-8fg 1-2ft
+SF,"Iguodala, Andre",16.6,"$5,200",GOLDEN STATE WARRIORS,v uta, 106-91,31,   13pt 3rb 1st 2to 1trey 4-7fg 4-6ft
+PF,"Booker, Trevor",16.1,"$3,600",UTAH JAZZ,@ gsw, 91-106,22,   6pt 8rb 1as 1to 3-5fg 0-0ft
+PF,"Tolliver, Anthony^",14.7,"$4,900",DETROIT PISTONS,v chi, 107-91,22,   4pt 6rb 1as 1st 2-7fg 0-0ft
+SF,"Dunleavy, Mike^",14,"$4,200",CHICAGO BULLS,@ det, 91-107,34,   9pt 5rb 1st 3to 3-10fg 3-4ft
+PF,"Speights, Marreese",13.2,"$3,700",GOLDEN STATE WARRIORS,v uta, 106-91,13,   4pt 6rb 2as 1to 2-7fg 0-0ft
+SF,"Rudez, Damjan",10,"$3,500",INDIANA PACERS,v bkn, 111-123,11,   8pt 1st 2trey 3-4fg 0-0ft
+SF,"Holiday, Justin^",9.9,"$4,400",GOLDEN STATE WARRIORS,v uta, 106-91,18,   7pt 2rb 1as 1to 1trey 3-3fg 0-0ft
+PF,"Jefferson, Cory",6.6,"$3,500",BROOKLYN NETS,@ ind, 123-111,13,   3pt 3rb 1-1fg 1-2ft
+SF,"Carter, Vince",5.9,"$3,600",MEMPHIS GRIZZLIES,v por, 97-86,14,   2pt 2rb 1as 1-7fg 0-0ft
+SF,"Ingles, Joe",5.4,"$3,500",UTAH JAZZ,@ gsw, 91-106,14,   3pt 2rb 1st 2to 1trey 1-1fg 0-0ft
+SF,"Warren, T.J.",4.4,"$3,500",PHOENIX SUNS,@ hou, 115-102,18,   4pt 2rb 2to 2-5fg 0-0ft
+SF,"Batum, Nicolas^",3.4,"$6,900",PORTLAND TRAIL BLAZERS,@ mem, 86-97,15,   0pt 2rb 1st 1to 0-4fg 0-0ft
+SF,"McDermott, Doug",1.5,"$3,500",CHICAGO BULLS,@ det, 91-107,2,   0pt 1as 0-0fg 0-0ft
+SF,"Gee, Alonzo",1.2,"$3,500",PORTLAND TRAIL BLAZERS,@ mem, 86-97,6,   0pt 1rb 0-0fg 0-0ft
+SF,"Bullock, Reggie",1.2,"$3,500",PHOENIX SUNS,@ hou, 115-102,1,   0pt 1rb 0-1fg 0-0ft
+PF,"Leuer, Jon",1.2,"$3,500",MEMPHIS GRIZZLIES,v por, 97-86,6,   0pt 1rb 0-2fg 0-0ft
+SF,"Martin, Cartier",0,"$3,500",DETROIT PISTONS,v chi, 107-91,5,   0pt 0-1fg 0-0ft
+SF,"McDaniels, K.J.",-1,"$3,500",HOUSTON ROCKETS,v pho, 102-115,1,   0pt 1to 0-0fg 0-0ft
+C,"Lopez, Brook^",37.8,"$6,900",BROOKLYN NETS,@ ind, 123-111,31,   26pt 4rb 4bl 1to 11-14fg 4-5ft
+C,"Bogut, Andrew^",32.1,"$5,000",GOLDEN STATE WARRIORS,v uta, 106-91,30,   8pt 8rb 5as 1st 3bl 1to 4-5fg 0-0ft
+C,"Gasol, Marc^",31.3,"$7,900",MEMPHIS GRIZZLIES,v por, 97-86,33,   13pt 9rb 5as 1bl 2to 4-15fg 5-6ft
+C,"Noah, Joakim^",30.1,"$6,700",CHICAGO BULLS,@ det, 91-107,29,   6pt 13rb 7as 1st 4to 3-8fg 0-2ft
+C,"Drummond, Andre^",27.3,"$8,700",DETROIT PISTONS,v chi, 107-91,27,   14pt 9rb 1as 1st 1to 7-13fg 0-2ft
+C,"Hibbert, Roy^",26.2,"$5,100",INDIANA PACERS,v bkn, 111-123,27,   16pt 6rb 2as 1bl 2to 7-14fg 2-2ft
+C,"Anthony, Joel",24.7,"$3,600",DETROIT PISTONS,v chi, 107-91,26,   6pt 6rb 1as 1st 4bl 3-3fg 0-0ft
+C,"Wright, Brandan",23.8,"$5,600",PHOENIX SUNS,@ hou, 115-102,30,   8pt 9rb 1st 2bl 1to 3-7fg 2-2ft
+C,"Gobert, Rudy^",21.3,"$7,900",UTAH JAZZ,@ gsw, 91-106,34,   5pt 9rb 3as 1st 1to 0-5fg 5-6ft
+C,"Lopez, Robin^",20.9,"$4,900",PORTLAND TRAIL BLAZERS,@ mem, 86-97,32,   8pt 7rb 1as 1st 1bl 1to 4-7fg 0-0ft
+C,"Mahinmi, Ian",17.9,"$3,600",INDIANA PACERS,v bkn, 111-123,20,   6pt 7rb 1as 1st 3-5fg 0-0ft
+C,"Len, Alex^",15.7,"$4,400",PHOENIX SUNS,@ hou, 115-102,18,   5pt 6rb 1as 1st 2-10fg 1-3ft
+C,"Plumlee, Mason",14,"$4,400",BROOKLYN NETS,@ ind, 123-111,16,   10pt 5rb 2to 4-4fg 2-4ft
+C,"Freeland, Joel",13.9,"$3,500",PORTLAND TRAIL BLAZERS,@ mem, 86-97,20,   2pt 7rb 1as 1st 1-3fg 0-0ft
+C,"Koufos, Kosta",10,"$3,500",MEMPHIS GRIZZLIES,v por, 97-86,19,   4pt 5rb 1st 2to 2-5fg 0-0ft
+C,"Dorsey, Joey^",9.1,"$3,500",HOUSTON ROCKETS,v pho, 102-115,14,   2pt 3rb 1as 1bl 1-1fg 0-0ft
+C,"Cooley, Jack",2,"$3,500",UTAH JAZZ,@ gsw, 91-106,3,   2pt 0-0fg 2-2ft
+C,"Mohammed, Nazr",1.2,"$3,500",CHICAGO BULLS,@ det, 91-107,2,   0pt 1rb 0-0fg 0-0ft
+C,"Ezeli, Festus",0,"$3,500",GOLDEN STATE WARRIORS,v uta, 106-91,4,   0pt 0-0fg 0-0ft
+C,"Leonard, Meyers",-0.6,"$3,500",PORTLAND TRAIL BLAZERS,@ mem, 86-97,14,   0pt 2rb 3to 0-1fg 0-0ft

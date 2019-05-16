@@ -1,0 +1,62 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Korver, Kyle^",35.25,"$3,200",ATLANTA HAWKS,v bos, 89-72,32:41,   17pt 7rb 2as 1st 1bl 5trey 6-9fg
+PG,"Teague, Jeff^",27.75,"$6,600",ATLANTA HAWKS,v bos, 89-72,27:00,   13pt 1rb 6as 2st 1bl 4to 1trey 5-9fg 2-2ft
+SG,"Turner, Evan",23.75,"$5,800",BOSTON CELTICS,@ atl, 72-89,33:04,   12pt 5rb 3as 1bl 2to 5-12fg 2-2ft
+PG,"Thomas, Isaiah^",23.75,"$7,600",BOSTON CELTICS,@ atl, 72-89,30:20,   16pt 3rb 2as 1bl 3to 1trey 4-15fg 7-8ft
+PG,"Mills, Patty",20,"$3,400",SAN ANTONIO SPURS,v mem, 94-68,19:14,   16pt 2as 2to 4trey 5-8fg 2-4ft
+SG,"Green, Danny^",19.75,"$3,100",SAN ANTONIO SPURS,v mem, 94-68,20:14,   6pt 5rb 2as 2st 1to 2trey 2-6fg
+PG,"Rozier, Terry",18,"$2,000",BOSTON CELTICS,@ atl, 72-89,23:57,   10pt 4rb 1bl 2trey 4-7fg
+SG,"Munford, Xavier",16.25,"$3,000",MEMPHIS GRIZZLIES,@ sas, 68-94,26:40,   6pt 3rb 2as 2st 1to 3-10fg
+PG,"Smart, Marcus^",15.5,"$4,500",BOSTON CELTICS,@ atl, 72-89,30:06,   3pt 2rb 3as 1st 2bl 2to 1trey 1-11fg
+PG,"Farmar, Jordan^",15.25,"$3,300",MEMPHIS GRIZZLIES,@ sas, 68-94,30:40,   8pt 1rb 2as 2st 3to 1trey 3-11fg 1-1ft
+PG,"Parker, Tony^",14.75,"$4,700",SAN ANTONIO SPURS,v mem, 94-68,22:40,   6pt 1rb 4as 1st 1to 3-9fg
+SG,"Ginobili, Manu",12.75,"$3,300",SAN ANTONIO SPURS,v mem, 94-68,14:26,   8pt 1rb 1as 1st 1to 1trey 2-3fg 3-4ft
+SG,"Martin, Kevin",11.75,"$2,600",SAN ANTONIO SPURS,v mem, 94-68,17:06,   10pt 1rb 1as 4to 2trey 3-4fg 2-3ft
+PG,"Schroder, Dennis",11.5,"$2,900",ATLANTA HAWKS,v bos, 89-72,19:41,   8pt 2rb 1as 1to 3-6fg 2-2ft
+SG,"Carter, Vince^",10.75,"$3,100",MEMPHIS GRIZZLIES,@ sas, 68-94,17:15,   4pt 1rb 1as 2st 2-7fg
+SG,"Hardaway Jr., Tim",7.25,"$2,500",ATLANTA HAWKS,v bos, 89-72,11:53,   3pt 1rb 2as 1-3fg 1-1ft
+PG,"Miller, Andre",6.25,"$2,200",SAN ANTONIO SPURS,v mem, 94-68,6:06,   2pt 1rb 2as 0-1fg 2-2ft
+SG,"Patterson, Lamar",3.5,"$2,000",ATLANTA HAWKS,v bos, 89-72,1:19,   0pt 2rb 1as 1to
+SG,"Hunter, R.J.",2,"$2,000",BOSTON CELTICS,@ atl, 72-89,14:40,   0pt 1bl 0-3fg
+PG,"Hinrich, Kirk",0,"$2,100",ATLANTA HAWKS,v bos, 89-72,1:19,   0pt
+SG,"Holland, John",0,"$2,000",BOSTON CELTICS,@ atl, 72-89,1:19,   0pt 0-1fg
+SG,"Young, James",0,"$2,000",BOSTON CELTICS,@ atl, 72-89,1:19,   0pt
+PG,"Cotton, Bryce",0,"$2,000",MEMPHIS GRIZZLIES,@ sas, 68-94,DNP,   0pt
+PG,"Conley, Mike",0,"$5,700",MEMPHIS GRIZZLIES,@ sas, 68-94,DNP,   0pt
+SG,"Adams, Jordan",0,"$2,000",MEMPHIS GRIZZLIES,@ sas, 68-94,NA,   0pt
+SG,"Bradley, Avery",0,"$5,200",BOSTON CELTICS,@ atl, 72-89,NA,   0pt
+PF,"Randolph, Zach^",33.5,"$6,200",MEMPHIS GRIZZLIES,@ sas, 68-94,29:59,   11pt 12rb 3as 1st 1to 5-17fg 1-2ft
+PF,"Aldridge, LaMarcus^",27,"$7,900",SAN ANTONIO SPURS,v mem, 94-68,26:31,   10pt 8rb 4bl 2to 5-11fg
+SF,"Bazemore, Kent^",26.75,"$5,600",ATLANTA HAWKS,v bos, 89-72,29:02,   5pt 9rb 4as 2st 1trey 2-14fg
+PF,"Johnson, Amir^",26,"$4,600",BOSTON CELTICS,@ atl, 72-89,20:31,   14pt 8rb 1bl 6-11fg 2-2ft
+SF,"Crowder, Jae^",25.75,"$6,100",BOSTON CELTICS,@ atl, 72-89,34:41,   2pt 7rb 3as 4st 2bl 3to 1-9fg
+SF,"Sefolosha, Thabo",25.5,"$3,000",ATLANTA HAWKS,v bos, 89-72,21:05,   12pt 6rb 1as 2bl 1trey 4-5fg 3-5ft
+PF,"Green, JaMychal",24.25,"$3,400",MEMPHIS GRIZZLIES,@ sas, 68-94,18:57,   6pt 7rb 1as 2st 2bl 3-7fg
+SF,"Leonard, Kawhi^",22.25,"$8,800",SAN ANTONIO SPURS,v mem, 94-68,26:37,   13pt 3rb 2st 1bl 1to 4-10fg 5-5ft
+SF,"Barnes, Matt^",21,"$4,800",MEMPHIS GRIZZLIES,@ sas, 68-94,29:58,   9pt 6rb 2as 1st 2to 1trey 3-11fg 2-2ft
+SF,"Allen, Tony",20.25,"$3,600",MEMPHIS GRIZZLIES,@ sas, 68-94,20:33,   12pt 3rb 1as 2st 2to 4-7fg 4-7ft
+PF,"Millsap, Paul^",19.75,"$8,600",ATLANTA HAWKS,v bos, 89-72,34:18,   4pt 7rb 1as 4bl 5to 1-12fg 2-2ft
+PF,"Scott, Mike",17.5,"$2,700",ATLANTA HAWKS,v bos, 89-72,20:15,   6pt 6rb 1st 1bl 3-9fg
+PF,"Jerebko, Jonas",16.75,"$2,300",BOSTON CELTICS,@ atl, 72-89,20:11,   7pt 5rb 2as 1trey 3-6fg
+PF,"Diaw, Boris",16.5,"$2,900",SAN ANTONIO SPURS,v mem, 94-68,19:04,   6pt 2rb 3as 2bl 1to 3-4fg
+PF,"West, David",14.5,"$3,500",SAN ANTONIO SPURS,v mem, 94-68,17:37,   6pt 4rb 1st 1bl 1to 3-3fg
+SF,"Anderson, Kyle",14.25,"$2,900",SAN ANTONIO SPURS,v mem, 94-68,17:37,   4pt 7rb 1bl 1to 0-4fg 4-4ft
+PF,"Martin, Jarell",12.25,"$2,600",MEMPHIS GRIZZLIES,@ sas, 68-94,23:07,   4pt 3rb 1as 2st 2to 1-5fg 2-4ft
+SF,"Stephenson, Lance",5.5,"$4,000",MEMPHIS GRIZZLIES,@ sas, 68-94,8:44,   4pt 1as 2-7fg
+PF,"Mickey, Jordan",0,"$2,000",BOSTON CELTICS,@ atl, 72-89,1:19,   0pt 0-1fg
+SF,"Hairston, P.J.",0,"$2,500",MEMPHIS GRIZZLIES,@ sas, 68-94,10:11,   0pt 0-2fg 0-2ft
+PF,"Humphries, Kris",0,"$2,700",ATLANTA HAWKS,v bos, 89-72,DNP,   0pt
+PF,"Wright, Brandan",0,"$2,000",MEMPHIS GRIZZLIES,@ sas, 68-94,DNP,   0pt
+SF,"Simmons, Jonathon",0,"$2,500",SAN ANTONIO SPURS,v mem, 94-68,NA,   
+PF,"Bonner, Matt",0,"$2,000",SAN ANTONIO SPURS,v mem, 94-68,NA,   
+C,"Horford, Al^",38.75,"$7,300",ATLANTA HAWKS,v bos, 89-72,30:50,   17pt 5rb 2as 1st 5bl 2to 3trey 6-11fg 2-2ft
+C,"Duncan, Tim^",23.25,"$4,900",SAN ANTONIO SPURS,v mem, 94-68,26:12,   3pt 9rb 4as 1st 1bl 2to 0-1fg 3-4ft
+C,"Zeller, Tyler",14.25,"$2,600",BOSTON CELTICS,@ atl, 72-89,14:28,   4pt 5rb 2as 1bl 2to 2-7fg
+C,"Andersen, Chris^",13,"$2,900",MEMPHIS GRIZZLIES,@ sas, 68-94,23:56,   4pt 8rb 2to 2-2fg
+C,"Sullinger, Jared^",9.5,"$4,600",BOSTON CELTICS,@ atl, 72-89,14:05,   4pt 4rb 1as 2to 2-5fg
+C,"Muscala, Mike",8.75,"$2,400",ATLANTA HAWKS,v bos, 89-72,10:37,   4pt 3rb 1bl 2to 1-4fg 2-2ft
+C,"Marjanovic, Boban",6.5,"$2,800",SAN ANTONIO SPURS,v mem, 94-68,6:36,   4pt 2rb 1-2fg 2-2ft
+C,"Olynyk, Kelly",0,"$2,900",BOSTON CELTICS,@ atl, 72-89,NA,   0pt
+C,"Gasol, Marc",0,"$6,000",MEMPHIS GRIZZLIES,@ sas, 68-94,NA,   0pt
+C,"Splitter, Tiago",0,"$2,000",ATLANTA HAWKS,v bos, 89-72,NA,   0pt
+C,"Tavares, Walter",0,"$2,000",ATLANTA HAWKS,v bos, 89-72,NA,   0pt

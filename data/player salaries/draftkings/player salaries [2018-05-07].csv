@@ -1,0 +1,61 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG/SF,"James, LeBron^",62,"$12,100",CLEVELAND CAVALIERS,v tor, 128-93,38:24,   29pt 8rb 11as 2st 1bl 2to 12-19fg 5-8ft
+PG/SF,"Simmons, Ben^",46.25,"$8,600",PHILADELPHIA 76ERS,v bos, 103-92,32:35,   19pt 13rb 5as 2st 4to 6-15fg 7-8ft
+PG/SG,"McConnell, T.J.^",35.75,"$3,200",PHILADELPHIA 76ERS,v bos, 103-92,38:57,   19pt 7rb 5as 1trey 9-12fg 0-1ft
+PG/SG,"Smart, Marcus^",31.75,"$5,800",BOSTON CELTICS,@ phi, 92-103,30:31,   14pt 5rb 3as 2st 2bl 3to 1trey 5-12fg 3-4ft
+PG,"Lowry, Kyle^",25.5,"$8,000",TORONTO RAPTORS,@ cle, 93-128,29:30,   5pt 4rb 10as 1trey 2-7fg
+PG/SG,"Rozier, Terry^",24,"$8,200",BOSTON CELTICS,@ phi, 92-103,39:06,   11pt 8rb 2as 1to 1trey 4-11fg 2-4ft
+PG/SG,"Hill, George^",22.75,"$3,900",CLEVELAND CAVALIERS,v tor, 128-93,29:01,   12pt 3rb 5as 1to 5-8fg 2-2ft
+PG/SG,"Wright, Delon",16,"$3,800",TORONTO RAPTORS,@ cle, 93-128,17:59,   10pt 2rb 1as 1st 4-7fg 2-2ft
+PG/SG,"Clarkson, Jordan",13.75,"$3,000",CLEVELAND CAVALIERS,v tor, 128-93,18:59,   5pt 3rb 2as 2st 4to 2-8fg 1-1ft
+PG/SG,"VanVleet, Fred",9,"$3,600",TORONTO RAPTORS,@ cle, 93-128,20:30,   5pt 2rb 1as 1to 1trey 2-5fg
+PG,"Calderon, Jose",4.75,"$2,600",CLEVELAND CAVALIERS,v tor, 128-93,7:38,   2pt 1rb 1as 2-2ft
+PG,"Brown, Lorenzo",4.75,"$2,500",TORONTO RAPTORS,@ cle, 93-128,7:38,   1pt 3rb 0-1fg 1-2ft
+PG,"Larkin, Shane",0,"$3,100",BOSTON CELTICS,@ phi, 92-103,1:45,   0pt
+PG/SG,"Fultz, Markelle",0,"$2,500",PHILADELPHIA 76ERS,v bos, 103-92,DNP,   
+PG/SG,"Bayless, Jerryd",0,"$2,500",PHILADELPHIA 76ERS,v bos, 103-92,DNP,   
+PG,"Irving, Kyrie",0,"$2,500",BOSTON CELTICS,@ phi, 92-103,NA,   
+SF/PF,"Saric, Dario^",45.5,"$6,000",PHILADELPHIA 76ERS,v bos, 103-92,38:57,   25pt 8rb 4as 1st 1bl 1trey 9-17fg 6-6ft
+SF/PF,"Tatum, Jayson^",32.5,"$6,800",BOSTON CELTICS,@ phi, 92-103,35:34,   20pt 4rb 4as 1bl 3to 2trey 7-16fg 4-4ft
+SF/PF,"Morris, Marcus",29.75,"$5,100",BOSTON CELTICS,@ phi, 92-103,34:07,   17pt 5rb 1as 2bl 1to 3trey 6-15fg 2-3ft
+SG/SF,"Smith, J.R.^",27.5,"$4,200",CLEVELAND CAVALIERS,v tor, 128-93,28:30,   15pt 2rb 3as 2st 3trey 6-6fg
+SG/SF,"Korver, Kyle^",25,"$4,600",CLEVELAND CAVALIERS,v tor, 128-93,27:29,   16pt 2rb 2as 1st 1to 4trey 6-8fg
+SG/SF,"Miles, C.J.^",21.25,"$3,500",TORONTO RAPTORS,@ cle, 93-128,23:02,   13pt 3rb 1as 2st 2to 5-11fg 3-4ft
+SG/SF,"DeRozan, DeMar^",19.75,"$7,500",TORONTO RAPTORS,@ cle, 93-128,33:04,   13pt 5rb 1as 2to 5-11fg 3-4ft
+SF/PF,"Covington, Robert",17.75,"$5,300",PHILADELPHIA 76ERS,v bos, 103-92,19:00,   3pt 5rb 3as 1st 1bl 1to 1trey 1-7fg
+SF/PF,"Green, Jeff",15.5,"$4,000",CLEVELAND CAVALIERS,v tor, 128-93,16:06,   8pt 4rb 1as 2trey 3-7fg
+SG/SF,"Redick, J.J.^",15.25,"$5,900",PHILADELPHIA 76ERS,v bos, 103-92,32:38,   7pt 1rb 3as 1st 1trey 3-11fg 0-2ft
+SG/SF,"Brown, Jaylen",15.25,"$5,700",BOSTON CELTICS,@ phi, 92-103,23:00,   8pt 3rb 2as 1to 2trey 2-6fg 2-2ft
+PF,"Siakam, Pascal",14.5,"$3,300",TORONTO RAPTORS,@ cle, 93-128,27:35,   9pt 2rb 2as 3-4fg 3-3ft
+SG/SF,"Belinelli, Marco",14.25,"$4,700",PHILADELPHIA 76ERS,v bos, 103-92,24:31,   9pt 1rb 1as 1st 1trey 2-10fg 4-4ft
+SG/SF,"Osman, Cedi",11,"$2,600",CLEVELAND CAVALIERS,v tor, 128-93,20:31,   5pt 2rb 2as 1trey 2-5fg
+SG/SF,"Powell, Norman",6.25,"$2,600",TORONTO RAPTORS,@ cle, 93-128,12:23,   5pt 1rb 2-5fg 1-2ft
+SF/PF,"Anunoby, OG^",5,"$3,400",TORONTO RAPTORS,@ cle, 93-128,20:19,   2pt 2rb 1as 2to 1-3fg
+SG/SF,"Ojeleye, Semi",2,"$2,600",BOSTON CELTICS,@ phi, 92-103,12:25,   0pt 1st
+PF,"Nader, Abdel",1.5,"$2,500",BOSTON CELTICS,@ phi, 92-103,1:12,   0pt 1as 0-2ft
+SF/PF,"Anderson, Justin",0,"$2,600",PHILADELPHIA 76ERS,v bos, 103-92,00:46,   0pt
+SG/SF,"Hood, Rodney",0,"$2,800",CLEVELAND CAVALIERS,v tor, 128-93,DNP,   
+SG/SF,"Korkmaz, Furkan",0,"$2,500",PHILADELPHIA 76ERS,v bos, 103-92,NA,   
+SG/SF,"Luwawu, Timothe",0,"$2,500",PHILADELPHIA 76ERS,v bos, 103-92,NA,   
+SF/PF,"White, Okaro",0,"$2,500",CLEVELAND CAVALIERS,v tor, 128-93,NA,   
+PF,"McKinnie, Alfonzo",0,"$2,500",TORONTO RAPTORS,@ cle, 93-128,NA,   
+SF/PF,"Hayward, Gordon",0,"$2,500",BOSTON CELTICS,@ phi, 92-103,NA,   
+SG/SF,"Richardson, Malachi",0,"$2,500",TORONTO RAPTORS,@ cle, 93-128,NA,   
+PF,"Nogueira, Lucas",-0.5,"$2,500",TORONTO RAPTORS,@ cle, 93-128,1:51,   0pt 1to
+PF/C,"Love, Kevin^",38.5,"$7,800",CLEVELAND CAVALIERS,v tor, 128-93,30:25,   23pt 6rb 2st 2bl 2to 2trey 8-13fg 5-6ft
+C,"Embiid, Joel^",35.75,"$9,800",PHILADELPHIA 76ERS,v bos, 103-92,35:17,   15pt 13rb 2as 2to 2trey 6-15fg 1-2ft
+PF/C,"Horford, Al^",34.5,"$7,300",BOSTON CELTICS,@ phi, 92-103,34:35,   10pt 10rb 3as 1st 3bl 4to 4-6fg 2-2ft
+C,"Valanciunas, Jonas",32.75,"$7,100",TORONTO RAPTORS,@ cle, 93-128,15:43,   18pt 5rb 2as 3bl 1to 7-14fg 4-6ft
+C,"Baynes, Aron^",19.5,"$3,700",BOSTON CELTICS,@ phi, 92-103,19:18,   9pt 6rb 1bl 2trey 2-7fg 3-4ft
+PF/C,"Nance, Larry",15.75,"$2,600",CLEVELAND CAVALIERS,v tor, 128-93,5:40,   8pt 3rb 2bl 4-4fg
+PF/C,"Ilyasova, Ersan",15.25,"$5,000",PHILADELPHIA 76ERS,v bos, 103-92,17:19,   6pt 5rb 1as 1bl 1to 2-7fg 2-3ft
+PF/C,"Ibaka, Serge^",14.75,"$4,900",TORONTO RAPTORS,@ cle, 93-128,18:26,   12pt 1rb 1bl 3to 2trey 5-8fg
+PF/C,"Thompson, Tristan",10.5,"$4,500",CLEVELAND CAVALIERS,v tor, 128-93,13:48,   5pt 2rb 2as 2-3fg 1-1ft
+C,"Monroe, Greg",6.5,"$2,800",BOSTON CELTICS,@ phi, 92-103,7:15,   3pt 2rb 1bl 2to 1-2fg 1-1ft
+PF/C,"Poeltl, Jakob",4,"$2,900",TORONTO RAPTORS,@ cle, 93-128,12:00,   0pt 2rb 1bl 1to 0-3fg
+C,"Zizic, Ante",1.25,"$2,500",CLEVELAND CAVALIERS,v tor, 128-93,3:29,   0pt 1rb 0-3fg
+PF/C,"Yabusele, Guerschon",0,"$2,500",BOSTON CELTICS,@ phi, 92-103,1:12,   0pt
+PF/C,"Johnson, Amir",0,"$2,700",PHILADELPHIA 76ERS,v bos, 103-92,DNP,   
+PF/C,"Holmes, Richaun",0,"$2,500",PHILADELPHIA 76ERS,v bos, 103-92,DNP,   
+C,"Perkins, Kendrick",0,"$2,500",CLEVELAND CAVALIERS,v tor, 128-93,NA,   
+PF/C,"Theis, Daniel",0,"$2,500",BOSTON CELTICS,@ phi, 92-103,NA,   

@@ -1,0 +1,89 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Wade, Dwyane^",47.6,"$7,400",MIAMI HEAT,v cha, 115-103,32:19,   28pt 3rb 8as 2st 1bl 2to 11-22fg 6-7ft
+PG,"Paul, Chris^",41.7,"$9,800",LOS ANGELES CLIPPERS,v por, 102-81,30:23,   25pt 6rb 5as 1st 2trey 10-22fg 3-3ft
+PG,"Walker, Kemba^",41.5,"$8,000",CHARLOTTE HORNETS,@ mia, 103-115,41:32,   29pt 5rb 3as 1st 1bl 2to 1trey 12-29fg 4-4ft
+PG,"Jackson, Reggie^",34.8,"$6,600",DETROIT PISTONS,@ cle, 90-107,36:48,   14pt 4rb 6as 3st 1bl 1to 7-14fg
+PG,"Irving, Kyrie^",32.2,"$7,700",CLEVELAND CAVALIERS,v det, 107-90,33:42,   22pt 1rb 4as 2st 1to 4trey 8-18fg 2-3ft
+SG,"Caldwell-Pope, Kentavious^",28.6,"$5,400",DETROIT PISTONS,@ cle, 90-107,37:12,   13pt 8rb 2as 1st 1bl 1to 2trey 5-12fg 1-2ft
+PG,"Dragic, Goran^",28.4,"$6,900",MIAMI HEAT,v cha, 115-103,27:40,   18pt 2rb 4as 1bl 3trey 6-12fg 3-4ft
+SG,"Smith, J.R.^",27.5,"$4,600",CLEVELAND CAVALIERS,v det, 107-90,34:25,   21pt 5rb 1as 1to 7trey 7-13fg
+PG,"Lillard, Damian^",26.7,"$8,400",PORTLAND TRAIL BLAZERS,@ lac, 81-102,38:37,   17pt 6rb 3as 1bl 4to 6-22fg 5-5ft
+SG,"McCollum, C.J.^",25.1,"$7,100",PORTLAND TRAIL BLAZERS,@ lac, 81-102,38:08,   16pt 3rb 5as 2to 2trey 6-17fg 2-2ft
+PG,"Dellavedova, Matthew",23.7,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,22:01,   8pt 1rb 9as 1st 1to 1trey 3-5fg 1-2ft
+SG,"Richardson, Josh",20.9,"$4,300",MIAMI HEAT,v cha, 115-103,31:09,   15pt 2rb 1as 1bl 2trey 5-9fg 3-3ft
+SG,"Lee, Courtney^",19.8,"$3,900",CHARLOTTE HORNETS,@ mia, 103-115,41:37,   12pt 4rb 2as 5-7fg 2-3ft
+SG,"Crawford, Jamal",18.4,"$4,200",LOS ANGELES CLIPPERS,v por, 102-81,26:47,   11pt 2rb 4as 1to 1trey 4-10fg 2-3ft
+SG,"Redick, J.J.^",16.2,"$4,500",LOS ANGELES CLIPPERS,v por, 102-81,28:28,   17pt 1rb 2to 3trey 7-15fg 0-1ft
+SG,"Shumpert, Iman",14.2,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,17:50,   2pt 6rb 2as 1st 1-4fg
+PG,"Rivers, Austin",12.7,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,21:05,   9pt 1rb 1as 1st 1to 1trey 4-9fg 0-1ft
+SG,"Lin, Jeremy",12.4,"$4,300",CHARLOTTE HORNETS,@ mia, 103-115,26:26,   11pt 2rb 1to 2-7fg 7-8ft
+SG,"Henderson, Gerald",10,"$3,700",PORTLAND TRAIL BLAZERS,@ lac, 81-102,17:39,   4pt 5rb 2-6fg
+SG,"McRae, Jordan",6.2,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,1:13,   5pt 1rb 1trey 2-2fg
+PG,"Dinwiddie, Spencer",3.5,"$3,500",DETROIT PISTONS,@ cle, 90-107,1:41,   2pt 1as 1-1fg
+SG,"Meeks, Jodie",2,"$3,500",DETROIT PISTONS,@ cle, 90-107,1:41,   2pt 1-1fg
+SG,"Crabbe, Allen",2,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,17:33,   0pt 1bl 0-3fg
+PG,"Prigioni, Pablo",1.5,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,1:15,   0pt 1as
+SG,"Jones, Dahntay",0,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,1:13,   0pt
+PG,"Roberts, Brian",0,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,1:15,   0pt
+SG,"Connaughton, Pat",0,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,1:15,   0pt 0-1fg
+PG,"Gutierrez, Jorge",0,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,DNP,   0pt
+SG,"Lamb, Jeremy",0,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,DNP,   0pt
+SG,"Daniels, Troy",0,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,DNP,   0pt
+PG,"Weber, Briante",0,"$3,500",MIAMI HEAT,v cha, 115-103,DNP,   0pt
+SG,"Hilliard, Darrun",0,"$3,500",DETROIT PISTONS,@ cle, 90-107,NA,   0pt
+PG,"Harrison, Aaron",0,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,NA,   0pt
+PG,"Brown, Lorenzo",0,"$3,500",DETROIT PISTONS,@ cle, 90-107,NA,   0pt
+SG,"Wilcox, C.J.",0,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,NA,   0pt
+PG,"Johnson, Tyler",0,"$3,500",MIAMI HEAT,v cha, 115-103,NA,   0pt
+PG,"Williams, Maurice",0,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,NA,   0pt
+PG,"Blake, Steve",-0.5,"$3,500",DETROIT PISTONS,@ cle, 90-107,9:31,   0pt 1as 2to 0-2fg
+SG,"Green, Gerald",-1,"$3,500",MIAMI HEAT,v cha, 115-103,2:30,   0pt 1to
+SF,"James, LeBron^",39.7,"$10,500",CLEVELAND CAVALIERS,v det, 107-90,39:44,   27pt 6rb 3as 3st 5to 2trey 12-18fg 1-3ft
+PF,"Love, Kevin^",30,"$7,300",CLEVELAND CAVALIERS,v det, 107-90,31:43,   16pt 10rb 2as 1to 3trey 5-14fg 3-6ft
+PF,"Harris, Tobias^",29.6,"$6,600",DETROIT PISTONS,@ cle, 90-107,32:52,   13pt 8rb 4as 1bl 1to 3-11fg 7-8ft
+PF,"Deng, Luol^",28.7,"$6,600",MIAMI HEAT,v cha, 115-103,36:33,   16pt 6rb 1as 1st 1bl 2trey 6-11fg 2-3ft
+PF,"Griffin, Blake^",27.8,"$9,300",LOS ANGELES CLIPPERS,v por, 102-81,31:14,   12pt 9rb 4as 1bl 3to 4-12fg 4-6ft
+SF,"Aminu, Al-Farouq^",27.5,"$5,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,35:01,   9pt 10rb 3as 2st 2to 1trey 4-13fg
+SF,"Harkless, Maurice^",23.9,"$5,300",PORTLAND TRAIL BLAZERS,@ lac, 81-102,33:42,   12pt 7rb 1as 1st 2trey 5-13fg
+SF,"Morris, Marcus^",22.4,"$5,900",DETROIT PISTONS,@ cle, 90-107,34:06,   11pt 7rb 2as 1st 2to 1trey 2-10fg 6-6ft
+SF,"Batum, Nicolas^",19.9,"$6,900",CHARLOTTE HORNETS,@ mia, 103-115,34:25,   9pt 7rb 3as 2to 3-11fg 3-3ft
+SF,"Winslow, Justise",16.3,"$3,500",MIAMI HEAT,v cha, 115-103,31:50,   9pt 4rb 1as 1st 1to 1trey 4-6fg
+SF,"Green, Jeff",15.2,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,16:35,   10pt 1rb 2bl 3-5fg 4-5ft
+SF,"Johnson, Wesley",13.8,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,17:57,   5pt 4rb 1st 1bl 1trey 2-3fg
+SF,"Johnson, Joe^",12.9,"$4,900",MIAMI HEAT,v cha, 115-103,33:05,   8pt 2rb 3as 2to 1trey 3-5fg 1-2ft
+SF,"Bullock, Reggie",11.4,"$3,500",DETROIT PISTONS,@ cle, 90-107,12:18,   4pt 2rb 2as 1st 2-3fg
+PF,"Davis, Ed",9.7,"$3,900",PORTLAND TRAIL BLAZERS,@ lac, 81-102,12:47,   2pt 6rb 1as 1to 1-2fg
+SF,"Johnson, Stanley",9.4,"$3,500",DETROIT PISTONS,@ cle, 90-107,21:41,   9pt 2rb 2to 1trey 4-7fg
+SF,"Mbah a Moute, Luc^",9.4,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,20:06,   2pt 2rb 3st 1to 1-1fg
+PF,"Williams, Marvin^",9.2,"$5,300",CHARLOTTE HORNETS,@ mia, 103-115,28:32,   0pt 6rb 1st 0-10fg 0-2ft
+PF,"Frye, Channing",8.8,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,11:02,   3pt 4rb 1bl 1to 1trey 1-2fg
+PF,"Stoudemire, Amare",8.6,"$3,500",MIAMI HEAT,v cha, 115-103,14:47,   4pt 3rb 1st 1to 1-3fg 2-2ft
+PF,"Kaminsky, Frank",6.4,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,19:28,   4pt 2rb 0-1fg 4-4ft
+SF,"Jefferson, Richard",5.4,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,23:24,   3pt 2rb 1trey 1-3fg
+PF,"Thompson, Tristan^",2.7,"$4,800",CLEVELAND CAVALIERS,v det, 107-90,13:23,   0pt 1rb 1as
+PF,"Tolliver, Anthony",2.7,"$3,500",DETROIT PISTONS,@ cle, 90-107,9:21,   0pt 1rb 1as 0-1fg
+SF,"Jones, James",0,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,1:13,   0pt
+SF,"Montero, Luis",0,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,1:15,   0pt
+PF,"Vonleh, Noah",0,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,1:15,   0pt 0-1fg
+PF,"Ayres, Jeff",0,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,DNP,   0pt
+SF,"Pierce, Paul",0,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,DNP,   0pt
+PF,"McRoberts, Josh",0,"$3,500",MIAMI HEAT,v cha, 115-103,DNP,   0pt
+SF,"Wright, Dorell",0,"$3,500",MIAMI HEAT,v cha, 115-103,DNP,   0pt
+PF,"Hansbrough, Tyler",0,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,DNP,   0pt
+PF,"Haslem, Udonis",0,"$3,500",MIAMI HEAT,v cha, 115-103,DNP,   0pt
+PF,"Dawson, Branden",0,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,NA,   0pt
+PF,"Alexander, Cliff",0,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,NA,   0pt
+PF,"Bosh, Chris",0,"$7,000",MIAMI HEAT,v cha, 115-103,NA,   0pt
+C,"Plumlee, Mason^",45.5,"$5,300",PORTLAND TRAIL BLAZERS,@ lac, 81-102,31:26,   17pt 10rb 7as 2st 1bl 5-7fg 7-9ft
+C,"Jordan, DeAndre^",39.1,"$8,000",LOS ANGELES CLIPPERS,v por, 102-81,33:57,   3pt 18rb 5as 1st 3bl 1to 1-4fg 1-6ft
+C,"Whiteside, Hassan^",39.1,"$8,700",MIAMI HEAT,v cha, 115-103,30:07,   17pt 13rb 1as 1st 2bl 1to 8-8fg 1-1ft
+C,"Jefferson, Al",34.9,"$5,500",CHARLOTTE HORNETS,@ mia, 103-115,27:06,   25pt 7rb 1as 1st 2to 12-17fg 1-2ft
+C,"Drummond, Andre^",29.4,"$7,800",DETROIT PISTONS,@ cle, 90-107,36:24,   20pt 7rb 1st 1bl 3to 8-13fg 4-16ft
+C,"Aldrich, Cole",21.6,"$3,500",LOS ANGELES CLIPPERS,v por, 102-81,12:13,   8pt 8rb 2bl 4-6fg
+C,"Zeller, Cody^",14,"$4,500",CHARLOTTE HORNETS,@ mia, 103-115,13:35,   8pt 5rb 3-6fg 2-3ft
+C,"Kaman, Chris",11,"$3,500",PORTLAND TRAIL BLAZERS,@ lac, 81-102,10:08,   4pt 5rb 1st 1to 2-6fg
+C,"Hawes, Spencer",6.2,"$3,500",CHARLOTTE HORNETS,@ mia, 103-115,7:19,   5pt 1rb 1-1fg 3-4ft
+C,"Baynes, Aron",3.2,"$3,500",DETROIT PISTONS,@ cle, 90-107,6:25,   2pt 1rb 1-3fg
+C,"Anthony, Joel",0,"$3,500",DETROIT PISTONS,@ cle, 90-107,DNP,   0pt
+C,"Kaun, Sasha",0,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,NA,   0pt
+C,"Mozgov, Timofey",-0.5,"$3,500",CLEVELAND CAVALIERS,v det, 107-90,9:07,   0pt 1as 2to 0-1fg

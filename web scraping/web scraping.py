@@ -3,10 +3,11 @@
 import basketball_reference_web_scraper
 import time
 import datetime
-from datetime import datetime, timedelta
+
 from basketball_reference_web_scraper import client
 from basketball_reference_web_scraper.data import OutputType
 from basketball_reference_web_scraper.data import Team
+from datetime import datetime, timedelta
 
 # Create box score web scraper function
 def ScrapeBoxScores(function, fileType, startDate, endDate):

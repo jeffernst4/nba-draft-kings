@@ -1,0 +1,89 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Oladipo, Victor^",68.6,"$9,000",INDIANA PACERS,v cle, 121-87,34:29,   28pt 13rb 10as 4st 2to 6trey 11-19fg
+PG,"Westbrook, Russell^",66.5,"$11,000",OKLAHOMA CITY THUNDER,@ uta, 91-96,43:48,   46pt 10rb 5as 2st 5to 7trey 18-43fg 3-6ft
+SG,"Mitchell, Donovan^",43.8,"$8,700",UTAH JAZZ,v okc, 96-91,40:13,   38pt 4rb 2as 1st 5to 5trey 14-26fg 5-5ft
+PG,"Wall, John^",43,"$10,800",WASHINGTON WIZARDS,v tor, 92-102,40:15,   23pt 5rb 8as 1st 1bl 4to 1trey 9-22fg 4-4ft
+PG,"Lowry, Kyle^",41.2,"$8,400",TORONTO RAPTORS,@ was, 102-92,31:37,   24pt 6rb 6as 1st 2to 3trey 9-15fg 3-4ft
+SG,"Beal, Bradley^",37.1,"$7,700",WASHINGTON WIZARDS,v tor, 92-102,43:20,   32pt 3rb 1as 2bl 6to 6trey 10-22fg 6-6ft
+PG,"Wright, Delon",25.8,"$5,000",TORONTO RAPTORS,@ was, 102-92,24:17,   4pt 4rb 2as 4st 1bl 1to 2-6fg
+SG,"DeRozan, DeMar^",24.4,"$8,600",TORONTO RAPTORS,@ was, 102-92,33:27,   16pt 2rb 4as 6-18fg 4-4ft
+PG,"Collison, Darren^",22.9,"$5,600",INDIANA PACERS,v cle, 121-87,26:21,   15pt 2rb 5as 2to 3trey 6-9fg
+PG,"Joseph, Cory",21.8,"$4,000",INDIANA PACERS,v cle, 121-87,21:39,   9pt 4rb 2as 2st 1to 1trey 4-9fg
+SG,"Burks, Alec",15.7,"$3,500",UTAH JAZZ,v okc, 96-91,16:41,   11pt 1rb 1as 1st 1to 1trey 4-8fg 2-3ft
+SG,"Hood, Rodney",15.1,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,24:57,   12pt 3rb 1as 2to 6-12fg
+PG,"VanVleet, Fred",14.8,"$3,700",TORONTO RAPTORS,@ was, 102-92,18:46,   5pt 4rb 4as 1to 1trey 2-7fg
+PG,"Felton, Raymond",14.4,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,11:16,   3pt 7rb 2as 1trey 1-5fg
+SG,"Abrines, Alex",13.2,"$3,600",OKLAHOMA CITY THUNDER,@ uta, 91-96,20:02,   0pt 6rb 1st 1bl 0-3fg
+PG,"Lawson, Ty",12.6,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,19:57,   6pt 3rb 1st 2-4fg 2-2ft
+SG,"Clarkson, Jordan",12.2,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,24:14,   5pt 1rb 4as 2-8fg 1-2ft
+SG,"Smith, J.R.^",10.6,"$3,700",CLEVELAND CAVALIERS,@ ind, 87-121,27:46,   9pt 3rb 2to 3trey 3-9fg
+SG,"Korver, Kyle^",6.7,"$4,500",CLEVELAND CAVALIERS,@ ind, 87-121,24:47,   6pt 1rb 1as 2to 2trey 2-4fg
+PG,"Calderon, Jose^",5.7,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,13:39,   0pt 1rb 1as 1st 0-2fg
+PG,"Rubio, Ricky^",5.7,"$7,600",UTAH JAZZ,v okc, 96-91,7:08,   0pt 1rb 3as 0-1fg
+PG,"Satoransky, Tomas",3.2,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,17:51,   2pt 1rb 1-3fg
+PG,"Young, Joseph",0,"$3,500",INDIANA PACERS,v cle, 121-87,2:44,   0pt
+PG,"Frazier, Tim",0,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,DNP,   
+PG,"Stockton, David",0,"$3,500",UTAH JAZZ,v okc, 96-91,DNP,   
+PG,"Brown, Lorenzo",0,"$3,500",TORONTO RAPTORS,@ was, 102-92,DNP,   
+PG,"Neto, Raul",0,"$3,500",UTAH JAZZ,v okc, 96-91,DNP,   
+PG,"Sessions, Ramon",0,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,DNP,   
+SG,"Ferguson, Terrance",0,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,DNP,   
+SG,"Powell, Norman",0,"$3,500",TORONTO RAPTORS,@ was, 102-92,DNP,   
+PG,"Hill, George",0,"$3,600",CLEVELAND CAVALIERS,@ ind, 87-121,NA,   
+SG,"Richardson, Malachi",0,"$3,500",TORONTO RAPTORS,@ was, 102-92,NA,   
+SG,"Meeks, Jodie",0,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,NA,   
+PG,"Exum, Dante",-1,"$3,500",UTAH JAZZ,v okc, 96-91,3:16,   0pt 1to
+SF,"James, LeBron^",43.5,"$12,300",CLEVELAND CAVALIERS,@ ind, 87-121,31:11,   22pt 5rb 7as 1st 2bl 4to 3trey 7-16fg 5-5ft
+PF,"Favors, Derrick^",33.1,"$6,000",UTAH JAZZ,v okc, 96-91,38:45,   13pt 8rb 1as 1st 2bl 6-9fg 1-7ft
+PF,"Morris, Markieff^",32.5,"$5,200",WASHINGTON WIZARDS,v tor, 92-102,38:02,   12pt 15rb 1as 1bl 2to 5-9fg 2-3ft
+SF,"Ingles, Joe^",30.9,"$6,600",UTAH JAZZ,v okc, 96-91,41:55,   12pt 7rb 5as 2st 3to 3trey 4-11fg 1-2ft
+PF,"Siakam, Pascal",29.6,"$3,500",TORONTO RAPTORS,@ was, 102-92,22:08,   11pt 8rb 1st 2bl 5-6fg 1-3ft
+SF,"Stephenson, Lance",26.4,"$4,100",INDIANA PACERS,v cle, 121-87,26:49,   12pt 2rb 6as 1st 2trey 5-12fg 0-2ft
+PF,"Sabonis, Domantas",25.2,"$4,600",INDIANA PACERS,v cle, 121-87,22:41,   19pt 6rb 1to 9-11fg 1-2ft
+PF,"Young, Thaddeus^",22.5,"$6,400",INDIANA PACERS,v cle, 121-87,29:42,   10pt 5rb 1as 2st 1to 4-6fg 2-4ft
+PF,"Grant, Jerami",18.6,"$3,700",OKLAHOMA CITY THUNDER,@ uta, 91-96,29:31,   9pt 3rb 2as 1bl 2trey 3-6fg 1-2ft
+SF,"George, Paul^",17.6,"$8,400",OKLAHOMA CITY THUNDER,@ uta, 91-96,45:26,   5pt 3rb 8as 1st 6to 2-16fg 1-2ft
+PF,"Scott, Mike",17,"$3,700",WASHINGTON WIZARDS,v tor, 92-102,14:57,   8pt 5rb 1st 3-7fg 2-2ft
+PF,"Green, Jeff",16.9,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,24:10,   13pt 2rb 1as 3trey 4-9fg 2-4ft
+SF,"Bogdanovic, Bojan^",16.3,"$5,300",INDIANA PACERS,v cle, 121-87,27:49,   10pt 4rb 1as 2trey 4-12fg
+PF,"Nance, Larry",16.2,"$4,200",CLEVELAND CAVALIERS,@ ind, 87-121,18:40,   6pt 6rb 1st 3-3fg 0-1ft
+PF,"Ibaka, Serge^",15.1,"$5,600",TORONTO RAPTORS,@ was, 102-92,22:37,   7pt 3rb 1as 1bl 1trey 3-10fg
+PF,"Love, Kevin^",13.4,"$7,400",CLEVELAND CAVALIERS,@ ind, 87-121,24:18,   7pt 7rb 2to 1trey 3-10fg
+SF,"O'Neale, Royce",12.4,"$3,500",UTAH JAZZ,v okc, 96-91,18:36,   5pt 2rb 2as 1st 1to 2-4fg 1-3ft
+PF,"Anthony, Carmelo^",9.6,"$5,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,25:38,   7pt 3rb 1to 3-7fg 1-2ft
+PF,"Crowder, Jae",9.4,"$5,000",UTAH JAZZ,v okc, 96-91,30:36,   5pt 2rb 2as 1to 1trey 2-10fg
+SF,"Miles, C.J.",9,"$3,600",TORONTO RAPTORS,@ was, 102-92,19:03,   7pt 1st 1to 1trey 3-7fg
+SF,"Anunoby, OG^",8.2,"$3,500",TORONTO RAPTORS,@ was, 102-92,20:05,   7pt 1rb 1trey 2-3fg 2-2ft
+PF,"Booker, Trevor",7.6,"$3,500",INDIANA PACERS,v cle, 121-87,12:16,   4pt 3rb 1-2fg 2-2ft
+SF,"Oubre, Kelly^",6.6,"$4,200",WASHINGTON WIZARDS,v tor, 92-102,26:26,   3pt 3rb 1trey 1-7fg
+PF,"Jerebko, Jonas",5.4,"$3,500",UTAH JAZZ,v okc, 96-91,3:53,   0pt 2rb 1st 0-3fg
+SF,"Osman, Cedi",5,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,8:05,   2pt 1st 1-3fg 0-2ft
+SF,"Brewer, Corey^",5,"$4,100",OKLAHOMA CITY THUNDER,@ uta, 91-96,15:15,   2pt 1bl 1-2fg
+SF,"Huestis, Josh",4.2,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,8:31,   0pt 1rb 1st
+SF,"Robinson III, Glenn",3.2,"$3,500",INDIANA PACERS,v cle, 121-87,4:09,   2pt 1rb 1-1fg
+PF,"Leaf, TJ",0,"$3,500",INDIANA PACERS,v cle, 121-87,3:41,   0pt
+PF,"Patterson, Patrick",0,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,1:15,   0pt
+PF,"McCullough, Chris",0,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,DNP,   
+PF,"Smith, Jason",0,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,DNP,   
+SF,"Singler, Kyle",0,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,NA,   
+PF,"Poythress, Alex",0,"$3,500",INDIANA PACERS,v cle, 121-87,NA,   
+SF,"Porter, Otto",0,"$5,600",WASHINGTON WIZARDS,v tor, 92-102,NA,   
+PF,"White, Okaro",0,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,NA,   
+PF,"McKinnie, Alfonzo",0,"$3,500",TORONTO RAPTORS,@ was, 102-92,NA,   
+C,"Adams, Steven^",47.7,"$6,300",OKLAHOMA CITY THUNDER,@ uta, 91-96,39:18,   19pt 16rb 3as 1st 1bl 1to 9-11fg 1-1ft
+C,"Gobert, Rudy^",41.6,"$7,900",UTAH JAZZ,v okc, 96-91,38:57,   12pt 13rb 2st 3bl 1to 5-9fg 2-3ft
+C,"Valanciunas, Jonas^",36.4,"$6,100",TORONTO RAPTORS,@ was, 102-92,30:55,   14pt 12rb 1st 2bl 1to 6-13fg 2-2ft
+C,"Turner, Myles^",22.8,"$5,500",INDIANA PACERS,v cle, 121-87,27:40,   12pt 4rb 2as 1bl 1trey 4-6fg 3-4ft
+C,"Poeltl, Jakob",16.9,"$3,700",TORONTO RAPTORS,@ was, 102-92,17:05,   7pt 7rb 1as 2-5fg 3-4ft
+C,"Gortat, Marcin^",14.4,"$4,700",WASHINGTON WIZARDS,v tor, 92-102,31:10,   2pt 7rb 2as 1bl 2to 0-3fg 2-2ft
+C,"Thompson, Tristan",8.3,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,14:04,   3pt 4rb 1as 1to 1-2fg 1-2ft
+C,"Mahinmi, Ian",4,"$3,500",WASHINGTON WIZARDS,v tor, 92-102,8:02,   4pt 1-2fg 2-2ft
+C,"Zizic, Ante",1,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,4:09,   2pt 1to 1-1fg
+C,"Collison, Nick",0,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,DNP,   
+C,"Perkins, Kendrick",0,"$3,500",CLEVELAND CAVALIERS,@ ind, 87-121,DNP,   
+C,"Jefferson, Al",0,"$3,600",INDIANA PACERS,v cle, 121-87,DNP,   
+C,"Udoh, Ekpe",0,"$3,500",UTAH JAZZ,v okc, 96-91,DNP,   
+C,"Johnson, Dakari",0,"$3,500",OKLAHOMA CITY THUNDER,@ uta, 91-96,DNP,   
+C,"Nogueira, Lucas",0,"$3,500",TORONTO RAPTORS,@ was, 102-92,DNP,   
+C,"Bradley, Tony",0,"$3,500",UTAH JAZZ,v okc, 96-91,NA,   
+C,"Anigbogu, Ike",0,"$3,500",INDIANA PACERS,v cle, 121-87,NA,   

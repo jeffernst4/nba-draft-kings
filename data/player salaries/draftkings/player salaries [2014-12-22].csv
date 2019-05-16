@@ -1,0 +1,157 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Harden, James^",69.75,"$11,600",HOUSTON ROCKETS,v por, 110-95,32,   44pt 3rb 7as 5st 1to 4trey 14-26fg 12-13ft
+SG,"Butler, Jimmy^",60.75,"$7,700",CHICAGO BULLS,v tor, 129-120,44,   27pt 11rb 4as 1st 5bl 1to 2trey 7-16fg 11-11ft
+PG,"Paul, Chris^",51.5,"$10,300",LOS ANGELES CLIPPERS,@ sas, 118-125,34,   25pt 4rb 9as 2st 2bl 3to 3trey 8-17fg 6-7ft
+PG,"Lowry, Kyle^",49.5,"$10,000",TORONTO RAPTORS,@ chi, 120-129,37,   34pt 6rb 3as 1st 1to 4trey 12-22fg 6-10ft
+PG,"Rondo, Rajon^",43,"$7,900",DALLAS MAVERICKS,v atl, 102-105,33,   13pt 4rb 11as 3st 1bl 3to 1trey 6-15fg 0-0ft
+PG,"Conley, Mike^",40.5,"$8,200",MEMPHIS GRIZZLIES,v uta, 91-97,32,   28pt 4rb 4as 1to 4trey 12-22fg 0-0ft
+PG,"Curry, Stephen^",38.5,"$10,700",GOLDEN STATE WARRIORS,v sac, 128-108,26,   12pt 2rb 11as 3st 1to 1trey 5-12fg 1-1ft
+SG,"Ginobili, Manu",37.5,"$5,000",SAN ANTONIO SPURS,v lac, 125-118,27,   19pt 2rb 10as 3to 2trey 7-11fg 3-4ft
+PG,"Rose, Derrick^",35,"$7,000",CHICAGO BULLS,v tor, 129-120,31,   29pt 2rb 3as 2to 12-19fg 5-6ft
+PG,"Parker, Tony^",35,"$6,300",SAN ANTONIO SPURS,v lac, 125-118,34,   26pt 4as 2st 3to 1trey 11-18fg 3-4ft
+SG,"Thompson, Klay^",34.5,"$7,600",GOLDEN STATE WARRIORS,v sac, 128-108,28,   25pt 2rb 3as 1st 1to 2trey 10-16fg 3-3ft
+PG,"Schroder, Dennis^",34.25,"$5,400",ATLANTA HAWKS,@ dal, 105-102,31,   22pt 3rb 6as 1st 5to 9-15fg 4-8ft
+PG,"McCollum, C.J.",33.75,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,27,   17pt 3rb 3as 3st 1bl 1to 2trey 6-9fg 3-3ft
+SG,"Burks, Alec^",33.25,"$5,700",UTAH JAZZ,@ mem, 97-91,34,   23pt 3rb 4as 1to 2trey 7-14fg 7-8ft
+PG,"Walker, Kemba^",33.25,"$8,400",CHARLOTTE HORNETS,v den, 110-82,30,   18pt 1rb 9as 1to 2trey 5-12fg 6-6ft
+SG,"Hairston, P.J.",32.5,"$3,000",CHARLOTTE HORNETS,v den, 110-82,21,   10pt 10rb 1st 3bl 1to 2trey 4-11fg 0-0ft
+SG,"Korver, Kyle^",32,"$5,200",ATLANTA HAWKS,@ dal, 105-102,31,   18pt 4rb 3as 2st 2to 3trey 4-8fg 7-8ft
+PG,"Collison, Darren^",30,"$6,600",SACRAMENTO KINGS,@ gsw, 108-128,32,   17pt 2rb 5as 2st 4to 2trey 7-14fg 1-2ft
+SG,"Ellis, Monta^",29.5,"$7,500",DALLAS MAVERICKS,v atl, 102-105,36,   18pt 2rb 2as 4st 5to 1trey 8-22fg 1-2ft
+PG,"Brooks, Aaron",26.5,"$3,600",CHICAGO BULLS,v tor, 129-120,25,   17pt 2rb 2as 1st 1bl 1to 1trey 6-10fg 4-4ft
+PG,"Beverley, Patrick^",25.75,"$5,900",HOUSTON ROCKETS,v por, 110-95,30,   11pt 5rb 1as 2st 1bl 1to 3trey 4-9fg 0-0ft
+SG,"Redick, J.J.^",25.75,"$4,700",LOS ANGELES CLIPPERS,@ sas, 118-125,35,   21pt 1rb 1as 1to 5trey 6-13fg 4-6ft
+SG,"Crawford, Jamal",25.25,"$4,900",LOS ANGELES CLIPPERS,@ sas, 118-125,28,   18pt 3rb 1as 1st 6-15fg 6-6ft
+PG,"Lillard, Damian^",25.25,"$8,800",PORTLAND TRAIL BLAZERS,@ hou, 95-110,32,   18pt 3rb 3as 1st 6to 6-16fg 6-6ft
+SG,"Green, Danny^",24.75,"$6,500",SAN ANTONIO SPURS,v lac, 125-118,29,   11pt 1rb 5as 1st 1bl 1to 3trey 3-5fg 2-2ft
+PG,"Lawson, Ty^",23,"$9,700",DENVER NUGGETS,@ cha, 82-110,31,   18pt 4as 4to 2trey 8-15fg 0-0ft
+SG,"Matthews, Wes^",22.25,"$5,500",PORTLAND TRAIL BLAZERS,@ hou, 95-110,26,   14pt 3rb 2as 3trey 5-10fg 1-1ft
+SG,"Williams, Louis",22,"$4,500",TORONTO RAPTORS,@ chi, 120-129,26,   12pt 4as 2st 3-10fg 6-6ft
+SG,"Belinelli, Marco",21.75,"$4,200",SAN ANTONIO SPURS,v lac, 125-118,28,   9pt 3rb 5as 3trey 3-4fg 0-0ft
+SG,"Lee, Courtney^",21.25,"$4,500",MEMPHIS GRIZZLIES,v uta, 91-97,38,   13pt 1rb 2as 2st 6-14fg 1-1ft
+SG,"McLemore, Ben^",21,"$5,300",SACRAMENTO KINGS,@ gsw, 108-128,33,   11pt 2rb 3as 1st 1to 3trey 4-8fg 0-0ft
+SG,"Carter, Vince",20.5,"$4,500",MEMPHIS GRIZZLIES,v uta, 91-97,22,   12pt 2rb 2as 1st 2trey 4-7fg 2-2ft
+SG,"Neal, Gary",20,"$4,200",CHARLOTTE HORNETS,v den, 110-82,24,   13pt 2rb 2as 1st 2to 1trey 5-8fg 2-2ft
+SG,"Sefolosha, Thabo",19,"$3,000",ATLANTA HAWKS,@ dal, 105-102,17,   7pt 2rb 2as 2st 1bl 1trey 3-3fg 0-0ft
+PG,"Burke, Trey^",19,"$5,300",UTAH JAZZ,@ mem, 97-91,26,   8pt 4rb 4as 1to 1trey 3-8fg 1-1ft
+PG,"Livingston, Shaun",18.25,"$4,100",GOLDEN STATE WARRIORS,v sac, 128-108,28,   6pt 3rb 5as 1bl 2to 2-5fg 2-2ft
+PG,"Farmar, Jordan",17.25,"$3,000",LOS ANGELES CLIPPERS,@ sas, 118-125,14,   7pt 3rb 4as 1trey 2-6fg 2-2ft
+PG,"McCallum, Ray",17.25,"$3,000",SACRAMENTO KINGS,@ gsw, 108-128,20,   5pt 1rb 7as 1trey 2-6fg 0-0ft
+SG,"Barton, Will",15.5,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,12,   4pt 2rb 2as 3st 2-6fg 0-0ft
+SG,"Henderson, Gerald^",14,"$4,300",CHARLOTTE HORNETS,v den, 110-82,19,   4pt 6rb 2as 1to 2-5fg 0-0ft
+PG,"Exum, Dante",14,"$3,800",UTAH JAZZ,@ mem, 97-91,22,   6pt 2rb 3as 2trey 2-3fg 0-0ft
+PG,"Harris, Devin",14,"$4,000",DALLAS MAVERICKS,v atl, 102-105,20,   11pt 1as 3trey 3-5fg 2-2ft
+PG,"Joseph, Cory",13.25,"$5,200",SAN ANTONIO SPURS,v lac, 125-118,18,   3pt 1rb 3as 1st 1bl 1trey 1-1fg 0-0ft
+SG,"Afflalo, Arron^",12.75,"$5,900",DENVER NUGGETS,@ cha, 82-110,32,   9pt 3rb 4-12fg 1-2ft
+PG,"Barea, Jose",11,"$3,000",DALLAS MAVERICKS,v atl, 102-105,12,   5pt 2rb 2as 1trey 2-6fg 0-0ft
+PG,"Robinson, Nate",11,"$3,000",DENVER NUGGETS,@ cha, 82-110,21,   6pt 2rb 2as 1to 3-14fg 0-0ft
+PG,"Blake, Steve",11,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,15,   8pt 1as 1st 3to 2trey 3-6fg 0-0ft
+SG,"Adams, Jordan",10,"$3,000",MEMPHIS GRIZZLIES,v uta, 91-97,10,   5pt 2rb 1bl 1trey 2-2fg 0-0ft
+PG,"Roberts, Brian",10,"$3,000",CHARLOTTE HORNETS,v den, 110-82,18,   7pt 3as 4to 1trey 3-5fg 0-0ft
+SG,"Harris, Gary",9.75,"$3,000",DENVER NUGGETS,@ cha, 82-110,17,   4pt 3rb 1st 0-4fg 4-6ft
+PG,"Mack, Shelvin",8.75,"$3,700",ATLANTA HAWKS,@ dal, 105-102,17,   2pt 1rb 4as 1to 1-6fg 0-0ft
+PG,"Udrih, Beno",8.25,"$3,300",MEMPHIS GRIZZLIES,v uta, 91-97,19,   0pt 3rb 3as 0-3fg 0-0ft
+PG,"Pargo, Jannero",8,"$3,000",CHARLOTTE HORNETS,v den, 110-82,8,   6pt 1as 1to 2trey 2-3fg 0-0ft
+SG,"Stauskas, Nik",7.75,"$3,000",SACRAMENTO KINGS,@ gsw, 108-128,10,   3pt 1rb 2as 1trey 1-3fg 0-0ft
+SG,"Terry, Jason",7.5,"$4,000",HOUSTON ROCKETS,v por, 110-95,14,   5pt 2as 2to 1trey 2-4fg 0-0ft
+PG,"Vasquez, Greivis",7.5,"$4,000",TORONTO RAPTORS,@ chi, 120-129,15,   2pt 4as 1to 1-7fg 0-0ft
+PG,"Barbosa, Leandro",6.75,"$3,000",GOLDEN STATE WARRIORS,v sac, 128-108,5,   4pt 1rb 1as 1-1fg 2-2ft
+PG,"Green, Erick",6.75,"$3,000",DENVER NUGGETS,@ cha, 82-110,15,   4pt 1rb 1as 2-6fg 0-0ft
+PG,"Hinrich, Kirk",6,"$3,600",CHICAGO BULLS,v tor, 129-120,21,   3pt 2rb 1as 3to 1trey 1-2fg 0-0ft
+PG,"Shved, Alexey",5.75,"$3,200",HOUSTON ROCKETS,v por, 110-95,11,   3pt 1rb 1as 1to 1trey 1-4fg 0-0ft
+SG,"Bazemore, Kent",4.75,"$3,000",ATLANTA HAWKS,@ dal, 105-102,11,   2pt 1rb 1bl 1to 0-1fg 2-2ft
+SG,"Claver, Victor",4,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,4,   2pt 2rb 1to 1-1fg 0-0ft
+SG,"Rush, Brandon",3.5,"$3,000",GOLDEN STATE WARRIORS,v sac, 128-108,7,   2pt 1as 1-2fg 0-0ft
+SG,"Crabbe, Allen",3.5,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,10,   0pt 2bl 1to 0-1fg 0-0ft
+PG,"Sessions, Ramon",1.75,"$3,000",SACRAMENTO KINGS,@ gsw, 108-128,6,   0pt 1rb 1as 2to 0-1fg 0-0ft
+SG,"Ledo, Ricky",0,"$3,000",DALLAS MAVERICKS,v atl, 102-105,0,   0pt 0-0fg 0-0ft
+SG,"Johnson, Nick",0,"$3,000",HOUSTON ROCKETS,v por, 110-95,4,   0pt 0-0fg 0-0ft
+PG,"Canaan, Isaiah",0,"$3,000",HOUSTON ROCKETS,v por, 110-95,4,   0pt 0-1fg 0-0ft
+PF,"Millsap, Paul^",42.5,"$8,300",ATLANTA HAWKS,@ dal, 105-102,38,   13pt 12rb 7as 2bl 4to 1trey 5-12fg 2-4ft
+PF,"Duncan, Tim^",42.5,"$8,900",SAN ANTONIO SPURS,v lac, 125-118,35,   21pt 12rb 1as 2st 1to 9-16fg 3-4ft
+PF,"Griffin, Blake^",40.5,"$11,000",LOS ANGELES CLIPPERS,@ sas, 118-125,38,   22pt 6rb 6as 1st 1bl 4to 10-20fg 2-4ft
+PF,"Diaw, Boris",36,"$5,000",SAN ANTONIO SPURS,v lac, 125-118,25,   23pt 6rb 3as 2trey 9-11fg 3-8ft
+SF,"Brewer, Corey",35,"$4,500",HOUSTON ROCKETS,v por, 110-95,23,   12pt 4rb 4as 5st 1bl 2to 2trey 5-10fg 0-1ft
+SF,"Hayward, Gordon^",34,"$7,800",UTAH JAZZ,@ mem, 97-91,36,   21pt 4rb 4as 1bl 2to 2trey 7-12fg 5-8ft
+PF,"Gasol, Pau^",33.75,"$8,700",CHICAGO BULLS,v tor, 129-120,29,   14pt 9rb 3as 3bl 4to 2-7fg 10-10ft
+SF,"Gay, Rudy^",32.25,"$8,500",SACRAMENTO KINGS,@ gsw, 108-128,37,   13pt 9rb 3as 1st 1bl 2to 1trey 4-14fg 4-5ft
+SF,"Casspi, Omri",32,"$3,000",SACRAMENTO KINGS,@ gsw, 108-128,29,   16pt 8rb 3as 1bl 1to 7-10fg 2-4ft
+SF,"Green, Draymond^",31.5,"$7,500",GOLDEN STATE WARRIORS,v sac, 128-108,26,   6pt 8rb 4as 3st 2bl 1to 2-5fg 2-3ft
+SF,"Ross, Terrence^",31,"$4,600",TORONTO RAPTORS,@ chi, 120-129,35,   17pt 4rb 1as 2st 1bl 2to 5trey 6-16fg 0-0ft
+SF,"Johnson, James^",30.5,"$3,900",TORONTO RAPTORS,@ chi, 120-129,33,   16pt 2rb 1as 4st 2bl 3to 7-10fg 2-2ft
+PF,"Villanueva, Charlie",28.5,"$3,000",DALLAS MAVERICKS,v atl, 102-105,13,   14pt 6rb 1as 2st 1to 4trey 4-8fg 2-2ft
+SF,"Holiday, Justin",27.75,"$3,000",GOLDEN STATE WARRIORS,v sac, 128-108,20,   18pt 3rb 3as 3trey 7-12fg 1-1ft
+PF,"Nowitzki, Dirk^",27,"$6,400",DALLAS MAVERICKS,v atl, 102-105,30,   16pt 6rb 2as 1bl 3to 6-13fg 4-4ft
+PF,"Gibson, Taj",26.25,"$6,400",CHICAGO BULLS,v tor, 129-120,18,   10pt 7rb 1as 1st 2bl 5-10fg 0-0ft
+PF,"Favors, Derrick^",26.25,"$7,300",UTAH JAZZ,@ mem, 97-91,36,   15pt 7rb 1as 1bl 2to 5-12fg 5-6ft
+SF,"Carroll, DeMarre^",25.75,"$5,300",ATLANTA HAWKS,@ dal, 105-102,37,   15pt 7rb 1st 1to 1trey 6-15fg 2-3ft
+PF,"Patterson, Patrick",25.25,"$4,900",TORONTO RAPTORS,@ chi, 120-129,30,   12pt 9rb 1st 5-10fg 2-4ft
+SF,"Motiejunas, Donatas^",22.5,"$5,200",HOUSTON ROCKETS,v por, 110-95,27,   10pt 8rb 1as 1bl 3to 1trey 4-9fg 1-2ft
+SF,"Iguodala, Andre",22.25,"$4,900",GOLDEN STATE WARRIORS,v sac, 128-108,24,   12pt 1rb 4as 1st 2trey 5-6fg 0-0ft
+PF,"Speights, Marreese",21,"$4,700",GOLDEN STATE WARRIORS,v sac, 128-108,13,   12pt 4rb 3as 1to 2-3fg 8-8ft
+SF,"Gee, Alonzo",20.5,"$3,000",DENVER NUGGETS,@ cha, 82-110,30,   15pt 2rb 1as 1st 1to 4-8fg 7-7ft
+SF,"Barnes, Harrison^",20.5,"$5,100",GOLDEN STATE WARRIORS,v sac, 128-108,27,   8pt 8rb 1as 1st 3to 1trey 3-8fg 1-2ft
+PF,"Faried, Kenneth^",20.25,"$5,400",DENVER NUGGETS,@ cha, 82-110,21,   8pt 9rb 1bl 2to 2-3fg 4-5ft
+PF,"Zeller, Cody^",20,"$4,500",CHARLOTTE HORNETS,v den, 110-82,19,   10pt 4rb 1st 2bl 2to 4-7fg 2-4ft
+SF,"Chandler, Wilson^",18.5,"$5,600",DENVER NUGGETS,@ cha, 82-110,25,   6pt 6rb 1as 1st 1bl 1to 3-4fg 0-0ft
+PF,"Davis, Glen",18.25,"$3,000",LOS ANGELES CLIPPERS,@ sas, 118-125,12,   9pt 1rb 4st 4-5fg 1-1ft
+SF,"Hood, Rodney",18,"$3,000",UTAH JAZZ,@ mem, 97-91,21,   7pt 4rb 4as 1to 1trey 2-8fg 2-4ft
+PF,"Landry, Carl",17.25,"$3,000",SACRAMENTO KINGS,@ gsw, 108-128,7,   12pt 3rb 1as 5-6fg 2-2ft
+PF,"Lee, David",16.75,"$6,600",GOLDEN STATE WARRIORS,v sac, 128-108,16,   6pt 7rb 1bl 3-9fg 0-0ft
+PF,"Mirotic, Nikola",16.25,"$5,100",CHICAGO BULLS,v tor, 129-120,18,   12pt 3rb 1trey 2-2fg 7-8ft
+SF,"Jefferson, Richard",16.25,"$3,000",DALLAS MAVERICKS,v atl, 102-105,19,   10pt 1rb 2as 1st 1to 1trey 4-7fg 1-2ft
+SF,"Ariza, Trevor^",16,"$6,400",HOUSTON ROCKETS,v por, 110-95,32,   7pt 6rb 1as 1to 1trey 3-9fg 0-0ft
+SF,"Williams, Marvin",15.5,"$3,400",CHARLOTTE HORNETS,v den, 110-82,26,   4pt 4rb 3as 1st 1-5fg 2-2ft
+PF,"Thompson, Jason^",14.5,"$4,700",SACRAMENTO KINGS,@ gsw, 108-128,20,   6pt 4rb 2bl 1to 3-3fg 0-0ft
+SF,"Parsons, Chandler^",14.5,"$7,100",DALLAS MAVERICKS,v atl, 102-105,29,   4pt 4rb 1as 2st 2-6fg 0-2ft
+SF,"Kidd-Gilchrist, Michael^",14.25,"$4,900",CHARLOTTE HORNETS,v den, 110-82,23,   5pt 3rb 1as 1st 1bl 2-4fg 1-2ft
+SF,"Barnes, Matt^",12,"$5,100",LOS ANGELES CLIPPERS,@ sas, 118-125,24,   4pt 4rb 1as 1st 1to 2-4fg 0-0ft
+PF,"Leuer, Jon",11.75,"$4,700",MEMPHIS GRIZZLIES,v uta, 91-97,26,   4pt 5rb 1as 2-9fg 0-0ft
+SF,"Dunleavy, Mike^",11.25,"$4,100",CHICAGO BULLS,v tor, 129-120,23,   3pt 1rb 2as 2bl 1to 1trey 1-4fg 0-0ft
+SF,"Anderson, Kyle^",10.75,"$4,200",SAN ANTONIO SPURS,v lac, 125-118,10,   5pt 3rb 1as 1trey 2-4fg 0-0ft
+PF,"Scott, Mike",9.25,"$3,000",ATLANTA HAWKS,@ dal, 105-102,9,   4pt 3rb 1as 2-4fg 0-0ft
+PF,"Maxiell, Jason",8.75,"$3,000",CHARLOTTE HORNETS,v den, 110-82,6,   5pt 3rb 2-2fg 1-2ft
+SF,"Batum, Nicolas^",8.5,"$6,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,24,   2pt 2rb 3as 1to 1-3fg 0-0ft
+PF,"Johnson, Amir^",8.5,"$4,800",TORONTO RAPTORS,@ chi, 120-129,18,   2pt 4rb 1as 1-6fg 0-0ft
+SF,"Wright, Dorell",8,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,8,   4pt 2rb 1as 0-1fg 4-4ft
+SF,"Bullock, Reggie",8,"$3,000",LOS ANGELES CLIPPERS,@ sas, 118-125,11,   3pt 2rb 1bl 1trey 1-1fg 0-0ft
+PF,"Dorsey, Joey",6.75,"$3,000",HOUSTON ROCKETS,v por, 110-95,9,   2pt 1rb 1as 1st 1-1fg 0-2ft
+SF,"Prince, Tayshaun^",6.25,"$3,000",MEMPHIS GRIZZLIES,v uta, 91-97,24,   0pt 1rb 2as 1bl 0-3fg 0-0ft
+PF,"Hayes, Chuck",6,"$3,000",TORONTO RAPTORS,@ chi, 120-129,8,   2pt 2rb 1as 1-1fg 0-0ft
+PF,"Hansbrough, Tyler",4.25,"$3,000",TORONTO RAPTORS,@ chi, 120-129,5,   3pt 1rb 0-0fg 3-4ft
+PF,"Robinson, Thomas",4.25,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,13,   0pt 3rb 1as 2to 0-2fg 0-0ft
+SF,"Aminu, Al-Farouq",4,"$3,000",DALLAS MAVERICKS,v atl, 102-105,6,   0pt 2rb 1as 0-2fg 0-0ft
+SF,"Williams, Derrick",3,"$3,600",SACRAMENTO KINGS,@ gsw, 108-128,17,   3pt 1-6fg 1-2ft
+PF,"Ayres, Jeff",2.5,"$3,000",SAN ANTONIO SPURS,v lac, 125-118,3,   0pt 2rb 0-0fg 0-0ft
+PF,"Bonner, Matt",2,"$3,000",SAN ANTONIO SPURS,v lac, 125-118,3,   2pt 1-2fg 0-0ft
+SF,"Ingles, Joe",2,"$3,000",UTAH JAZZ,@ mem, 97-91,5,   2pt 1-1fg 0-0ft
+SF,"Turkoglu, Hedo",1.25,"$3,000",LOS ANGELES CLIPPERS,@ sas, 118-125,10,   0pt 1rb 0-1fg 0-0ft
+SF,"Taylor, Jeffery",0,"$3,000",CHARLOTTE HORNETS,v den, 110-82,6,   0pt 0-2fg 0-2ft
+SF,"Daye, Austin",0,"$3,000",SAN ANTONIO SPURS,v lac, 125-118,0,   0pt 0-0fg 0-0ft
+PF,"Black, Tarik",0,"$3,000",HOUSTON ROCKETS,v por, 110-95,4,   0pt 0-0fg 0-0ft
+SF,"Papanikolaou, Kostas",-0.25,"$3,800",HOUSTON ROCKETS,v por, 110-95,17,   0pt 1rb 3to 0-3fg 0-0ft
+C,"Gasol, Marc^",47,"$9,200",MEMPHIS GRIZZLIES,v uta, 91-97,37,   24pt 12rb 5as 2to 10-22fg 4-4ft
+C,"Cousins, DeMarcus^",44,"$10,400",SACRAMENTO KINGS,@ gsw, 108-128,30,   22pt 8rb 6as 1st 1bl 2to 9-19fg 4-6ft
+C,"Howard, Dwight^",40.75,"$9,400",HOUSTON ROCKETS,v por, 110-95,33,   16pt 13rb 4as 1st 2to 7-11fg 2-2ft
+C,"Jefferson, Al^",35.75,"$9,000",CHARLOTTE HORNETS,v den, 110-82,26,   22pt 7rb 2as 1st 10-13fg 2-4ft
+C,"Chandler, Tyson^",34.75,"$6,800",DALLAS MAVERICKS,v atl, 102-105,34,   8pt 19rb 2bl 2to 3-4fg 2-4ft
+C,"Valanciunas, Jonas^",31.25,"$6,400",TORONTO RAPTORS,@ chi, 120-129,33,   20pt 9rb 8-18fg 4-6ft
+C,"Horford, Al^",30.75,"$7,300",ATLANTA HAWKS,@ dal, 105-102,33,   17pt 7rb 2as 1bl 8-13fg 1-2ft
+C,"Jordan, DeAndre^",27.75,"$8,600",LOS ANGELES CLIPPERS,@ sas, 118-125,36,   9pt 11rb 1as 1st 1bl 1to 4-4fg 1-3ft
+C,"Kanter, Enes^",25.75,"$6,500",UTAH JAZZ,@ mem, 97-91,30,   13pt 9rb 1bl 2to 1trey 6-11fg 0-0ft
+C,"Noah, Joakim^",25.5,"$7,000",CHICAGO BULLS,v tor, 129-120,30,   14pt 4rb 4as 1st 3to 4-4fg 6-8ft
+C,"Gobert, Rudy",25,"$4,700",UTAH JAZZ,@ mem, 97-91,30,   2pt 16rb 2bl 2to 1-6fg 0-0ft
+C,"Ezeli, Festus^",25,"$3,000",GOLDEN STATE WARRIORS,v sac, 128-108,18,   15pt 6rb 2bl 3to 7-11fg 1-2ft
+C,"Nurkic, Jusuf",20.75,"$3,500",DENVER NUGGETS,@ cha, 82-110,20,   8pt 5rb 1as 2st 1bl 2to 3-9fg 2-2ft
+C,"Leonard, Meyers^",20.5,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,32,   13pt 4rb 1bl 2to 3trey 5-11fg 0-0ft
+C,"Kaman, Chris",18.5,"$4,500",PORTLAND TRAIL BLAZERS,@ hou, 95-110,15,   9pt 6rb 1as 1st 3to 4-7fg 1-2ft
+C,"Koufos, Kosta^",18,"$4,100",MEMPHIS GRIZZLIES,v uta, 91-97,33,   5pt 4rb 3as 1st 1bl 1to 2-4fg 1-2ft
+C,"Freeland, Joel^",14.25,"$3,000",PORTLAND TRAIL BLAZERS,@ hou, 95-110,23,   4pt 5rb 2as 1bl 2to 1-3fg 2-2ft
+C,"Splitter, Tiago^",14,"$4,300",SAN ANTONIO SPURS,v lac, 125-118,18,   6pt 2rb 4as 1to 3-4fg 0-0ft
+C,"Antic, Pero",11.25,"$3,000",ATLANTA HAWKS,@ dal, 105-102,16,   5pt 3rb 1as 1bl 3to 1trey 2-4fg 0-0ft
+C,"Biyombo, Bismack",11,"$3,000",CHARLOTTE HORNETS,v den, 110-82,16,   6pt 4rb 3-3fg 0-0ft
+C,"Mozgov, Timofey^",8.75,"$5,500",DENVER NUGGETS,@ cha, 82-110,15,   2pt 3rb 1as 1st 1to 1-4fg 0-0ft
+C,"Hickson, J.J.",7.25,"$4,300",DENVER NUGGETS,@ cha, 82-110,13,   2pt 3rb 1bl 1to 1-3fg 0-2ft
+C,"Smith, Greg",6.25,"$3,000",DALLAS MAVERICKS,v atl, 102-105,7,   3pt 1rb 1bl 1-2fg 1-2ft
+C,"Kuzmic, Ognjen",2,"$3,000",GOLDEN STATE WARRIORS,v sac, 128-108,3,   2pt 1-1fg 0-0ft
+C,"Baynes, Aron",1.75,"$4,000",SAN ANTONIO SPURS,v lac, 125-118,9,   0pt 1rb 1as 2to 0-1fg 0-0ft

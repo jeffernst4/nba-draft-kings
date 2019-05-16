@@ -1,0 +1,121 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Harden, James^",69.1,$62,HOUSTON ROCKETS,v atl, 108-113,38:35,   41pt 8rb 8as 4st 4to 5trey 10-23fg 16-21ft
+PG,"Wall, John^",59.6,$48,WASHINGTON WIZARDS,v lal, 116-108,40:35,   33pt 3rb 11as 3st 1bl 3to 3trey 11-23fg 8-10ft
+PG,"Curry, Stephen^",52.6,$44,GOLDEN STATE WARRIORS,@ lac, 133-120,37:26,   29pt 3rb 11as 3st 4to 3trey 11-23fg 4-4ft
+SG,"Hardaway Jr., Tim^",45.7,$11,ATLANTA HAWKS,@ hou, 113-108,33:09,   33pt 6rb 3as 1bl 3to 4trey 12-18fg 5-7ft
+PG,"Russell, D'Angelo^",42.9,$26,LOS ANGELES LAKERS,@ was, 108-116,31:25,   17pt 7rb 11as 2st 1bl 7to 4trey 5-15fg 3-6ft
+SG,"Beal, Bradley^",37.7,$28,WASHINGTON WIZARDS,v lal, 116-108,33:46,   23pt 1rb 4as 2st 1bl 1to 5trey 9-17fg
+SG,"Thompson, Klay^",31.9,$29,GOLDEN STATE WARRIORS,@ lac, 133-120,32:38,   21pt 7rb 2as 2to 3trey 9-19fg
+PG,"Rivers, Austin^",31.8,$19,LOS ANGELES CLIPPERS,v gsw, 120-133,36:01,   18pt 4rb 6as 1bl 2to 7-15fg 4-6ft
+SG,"Redick, J.J.^",29.9,$17,LOS ANGELES CLIPPERS,v gsw, 120-133,37:16,   17pt 2rb 3as 2st 1bl 2to 4trey 6-14fg 1-1ft
+SG,"Crawford, Jamal",29.9,$12,LOS ANGELES CLIPPERS,v gsw, 120-133,34:04,   21pt 2rb 4as 1bl 4to 5trey 7-11fg 2-3ft
+PG,"Clarkson, Jordan",24.9,$12,LOS ANGELES LAKERS,@ was, 108-116,28:45,   20pt 2rb 1as 2trey 9-13fg
+PG,"McConnell, T.J.^",23.5,$18,PHILADELPHIA 76ERS,@ sas, 86-102,31:32,   4pt 5rb 7as 2st 1bl 3to 2-5fg
+SG,"Williams, Louis",23.4,$21,LOS ANGELES LAKERS,@ was, 108-116,23:00,   15pt 2rb 4as 1bl 3to 2trey 4-12fg 5-5ft
+PG,"Felton, Raymond^",23.3,$15,LOS ANGELES CLIPPERS,v gsw, 120-133,33:22,   9pt 4rb 5as 1st 1bl 2to 3-6fg 3-4ft
+SG,"Gordon, Eric",23.1,$20,HOUSTON ROCKETS,v atl, 108-113,30:21,   13pt 3rb 3as 1st 1to 2trey 4-14fg 3-4ft
+SG,"McCaw, Patrick^",22.2,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,28:16,   8pt 1rb 6as 2st 1to 2trey 3-7fg 0-2ft
+SG,"Bazemore, Kent^",22.1,$13,ATLANTA HAWKS,@ hou, 113-108,31:08,   7pt 3rb 6as 2st 2to 1trey 3-7fg
+SG,"Green, Danny^",21.8,$10,SAN ANTONIO SPURS,v phi, 102-86,28:36,   12pt 4rb 2st 2trey 5-10fg
+PG,"Beverley, Patrick^",20.7,$21,HOUSTON ROCKETS,v atl, 108-113,30:31,   9pt 6rb 1as 1st 2trey 3-8fg 1-2ft
+PG,"Mills, Patty",20.4,$10,SAN ANTONIO SPURS,v phi, 102-86,17:37,   12pt 2rb 4as 1to 2trey 5-9fg
+SG,"Anderson, Kyle",19.5,$10,SAN ANTONIO SPURS,v phi, 102-86,24:15,   4pt 5rb 3as 3st 1bl 3to 1-3fg 2-2ft
+PG,"Clark, Ian",18.7,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,21:10,   11pt 1rb 4as 1trey 5-9fg
+SG,"Stauskas, Nik^",18.3,$10,PHILADELPHIA 76ERS,@ sas, 86-102,28:11,   8pt 4rb 1as 1st 1bl 1to 2trey 2-10fg 2-2ft
+PG,"Rodriguez, Sergio",16.9,$10,PHILADELPHIA 76ERS,@ sas, 86-102,17:24,   8pt 2rb 4as 2st 4to 1trey 3-7fg 1-2ft
+PG,"Delaney, Malcolm",16,$10,ATLANTA HAWKS,@ hou, 113-108,25:08,   2pt 5rb 4as 2st 2to 1-10fg
+PG,"Parker, Tony^",15.6,$11,SAN ANTONIO SPURS,v phi, 102-86,25:39,   1pt 3rb 6as 1st 0-5fg 1-2ft
+PG,"Burke, Trey",12.7,$10,WASHINGTON WIZARDS,v lal, 116-108,12:23,   5pt 1rb 3as 1bl 2-8fg 1-2ft
+SG,"Luwawu, Timothe",12.4,$10,PHILADELPHIA 76ERS,@ sas, 86-102,29:44,   9pt 2rb 1as 1bl 3to 1trey 3-10fg 2-2ft
+PG,"Schroder, Dennis^",8.9,$27,ATLANTA HAWKS,@ hou, 113-108,20:54,   5pt 2rb 3as 3to 2-12fg 1-1ft
+SG,"Young, Nick^",8.7,$12,LOS ANGELES LAKERS,@ was, 108-116,24:26,   7pt 1rb 1trey 3-10fg
+SG,"Ginobili, Manu",8.6,$10,SAN ANTONIO SPURS,v phi, 102-86,9:05,   2pt 3rb 2as 1st 2to 0-3fg 2-3ft
+PG,"Randle, Chasson",8.2,$10,PHILADELPHIA 76ERS,@ sas, 86-102,14:58,   5pt 1rb 1as 1trey 2-6fg
+PG,"Satoransky, Tomas",7.6,$10,WASHINGTON WIZARDS,v lal, 116-108,9:22,   3pt 3rb 1as 1to 1trey 1-2fg
+SG,"Oubre, Kelly",4.2,$10,WASHINGTON WIZARDS,v lal, 116-108,23:30,   4pt 1rb 1to 2-5fg
+PG,"Forbes, Bryn",0,$10,SAN ANTONIO SPURS,v phi, 102-86,3:18,   0pt 0-1fg
+SG,"Thornton, Marcus",0,$10,WASHINGTON WIZARDS,v lal, 116-108,DNP,   
+PG,"Calderon, Jose",0,$10,LOS ANGELES LAKERS,@ was, 108-116,DNP,   
+SG,"Patterson, Lamar",0,$10,ATLANTA HAWKS,@ hou, 113-108,DNP,   
+SG,"Brown, Bobby",0,$10,HOUSTON ROCKETS,v atl, 108-113,DNP,   
+SG,"McClellan, Sheldon",0,$10,WASHINGTON WIZARDS,v lal, 116-108,DNP,   
+PG,"Ennis, Tyler",0,$10,HOUSTON ROCKETS,v atl, 108-113,DNP,   
+PG,"Huertas, Marcelo",0,$10,LOS ANGELES LAKERS,@ was, 108-116,DNP,   
+SG,"Anderson, Alan",0,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,DNP,   
+SG,"Henderson, Gerald",0,$10,PHILADELPHIA 76ERS,@ sas, 86-102,DNP,   
+SG,"House, Danuel",0,$10,WASHINGTON WIZARDS,v lal, 116-108,NA,   
+PG,"Livingston, Shaun",0,$11,GOLDEN STATE WARRIORS,@ lac, 133-120,NA,   
+PG,"Paul, Chris",0,$46,LOS ANGELES CLIPPERS,v gsw, 120-133,NA,   
+SG,"Bayless, Jerryd",0,$18,PHILADELPHIA 76ERS,@ sas, 86-102,NA,   
+PG,"Murray, Dejounte",-0.5,$11,SAN ANTONIO SPURS,v phi, 102-86,5:02,   0pt 1as 2to 0-2fg
+SF,"Durant, Kevin^",53.6,$51,GOLDEN STATE WARRIORS,@ lac, 133-120,37:12,   26pt 8rb 10as 1st 2trey 8-18fg 8-8ft
+PF,"Griffin, Blake^",48.6,$39,LOS ANGELES CLIPPERS,v gsw, 120-133,30:11,   31pt 8rb 2as 3st 1bl 3to 10-19fg 11-13ft
+PF,"Ilyasova, Ersan^",47,$24,PHILADELPHIA 76ERS,@ sas, 86-102,38:54,   25pt 10rb 2as 4st 1bl 4to 2trey 8-17fg 7-8ft
+SF,"Leonard, Kawhi^",40.1,$43,SAN ANTONIO SPURS,v phi, 102-86,25:17,   19pt 8rb 5as 2st 2bl 4to 8-17fg 3-5ft
+PF,"Morris, Markieff^",36.2,$27,WASHINGTON WIZARDS,v lal, 116-108,35:11,   12pt 11rb 2as 3st 2bl 2to 3-14fg 6-8ft
+PF,"Lee, David",29.3,$17,SAN ANTONIO SPURS,v phi, 102-86,17:03,   12pt 9rb 1as 2st 2bl 3to 4-7fg 4-6ft
+SF,"Iguodala, Andre",28.3,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,29:39,   13pt 4rb 4as 3st 3to 3trey 5-9fg
+SF,"Porter, Otto^",28.2,$25,WASHINGTON WIZARDS,v lal, 116-108,37:51,   11pt 6rb 3as 2st 3trey 4-9fg
+SF,"Bertans, Davis^",26.7,$10,SAN ANTONIO SPURS,v phi, 102-86,30:02,   12pt 6rb 3as 2st 2to 2trey 5-14fg
+SF,"Deng, Luol^",26.7,$16,LOS ANGELES LAKERS,@ was, 108-116,31:56,   17pt 6rb 1bl 1to 3trey 6-11fg 2-2ft
+PF,"Millsap, Paul^",25.8,$35,ATLANTA HAWKS,@ hou, 113-108,29:01,   16pt 4rb 3as 2st 4to 1trey 4-8fg 7-8ft
+PF,"McAdoo, James Michael",22.8,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,17:14,   10pt 9rb 1bl 5-6fg
+SF,"Saric, Dario^",22.3,$11,PHILADELPHIA 76ERS,@ sas, 86-102,35:39,   14pt 9rb 1as 1st 7to 2trey 5-17fg 2-2ft
+PF,"Nance, Larry",21.7,$10,LOS ANGELES LAKERS,@ was, 108-116,19:37,   8pt 6rb 1as 3st 1to 4-8fg
+PF,"Speights, Marreese",20.2,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,16:38,   8pt 6rb 3as 1trey 2-7fg 3-3ft
+SF,"Ingram, Brandon",18.2,$11,LOS ANGELES LAKERS,@ was, 108-116,21:21,   5pt 6rb 1st 2bl 1-3fg 3-4ft
+SF,"Ariza, Trevor^",18,$20,HOUSTON ROCKETS,v atl, 108-113,36:30,   3pt 5rb 3as 2st 1trey 1-12fg
+PF,"Anderson, Ryan^",17.9,$17,HOUSTON ROCKETS,v atl, 108-113,33:49,   11pt 2rb 2as 3trey 4-12fg
+SF,"Bembry, DeAndre",16.8,$10,ATLANTA HAWKS,@ hou, 113-108,21:21,   10pt 4rb 2as 1to 5-6fg
+SF,"Simmons, Jonathon",16.6,$10,SAN ANTONIO SPURS,v phi, 102-86,19:12,   11pt 3rb 1bl 3-8fg 5-6ft
+PF,"Holmes, Richaun",14.7,$10,PHILADELPHIA 76ERS,@ sas, 86-102,18:30,   4pt 6rb 1as 1bl 1-4fg 2-6ft
+SF,"Dunleavy, Mike",14.2,$10,ATLANTA HAWKS,@ hou, 113-108,21:53,   7pt 1rb 2as 1st 2trey 2-4fg 1-2ft
+PF,"Anthony, Joel",12.8,$10,SAN ANTONIO SPURS,v phi, 102-86,12:34,   4pt 4rb 1st 1bl 2-3fg
+PF,"Looney, Kevon",9.1,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,13:02,   4pt 3rb 1as 1-1fg 2-2ft
+SF,"Brewer, Corey",4.7,$10,HOUSTON ROCKETS,v atl, 108-113,10:31,   3pt 1rb 1as 1to 1-4fg 1-1ft
+PF,"Randle, Julius",3.4,$28,LOS ANGELES LAKERS,@ was, 108-116,5:35,   2pt 2rb 1to 1-4fg
+SF,"Mbah a Moute, Luc",2.4,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,4:24,   0pt 2rb
+PF,"Varejao, Anderson",2.4,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,8:17,   0pt 2rb 0-1fg
+SF,"Dekker, Sam",2.2,$10,HOUSTON ROCKETS,v atl, 108-113,11:43,   2pt 1rb 1to 1-5fg
+SF,"Johnson, Wesley",2,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,6:34,   0pt 1st 0-1fg
+SF,"Pierce, Paul",0,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,DNP,   
+PF,"Humphries, Kris",0,$10,ATLANTA HAWKS,@ hou, 113-108,DNP,   
+SF,"McDaniels, K.J.",0,$10,HOUSTON ROCKETS,v atl, 108-113,DNP,   
+PF,"Scott, Mike",0,$10,ATLANTA HAWKS,@ hou, 113-108,DNP,   
+PF,"Green, Draymond",0,$36,GOLDEN STATE WARRIORS,@ lac, 133-120,DNP,   
+SF,"Covington, Robert",0,$23,PHILADELPHIA 76ERS,@ sas, 86-102,DNP,   
+SF,"Prince, Taurean",0,$10,ATLANTA HAWKS,@ hou, 113-108,DNP,   
+SF,"Peace, Metta World",0,$10,LOS ANGELES LAKERS,@ was, 108-116,NA,   
+PF,"Johnson, Brice",0,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,NA,   
+PF,"West, David",0,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,NA,   
+PF,"Robinson, Thomas",0,$10,LOS ANGELES LAKERS,@ was, 108-116,NA,   
+PF,"Wiltjer, Kyle",0,$10,HOUSTON ROCKETS,v atl, 108-113,NA,   
+SF,"Simmons, Ben",0,$10,PHILADELPHIA 76ERS,@ sas, 86-102,NA,   
+SF,"Sefolosha, Thabo",0,$10,ATLANTA HAWKS,@ hou, 113-108,NA,   
+PF,"Aldridge, LaMarcus",0,$33,SAN ANTONIO SPURS,v phi, 102-86,NA,   
+C,"Howard, Dwight^",57.1,$25,ATLANTA HAWKS,@ hou, 113-108,37:17,   24pt 23rb 3as 1st 2bl 5to 11-13fg 2-3ft
+C,"Gortat, Marcin^",43.3,$19,WASHINGTON WIZARDS,v lal, 116-108,32:43,   21pt 14rb 3as 1st 1to 10-13fg 1-1ft
+C,"Capela, Clint^",36.8,$17,HOUSTON ROCKETS,v atl, 108-113,31:13,   22pt 9rb 2st 1bl 2to 9-11fg 4-5ft
+C,"Dedmon, Dewayne^",30.5,$10,SAN ANTONIO SPURS,v phi, 102-86,22:20,   13pt 10rb 1as 1st 2bl 2to 5-7fg 3-3ft
+C,"Black, Tarik^",24.7,$10,LOS ANGELES LAKERS,@ was, 108-116,25:49,   13pt 11rb 1as 3to 5-6fg 3-5ft
+C,"McGee, JaVale^",23.6,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,15:07,   11pt 8rb 1st 1bl 1to 5-6fg 1-2ft
+C,"Okafor, Jahlil^",23.3,$12,PHILADELPHIA 76ERS,@ sas, 86-102,25:08,   9pt 9rb 3as 1to 4-12fg 1-1ft
+C,"Muscala, Mike",22.6,$10,ATLANTA HAWKS,@ hou, 113-108,20:09,   9pt 8rb 2bl 4-7fg 1-2ft
+C,"Jordan, DeAndre^",21.9,$31,LOS ANGELES CLIPPERS,v gsw, 120-133,25:17,   9pt 7rb 1as 2bl 1to 2-2fg 5-8ft
+C,"Hilario, Nene",15.1,$10,HOUSTON ROCKETS,v atl, 108-113,16:47,   4pt 3rb 1as 1st 2bl 2-4fg
+C,"Smith, Jason",11,$10,WASHINGTON WIZARDS,v lal, 116-108,14:39,   4pt 5rb 1bl 1to 2-5fg
+C,"Zubac, Ivica",8.6,$10,LOS ANGELES LAKERS,@ was, 108-116,11:05,   4pt 3rb 1bl 1to 2-4fg
+C,"Bass, Brandon",8.4,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,16:15,   7pt 2rb 1to 3-5fg 1-1ft
+C,"Mozgov, Timofey^",3.7,$10,LOS ANGELES LAKERS,@ was, 108-116,17:01,   0pt 1rb 1as 2bl 3to 0-1fg
+C,"Harrell, Montrezl",0,$10,HOUSTON ROCKETS,v atl, 108-113,DNP,   
+C,"Embiid, Joel",0,$34,PHILADELPHIA 76ERS,@ sas, 86-102,DNP,   
+C,"Noel, Nerlens",0,$19,PHILADELPHIA 76ERS,@ sas, 86-102,DNP,   
+C,"Ochefu, Daniel",0,$10,WASHINGTON WIZARDS,v lal, 116-108,DNP,   
+C,"Jones, Damian",0,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,DNP,   
+C,"Nicholson, Andrew",0,$10,WASHINGTON WIZARDS,v lal, 116-108,DNP,   
+C,"Pachulia, Zaza",0,$10,GOLDEN STATE WARRIORS,@ lac, 133-120,NA,   
+C,"Gasol, Pau",0,$19,SAN ANTONIO SPURS,v phi, 102-86,NA,   
+C,"Splitter, Tiago",0,$10,ATLANTA HAWKS,@ hou, 113-108,NA,   
+C,"Mahinmi, Ian",0,$10,WASHINGTON WIZARDS,v lal, 116-108,NA,   
+C,"Onuaku, Chinanu",0,$10,HOUSTON ROCKETS,v atl, 108-113,NA,   
+C,"Stone, Diamond",0,$10,LOS ANGELES CLIPPERS,v gsw, 120-133,NA,   

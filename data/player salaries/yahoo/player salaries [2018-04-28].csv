@@ -1,0 +1,61 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Rozier, Terry^",50.7,$29,BOSTON CELTICS,v mil, 112-96,36:04,   26pt 6rb 9as 1st 1bl 2to 5trey 10-16fg 1-3ft
+SG,"Thompson, Klay^",41.2,$22,GOLDEN STATE WARRIORS,v nor, 123-101,35:08,   27pt 6rb 2as 2bl 2to 4trey 10-22fg 3-3ft
+PG,"Rondo, Rajon^",39.1,$31,NEW ORLEANS PELICANS,@ gsw, 101-123,32:36,   9pt 8rb 11as 1st 1bl 2to 4-10fg 1-2ft
+PG,"Bledsoe, Eric^",28.6,$26,MILWAUKEE BUCKS,@ bos, 96-112,34:00,   23pt 3rb 2as 1st 4to 1trey 9-12fg 4-4ft
+PG,"Smart, Marcus",27.8,$16,BOSTON CELTICS,v mil, 112-96,31:55,   5pt 4rb 6as 3st 1bl 3to 2-7fg 1-1ft
+PG,"Iguodala, Andre^",21.3,$12,GOLDEN STATE WARRIORS,v nor, 123-101,23:30,   12pt 4rb 3as 1trey 4-6fg 3-5ft
+SG,"Holiday, Jrue^",20.6,$39,NEW ORLEANS PELICANS,@ gsw, 101-123,30:54,   11pt 3rb 4as 1trey 4-14fg 2-2ft
+PG,"Cook, Quinn",18.1,$15,GOLDEN STATE WARRIORS,v nor, 123-101,21:45,   11pt 3rb 3as 1to 4-9fg 3-4ft
+SG,"Crawford, Jordan",18.1,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,8:15,   14pt 3rb 1as 1to 2trey 6-7fg
+SG,"Livingston, Shaun",16.9,$10,GOLDEN STATE WARRIORS,v nor, 123-101,22:01,   10pt 2rb 3as 3-6fg 4-4ft
+PG,"Larkin, Shane",15.2,$10,BOSTON CELTICS,v mil, 112-96,14:23,   8pt 1rb 2as 1st 1trey 2-5fg 3-3ft
+SG,"Brogdon, Malcolm^",10.6,$18,MILWAUKEE BUCKS,@ bos, 96-112,30:28,   2pt 3rb 4as 1to 1-8fg
+SG,"Young, Nick^",10.2,$10,GOLDEN STATE WARRIORS,v nor, 123-101,20:38,   6pt 1rb 1st 2trey 2-4fg
+SG,"Terry, Jason",6.9,$10,MILWAUKEE BUCKS,@ bos, 96-112,20:23,   3pt 2rb 1as 1trey 1-4fg
+SG,"Brown, Jaylen^",6.7,$26,BOSTON CELTICS,v mil, 112-96,16:00,   2pt 1rb 1as 1st 1to 1-5fg 0-2ft
+SG,"Clark, Ian",5,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,28:03,   7pt 2to 1trey 3-10fg
+SG,"Hill, Solomon",3.4,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,16:56,   2pt 2rb 1to 1-4fg
+PG,"Jennings, Brandon",0,$10,MILWAUKEE BUCKS,@ bos, 96-112,DNP,   
+PG,"Jackson, Frank",0,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,DNP,   
+SG,"Brown, Sterling",0,$10,MILWAUKEE BUCKS,@ bos, 96-112,DNP,   
+SG,"Irving, Kyrie",0,$10,BOSTON CELTICS,v mil, 112-96,NA,   
+PG,"Curry, Stephen",0,$40,GOLDEN STATE WARRIORS,v nor, 123-101,NA,   
+SG,"McCaw, Patrick",0,$10,GOLDEN STATE WARRIORS,v nor, 123-101,NA,   
+SG,"Hayward, Gordon",0,$10,BOSTON CELTICS,v mil, 112-96,NA,   
+PG,"Dellavedova, Matthew",-1,$10,MILWAUKEE BUCKS,@ bos, 96-112,7:46,   0pt 1to 0-1fg
+SG,"Snell, Tony",-1,$10,MILWAUKEE BUCKS,@ bos, 96-112,3:23,   0pt 1to 0-1fg
+PF,"Green, Draymond^",62.5,$30,GOLDEN STATE WARRIORS,v nor, 123-101,30:21,   16pt 15rb 11as 3st 2bl 3to 1trey 5-9fg 5-6ft
+SF,"Durant, Kevin^",46.6,$48,GOLDEN STATE WARRIORS,v nor, 123-101,32:22,   26pt 13rb 2as 2bl 4to 3trey 10-21fg 3-4ft
+PF,"Antetokounmpo, Giannis^",42.3,$53,MILWAUKEE BUCKS,@ bos, 96-112,41:35,   22pt 9rb 5as 1st 1bl 4to 1trey 7-17fg 7-7ft
+PF,"Horford, Al^",42.1,$28,BOSTON CELTICS,v mil, 112-96,33:00,   26pt 8rb 3as 1st 1bl 4to 13-17fg 0-2ft
+SF,"Middleton, Khris^",39.9,$35,MILWAUKEE BUCKS,@ bos, 96-112,41:13,   32pt 2rb 3as 1bl 2to 5trey 11-18fg 5-5ft
+SF,"Tatum, Jayson^",36.7,$26,BOSTON CELTICS,v mil, 112-96,39:02,   20pt 6rb 5as 1bl 1to 1trey 7-17fg 5-5ft
+PF,"Parker, Jabari",24.2,$21,MILWAUKEE BUCKS,@ bos, 96-112,29:06,   9pt 6rb 2as 2st 1to 4-8fg 1-2ft
+SF,"Miller, Darius",23.6,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,24:40,   9pt 3rb 6as 1st 1to 2trey 3-7fg 1-1ft
+PF,"West, David",23.4,$10,GOLDEN STATE WARRIORS,v nor, 123-101,12:38,   8pt 2rb 4as 2st 1bl 2to 4-7fg
+PF,"Mirotic, Nikola^",21.6,$33,NEW ORLEANS PELICANS,@ gsw, 101-123,28:47,   9pt 8rb 2as 1st 3to 1trey 3-9fg 2-2ft
+SF,"Looney, Kevon",19.7,$10,GOLDEN STATE WARRIORS,v nor, 123-101,23:52,   3pt 6rb 3as 1st 1bl 1to 1-1fg 1-4ft
+SF,"Moore, E'Twaun^",19.4,$13,NEW ORLEANS PELICANS,@ gsw, 101-123,21:34,   15pt 2rb 1st 1to 1trey 7-11fg
+SF,"Morris, Marcus",17.8,$18,BOSTON CELTICS,v mil, 112-96,23:54,   10pt 4rb 1st 1trey 4-8fg 1-3ft
+PF,"Bell, Jordan",12.6,$10,GOLDEN STATE WARRIORS,v nor, 123-101,8:15,   0pt 3rb 2as 1st 1bl 0-1fg
+SF,"Ojeleye, Semi^",10,$10,BOSTON CELTICS,v mil, 112-96,29:20,   5pt 5rb 1to 1trey 2-4fg
+PF,"Diallo, Cheick",7.6,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,14:40,   4pt 3rb 2-4fg
+SF,"Muhammad, Shabazz",3.2,$10,MILWAUKEE BUCKS,@ bos, 96-112,2:51,   0pt 1rb 1bl 1to 0-1fg
+PF,"Nader, Abdel",2,$10,BOSTON CELTICS,v mil, 112-96,00:41,   2pt 2-2ft
+SF,"Yabusele, Guerschon",0,$10,BOSTON CELTICS,v mil, 112-96,00:41,   0pt
+SF,"Liggins, DeAndre",0,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,DNP,   
+PF,"Ajinca, Alexis",0,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,NA,   
+PF,"Cousins, DeMarcus",0,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,NA,   
+PF,"Wilson, D.J.",0,$10,MILWAUKEE BUCKS,@ bos, 96-112,NA,   
+PF,"Theis, Daniel",0,$10,BOSTON CELTICS,v mil, 112-96,NA,   
+C,"Davis, Anthony^",47,$58,NEW ORLEANS PELICANS,@ gsw, 101-123,33:35,   21pt 10rb 3st 2bl 1to 9-20fg 3-4ft
+C,"Baynes, Aron",20.4,$10,BOSTON CELTICS,v mil, 112-96,15:00,   8pt 7rb 2as 1st 2to 4-5fg
+C,"Maker, Thon^",18.2,$13,MILWAUKEE BUCKS,@ bos, 96-112,25:11,   5pt 6rb 4as 1trey 2-4fg
+C,"McGee, JaVale",7.4,$10,GOLDEN STATE WARRIORS,v nor, 123-101,6:19,   2pt 2rb 1bl 1-4fg
+C,"Jones, Damian",2,$10,GOLDEN STATE WARRIORS,v nor, 123-101,3:11,   2pt 0-1fg 2-2ft
+C,"Zeller, Tyler",0,$10,MILWAUKEE BUCKS,@ bos, 96-112,4:04,   0pt
+C,"Pachulia, Zaza",0,$10,GOLDEN STATE WARRIORS,v nor, 123-101,DNP,   
+C,"Monroe, Greg",0,$12,BOSTON CELTICS,v mil, 112-96,DNP,   
+C,"Okafor, Emeka",0,$10,NEW ORLEANS PELICANS,@ gsw, 101-123,DNP,   
+C,"Henson, John",0,$16,MILWAUKEE BUCKS,@ bos, 96-112,NA,   

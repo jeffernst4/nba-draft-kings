@@ -1,0 +1,61 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG/SG,"Murray, Jamal^",46.75,"$6,300",DENVER NUGGETS,@ por, 116-112,37:33,   34pt 5rb 4as 2to 3trey 10-20fg 11-11ft
+PG,"Lillard, Damian^",46.25,"$9,200",PORTLAND TRAIL BLAZERS,v den, 112-116,36:07,   28pt 3rb 7as 2st 2to 2trey 9-22fg 8-11ft
+PG/SG,"McCollum, C.J.^",40.25,"$6,900",PORTLAND TRAIL BLAZERS,v den, 112-116,38:39,   29pt 5rb 1as 1st 1to 4trey 10-20fg 5-6ft
+PG,"Lowry, Kyle^",32.5,"$6,100",TORONTO RAPTORS,@ phi, 101-96,41:10,   14pt 6rb 7as 1to 2trey 6-13fg
+PG/SF,"Simmons, Ben^",28.25,"$7,000",PHILADELPHIA 76ERS,v tor, 96-101,38:16,   10pt 5rb 4as 2st 1bl 5-10fg 0-2ft
+SG,"Harris, Gary^",24.25,"$5,000",DENVER NUGGETS,@ por, 116-112,36:04,   14pt 5rb 1st 1bl 6-14fg 2-2ft
+PG/SG,"Curry, Seth",22.75,"$2,700",PORTLAND TRAIL BLAZERS,v den, 112-116,26:48,   16pt 3rb 1as 1to 4trey 6-9fg
+PG/SG,"Beasley, Malik",10,"$3,800",DENVER NUGGETS,@ por, 116-112,13:51,   6pt 2rb 1as 1to 1trey 2-6fg 1-1ft
+PG,"Morris, Monte",5.5,"$2,800",DENVER NUGGETS,@ por, 116-112,10:20,   2pt 1as 1st 1-6fg
+PG/SG,"VanVleet, Fred",0,"$3,500",TORONTO RAPTORS,@ phi, 101-96,7:11,   0pt 0-2fg
+PG/SG,"McConnell, T.J.",0,"$2,800",PHILADELPHIA 76ERS,v tor, 96-101,DNP,   
+PG/SG,"Simons, Anfernee",0,"$2,500",PORTLAND TRAIL BLAZERS,v den, 112-116,DNP,   
+PG/SG,"Lin, Jeremy",0,"$2,500",TORONTO RAPTORS,@ phi, 101-96,DNP,   
+PG,"Thomas, Isaiah",0,"$2,500",DENVER NUGGETS,@ por, 116-112,DNP,   
+SG,"Meeks, Jodie",0,"$2,500",TORONTO RAPTORS,@ phi, 101-96,DNP,   
+SG,"Trent Jr., Gary",0,"$2,500",PORTLAND TRAIL BLAZERS,v den, 112-116,NA,   
+SF/PF,"Leonard, Kawhi^",64.5,"$9,100",TORONTO RAPTORS,@ phi, 101-96,42:49,   39pt 14rb 5as 7to 5trey 13-20fg 8-12ft
+SG/SF,"Butler, Jimmy^",51.75,"$7,500",PHILADELPHIA 76ERS,v tor, 96-101,40:02,   29pt 11rb 4as 1bl 4to 3trey 9-18fg 8-10ft
+SF/PF,"Harris, Tobias^",35.5,"$6,800",PHILADELPHIA 76ERS,v tor, 96-101,41:06,   16pt 6rb 4as 3st 2to 2trey 7-23fg
+SF/PF,"Aminu, Al-Farouq^",33,"$4,400",PORTLAND TRAIL BLAZERS,v den, 112-116,35:27,   19pt 8rb 2bl 1to 1trey 6-10fg 6-7ft
+SG/SF,"Redick, J.J.^",26.75,"$4,700",PHILADELPHIA 76ERS,v tor, 96-101,35:09,   19pt 3rb 2as 2to 4trey 6-9fg 3-3ft
+SG/SF,"Barton, Will",25.25,"$4,000",DENVER NUGGETS,@ por, 116-112,29:40,   11pt 5rb 3as 1st 3trey 4-14fg
+SF/PF,"Ennis, James",20.25,"$3,400",PHILADELPHIA 76ERS,v tor, 96-101,26:17,   9pt 5rb 1st 1bl 1to 3trey 3-8fg
+SG/SF,"Green, Danny^",19.5,"$4,100",TORONTO RAPTORS,@ phi, 101-96,40:02,   11pt 4rb 2st 2to 1trey 1-4fg 8-8ft
+SG/SF,"Hood, Rodney",16,"$3,900",PORTLAND TRAIL BLAZERS,v den, 112-116,23:32,   7pt 4rb 3as 2to 1trey 3-4fg
+SF/PF,"Harkless, Maurice^",14.25,"$4,600",PORTLAND TRAIL BLAZERS,v den, 112-116,17:28,   4pt 5rb 2as 1st 2to 1-5fg 2-2ft
+SG/SF,"Turner, Evan",8,"$2,700",PORTLAND TRAIL BLAZERS,v den, 112-116,11:53,   0pt 4rb 2as 0-2fg
+SG/SF,"McCaw, Patrick",4.75,"$2,500",TORONTO RAPTORS,@ phi, 101-96,4:49,   0pt 1rb 1as 1st 0-1fg
+SG/SF,"Craig, Torrey^",4.75,"$3,700",DENVER NUGGETS,@ por, 116-112,17:00,   3pt 1rb 1trey 1-4fg
+SF/PF,"Scott, Mike",3.5,"$3,000",PHILADELPHIA 76ERS,v tor, 96-101,13:04,   0pt 2rb 1as 1to 0-3fg
+SG/SF,"Powell, Norman",2.75,"$2,700",TORONTO RAPTORS,@ phi, 101-96,3:59,   0pt 1rb 1as 0-1fg
+SF/PF,"Lyles, Trey",0,"$2,500",DENVER NUGGETS,@ por, 116-112,DNP,   
+SF/PF,"Hernangomez, Juan",0,"$2,500",DENVER NUGGETS,@ por, 116-112,DNP,   
+SG/SF,"Simmons, Jonathon",0,"$2,500",PHILADELPHIA 76ERS,v tor, 96-101,DNP,   
+PF,"Layman, Jake",0,"$2,500",PORTLAND TRAIL BLAZERS,v den, 112-116,DNP,   
+PF,"Miller, Malcolm",0,"$2,500",TORONTO RAPTORS,@ phi, 101-96,DNP,   
+SF/PF,"Vanderbilt, Jarred",0,"$2,500",DENVER NUGGETS,@ por, 116-112,DNP,   
+SG/SF,"Korkmaz, Furkan",0,"$2,500",PHILADELPHIA 76ERS,v tor, 96-101,NA,   
+PF,"Lydon, Tyler",0,"$2,500",DENVER NUGGETS,@ por, 116-112,NA,   
+SF/PF,"Anunoby, OG",0,"$2,600",TORONTO RAPTORS,@ phi, 101-96,NA,   
+SG/SF,"Smith, Zhaire",0,"$2,500",PHILADELPHIA 76ERS,v tor, 96-101,NA,   
+SF/PF,"Porter, Michael",0,"$2,500",DENVER NUGGETS,@ por, 116-112,NA,   
+C,"Jokic, Nikola^",60,"$10,400",DENVER NUGGETS,@ por, 116-112,38:30,   21pt 12rb 11as 2st 3to 1trey 8-15fg 4-4ft
+PF/C,"Millsap, Paul^",41,"$5,600",DENVER NUGGETS,@ por, 116-112,41:24,   21pt 10rb 1st 2bl 2to 2trey 6-10fg 7-8ft
+C,"Embiid, Joel^",38.5,"$9,300",PHILADELPHIA 76ERS,v tor, 96-101,35:14,   11pt 8rb 7as 2st 2bl 2to 2-7fg 7-10ft
+PF/C,"Ibaka, Serge",29.25,"$3,600",TORONTO RAPTORS,@ phi, 101-96,32:24,   12pt 9rb 3bl 6-12fg
+C,"Gasol, Marc^",26.25,"$4,800",TORONTO RAPTORS,@ phi, 101-96,39:02,   16pt 5rb 3as 3to 2trey 7-13fg
+PF/C,"Siakam, Pascal^",21.75,"$7,300",TORONTO RAPTORS,@ phi, 101-96,28:34,   9pt 3rb 2as 3st 2-10fg 5-6ft
+C,"Kanter, Enes^",17.5,"$6,500",PORTLAND TRAIL BLAZERS,v den, 112-116,29:23,   5pt 10rb 1bl 4to 2-5fg 1-2ft
+PF/C,"Plumlee, Mason",15.75,"$3,200",DENVER NUGGETS,@ por, 116-112,15:38,   4pt 5rb 1as 1st 1bl 2-3fg 0-2ft
+PF/C,"Collins, Zach",11.75,"$3,100",PORTLAND TRAIL BLAZERS,v den, 112-116,20:43,   4pt 1rb 2as 2bl 1to 2-5fg
+C,"Monroe, Greg",7.75,"$2,900",PHILADELPHIA 76ERS,v tor, 96-101,10:52,   2pt 3rb 1bl 1-4fg
+PF/C,"Moreland, Eric",0,"$2,500",TORONTO RAPTORS,@ phi, 101-96,DNP,   
+PF/C,"Bolden, Jonah",0,"$2,500",PHILADELPHIA 76ERS,v tor, 96-101,DNP,   
+PF/C,"Johnson, Amir",0,"$2,500",PHILADELPHIA 76ERS,v tor, 96-101,DNP,   
+C,"Marjanovic, Boban",0,"$2,700",PHILADELPHIA 76ERS,v tor, 96-101,DNP,   0pt
+PF/C,"Labissiere, Skal",0,"$2,500",PORTLAND TRAIL BLAZERS,v den, 112-116,DNP,   
+PF/C,"Leonard, Meyers",0,"$2,500",PORTLAND TRAIL BLAZERS,v den, 112-116,DNP,   
+C,"Nurkic, Jusuf",0,"$2,500",PORTLAND TRAIL BLAZERS,v den, 112-116,NA,   
+PF/C,"Boucher, Chris",0,"$2,500",TORONTO RAPTORS,@ phi, 101-96,NA,   

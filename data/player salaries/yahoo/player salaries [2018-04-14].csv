@@ -1,0 +1,120 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Wall, John^",62.1,$38,WASHINGTON WIZARDS,@ tor, 106-114,39:09,   23pt 3rb 15as 4st 2bl 5to 3trey 6-20fg 8-10ft
+PG,"Simmons, Ben^",49.8,$48,PHILADELPHIA 76ERS,v mia, 130-103,34:03,   17pt 9rb 14as 2st 5to 5-13fg 7-10ft
+PG,"Lillard, Damian^",42.9,$43,PORTLAND TRAIL BLAZERS,v nor, 95-97,42:09,   18pt 7rb 7as 2st 4trey 6-23fg 2-2ft
+PG,"Rondo, Rajon^",42.1,$23,NEW ORLEANS PELICANS,@ por, 97-95,39:20,   6pt 8rb 17as 1st 2to 3-9fg
+SG,"Belinelli, Marco",39.4,$11,PHILADELPHIA 76ERS,v mia, 130-103,33:23,   25pt 2rb 2as 3st 4trey 9-17fg 3-5ft
+SG,"Holiday, Jrue^",38.4,$37,NEW ORLEANS PELICANS,@ por, 97-95,39:13,   21pt 7rb 2as 1st 2bl 3to 1trey 10-20fg 0-1ft
+SG,"Beal, Bradley^",35.4,$30,WASHINGTON WIZARDS,@ tor, 106-114,41:14,   19pt 2rb 4as 3st 1to 2trey 8-17fg 1-1ft
+SG,"Thompson, Klay^",34.4,$23,GOLDEN STATE WARRIORS,v sas, 113-92,35:19,   27pt 2rb 2as 1st 1to 5trey 11-13fg
+SG,"Wright, Delon",33.2,$12,TORONTO RAPTORS,v was, 114-106,24:49,   18pt 1rb 4as 3st 1bl 4to 3trey 7-10fg 1-2ft
+SG,"Redick, J.J.^",32.9,$18,PHILADELPHIA 76ERS,v mia, 130-103,30:36,   28pt 2rb 1as 1st 2to 4trey 8-13fg 8-8ft
+SG,"McCollum, C.J.^",32.4,$30,PORTLAND TRAIL BLAZERS,v nor, 95-97,37:38,   19pt 2rb 2as 3st 1to 4trey 7-18fg 1-1ft
+PG,"Lowry, Kyle^",29.1,$29,TORONTO RAPTORS,v was, 114-106,37:52,   11pt 3rb 9as 2st 5to 1trey 4-9fg 2-2ft
+SG,"DeRozan, DeMar^",26.4,$29,TORONTO RAPTORS,v was, 114-106,35:03,   17pt 2rb 6as 2to 2trey 6-17fg 3-4ft
+PG,"Dragic, Goran^",23,$25,MIAMI HEAT,@ phi, 103-130,31:09,   15pt 5rb 4as 4to 3trey 4-14fg 4-5ft
+PG,"Murray, Dejounte^",22.5,$23,SAN ANTONIO SPURS,@ gsw, 92-113,22:44,   8pt 5rb 3as 1st 1bl 2to 3-6fg 2-2ft
+SG,"Wade, Dwyane",20.8,$13,MIAMI HEAT,@ phi, 103-130,19:29,   11pt 4rb 4as 1to 4-7fg 3-4ft
+SG,"Ginobili, Manu",20.1,$10,SAN ANTONIO SPURS,@ gsw, 92-113,16:42,   9pt 3rb 1as 3st 3to 2trey 3-6fg 1-2ft
+PG,"Fultz, Markelle",19.4,$12,PHILADELPHIA 76ERS,v mia, 130-103,13:57,   5pt 2rb 4as 2st 1-4fg 3-4ft
+PG,"Forbes, Bryn",19.1,$10,SAN ANTONIO SPURS,@ gsw, 92-113,24:38,   14pt 3rb 1as 1trey 4-8fg 5-7ft
+PG,"Livingston, Shaun",19,$10,GOLDEN STATE WARRIORS,v sas, 113-92,19:27,   11pt 5rb 2as 1to 4-6fg 3-4ft
+SG,"Clark, Ian",16.7,$10,NEW ORLEANS PELICANS,@ por, 97-95,24:42,   10pt 1rb 1as 1st 1bl 2to 2trey 4-5fg
+PG,"Cook, Quinn",15.8,$22,GOLDEN STATE WARRIORS,v sas, 113-92,25:04,   5pt 4rb 2as 1bl 2-7fg 1-2ft
+SG,"Johnson, Tyler^",14.6,$13,MIAMI HEAT,@ phi, 103-130,18:14,   9pt 3rb 1st 1to 1trey 2-6fg 4-4ft
+PG,"White, Derrick",14.5,$10,SAN ANTONIO SPURS,@ gsw, 92-113,13:04,   7pt 1as 1st 1bl 1trey 3-6fg
+SG,"Connaughton, Pat",13.9,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,17:34,   7pt 2rb 1as 1st 1trey 3-7fg
+SG,"Green, Danny^",10.4,$12,SAN ANTONIO SPURS,@ gsw, 92-113,21:36,   6pt 2rb 1bl 1to 2trey 2-5fg
+PG,"Napier, Shabazz",8.7,$12,PORTLAND TRAIL BLAZERS,v nor, 95-97,14:02,   6pt 1rb 1as 1st 3to 3-7fg
+SG,"Mills, Patty^",8.5,$10,SAN ANTONIO SPURS,@ gsw, 92-113,26:40,   5pt 3as 1to 1trey 2-5fg
+PG,"McConnell, T.J.",4.7,$10,PHILADELPHIA 76ERS,v mia, 130-103,6:57,   2pt 1rb 1as 1-1fg
+PG,"Parker, Tony",4.7,$13,SAN ANTONIO SPURS,@ gsw, 92-113,13:21,   2pt 1rb 1as 1-8fg
+PG,"Frazier, Tim",4.5,$10,WASHINGTON WIZARDS,@ tor, 106-114,3:51,   0pt 1as 1st 0-1fg
+SG,"Korkmaz, Furkan",3,$10,PHILADELPHIA 76ERS,v mia, 130-103,1:38,   3pt 1trey 1-1fg
+SG,"Young, Nick",3,$10,GOLDEN STATE WARRIORS,v sas, 113-92,7:55,   3pt 1trey 1-3fg
+PG,"Satoransky, Tomas",2.5,$17,WASHINGTON WIZARDS,@ tor, 106-114,11:46,   2pt 1as 1to 0-3fg 2-2ft
+SG,"McGruder, Rodney",2,$10,MIAMI HEAT,@ phi, 103-130,2:22,   2pt 1-2fg
+SG,"Hill, Solomon",2,$10,NEW ORLEANS PELICANS,@ por, 97-95,5:31,   3pt 1to 1trey 1-2fg
+PG,"Baldwin, Wade",1.5,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,2:36,   0pt 1as
+PG,"Brown, Lorenzo",0,$10,TORONTO RAPTORS,v was, 114-106,DNP,   
+SG,"Crawford, Jordan",0,$10,NEW ORLEANS PELICANS,@ por, 97-95,DNP,   
+SG,"Meeks, Jodie",0,$10,WASHINGTON WIZARDS,@ tor, 106-114,DNP,   
+PG,"Jackson, Frank",0,$10,NEW ORLEANS PELICANS,@ por, 97-95,DNP,   
+SG,"Bayless, Jerryd",0,$10,PHILADELPHIA 76ERS,v mia, 130-103,DNP,   
+PG,"Curry, Stephen",0,$40,GOLDEN STATE WARRIORS,v sas, 113-92,NA,   
+SG,"Waiters, Dion",0,$10,MIAMI HEAT,@ phi, 103-130,NA,   
+SG,"Leonard, Kawhi",0,$27,SAN ANTONIO SPURS,@ gsw, 92-113,NA,   
+SG,"Richardson, Malachi",0,$10,TORONTO RAPTORS,v was, 114-106,NA,   
+PG,"VanVleet, Fred",0,$10,TORONTO RAPTORS,v was, 114-106,NA,   
+SG,"Paul, Brandon",0,$10,SAN ANTONIO SPURS,@ gsw, 92-113,NA,   
+SG,"Sessions, Ramon",0,$10,WASHINGTON WIZARDS,@ tor, 106-114,NA,   
+SG,"McCaw, Patrick",0,$10,GOLDEN STATE WARRIORS,v sas, 113-92,NA,   
+PF,"Mirotic, Nikola^",50.7,$23,NEW ORLEANS PELICANS,@ por, 97-95,39:35,   16pt 11rb 3as 2st 4bl 1to 4trey 6-15fg
+SF,"Durant, Kevin^",46.1,$50,GOLDEN STATE WARRIORS,v sas, 113-92,31:36,   24pt 8rb 7as 2st 4to 1trey 9-17fg 5-5ft
+PF,"Morris, Markieff^",44.2,$16,WASHINGTON WIZARDS,@ tor, 106-114,37:57,   22pt 11rb 6as 1trey 9-15fg 3-3ft
+PF,"Green, Draymond^",44.1,$31,GOLDEN STATE WARRIORS,v sas, 113-92,33:44,   12pt 8rb 11as 2st 1bl 3to 2trey 5-13fg 0-1ft
+PF,"Ibaka, Serge^",43.9,$19,TORONTO RAPTORS,v was, 114-106,32:54,   23pt 12rb 1as 2bl 1to 3trey 8-11fg 4-4ft
+PF,"Ilyasova, Ersan",37.8,$21,PHILADELPHIA 76ERS,v mia, 130-103,31:47,   17pt 14rb 1st 1bl 2to 3trey 7-15fg
+SF,"Covington, Robert^",32.4,$30,PHILADELPHIA 76ERS,v mia, 130-103,26:39,   9pt 7rb 4as 3bl 2trey 3-8fg 1-2ft
+PF,"Saric, Dario^",30.7,$21,PHILADELPHIA 76ERS,v mia, 130-103,30:48,   20pt 6rb 3as 1to 4trey 8-15fg
+PF,"Gay, Rudy",30.2,$11,SAN ANTONIO SPURS,@ gsw, 92-113,21:57,   15pt 6rb 2as 2st 1to 2trey 5-12fg 3-4ft
+PF,"Winslow, Justise",28.9,$12,MIAMI HEAT,@ phi, 103-130,31:10,   9pt 7rb 5as 1st 1bl 2to 4-8fg 1-3ft
+SF,"Turner, Evan^",23.4,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,30:13,   13pt 7rb 1st 1bl 4to 1trey 6-15fg
+SF,"Porter, Otto^",22.5,$28,WASHINGTON WIZARDS,@ tor, 106-114,31:51,   9pt 5rb 1as 1st 1bl 1trey 4-7fg
+PF,"Aldridge, LaMarcus^",21.9,$41,SAN ANTONIO SPURS,@ gsw, 92-113,24:22,   14pt 2rb 1as 1st 1bl 2to 5-12fg 4-4ft
+PF,"Johnson, James^",20.6,$20,MIAMI HEAT,@ phi, 103-130,24:44,   13pt 3rb 4as 2to 2trey 5-9fg 1-2ft
+SF,"Richardson, Josh^",19.8,$20,MIAMI HEAT,@ phi, 103-130,27:21,   4pt 4rb 4as 2st 1to 1-7fg 2-2ft
+SF,"Iguodala, Andre^",19.4,$10,GOLDEN STATE WARRIORS,v sas, 113-92,23:17,   3pt 7rb 4as 1bl 1to 1trey 1-4fg 0-2ft
+SF,"Anunoby, OG^",18.9,$10,TORONTO RAPTORS,v was, 114-106,22:16,   12pt 2rb 1as 1bl 2trey 5-9fg
+SF,"Looney, Kevon",18.7,$10,GOLDEN STATE WARRIORS,v sas, 113-92,20:23,   6pt 6rb 3as 1bl 2to 3-5fg
+PF,"Aminu, Al-Farouq^",18.4,$18,PORTLAND TRAIL BLAZERS,v nor, 95-97,29:41,   7pt 7rb 2as 1bl 3to 1trey 3-7fg
+SF,"Miles, C.J.",17.4,$10,TORONTO RAPTORS,v was, 114-106,19:18,   12pt 2rb 1st 4trey 4-8fg
+PF,"Scott, Mike",15.6,$10,WASHINGTON WIZARDS,@ tor, 106-114,26:57,   14pt 3rb 2to 7-10fg
+PF,"Siakam, Pascal",15.5,$10,TORONTO RAPTORS,v was, 114-106,15:47,   9pt 5rb 1as 1to 1trey 2-5fg 4-4ft
+SF,"Ellington, Wayne",12.9,$10,MIAMI HEAT,@ phi, 103-130,19:15,   6pt 2rb 1as 1bl 2trey 2-5fg
+SF,"Oubre, Kelly",11.5,$15,WASHINGTON WIZARDS,@ tor, 106-114,16:09,   3pt 5rb 1as 1st 2to 1trey 1-4fg
+SF,"Moore, E'Twaun^",11.4,$13,NEW ORLEANS PELICANS,@ por, 97-95,26:44,   4pt 2rb 2as 1st 1to 2-4fg
+PF,"Bertans, Davis",10.9,$10,SAN ANTONIO SPURS,@ gsw, 92-113,18:19,   4pt 2rb 1as 1st 0-4fg 4-5ft
+PF,"West, David",8.1,$10,GOLDEN STATE WARRIORS,v sas, 113-92,16:11,   4pt 3rb 1as 1to 2-3fg
+PF,"Diallo, Cheick",7.4,$10,NEW ORLEANS PELICANS,@ por, 97-95,10:16,   2pt 2rb 1bl 1-4fg
+PF,"Bell, Jordan",5.4,$10,GOLDEN STATE WARRIORS,v sas, 113-92,6:40,   3pt 2rb 1-3fg 1-2ft
+SF,"Anderson, Kyle^",5.1,$15,SAN ANTONIO SPURS,@ gsw, 92-113,10:55,   0pt 3rb 1as 0-2fg
+SF,"Miller, Darius",3.8,$10,NEW ORLEANS PELICANS,@ por, 97-95,14:01,   0pt 4rb 1to 0-1fg
+PF,"Nogueira, Lucas",3.7,$10,TORONTO RAPTORS,v was, 114-106,9:12,   1pt 1rb 1as 1-2ft
+PF,"Lauvergne, Joffrey",3.2,$10,SAN ANTONIO SPURS,@ gsw, 92-113,5:52,   2pt 1rb 1-1fg
+SF,"Anderson, Justin",2,$10,PHILADELPHIA 76ERS,v mia, 130-103,1:38,   2pt 1-1fg
+PF,"Leonard, Meyers",0,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,00:12,   0pt
+SF,"Babbitt, Luke",0,$10,MIAMI HEAT,@ phi, 103-130,2:22,   0pt
+SF,"Powell, Norman",0,$10,TORONTO RAPTORS,v was, 114-106,4:51,   0pt 0-1fg
+PF,"Layman, Jake",0,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,DNP,   
+PF,"Swanigan, Caleb",0,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,DNP,   
+PF,"Haslem, Udonis",0,$10,MIAMI HEAT,@ phi, 103-130,DNP,   
+SF,"Liggins, DeAndre",0,$10,NEW ORLEANS PELICANS,@ por, 97-95,DNP,   
+PF,"McKinnie, Alfonzo",0,$10,TORONTO RAPTORS,v was, 114-106,DNP,   
+PF,"Ajinca, Alexis",0,$10,NEW ORLEANS PELICANS,@ por, 97-95,NA,   
+PF,"Cousins, DeMarcus",0,$10,NEW ORLEANS PELICANS,@ por, 97-95,NA,   
+SF,"Harkless, Maurice",0,$13,PORTLAND TRAIL BLAZERS,v nor, 95-97,NA,   
+PF,"McCullough, Chris",0,$10,WASHINGTON WIZARDS,@ tor, 106-114,NA,   
+SF,"Luwawu, Timothe",0,$10,PHILADELPHIA 76ERS,v mia, 130-103,NA,   
+PF,"Mickey, Jordan",0,$10,MIAMI HEAT,@ phi, 103-130,NA,   
+C,"Davis, Anthony^",68.3,$58,NEW ORLEANS PELICANS,@ por, 97-95,40:38,   35pt 14rb 1as 2st 4bl 3to 14-26fg 7-9ft
+C,"Olynyk, Kelly",38.4,$18,MIAMI HEAT,@ phi, 103-130,30:57,   26pt 7rb 2as 1bl 2to 4trey 9-13fg 4-7ft
+C,"Nurkic, Jusuf^",30.2,$30,PORTLAND TRAIL BLAZERS,v nor, 95-97,24:32,   11pt 11rb 2bl 3-7fg 5-5ft
+C,"McGee, JaVale^",28.8,$10,GOLDEN STATE WARRIORS,v sas, 113-92,16:23,   15pt 4rb 1st 2bl 5-7fg 5-6ft
+C,"Valanciunas, Jonas^",24.8,$20,TORONTO RAPTORS,v was, 114-106,22:50,   9pt 9rb 2as 1bl 1to 4-6fg 1-2ft
+C,"Collins, Zach",23.9,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,21:35,   8pt 2rb 3as 2st 1bl 1trey 3-8fg 1-2ft
+C,"Davis, Ed",23.6,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,19:48,   6pt 13rb 1bl 1to 3-6fg 0-2ft
+C,"Johnson, Amir^",19.4,$10,PHILADELPHIA 76ERS,v mia, 130-103,22:24,   2pt 7rb 4as 1bl 1-7fg
+C,"Gortat, Marcin^",18.2,$10,WASHINGTON WIZARDS,@ tor, 106-114,28:30,   12pt 6rb 1to 6-9fg
+C,"Whiteside, Hassan^",14.7,$28,MIAMI HEAT,@ phi, 103-130,12:26,   2pt 6rb 1as 2bl 2to 1-4fg
+C,"Gasol, Pau",12.4,$17,SAN ANTONIO SPURS,@ gsw, 92-113,19:50,   6pt 2rb 4as 2to 3-5fg
+C,"Adebayo, Bam",9.2,$10,MIAMI HEAT,@ phi, 103-130,20:31,   6pt 1rb 1bl 1to 2-3fg 2-4ft
+C,"Poeltl, Jakob",7.7,$10,TORONTO RAPTORS,v was, 114-106,15:08,   2pt 1rb 1as 2bl 3to 1-1fg
+C,"Mahinmi, Ian",4,$10,WASHINGTON WIZARDS,@ tor, 106-114,2:36,   2pt 1st 1to 2-2ft
+C,"Holmes, Richaun",1.5,$12,PHILADELPHIA 76ERS,v mia, 130-103,6:10,   0pt 1as
+C,"Jones, Damian",0.4,$10,GOLDEN STATE WARRIORS,v sas, 113-92,4:01,   0pt 2rb 2to
+C,"Pachulia, Zaza",0,$10,GOLDEN STATE WARRIORS,v sas, 113-92,DNP,   
+C,"Smith, Jason",0,$10,WASHINGTON WIZARDS,@ tor, 106-114,DNP,   
+C,"Okafor, Emeka",0,$10,NEW ORLEANS PELICANS,@ por, 97-95,DNP,   
+C,"Embiid, Joel",0,$39,PHILADELPHIA 76ERS,v mia, 130-103,NA,   
+C,"Papagiannis, Georgios",0,$10,PORTLAND TRAIL BLAZERS,v nor, 95-97,NA,   

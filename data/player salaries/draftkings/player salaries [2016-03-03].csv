@@ -1,0 +1,117 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Curry, Stephen^",50,"$10,800",GOLDEN STATE WARRIORS,v okc, 121-106,37:11,   33pt 4rb 4as 1st 1bl 1to 5trey 12-25fg 4-5ft
+PG,"Rondo, Rajon^",48.25,"$8,200",SACRAMENTO KINGS,@ dal, 104-101,37:41,   18pt 5rb 12as 3st 3to 8-14fg 2-4ft
+SG,"Booker, Devin^",43.25,"$4,600",PHOENIX SUNS,@ mia, 92-108,39:23,   34pt 3rb 4as 4to 3trey 11-21fg 9-9ft
+PG,"Dragic, Goran^",41.75,"$6,700",MIAMI HEAT,v pho, 108-92,34:20,   25pt 7rb 4as 1st 3to 3trey 10-18fg 2-4ft
+SG,"Wade, Dwyane^",41.5,"$7,100",MIAMI HEAT,v pho, 108-92,33:00,   27pt 4rb 7as 2to 9-17fg 9-10ft
+PG,"Westbrook, Russell^",41.5,"$11,200",OKLAHOMA CITY THUNDER,@ gsw, 106-121,36:03,   22pt 6rb 7as 1bl 2to 1trey 8-24fg 5-7ft
+SG,"Gordon, Eric^",36.75,"$5,300",NEW ORLEANS PELICANS,v sas, 86-94,33:34,   23pt 5rb 4as 3trey 9-19fg 2-2ft
+PG,"Mills, Patty",34,"$3,700",SAN ANTONIO SPURS,@ nor, 94-86,26:36,   9pt 4rb 8as 3st 1bl 1to 1trey 3-6fg 2-2ft
+PG,"Livingston, Shaun",31.5,"$4,000",GOLDEN STATE WARRIORS,v okc, 121-106,20:30,   11pt 2rb 8as 3st 3-6fg 5-5ft
+SG,"Thompson, Klay^",31.5,"$7,900",GOLDEN STATE WARRIORS,v okc, 121-106,34:29,   21pt 2rb 3as 2st 2to 1trey 10-19fg
+PG,"Holiday, Jrue",31.25,"$7,500",NEW ORLEANS PELICANS,v sas, 86-94,27:50,   13pt 3rb 7as 2st 1to 1trey 5-17fg 2-2ft
+PG,"Williams, Deron^",29.75,"$5,800",DALLAS MAVERICKS,v sac, 101-104,37:26,   15pt 3rb 5as 1st 3trey 6-17fg
+PG,"Cole, Norris^",25.25,"$4,700",NEW ORLEANS PELICANS,v sas, 86-94,29:19,   11pt 3rb 5as 2st 3to 1trey 5-13fg
+SG,"Green, Danny^",22.75,"$4,800",SAN ANTONIO SPURS,@ nor, 94-86,34:28,   11pt 3rb 4as 1st 1to 1trey 4-8fg 2-2ft
+PG,"Collison, Darren",20.25,"$5,500",SACRAMENTO KINGS,@ dal, 104-101,28:25,   14pt 1rb 2as 1st 1to 1trey 5-8fg 3-4ft
+SG,"Belinelli, Marco",18.25,"$3,600",SACRAMENTO KINGS,@ dal, 104-101,24:29,   16pt 1rb 1to 3trey 6-10fg 1-4ft
+SG,"Roberson, Andre^",17.75,"$3,100",OKLAHOMA CITY THUNDER,@ gsw, 106-121,35:32,   4pt 11rb 1-7fg 2-2ft
+SG,"Matthews, Wes^",17.75,"$4,900",DALLAS MAVERICKS,v sac, 101-104,36:12,   4pt 3rb 4as 2st 2-9fg
+PG,"Barea, Jose",17.25,"$3,900",DALLAS MAVERICKS,v sac, 101-104,16:19,   8pt 3rb 4as 1to 4-7fg
+PG,"Goodwin, Archie",17,"$4,000",PHOENIX SUNS,@ mia, 92-108,23:54,   10pt 2rb 3as 4-9fg 2-3ft
+SG,"McLemore, Ben^",16,"$3,100",SACRAMENTO KINGS,@ dal, 104-101,23:16,   10pt 4rb 2trey 4-11fg
+SG,"Richardson, Josh",15,"$3,500",MIAMI HEAT,v pho, 108-92,22:30,   6pt 2rb 3as 1st 1to 1trey 2-7fg 1-2ft
+PG,"Parker, Tony^",14.75,"$5,200",SAN ANTONIO SPURS,@ nor, 94-86,23:59,   2pt 3rb 5as 1st 1to 1-3fg
+SG,"Felton, Raymond",14.25,"$4,500",DALLAS MAVERICKS,v sac, 101-104,25:38,   5pt 5rb 1st 1bl 2to 2-6fg 1-1ft
+SG,"Butler, Rasual",12.75,"$3,000",SAN ANTONIO SPURS,@ nor, 94-86,18:31,   2pt 3rb 2as 2bl 1-3fg
+PG,"Foye, Randy",10.75,"$3,100",OKLAHOMA CITY THUNDER,@ gsw, 106-121,19:30,   4pt 3rb 2as 2-7fg
+PG,"Barbosa, Leandro",10.5,"$3,100",GOLDEN STATE WARRIORS,v okc, 121-106,13:31,   6pt 2rb 2as 2to 2-4fg 2-2ft
+PG,"Price, Ronnie^",10.25,"$4,200",PHOENIX SUNS,@ mia, 92-108,19:10,   2pt 1rb 2as 2st 1-4fg
+SG,"Waiters, Dion",8.75,"$4,100",OKLAHOMA CITY THUNDER,@ gsw, 106-121,20:37,   6pt 1rb 1as 2-6fg 2-2ft
+PG,"Harris, Devin",8.25,"$3,100",DALLAS MAVERICKS,v sac, 101-104,11:49,   7pt 1rb 1to 1trey 3-7fg
+SG,"Jenkins, John",7.5,"$3,000",PHOENIX SUNS,@ mia, 92-108,26:14,   5pt 2rb 2-8fg 1-2ft
+SG,"Green, Gerald",6.25,"$3,600",MIAMI HEAT,v pho, 108-92,10:05,   4pt 1rb 1as 1to 2-7fg
+SG,"Weems, Sonny",2.75,"$3,000",PHOENIX SUNS,@ mia, 92-108,2:33,   0pt 1rb 1as
+SG,"Rush, Brandon",2.5,"$3,100",GOLDEN STATE WARRIORS,v okc, 121-106,9:33,   0pt 2rb 0-1fg
+PG,"Pressey, Phil",2,"$3,400",PHOENIX SUNS,@ mia, 92-108,2:07,   0pt 1st
+PG,"Douglas, Toney",2,"$3,200",NEW ORLEANS PELICANS,v sas, 86-94,9:43,   2pt 1-3fg
+PG,"Miller, Andre",0,"$3,000",SAN ANTONIO SPURS,@ nor, 94-86,3:57,   0pt 0-1fg
+PG,"Payne, Cameron",0,"$3,200",OKLAHOMA CITY THUNDER,@ gsw, 106-121,DNP,   0pt
+PG,"Curry, Seth",0,"$3,000",SACRAMENTO KINGS,@ dal, 104-101,DNP,   0pt
+SG,"Dejean-Jones, Bryce",0,"$3,000",NEW ORLEANS PELICANS,v sas, 86-94,DNP,   0pt
+SG,"Clark, Ian",0,"$3,000",GOLDEN STATE WARRIORS,v okc, 121-106,DNP,   0pt
+SG,"Morrow, Anthony",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 106-121,DNP,   0pt
+SG,"Anderson, James",0,"$3,000",SACRAMENTO KINGS,@ dal, 104-101,DNP,   0pt
+PG,"Knight, Brandon",0,"$7,000",PHOENIX SUNS,@ mia, 92-108,DNP,   0pt
+SG,"Ginobili, Manu",0,"$3,900",SAN ANTONIO SPURS,@ nor, 94-86,NA,   0pt
+SG,"Evans, Tyreke",0,"$6,800",NEW ORLEANS PELICANS,v sas, 86-94,NA,   0pt
+SG,"Johnson, Tyler",0,"$3,900",MIAMI HEAT,v pho, 108-92,NA,   0pt
+SG,"Bledsoe, Eric",0,"$8,300",PHOENIX SUNS,@ mia, 92-108,NA,   0pt
+SF,"Durant, Kevin^",61,"$10,300",OKLAHOMA CITY THUNDER,@ gsw, 106-121,39:11,   32pt 10rb 9as 1st 2bl 9to 11-17fg 10-11ft
+SF,"Leonard, Kawhi^",58.5,"$7,700",SAN ANTONIO SPURS,@ nor, 94-86,39:01,   30pt 10rb 3as 2st 2bl 2to 6trey 12-22fg
+PF,"Cousins, DeMarcus^",51.25,"$10,700",SACRAMENTO KINGS,@ dal, 104-101,36:15,   22pt 13rb 5as 1st 2bl 4to 9-17fg 4-8ft
+SF,"Parsons, Chandler^",46.75,"$6,800",DALLAS MAVERICKS,v sac, 101-104,38:19,   28pt 9rb 5as 3to 3trey 12-17fg 1-3ft
+PF,"Davis, Anthony^",43.25,"$9,800",NEW ORLEANS PELICANS,v sas, 86-94,35:07,   17pt 13rb 1as 2st 2bl 2to 7-12fg 3-3ft
+PF,"Aldridge, LaMarcus^",39.75,"$6,600",SAN ANTONIO SPURS,@ nor, 94-86,34:53,   26pt 9rb 1as 1bl 2to 11-19fg 4-4ft
+PF,"Green, Draymond^",38.5,"$8,900",GOLDEN STATE WARRIORS,v okc, 121-106,35:00,   14pt 8rb 7as 2st 1to 1trey 6-10fg 1-4ft
+SF,"Barnes, Harrison^",32.75,"$5,000",GOLDEN STATE WARRIORS,v okc, 121-106,31:11,   14pt 7rb 5as 1st 1to 2trey 6-11fg
+PF,"Ibaka, Serge^",31.5,"$5,900",OKLAHOMA CITY THUNDER,@ gsw, 106-121,36:46,   20pt 6rb 1st 1bl 2to 2trey 8-12fg 2-2ft
+PF,"Lee, David",31.25,"$4,300",DALLAS MAVERICKS,v sac, 101-104,18:26,   12pt 11rb 1as 1st 1bl 3to 6-9fg
+PF,"Nowitzki, Dirk^",30.5,"$6,200",DALLAS MAVERICKS,v sac, 101-104,32:02,   16pt 6rb 5as 1bl 5to 7-16fg 2-2ft
+SF,"Deng, Luol^",26,"$6,300",MIAMI HEAT,v pho, 108-92,28:30,   12pt 4rb 4as 1st 2trey 4-10fg 2-4ft
+SF,"Teletovic, Mirza",23.75,"$5,700",PHOENIX SUNS,@ mia, 92-108,28:19,   11pt 5rb 2st 1bl 1to 2trey 3-10fg 3-4ft
+SF,"Gay, Rudy^",22.25,"$6,500",SACRAMENTO KINGS,@ dal, 104-101,36:15,   9pt 7rb 1as 2st 2to 4-8fg 1-2ft
+SF,"Winslow, Justise",21.75,"$4,600",MIAMI HEAT,v pho, 108-92,29:01,   9pt 7rb 1as 1st 1trey 3-5fg 2-2ft
+SF,"Tucker, P.J.^",21.25,"$4,700",PHOENIX SUNS,@ mia, 92-108,31:18,   10pt 5rb 1as 2st 1to 5-8fg
+SF,"Casspi, Omri",20,"$4,700",SACRAMENTO KINGS,@ dal, 104-101,19:38,   9pt 4rb 1as 1st 1bl 1trey 3-8fg 2-2ft
+SF,"Anderson, Kyle",16.25,"$3,600",SAN ANTONIO SPURS,@ nor, 94-86,16:52,   2pt 7rb 1as 1st 1bl 0-3fg 2-2ft
+SF,"Johnson, Joe^",15.75,"$5,700",MIAMI HEAT,v pho, 108-92,31:20,   8pt 3rb 2as 2trey 3-7fg
+SF,"Singler, Kyle",15.5,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 106-121,19:54,   9pt 2rb 1as 1st 1trey 4-6fg
+PF,"Anderson, Ryan",13.5,"$6,100",NEW ORLEANS PELICANS,v sas, 86-94,12:52,   8pt 4rb 1trey 3-10fg 1-1ft
+PF,"West, David",11.75,"$3,800",SAN ANTONIO SPURS,@ nor, 94-86,14:16,   5pt 5rb 1bl 3to 2-7fg 1-1ft
+SF,"Babbitt, Luke",11.75,"$3,000",NEW ORLEANS PELICANS,v sas, 86-94,16:48,   3pt 3rb 2as 1bl 1to 1trey 1-4fg
+SF,"Gee, Alonzo",9.75,"$3,000",NEW ORLEANS PELICANS,v sas, 86-94,15:55,   2pt 5rb 1bl 1to 1-3fg
+SF,"Cunningham, Dante^",9.25,"$3,500",NEW ORLEANS PELICANS,v sas, 86-94,32:05,   5pt 1rb 2as 1to 1trey 2-6fg
+SF,"Iguodala, Andre",6.75,"$4,200",GOLDEN STATE WARRIORS,v okc, 121-106,14:20,   2pt 1rb 1as 1st 1-3fg
+PF,"Acy, Quincy^",6.75,"$3,200",SACRAMENTO KINGS,@ dal, 104-101,16:21,   4pt 3rb 2to 2-2fg
+PF,"Leuer, Jon",5.75,"$3,700",PHOENIX SUNS,@ mia, 92-108,8:12,   2pt 3rb 1-4fg
+PF,"Diaw, Boris",1.5,"$3,400",SAN ANTONIO SPURS,@ nor, 94-86,5:39,   0pt 1as 0-3fg
+PF,"McRoberts, Josh",1.5,"$3,800",MIAMI HEAT,v pho, 108-92,3:14,   0pt 1as 0-1fg
+PF,"Powell, Dwight",0,"$3,000",DALLAS MAVERICKS,v sac, 101-104,DNP,   0pt
+SF,"Butler, Caron",0,"$3,000",SACRAMENTO KINGS,@ dal, 104-101,DNP,   0pt
+PF,"McAdoo, James Michael",0,"$3,000",GOLDEN STATE WARRIORS,v okc, 121-106,DNP,   0pt
+PF,"Haslem, Udonis",0,"$3,000",MIAMI HEAT,v pho, 108-92,DNP,   0pt
+SF,"Simmons, Jonathon",0,"$3,100",SAN ANTONIO SPURS,@ nor, 94-86,DNP,   0pt
+PF,"Villanueva, Charlie",0,"$3,000",DALLAS MAVERICKS,v sac, 101-104,DNP,   0pt
+SF,"Anderson, Justin",0,"$3,000",DALLAS MAVERICKS,v sac, 101-104,DNP,   0pt
+PF,"McGary, Mitch",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 106-121,DNP,   0pt
+SF,"Huestis, Josh",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 106-121,NA,   0pt
+SF,"Pondexter, Quincy",0,"$3,000",NEW ORLEANS PELICANS,v sas, 86-94,NA,   0pt
+PF,"Looney, Kevon",0,"$3,000",GOLDEN STATE WARRIORS,v okc, 121-106,NA,   0pt
+PF,"Moreland, Eric",0,"$3,000",SACRAMENTO KINGS,@ dal, 104-101,NA,   0pt
+SF,"Dukan, Duje",0,"$3,000",SACRAMENTO KINGS,@ dal, 104-101,NA,   0pt
+SF,"Warren, T.J.",0,"$4,000",PHOENIX SUNS,@ mia, 92-108,NA,   0pt
+SF,"Evans, Jeremy",0,"$3,000",DALLAS MAVERICKS,v sac, 101-104,NA,   0pt
+PF,"Bosh, Chris",0,"$6,800",MIAMI HEAT,v pho, 108-92,NA,   0pt
+PF,"Bonner, Matt",0,"$3,000",SAN ANTONIO SPURS,@ nor, 94-86,NA,   0pt
+C,"Whiteside, Hassan",34.75,"$8,300",MIAMI HEAT,v pho, 108-92,23:28,   9pt 11rb 1as 1st 5bl 3to 4-8fg 1-1ft
+C,"Len, Alex^",31.75,"$5,600",PHOENIX SUNS,@ mia, 92-108,39:48,   12pt 13rb 1as 1bl 3to 4-14fg 4-5ft
+C,"Stoudemire, Amare^",24.25,"$3,800",MIAMI HEAT,v pho, 108-92,24:32,   8pt 9rb 3bl 2to 3-3fg 2-2ft
+C,"Bogut, Andrew^",21,"$4,700",GOLDEN STATE WARRIORS,v okc, 121-106,26:27,   7pt 6rb 2as 1st 1bl 1to 2-2fg 3-4ft
+C,"Duncan, Tim^",19.75,"$4,800",SAN ANTONIO SPURS,@ nor, 94-86,21:48,   7pt 5rb 2as 2bl 1to 2-6fg 3-4ft
+C,"Speights, Marreese",19.5,"$3,100",GOLDEN STATE WARRIORS,v okc, 121-106,11:49,   10pt 4rb 1as 1bl 2trey 4-5fg
+C,"Pachulia, Zaza^",15,"$5,400",DALLAS MAVERICKS,v sac, 101-104,23:49,   6pt 6rb 1as 3-6fg
+C,"Kanter, Enes",10.5,"$4,800",OKLAHOMA CITY THUNDER,@ gsw, 106-121,12:53,   6pt 4rb 1to 3-5fg 0-1ft
+C,"Koufos, Kosta",10,"$3,000",SACRAMENTO KINGS,@ dal, 104-101,11:45,   0pt 4rb 2as 1bl
+C,"Adams, Steven^",9.75,"$4,200",OKLAHOMA CITY THUNDER,@ gsw, 106-121,19:34,   3pt 3rb 2as 1-2fg 1-2ft
+C,"Chandler, Tyson^",9.75,"$4,400",PHOENIX SUNS,@ mia, 92-108,19:02,   6pt 3rb 2-4fg 2-4ft
+C,"Perkins, Kendrick^",9,"$3,000",NEW ORLEANS PELICANS,v sas, 86-94,26:47,   2pt 4rb 2as 2to 1-2fg
+C,"Varejao, Anderson",5.5,"$3,000",GOLDEN STATE WARRIORS,v okc, 121-106,5:59,   3pt 2rb 1-1fg 1-1ft
+C,"Cauley-Stein, Willie",3.25,"$3,700",SACRAMENTO KINGS,@ dal, 104-101,5:55,   2pt 1rb 1-2fg
+C,"Collison, Nick",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 106-121,DNP,   0pt
+C,"Ajinca, Alexis",0,"$3,300",NEW ORLEANS PELICANS,v sas, 86-94,DNP,   0pt
+C,"McGee, JaVale",0,"$3,000",DALLAS MAVERICKS,v sac, 101-104,DNP,   0pt
+C,"Marjanovic, Boban",0,"$3,100",SAN ANTONIO SPURS,@ nor, 94-86,DNP,   0pt
+C,"Asik, Omer",0,"$3,100",NEW ORLEANS PELICANS,v sas, 86-94,DNP,   0pt
+C,"Mejri, Salah",0,"$3,000",DALLAS MAVERICKS,v sac, 101-104,NA,   0pt
+C,"Ezeli, Festus",0,"$3,700",GOLDEN STATE WARRIORS,v okc, 121-106,NA,   0pt

@@ -1,0 +1,115 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Schroder, Dennis",54.5,"$4,800",ATLANTA HAWKS,v mil, 109-117,40:24,   25pt 8rb 10as 1st 1bl 5to 3trey 10-19fg 2-2ft
+SG,"Thompson, Klay^",53.25,"$7,600",GOLDEN STATE WARRIORS,@ lac, 115-112,39:31,   32pt 7rb 3as 3st 4trey 11-22fg 6-6ft
+PG,"Dragic, Goran^",46.75,"$5,700",MIAMI HEAT,v was, 114-94,29:56,   24pt 7rb 8as 1bl 9-20fg 6-7ft
+PG,"Curry, Stephen^",46.25,"$10,800",GOLDEN STATE WARRIORS,@ lac, 115-112,35:30,   23pt 3rb 9as 3st 3to 3trey 5-15fg 10-12ft
+PG,"Paul, Chris^",44.75,"$9,400",LOS ANGELES CLIPPERS,v gsw, 112-115,34:54,   24pt 7rb 6as 1st 1to 3trey 10-19fg 1-1ft
+PG,"Rubio, Ricky^",40.25,"$6,100",MINNESOTA TIMBERWOLVES,v nyk, 95-103,35:13,   9pt 1rb 16as 3st 1to 1trey 2-6fg 4-6ft
+SG,"Crawford, Jamal",39.75,"$5,200",LOS ANGELES CLIPPERS,v gsw, 112-115,37:33,   25pt 3rb 3as 3st 2to 3trey 7-18fg 8-8ft
+SG,"Wiggins, Andrew^",38.75,"$6,300",MINNESOTA TIMBERWOLVES,v nyk, 95-103,36:11,   24pt 5rb 2st 2bl 1to 2trey 8-20fg 6-8ft
+PG,"Carter-Williams, Michael",38.75,"$5,900",MILWAUKEE BUCKS,@ atl, 117-109,38:29,   17pt 9rb 2as 1st 3bl 1to 6-14fg 5-8ft
+SG,"Mayo, O.J.^",36.25,"$3,900",MILWAUKEE BUCKS,@ atl, 117-109,37:59,   9pt 7rb 6as 5st 3to 2trey 3-8fg 1-2ft
+SG,"Middleton, Khris^",33.5,"$7,200",MILWAUKEE BUCKS,@ atl, 117-109,47:35,   12pt 4rb 4as 4st 2bl 4to 1trey 4-16fg 3-4ft
+SG,"LaVine, Zach",26.25,"$5,300",MINNESOTA TIMBERWOLVES,v nyk, 95-103,32:32,   14pt 5rb 3as 1st 1to 7-14fg
+SG,"Beal, Bradley",24.75,"$6,500",WASHINGTON WIZARDS,@ mia, 94-114,29:14,   19pt 3rb 1as 1to 2trey 8-20fg 1-4ft
+PG,"Wall, John^",24,"$9,300",WASHINGTON WIZARDS,@ mia, 94-114,33:21,   12pt 4rb 4as 1bl 2to 5-17fg 2-2ft
+SG,"Richardson, Josh",23.5,"$3,000",MIAMI HEAT,v was, 114-94,35:14,   5pt 6rb 3as 3bl 1trey 2-8fg
+SG,"Afflalo, Arron^",22.5,"$5,100",NEW YORK KNICKS,@ min, 103-95,39:24,   11pt 4rb 3as 1st 3to 3trey 4-10fg
+PG,"Calderon, Jose^",20.5,"$4,400",NEW YORK KNICKS,@ min, 103-95,34:46,   9pt 6rb 3as 2to 1trey 4-8fg
+SG,"Korver, Kyle^",20.25,"$4,200",ATLANTA HAWKS,v mil, 109-117,40:25,   12pt 1rb 1as 3st 3to 2trey 5-11fg
+SG,"Rush, Brandon^",20.25,"$3,000",GOLDEN STATE WARRIORS,@ lac, 115-112,27:03,   6pt 5rb 3as 1st 1bl 1to 3-6fg
+SG,"Redick, J.J.^",19.75,"$4,900",LOS ANGELES CLIPPERS,v gsw, 112-115,27:10,   16pt 1rb 2as 2to 1trey 6-11fg 3-3ft
+SG,"Galloway, Langston",16,"$4,700",NEW YORK KNICKS,@ min, 103-95,23:20,   6pt 4rb 2as 1st 3-7fg
+PG,"Sessions, Ramon",16,"$4,000",WASHINGTON WIZARDS,@ mia, 94-114,24:47,   9pt 2rb 2as 1st 1to 4-10fg 1-3ft
+PG,"Teague, Jeff^",15.5,"$6,000",ATLANTA HAWKS,v mil, 109-117,17:44,   5pt 2rb 5as 1st 3to 2-8fg 1-2ft
+PG,"Prigioni, Pablo",15.25,"$3,000",LOS ANGELES CLIPPERS,v gsw, 112-115,9:58,   6pt 3rb 2as 1st 1to 2trey 2-4fg
+PG,"Udrih, Beno",13.5,"$3,100",MIAMI HEAT,v was, 114-94,18:04,   7pt 4rb 2as 3to 3-8fg 1-2ft
+SG,"Hardaway Jr., Tim",13.25,"$3,000",ATLANTA HAWKS,v mil, 109-117,14:24,   7pt 1rb 2as 1bl 2-6fg 3-3ft
+SG,"Wilcox, C.J.",10.25,"$3,000",LOS ANGELES CLIPPERS,v gsw, 112-115,4:47,   6pt 1rb 1st 2trey 2-4fg
+SG,"Green, Gerald^",10,"$3,800",MIAMI HEAT,v was, 114-94,28:53,   5pt 2rb 1bl 1trey 2-8fg
+PG,"Livingston, Shaun",8.75,"$3,400",GOLDEN STATE WARRIORS,@ lac, 115-112,14:02,   2pt 3rb 1as 1bl 1to 1-2fg
+SG,"Vaughn, Rashad",7.75,"$3,000",MILWAUKEE BUCKS,@ atl, 117-109,18:38,   2pt 1rb 2as 1bl 1to 1-4fg
+SG,"Martin, Kevin",6.25,"$3,300",MINNESOTA TIMBERWOLVES,v nyk, 95-103,12:28,   1pt 3rb 1st 1to 0-2fg 1-2ft
+SG,"Vujacic, Sasha",3,"$3,100",NEW YORK KNICKS,@ min, 103-95,7:17,   0pt 2as 0-2fg
+PG,"Barbosa, Leandro",1.5,"$3,100",GOLDEN STATE WARRIORS,@ lac, 115-112,13:23,   2pt 1to 1-2fg
+SG,"Temple, Garrett^",1.25,"$3,600",WASHINGTON WIZARDS,@ mia, 94-114,16:40,   0pt 1rb 0-4fg
+SG,"Eddie, Jarell",0,"$3,000",WASHINGTON WIZARDS,@ mia, 94-114,4:34,   0pt
+PG,"Grant, Jerian",0,"$3,000",NEW YORK KNICKS,@ min, 103-95,DNP,   0pt
+PG,"Miller, Andre",0,"$3,000",MINNESOTA TIMBERWOLVES,v nyk, 95-103,DNP,   0pt
+SG,"Patterson, Lamar",0,"$3,000",ATLANTA HAWKS,v mil, 109-117,DNP,   0pt
+PG,"Ennis, Tyler",0,"$3,000",MILWAUKEE BUCKS,@ atl, 117-109,DNP,   0pt
+SG,"Wade, Dwyane",0,"$7,100",MIAMI HEAT,v was, 114-94,DNP,   
+PG,"Bayless, Jerryd",0,"$4,400",MILWAUKEE BUCKS,@ atl, 117-109,DNP,   0pt
+PG,"Hinrich, Kirk",0,"$3,000",ATLANTA HAWKS,v mil, 109-117,DNP,   0pt
+PG,"Jones, Tyus",0,"$3,000",MINNESOTA TIMBERWOLVES,v nyk, 95-103,DNP,   0pt
+SG,"Neal, Gary",0,"$3,200",WASHINGTON WIZARDS,@ mia, 94-114,NA,   0pt
+SG,"Johnson, Tyler",0,"$3,900",MIAMI HEAT,v was, 114-94,NA,   0pt
+PG,"Vasquez, Greivis",0,"$3,400",MILWAUKEE BUCKS,@ atl, 117-109,NA,   0pt
+SG,"Rivers, Austin",0,"$3,000",LOS ANGELES CLIPPERS,v gsw, 112-115,NA,   0pt
+SG,"Anderson, Alan",0,"$3,000",WASHINGTON WIZARDS,@ mia, 94-114,NA,   0pt
+SG,"Clark, Ian",-0.5,"$3,000",GOLDEN STATE WARRIORS,@ lac, 115-112,2:58,   0pt 1to
+PF,"Millsap, Paul^",56.75,"$7,800",ATLANTA HAWKS,v mil, 109-117,46:12,   27pt 11rb 6as 1st 2bl 3to 2trey 10-24fg 5-8ft
+SF,"Anthony, Carmelo^",50.25,"$8,600",NEW YORK KNICKS,@ min, 103-95,40:59,   30pt 11rb 4as 2to 12-23fg 6-7ft
+PF,"Green, Draymond^",50.25,"$9,000",GOLDEN STATE WARRIORS,@ lac, 115-112,37:44,   18pt 11rb 10as 2to 9-14fg
+SF,"Deng, Luol^",49,"$5,000",MIAMI HEAT,v was, 114-94,34:56,   27pt 10rb 4as 1st 11-18fg 5-5ft
+PF,"Parker, Jabari^",48.75,"$5,400",MILWAUKEE BUCKS,@ atl, 117-109,51:19,   28pt 13rb 2as 11-21fg 6-7ft
+SF,"Antetokounmpo, Giannis^",41.5,"$7,000",MILWAUKEE BUCKS,@ atl, 117-109,38:00,   19pt 12rb 3as 2bl 5to 8-17fg 3-4ft
+SF,"Barnes, Harrison^",27.25,"$5,000",GOLDEN STATE WARRIORS,@ lac, 115-112,28:57,   18pt 5rb 1as 3trey 6-8fg 3-4ft
+SF,"Muhammad, Shabazz",26.25,"$4,000",MINNESOTA TIMBERWOLVES,v nyk, 95-103,32:32,   20pt 3rb 1st 1to 2trey 8-11fg 2-2ft
+SF,"Dudley, Jared^",25.25,"$4,600",WASHINGTON WIZARDS,@ mia, 94-114,25:40,   16pt 5rb 2as 1to 1trey 7-12fg 1-1ft
+SF,"Sefolosha, Thabo",24.5,"$3,500",ATLANTA HAWKS,v mil, 109-117,33:45,   8pt 6rb 3as 2st 1trey 3-11fg 1-3ft
+SF,"Iguodala, Andre",23.5,"$4,400",GOLDEN STATE WARRIORS,@ lac, 115-112,29:02,   10pt 4rb 5as 1st 3to 1trey 4-9fg 1-4ft
+SF,"Winslow, Justise^",22,"$4,300",MIAMI HEAT,v was, 114-94,25:47,   14pt 6rb 1as 2to 6-10fg 2-5ft
+SF,"Johnson, Wesley",20.5,"$4,100",LOS ANGELES CLIPPERS,v gsw, 112-115,30:57,   8pt 4rb 3as 1st 2trey 3-6fg
+SF,"Porter, Otto^",19.75,"$5,600",WASHINGTON WIZARDS,@ mia, 94-114,32:28,   7pt 7rb 1st 1bl 3-8fg 1-2ft
+SF,"Thomas, Lance",19.25,"$3,000",NEW YORK KNICKS,@ min, 103-95,25:52,   11pt 5rb 1as 1trey 5-10fg
+PF,"Stoudemire, Amare^",18,"$4,500",MIAMI HEAT,v was, 114-94,16:33,   4pt 6rb 2as 2bl 1to 2-3fg
+PF,"Morris, Markieff",17,"$6,200",WASHINGTON WIZARDS,@ mia, 94-114,20:33,   5pt 4rb 1as 2st 1bl 1to 2-7fg 1-2ft
+SF,"Bazemore, Kent^",14.75,"$5,500",ATLANTA HAWKS,v mil, 109-117,25:58,   2pt 5rb 2as 2st 1to 1-5fg
+PF,"Porzingis, Kristaps^",12,"$7,300",NEW YORK KNICKS,@ min, 103-95,11:51,   6pt 2rb 1st 1bl 1to 2-6fg 2-2ft
+PF,"O'Quinn, Kyle",11.75,"$3,000",NEW YORK KNICKS,@ min, 103-95,9:15,   0pt 1rb 2as 1st 3bl 1to 0-1fg
+PF,"McRoberts, Josh",11.25,"$3,000",MIAMI HEAT,v was, 114-94,19:10,   3pt 3rb 3as 1-6fg 1-2ft
+PF,"Scott, Mike",10.5,"$3,000",ATLANTA HAWKS,v mil, 109-117,18:41,   6pt 4rb 1to 3-8fg
+PF,"Dieng, Gorgui^",9.75,"$6,700",MINNESOTA TIMBERWOLVES,v nyk, 95-103,24:43,   3pt 3rb 1as 1bl 1to 1-6fg 1-2ft
+PF,"Gooden, Drew",9.5,"$3,000",WASHINGTON WIZARDS,@ mia, 94-114,4:34,   5pt 2rb 1bl 2-3fg 1-1ft
+PF,"Hilario, Nene",8,"$4,100",WASHINGTON WIZARDS,@ mia, 94-114,12:42,   4pt 2rb 1as 2-3fg
+SF,"Green, Jeff",7.5,"$5,500",LOS ANGELES CLIPPERS,v gsw, 112-115,19:42,   5pt 2rb 1as 3to 2-7fg 1-2ft
+SF,"Oubre, Kelly",5.5,"$3,000",WASHINGTON WIZARDS,@ mia, 94-114,4:43,   3pt 2rb 1-3fg 1-1ft
+SF,"Williams, Derrick",5.5,"$3,700",NEW YORK KNICKS,@ min, 103-95,11:12,   4pt 2rb 2to 1-2fg 2-3ft
+SF,"Pierce, Paul^",4.5,"$3,200",LOS ANGELES CLIPPERS,v gsw, 112-115,15:58,   2pt 2as 1to 1-7fg
+SF,"Prince, Tayshaun^",3.75,"$3,100",MINNESOTA TIMBERWOLVES,v nyk, 95-103,21:13,   0pt 3rb 0-2fg
+PF,"Haslem, Udonis",2,"$3,000",MIAMI HEAT,v was, 114-94,2:09,   0pt 1st
+PF,"Thompson, Jason",0,"$3,000",GOLDEN STATE WARRIORS,@ lac, 115-112,1:34,   0pt
+PF,"Looney, Kevon",0,"$3,000",GOLDEN STATE WARRIORS,@ lac, 115-112,1:34,   0pt
+PF,"Copeland, Chris",0,"$3,000",MILWAUKEE BUCKS,@ atl, 117-109,DNP,   0pt
+PF,"Bjelica, Nemanja",0,"$3,200",MINNESOTA TIMBERWOLVES,v nyk, 95-103,DNP,   0pt
+PF,"Seraphin, Kevin",0,"$3,000",NEW YORK KNICKS,@ min, 103-95,DNP,   0pt
+SF,"Dawson, Branden",0,"$3,000",LOS ANGELES CLIPPERS,v gsw, 112-115,DNP,   0pt
+PF,"O'Bryant, Johnny",0,"$3,000",MILWAUKEE BUCKS,@ atl, 117-109,DNP,   0pt
+PF,"Payne, Adreian",0,"$3,000",MINNESOTA TIMBERWOLVES,v nyk, 95-103,DNP,   0pt
+PF,"Amundson, Louis",0,"$3,000",NEW YORK KNICKS,@ min, 103-95,DNP,   0pt
+PF,"Henson, John",0,"$3,900",MILWAUKEE BUCKS,@ atl, 117-109,DNP,   0pt
+PF,"McAdoo, James Michael",0,"$3,000",GOLDEN STATE WARRIORS,@ lac, 115-112,NA,   0pt
+PF,"Griffin, Blake",0,"$8,500",LOS ANGELES CLIPPERS,v gsw, 112-115,NA,   0pt
+SF,"Early, Cleanthony",0,"$3,000",NEW YORK KNICKS,@ min, 103-95,NA,   0pt
+PF,"Bosh, Chris",0,"$6,800",MIAMI HEAT,v was, 114-94,NA,   0pt
+PF,"Garnett, Kevin",0,"$3,000",MINNESOTA TIMBERWOLVES,v nyk, 95-103,NA,   0pt
+SF,"Rudez, Damjan",-0.5,"$3,000",MINNESOTA TIMBERWOLVES,v nyk, 95-103,3:53,   0pt 1to
+PF,"Mbah a Moute, Luc^",-0.5,"$3,000",LOS ANGELES CLIPPERS,v gsw, 112-115,12:42,   0pt 1to 0-1fg
+C,"Whiteside, Hassan",58.75,"$7,200",MIAMI HEAT,v was, 114-94,29:18,   25pt 23rb 2bl 1to 11-15fg 3-7ft
+C,"Jordan, DeAndre^",55.25,"$7,400",LOS ANGELES CLIPPERS,v gsw, 112-115,36:33,   16pt 21rb 3as 2st 2bl 2to 7-13fg 2-4ft
+C,"Lopez, Robin^",51,"$5,200",NEW YORK KNICKS,@ min, 103-95,36:04,   26pt 16rb 3bl 5to 11-14fg 4-4ft
+C,"Monroe, Greg",50.5,"$6,900",MILWAUKEE BUCKS,@ atl, 117-109,36:06,   24pt 12rb 4as 1st 1bl 10-20fg 4-7ft
+C,"Towns, Karl-Anthony^",48,"$8,500",MINNESOTA TIMBERWOLVES,v nyk, 95-103,41:15,   24pt 8rb 4as 1st 3bl 10-23fg 4-5ft
+C,"Horford, Al^",39.75,"$6,600",ATLANTA HAWKS,v mil, 109-117,44:17,   17pt 9rb 2as 1st 3bl 1trey 8-14fg
+C,"Gortat, Marcin^",36.75,"$6,400",WASHINGTON WIZARDS,@ mia, 94-114,30:44,   14pt 13rb 2as 1st 6-12fg 2-5ft
+C,"Plumlee, Miles^",17.25,"$3,300",MILWAUKEE BUCKS,@ atl, 117-109,21:54,   6pt 7rb 1st 1bl 3to 3-4fg
+C,"Aldrich, Cole",14,"$3,200",LOS ANGELES CLIPPERS,v gsw, 112-115,8:07,   4pt 6rb 2as 1to 2-4fg
+C,"Muscala, Mike",4.5,"$3,000",ATLANTA HAWKS,v mil, 109-117,8:10,   0pt 2rb 1bl
+C,"Speights, Marreese",4.25,"$3,200",GOLDEN STATE WARRIORS,@ lac, 115-112,8:42,   4pt 1rb 2to 2-4fg
+C,"Bogut, Andrew",0,"$4,400",GOLDEN STATE WARRIORS,@ lac, 115-112,DNP,   0pt
+C,"Tavares, Walter",0,"$3,000",ATLANTA HAWKS,v mil, 109-117,DNP,   0pt
+C,"Pekovic, Nikola",0,"$3,100",MINNESOTA TIMBERWOLVES,v nyk, 95-103,NA,   0pt
+C,"Splitter, Tiago",0,"$3,000",ATLANTA HAWKS,v mil, 109-117,NA,   0pt
+C,"Ezeli, Festus",0,"$3,700",GOLDEN STATE WARRIORS,@ lac, 115-112,NA,   0pt
+NA,"Stepheson, Alex",1.25,N/A,LOS ANGELES CLIPPERS,v gsw, 112-115,1:39,   0pt 1rb

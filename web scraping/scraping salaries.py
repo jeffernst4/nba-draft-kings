@@ -1,103 +1,137 @@
-https://github.com/jaebradley/basketball_reference_web_scraper/blob/v4/basketball_reference_web_scraper/parsers/players_season_totals.py
 
-https://srome.github.io/Parsing-HTML-Tables-in-Python-with-BeautifulSoup-and-pandas/
-
-import pandas as pd
+# Import libraries
+import csv
 import io
-from bs4 import BeautifulSoup
+import pandas as pd
+import re
+import requests
 import urllib.request
+
+from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
 from lxml import html
 
-url = 'http://rotoguru1.com/cgi-bin/hyday.pl?game=dk&mon=MONTH&day=DAY&year=YEAR'
-
-mon = "1"
-day = "1"
-yr = "2017"
-
-soup = BeautifulSoup(urllib.request.urlopen(url.replace("MONTH", mon).replace("DAY", day).replace("YEAR", yr)).read())
-
-table = soup.find_all('table')[7]
-
-rows = table.find_all('tr')
-
-row = rows[3].find_all('td')
-
-str(row[1].get_text())
-
-### USE lxml and html instead of beautiful soup
-
-def parse_player_season_totals(row):
-    return {
-        "position": str(row[1].get("data-append-csv")),
-        "name": str(row[1].text_content()),
-        "fantasy_points": parse_positions(row[2].text_content()),
-        "salary": str_to_int(row[3].text_content(), default=None),
-        "team": TEAM_ABBREVIATIONS_TO_TEAM.get(row[4].text_content()),
-        "opponent": str_to_int(row[5].text_content()),
-        "score": str_to_int(row[6].text_content()),
-        "minutes_played": str_to_int(row[7].text_content()),
-        "stats": str_to_int(row[8].text_content()),
+teamAbbreviations = {
+    'atl': 'ATLANTA HAWKS',
+    'bkn': 'BROOKLYN NETS',
+    'bos': 'BOSTON CELTICS',
+    'cha': 'CHARLOTTE HORNETS',
+    'chi': 'CHICAGO BULLS',
+    'cle': 'CLEVELAND CAVALIERS',
+    'dal': 'DALLAS MAVERICKS',
+    'den': 'DENVER NUGGETS',
+    'det': 'DETROIT PISTONS',
+    'gsw': 'GOLDEN STATE WARRIORS',
+    'hou': 'HOUSTON ROCKETS',
+    'ind': 'INDIANA PACERS',
+    'lac': 'LOS ANGELES CLIPPERS',
+    'lal': 'LOS ANGELES LAKERS',
+    'mem': 'MEMPHIS GRIZZLIES',
+    'mia': 'MIAMI HEAT',
+    'mil': 'MILWAUKEE BUCKS',
+    'min': 'MINNESOTA TIMBERWOLVES',
+    'nor': 'NEW ORLEANS PELICANS',
+    'nyk': 'NEW YORK KNICKS',
+    'okc': 'OKLAHOMA CITY THUNDER',
+    'orl': 'ORLANDO MAGIC',
+    'phi': 'PHILADELPHIA 76ERS',
+    'pho': 'PHOENIX SUNS',
+    'por': 'PORTLAND TRAIL BLAZERS',
+    'sac': 'SACRAMENTO KINGS',
+    'sas': 'SAN ANTONIO SPURS',
+    'tor': 'TORONTO RAPTORS',
+    'uta': 'UTAH JAZZ',
+    'was': 'WASHINGTON WIZARDS',
+    'WES': 'WEST'
     }
 
-totals = []
+gameAbbreviations = {
+    'draftkings': 'df',
+    'fanduel': 'fd',
+    'yahoo': 'yh'
+}
 
-for row in rows:
-    # Basketball Reference includes a "total" row for players that got traded
-    # which is essentially a sum of all player team rows
-    # I want to avoid including those, so I check the "team" field value for "TOT"
-    if row[4].text_content() != "TOT":
-        totals.append(parse_player_season_totals(row))
-return totals
+# Create parse player salaries function
+def ParsePlayerSalaries(row):
+    return {
+        "position": str(row[0].text_content()),
+        "name": str(row[1].text_content()),
+        "fantasy_points": str(row[2].text_content()),
+        "salary": str(row[3].text_content()),
+        "team": teamAbbreviations.get(row[4].text_content()),
+        "opponent": str(row[5].text_content()),
+        "score": str(row[6].text_content()),
+        "minutes_played": str(row[7].text_content()),
+        "stats": str(row[8].text_content()),
+    }
 
-columns = table.find_all('tr')[7].find_all('td')
+def ScrapePlayerSalaries(startDate, endDate, game):
 
-new_table = pd.DataFrame(columns=range(0,9), index = [0]) # I know the size 
-
-row_marker = 1
-column_marker = 0
-for column in columns:
-    new_table.iat[row_marker,column_marker] = column.get_text()
-    column_marker += 1
-
-
+    # Format dates
+    startDate = datetime.strptime(startDate, '%m/%d/%Y')
+    endDate = datetime.strptime(endDate, '%m/%d/%Y')
+    currentDate = startDate
     
-row_marker = 0
-for row in table.find_all('tr')[7]:
-    column_marker = 0
-    columns = row.find_all('td')
-    print(row.find_all('td'))
+    while (endDate - currentDate).days >= 0:
+        
+        print('Scraping player salaries for ' + currentDate.strftime('%Y-%m-%d'))
     
-    
-    for column in columns:
-        new_table.iat[row_marker,column_marker] = column.get_text()
-        column_marker += 1
-
-
-
-# days = list(map(str, range(1, 31)))
-# months = list(map(str, range(1, 12)))
-# years = list(map(str, range(2017, 2018)))
-
-all_games = pd.DataFrame()
-for yr in years:
-    for mon in months:
-        for day in days:
-            soup = BeautifulSoup(urllib.request.urlopen(url.replace("MONTH", mon).replace("DAY", day).replace("YEAR", yr)).read())
-            all_games = pd.concat([all_games, pd.read_csv(io.StringIO(soup.find("pre").text), sep = ";")])
-
-all_games
-
-table = soup.find_all('table')[7]
-
-new_table = pd.DataFrame(columns=range(0,9), index = [0]) # I know the size 
-    
-row_marker = 0
-for row in table.find_all('tr')[7]:
-    column_marker = 0
-    columns = row.find_all('td')
-    print(row.find_all('td'))
-    
-    
-    for column in columns:
-        new_table.iat[row_marker,column_marker] = column.get_text()
-        column_marker += 1
+        url = 'http://rotoguru1.com/cgi-bin/hyday.pl?game={game}&mon={month}&day={day}&year={year}'.format(
+                game=gameAbbreviations.get(game),
+                day=currentDate.day,
+                month=currentDate.month,
+                year=currentDate.year
+            )
+        
+        # page = urllib.request.urlopen(url).read()
+        
+        response = requests.get(url=url)
+        
+        response.raise_for_status()
+        
+        page = response.content
+        
+        tree = html.fromstring(page)
+        
+        rows = tree.xpath('//table/tr')
+        
+        
+        
+        totals = []
+        
+        for row in rows:
+            #print(str(row[3].text_content()))
+            #if re.search("\$[0-9]+,[0-9]{3}", str(row[3].text_content()))
+            #    totals.append(parse_player_season_totals(row))
+            if len(row) == 9:
+                totals.append(ParsePlayerSalaries(row))
+        # return totals
+        
+        csv_columns = ['position',
+                       'name',
+                       'fantasy_points',
+                       'salary',
+                       'team',
+                       'opponent',
+                       'score',
+                       'minutes_played',
+                       'stats']
+        
+        csv_file = 'data/player salaries/{game}/player salaries [{year}-{month}-{day}].csv'.format(
+                game=game,
+                day=f"{currentDate.day:02d}",
+                month=f"{currentDate.month:02d}",
+                year=currentDate.year
+                )
+        
+        with open(csv_file, 'w') as csvfile:
+            writer = csv.DictWriter(csvfile, lineterminator='\n', fieldnames=csv_columns)
+            writer.writeheader()
+            for data in totals:
+                writer.writerow(data)
+                
+        currentDate = currentDate + timedelta(days=1)
+        
+ScrapePlayerSalaries('01/01/2014', '05/14/2019', 'draftkings')
+ScrapePlayerSalaries('01/01/2014', '05/14/2019', 'fanduel')
+ScrapePlayerSalaries('01/01/2016', '01/01/2017', 'yahoo')

@@ -5,8 +5,6 @@
 
 # put in correct order in optimizaiton part
 
-# rename 3 pointers
-
 # Clean up code
 
 # find out what the roster is for each game to determine who was missing from
@@ -18,10 +16,15 @@
 
 # remove all group_by()
 
-# What if you used salaries to determine what the % chance of player playing in the game
+# identify playoff games and possibly remove, see if they're harder to predict
 
+# Get player news from cbs to add to player salaries for predicting time played
 
+# Match up names from basketball reference, draft kings, and rotoguru
 
+# Fix names of people who have weird prefix/suffix's
+
+# Use player salaries to find players who didn't play
 
 
 # Setup -----
@@ -115,6 +118,71 @@ dataLoad <- list(
     # Return data
     return(data)
     
+  },
+  
+  PlayerSalaries = function(fileType, gameType) {
+    
+    # Create empty data list
+    dataList <- list()
+    
+    # Create file list
+    fileList <-
+      list.files(path = paste0("data/", fileType, "/", gameType, "/"),
+                 pattern = "*.csv")
+    
+    # Create progress bar
+    progressBar <- tkProgressBar("Loading Data", "Loading...",
+                                 0, 1, 0)
+    
+    # Load data to a list of data frames
+    for(i in 1:length(fileList)) {
+        
+      # Extract date
+      fileDate <-
+        as.Date(str_extract(fileList[i], "[0-9]{4}-[0-9]{2}-[0-9]{2}"),
+                format = "%Y-%m-%d")
+      
+      # Read data
+      data <-
+        read.csv(
+          paste0("data/",
+                 fileType,
+                 "/",
+                 gameType,
+                 "/",
+                 fileList[i]),
+          stringsAsFactors = FALSE,
+          encoding = "utf-8"
+        )
+      
+      # Check if data has more than one row
+      if (nrow(data) > 0) {
+        
+        # Add date column to data
+        data$date <- fileDate
+        
+        # Add data to list
+        dataList <- c(dataList, list(data))
+        
+      }
+      
+      # Update progress bar
+      setTkProgressBar(progressBar,
+                       i / length(fileList),
+                       paste0("Loading ", gameType, " ", fileType),
+                       sprintf("%d%% done", round(i * 100 / length(fileList))))
+      
+    }
+    
+    # Close progress bar
+    close(progressBar)
+    
+    # Combine list into a single data frame
+    data <- do.call("rbind", dataList)
+    
+    # Return data
+    return(data)
+    
   }
   
 )
@@ -132,6 +200,20 @@ data <- list(
   ),
   SeasonSchedules = dataLoad$GameStats(
     fileType = "season schedules"
+  ),
+  PlayerSalaries = list(
+    DraftKings = dataLoad$PlayerSalaries(
+      fileType = "player salaries",
+      gameType = "draftkings"
+    ),
+    FanDuel = dataLoad$PlayerSalaries(
+      fileType = "player salaries",
+      gameType = "fanduel"
+    ),
+    Yahoo = dataLoad$PlayerSalaries(
+      fileType = "player salaries",
+      gameType = "yahoo"
+    )
   )
 )
 
@@ -245,6 +327,25 @@ dataTransformation <- list(
     
   },
   
+  # Transform player salaries
+  PlayerSalaries = function(playerSalaries) {
+    
+    # Format na's
+    playerSalaries$salary <- gsub("N/A", NA, playerSalaries$salary)
+    
+    # Format salaries to numeric
+    playerSalaries$salary <-
+      as.numeric(gsub('[$,]', '', playerSalaries$salary))
+    
+    # Format names
+    playerSalaries$name <-
+      gsub("\\^", "", sub("(\\w+),\\s(\\w+)", "\\2 \\1", playerSalaries$name))
+    
+    # Return player box scores
+    return(playerSalaries)
+    
+  },
+  
   # Transform team box scores
   TeamBoxScores = function(teamBoxScores) {
     
@@ -256,12 +357,6 @@ dataTransformation <- list(
     names(teamBoxScores) <- gsub("made_free_throws", "free_throws_made", names(teamBoxScores))
     names(teamBoxScores) <- gsub("attempted_free_throws", "free_throws_attempted", names(teamBoxScores))
     
-    # Calculate possessions
-    teamBoxScores$possessions <-
-      0.96 * (
-        teamBoxScores$field_goals_attempted + teamBoxScores$turnovers + 0.44 * teamBoxScores$free_throws_attempted - teamBoxScores$offensive_rebounds
-      )
-    
     # Create opponent version of team box scores
     oppTeamBoxScores <- teamBoxScores[, c("date", "team", "points")]
     
@@ -269,18 +364,10 @@ dataTransformation <- list(
     names(oppTeamBoxScores) <-
       gsub("team", "opponent", names(oppTeamBoxScores))
     names(oppTeamBoxScores) <-
-      gsub("points", "opp_points", names(oppTeamBoxScores))
+      gsub("points", "opponent_points", names(oppTeamBoxScores))
     
     # Join opponent team box scores with team box scores
     teamBoxScores <- join(teamBoxScores, oppTeamBoxScores)
-    
-    # Calculate offensive efficiency
-    teamBoxScores$offensive_efficiency <-
-      teamBoxScores$points / teamBoxScores$possessions
-    
-    # Calculate defensive efficiency
-    teamBoxScores$defensive_efficiency <-
-      teamBoxScores$opp_points / teamBoxScores$possessions
     
     # Return team box scores
     return(teamBoxScores)
@@ -396,6 +483,10 @@ data$PlayerSeasonTotals <-
 data$PlayerBoxScores <-
   dataTransformation$PlayerBoxScores(data$PlayerBoxScores)
 
+# Transform player salaries
+data$PlayerSalaries <-
+  dataTransformation$PlayerSalaries(data$PlayerSalaries$DraftKings)
+
 # Join season schedules with player box scores
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$SeasonSchedules[, c("date", "team", "season")])
@@ -403,6 +494,10 @@ data$PlayerBoxScores <-
 # Join player season totals with player box scores
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$PlayerSeasonTotals[, c("slug", "season", "team", "position")])
+
+# Join player salaries with player box scores
+data$PlayerBoxScores <-
+  join(data$PlayerBoxScores, data$PlayerSalaries[, c("date", "name", "team", "salary")], type = "left")
 
 # Create team stats
 data$TeamStats <-
@@ -418,6 +513,8 @@ data$PlayerAnalysis <-
                            "team",
                            "opponent",
                            "location",
+                           "minutes_played",
+                           "salary",
                            "fantasy_points")]
 
 # Create team analysis
@@ -428,6 +525,35 @@ data$OpponentAnalysis <-
 # Feature Engineering -----
 
 FeatureEngineering <- list(
+  
+  # Calculate player fantasy points
+  Player_Minutes = function(playerBoxScores) {
+    
+    # Filter player box scores
+    playerBoxScores <-
+      playerBoxScores[, c("slug", "date", "minutes_played")]
+    
+    # Create rolling averages
+    playerMinutes <- eval(parse(
+      text = paste0(
+        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+        paste0(sapply(c(1:10, 15, 20), function(x)
+          paste0(
+            "player_minutes_",
+            x,
+            " = c(NA, head(rollmean(minutes_played, ",
+            x,
+            ", na.pad = TRUE, align = 'right'), -1))",
+            collapse = ", "
+          )), collapse = ", "),
+        ")"
+      )
+    ))
+    
+    # Return player stats
+    return(playerMinutes)
+    
+  },
   
   # Calculate opponent multipliers
   Opponent_Multipliers = function(teamStats) {
@@ -526,104 +652,6 @@ FeatureEngineering <- list(
     
   },
   
-  # # Calculate opponent multipliers
-  # Opponent_Multipliers = function(teamStats) {
-  #   
-  #   # Create stats analysis
-  #   statsAnalysis <- teamStats[, c("opponent", "date", "season")]
-  #   
-  #   # Specify stats
-  #   stats <- c(
-  #     "points",
-  #     "three_pointers_made",
-  #     "rebounds",
-  #     "assists",
-  #     "steals",
-  #     "blocks",
-  #     "turnovers"
-  #   )
-  #   
-  #   # Filter team stats
-  #   teamStats <-
-  #     teamStats[, c("opponent", "date", "season", stats)]
-  #   
-  #   # Create opponent stats
-  #   opponentStats <- eval(parse(
-  #     text = paste0(
-  #       "teamStats %>% group_by(opponent) %>% dplyr::mutate(",
-  #       paste0(
-  #         "opponent_",
-  #         stats,
-  #         "_25 = c(NA, head(rollmean(",
-  #         stats,
-  #         ", 25, na.pad = TRUE, align = 'right'), -1))",
-  #         collapse = ", "
-  #       ),
-  #       ")"
-  #     )
-  #   ))
-  #   
-  #   # Remove columns
-  #   opponentStats <-
-  #     opponentStats[, !(names(opponentStats) %in% stats)]
-  #   
-  #   # Join opponent stats
-  #   statsAnalysis <- join(statsAnalysis, opponentStats)
-  #   
-  #   # Create league stats
-  #   leagueStats <- eval(parse(
-  #     text = paste0(
-  #       "teamStats %>% group_by() %>% dplyr::mutate(",
-  #       paste0(
-  #         "league_",
-  #         stats,
-  #         "_100 = c(NA, head(rollmean(",
-  #         stats,
-  #         ", 100, na.pad = TRUE, align = 'right'), -1))",
-  #         collapse = ", "
-  #       ),
-  #       ")"
-  #     )
-  #   ))
-  #   
-  #   # Remove columns
-  #   leagueStats <-
-  #     leagueStats[, !(names(leagueStats) %in% stats)]
-  #   
-  #   # Join league stats
-  #   statsAnalysis <- join(statsAnalysis, leagueStats)
-  #   
-  #   # Calculate opponent multipliers
-  #   opponentMultipliers <- eval(parse(
-  #     text = paste0(
-  #       "statsAnalysis %>% group_by() %>% dplyr::mutate(",
-  #       paste0(
-  #         "opponent_",
-  #         stats,
-  #         "_multiplier = opponent_",
-  #         stats,
-  #         "_25 / league_",
-  #         stats,
-  #         "_100",
-  #         collapse = ", "
-  #       ),
-  #       ")"
-  #     )
-  #   ))
-  #   
-  #   # Remove columns
-  #   opponentMultipliers <-
-  #     opponentMultipliers[,!(names(opponentMultipliers) %in% c(
-  #       stats,
-  #       paste0("opponent_", stats, "_25"),
-  #       paste0("league_", stats, "_100")
-  #     ))]
-  #   
-  #   # Return opponent multipliers
-  #   return(opponentMultipliers)
-  #   
-  # },
-  
   # Calculate player fantasy points
   Player_Stats = function(playerBoxScores, opponentAnalysis) {
     
@@ -693,263 +721,31 @@ FeatureEngineering <- list(
       )
     ))
     
+    # Remove columns
+    playerStats <-
+      playerStats[, !(names(playerStats) %in% sapply(c(1:10, 15, 20), function(x)
+        paste0("player_", stats, "_", x)))]
+    
     # Return player stats
     return(playerStats)
-    
-  },
-
-  # Calculate player fantasy points
-  Player_FP = function(playerBoxScores) {
-    
-    # Filter player box scores
-    playerBoxScores <-
-      playerBoxScores[, c("slug", "date", "fantasy_points")]
-    
-    # Create rolling averages
-    playerBoxScores <- playerBoxScores %>%
-      group_by(slug) %>%
-      dplyr::mutate(
-        player_fp_1 = c(NA, head(
-          rollmean(fantasy_points, 1, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_2 = c(NA, head(
-          rollmean(fantasy_points, 2, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_3 = c(NA, head(
-          rollmean(fantasy_points, 3, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_4 = c(NA, head(
-          rollmean(fantasy_points, 4, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_5 = c(NA, head(
-          rollmean(fantasy_points, 5, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_6 = c(NA, head(
-          rollmean(fantasy_points, 6, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_7 = c(NA, head(
-          rollmean(fantasy_points, 7, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_8 = c(NA, head(
-          rollmean(fantasy_points, 8, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_9 = c(NA, head(
-          rollmean(fantasy_points, 9, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_10 = c(NA, head(
-          rollmean(fantasy_points, 10, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_15 = c(NA, head(
-          rollmean(fantasy_points, 15, na.pad = TRUE, align = "right"), -1
-        )),
-        player_fp_20 = c(NA, head(
-          rollmean(fantasy_points, 20, na.pad = TRUE, align = "right"), -1
-        ))
-      )
-    
-    # Remove column
-    playerBoxScores <-
-      subset(playerBoxScores, select = -fantasy_points)
-    
-    # Return player box scores
-    return(playerBoxScores)
-    
-  },
-  
-  # Calculate player minutes
-  Player_Minutes = function(playerBoxScores) {
-    
-    # Filter player box scores
-    playerBoxScores <-
-      playerBoxScores[, c("slug", "date", "minutes_played")]
-    
-    # Create rolling averages
-    playerBoxScores <- playerBoxScores %>%
-      group_by(slug) %>%
-      dplyr::mutate(
-        player_minutes_3 = c(NA, head(
-          rollmean(minutes_played, 3, na.pad = TRUE, align = "right"), -1
-        )),
-        player_minutes_10 = c(NA, head(
-          rollmean(minutes_played, 10, na.pad = TRUE, align = "right"), -1
-        ))
-      )
-    
-    # Remove column
-    playerBoxScores <-
-      subset(playerBoxScores, select = -minutes_played)
-    
-    # Return player box scores
-    return(playerBoxScores)
-    
-  },
-  
-  # Calculate opponent fantasy points allowed by position
-  Opponent_FP_Position = function(playerBoxScores) {
-    
-    # Filter player box scores
-    playerBoxScores <-
-      playerBoxScores[, c("opponent", "date", "position", "fantasy_points")]
-    
-    # Calculate mean fantasy points per game
-    playerBoxScores <-
-      aggregate(fantasy_points ~ opponent + date + position, playerBoxScores, mean)
-    
-    # Create rolling averages
-    playerBoxScores <- playerBoxScores %>%
-      group_by(opponent, position) %>%
-      dplyr::mutate(
-        opp_fp_position_3 = c(NA, head(
-          rollmean(fantasy_points, 3, na.pad = TRUE, align = "right"), -1
-        )),
-        opp_fp_position_10 = c(NA, head(
-          rollmean(fantasy_points, 10, na.pad = TRUE, align = "right"), -1
-        ))
-      )
-    
-    # Remove column
-    playerBoxScores <-
-      subset(playerBoxScores, select = -fantasy_points)
-    
-    # Return player box scores
-    return(playerBoxScores)
-    
-  },
-  
-  # Calculate team offensive efficiency
-  Team_Offensive_Efficiency = function(teamBoxScores) {
-    
-    # Filter player box scores
-    teamBoxScores <-
-      teamBoxScores[, c("team", "date", "offensive_efficiency")]
-    
-    # Create rolling averages
-    teamBoxScores <- teamBoxScores %>%
-      group_by(team) %>%
-      dplyr::mutate(
-        team_offeff_3 = c(NA, head(
-          rollmean(offensive_efficiency, 3, na.pad = TRUE, align = "right"), -1
-        )),
-        team_offeff_10 = c(NA, head(
-          rollmean(offensive_efficiency, 10, na.pad = TRUE, align = "right"), -1
-        ))
-      )
-    
-    # Remove column
-    teamBoxScores <-
-      subset(teamBoxScores, select = -offensive_efficiency)
-    
-    # Return team box scores
-    return(teamBoxScores)
-    
-  },
-  
-  # Calculate opponent defensive efficiency
-  Opponent_Defensive_Efficiency = function(teamBoxScores) {
-    
-    # Filter player box scores
-    teamBoxScores <-
-      teamBoxScores[, c("team", "date", "defensive_efficiency")]
-    
-    # Create rolling averages
-    teamBoxScores <- teamBoxScores %>%
-      group_by(team) %>%
-      dplyr::mutate(
-        opp_defeff_3 = c(NA, head(
-          rollmean(defensive_efficiency, 3, na.pad = TRUE, align = "right"), -1
-        )),
-        opp_defeff_10 = c(NA, head(
-          rollmean(defensive_efficiency, 10, na.pad = TRUE, align = "right"), -1
-        ))
-      )
-    
-    # Remove column
-    teamBoxScores <-
-      subset(teamBoxScores, select = -defensive_efficiency)
-    
-    # Rename column
-    names(teamBoxScores) <- gsub("team", "opponent", names(teamBoxScores))
-    
-    # Return team box scores
-    return(teamBoxScores)
-    
-  },
-  
-  # Calculate player usage rate
-  Player_Usage_Rate = function(playerBoxScores) {
-    
-    # Filter player box scores
-    playerBoxScores <-
-      playerBoxScores[, c("slug", "date", "usage_rate")]
-    
-    # Create rolling averages
-    playerBoxScores <- playerBoxScores %>%
-      group_by(slug) %>%
-      dplyr::mutate(
-        player_usagerate_3 = c(NA, head(
-          rollmean(usage_rate, 3, na.pad = TRUE, align = "right"), -1
-        )),
-        player_usagerate_10 = c(NA, head(
-          rollmean(usage_rate, 10, na.pad = TRUE, align = "right"), -1
-        ))
-      )
-    
-    # Remove column
-    playerBoxScores <-
-      subset(playerBoxScores, select = -usage_rate)
-    
-    # Return player box scores
-    return(playerBoxScores)
     
   }
   
 )
 
+# Create player minutes
+data$PlayerAnalysis <-
+  join(data$PlayerAnalysis,
+       FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
+
 # Create opponent multipliers
 data$OpponentAnalysis <-
   FeatureEngineering$Opponent_Multipliers(data$TeamStats)
-
-
 
 # Create player stats
 data$PlayerAnalysis <-
   join(data$PlayerAnalysis,
        FeatureEngineering$Player_Stats(data$PlayerBoxScores, data$OpponentAnalysis))
-
-
-
-
-
-
-# # Create player fantasy points
-# data$Analysis <-
-#   join(data$Analysis,
-#        FeatureEngineering$Player_FP(data$PlayerBoxScores))
-# 
-# # Calculate player minutes
-# data$Analysis <-
-#   join(data$Analysis,
-#        FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
-# 
-# # Calculate opponent fantasy points by position
-# data$Analysis <-
-#   join(data$Analysis,
-#        FeatureEngineering$Opponent_FP_Position(data$PlayerBoxScores))
-# 
-# # Calculate team offensive efficiency
-# data$Analysis <-
-#   join(data$Analysis,
-#        FeatureEngineering$Team_Offensive_Efficiency(data$TeamBoxScores))
-# 
-# # Calculate opponent defensive efficiency
-# data$Analysis <-
-#   join(data$Analysis,
-#        FeatureEngineering$Opponent_Defensive_Efficiency(data$TeamBoxScores))
-# 
-# # Calculate player usage rate
-# data$Analysis <-
-#   join(data$Analysis,
-#        FeatureEngineering$Player_Usage_Rate(data$PlayerBoxScores))
 
 
 # Model -----
@@ -987,7 +783,7 @@ model$Predictors <-
 model$OLS <- lm(as.formula(paste0(
   model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
 )),
-data$PlayerAnalysis)
+na.omit(data$PlayerAnalysis))
 
 summary(model$OLS)
 
@@ -997,6 +793,27 @@ summary(model$OLS)
 # )),
 # data = na.omit(data$Analysis[sample(257015, 5000), ]),
 # importance = TRUE)
+
+
+### MINUTES PLAYED
+
+# predictors: news, minutes_played (last games), fantasy points (last games),
+# salary, difference of opponent vs team (maybe?, chance of overtime and also
+# better players play more, more difference means worse player will play more),
+# account for blowouts and overtimes (maybe use % of total team time rather than
+# actual playing time)
+
+# https://cran.r-project.org/web/packages/ngram/vignettes/ngram-guide.pdf
+
+# https://www.dataquest.io/blog/natural-language-processing-with-python/
+
+# Create random forest model
+model$RandomForest <-
+  randomForest(
+    minutes_played ~ salary + player_fp_20 + player_fp_10 + player_fp_5 + player_fp_4 + player_fp_3 + player_fp_2 + player_fp_1 + player_minutes_20 + player_minutes_10 + player_minutes_6 + player_minutes_3 + player_minutes_2 + player_minutes_1,
+    data = na.omit(data$PlayerAnalysis[sample(257015, 20000),]),
+    importance = TRUE
+  )
 
 ### R2 currently at .5471 with "player_fp_1", "player_fp_2", "player_fp_3", "player_fp_6", "player_fp_10", "player_fp_20"
 

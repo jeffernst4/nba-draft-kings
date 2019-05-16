@@ -1,0 +1,67 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Lillard, Damian^",44.7,"$9,800",PORTLAND TRAIL BLAZERS,v lal, 113-110,38:43,   32pt 6rb 5as 2to 2trey 8-18fg 14-14ft
+PG,"Curry, Stephen^",43.6,"$9,500",GOLDEN STATE WARRIORS,@ sas, 112-92,31:51,   21pt 8rb 4as 3st 2to 3trey 7-13fg 4-4ft
+SG,"Thompson, Klay^",35.6,"$6,800",GOLDEN STATE WARRIORS,@ sas, 112-92,30:39,   27pt 3rb 2as 1bl 1to 5trey 11-17fg
+SG,"McCollum, C.J.^",32.9,"$8,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,38:08,   22pt 2rb 5as 1st 2to 5trey 8-18fg 1-1ft
+SG,"Caldwell-Pope, Kentavious^",24.6,"$5,000",LOS ANGELES LAKERS,@ por, 110-113,34:24,   14pt 3rb 2as 2st 2to 2trey 5-10fg 2-2ft
+SG,"Green, Danny^",22.6,"$5,000",SAN ANTONIO SPURS,v gsw, 92-112,30:27,   8pt 3rb 4as 2bl 1to 4-10fg
+SG,"Clarkson, Jordan",21.2,"$3,900",LOS ANGELES LAKERS,@ por, 110-113,21:56,   14pt 1rb 4as 6-9fg 2-4ft
+PG,"Mills, Patty^",17.7,"$3,400",SAN ANTONIO SPURS,v gsw, 92-112,28:09,   6pt 1rb 3as 2st 2trey 2-7fg
+PG,"Ball, Lonzo^",17.6,"$7,000",LOS ANGELES LAKERS,@ por, 110-113,28:07,   0pt 3rb 4as 1st 2bl 1to 0-2fg
+PG,"Murray, Dejounte",14.2,"$4,600",SAN ANTONIO SPURS,v gsw, 92-112,19:51,   4pt 6rb 2as 1st 3to 2-5fg
+SG,"McCaw, Patrick",13.2,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,19:04,   9pt 1rb 2as 2trey 3-6fg 1-2ft
+SG,"Hart, Josh",12.2,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,13:36,   2pt 1rb 2st 1bl 0-4fg 2-2ft
+SG,"Connaughton, Pat",9.2,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,19:48,   9pt 1rb 1to 2trey 3-7fg 1-2ft
+SG,"Forbes, Bryn",8.5,"$3,100",SAN ANTONIO SPURS,v gsw, 92-112,9:19,   7pt 1as 3-4fg 1-1ft
+SG,"Ginobili, Manu",5.4,"$3,700",SAN ANTONIO SPURS,v gsw, 92-112,18:47,   6pt 2rb 3to 1trey 2-6fg 1-2ft
+PG,"Livingston, Shaun",4.7,"$3,200",GOLDEN STATE WARRIORS,@ sas, 112-92,19:30,   0pt 1rb 1as 1bl 1to 0-2fg
+SG,"Young, Nick",1.5,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,3:22,   0pt 1as 0-2fg
+PG,"White, Derrick",1.2,"$3,000",SAN ANTONIO SPURS,v gsw, 92-112,3:22,   0pt 1rb 0-2ft
+SG,"Paul, Brandon",1.2,"$3,300",SAN ANTONIO SPURS,v gsw, 92-112,20:35,   1pt 1rb 1to 0-6fg 1-2ft
+PG,"Baldwin, Wade",0,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,DNP,   
+PG,"Napier, Shabazz",0,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,DNP,   
+PG,"Ennis, Tyler",0,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,DNP,   
+SG,"Hilliard, Darrun",0,"$3,000",SAN ANTONIO SPURS,v gsw, 92-112,NA,   
+PG,"Cook, Quinn",0,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,NA,   
+SG,"Caruso, Alex",0,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,NA,   
+SG,"Wilcox, C.J.",0,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,NA,   
+SG,"Blue, Vander",0,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,NA,   
+PG,"Parker, Tony",0,"$3,300",SAN ANTONIO SPURS,v gsw, 92-112,NA,   
+PF,"Aldridge, LaMarcus^",49,"$8,100",SAN ANTONIO SPURS,v gsw, 92-112,35:54,   24pt 10rb 2as 2st 2bl 2to 2trey 8-22fg 6-8ft
+SF,"Durant, Kevin^",48.1,"$9,900",GOLDEN STATE WARRIORS,@ sas, 112-92,34:41,   24pt 8rb 5as 3bl 2to 2trey 9-18fg 4-4ft
+SF,"Anderson, Kyle^",38.4,"$4,800",SAN ANTONIO SPURS,v gsw, 92-112,26:13,   16pt 7rb 4as 1st 2bl 1to 5-8fg 6-6ft
+PF,"Green, Draymond^",32.5,"$7,700",GOLDEN STATE WARRIORS,@ sas, 112-92,29:07,   16pt 5rb 7as 1st 3to 1trey 7-8fg 1-2ft
+SF,"Ingram, Brandon^",27.1,"$5,900",LOS ANGELES LAKERS,@ por, 110-113,32:17,   14pt 3rb 3as 2st 1to 5-11fg 4-6ft
+PF,"Kuzma, Kyle",26.6,"$4,600",LOS ANGELES LAKERS,@ por, 110-113,28:33,   22pt 3rb 1bl 2to 1trey 10-17fg 1-2ft
+SF,"Iguodala, Andre",22.3,"$4,000",GOLDEN STATE WARRIORS,@ sas, 112-92,23:41,   5pt 4rb 3as 2st 1bl 1to 1trey 1-6fg 2-4ft
+PF,"Davis, Ed",21.1,"$4,600",PORTLAND TRAIL BLAZERS,v lal, 113-110,19:07,   7pt 8rb 1as 1bl 2-3fg 3-4ft
+PF,"Nance, Larry^",20.5,"$5,200",LOS ANGELES LAKERS,@ por, 110-113,19:27,   7pt 5rb 1as 1st 1bl 3-4fg 1-2ft
+PF,"Bell, Jordan",20.5,"$3,300",GOLDEN STATE WARRIORS,@ sas, 112-92,11:40,   2pt 5rb 3as 2st 1bl 1to 1-4fg
+SF,"Gay, Rudy",18.9,"$5,300",SAN ANTONIO SPURS,v gsw, 92-112,18:06,   9pt 7rb 1as 1bl 3to 1trey 3-10fg 2-2ft
+SF,"Turner, Evan",17.9,"$4,900",PORTLAND TRAIL BLAZERS,v lal, 113-110,26:22,   6pt 7rb 5as 4to 3-8fg
+PF,"Randle, Julius",16.2,"$4,700",LOS ANGELES LAKERS,@ por, 110-113,18:46,   8pt 6rb 1bl 2to 4-6fg
+SF,"Harkless, Maurice^",16,"$4,800",PORTLAND TRAIL BLAZERS,v lal, 113-110,29:19,   4pt 5rb 1st 1bl 2-4fg
+PF,"West, David",16,"$4,100",GOLDEN STATE WARRIORS,@ sas, 112-92,12:47,   2pt 2st 3bl 1to 1-3fg
+PF,"Swanigan, Caleb",15.8,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,13:47,   5pt 4rb 2st 2-4fg 1-2ft
+SF,"Brewer, Corey",13.3,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,13:40,   2pt 4rb 1as 1st 1bl 1to 1-1fg
+PF,"Vonleh, Noah^",9.9,"$3,100",PORTLAND TRAIL BLAZERS,v lal, 113-110,15:06,   0pt 2rb 1as 2bl 0-2fg
+SF,"Casspi, Omri",4.4,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,3:22,   2pt 2rb 1-1fg
+PF,"Bertans, Davis",1.4,"$3,000",SAN ANTONIO SPURS,v gsw, 92-112,3:22,   0pt 2rb 1to 0-1fg
+SF,"Layman, Jake",0,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,DNP,   
+SF,"Leonard, Kawhi",0,"$8,400",SAN ANTONIO SPURS,v gsw, 92-112,NA,   
+PF,"Boucher, Chris",0,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,NA,   
+PF,"Looney, Kevon",0,"$3,300",GOLDEN STATE WARRIORS,@ sas, 112-92,NA,   
+SF,"Deng, Luol",0,"$3,200",LOS ANGELES LAKERS,@ por, 110-113,NA,   
+PF,"Aminu, Al-Farouq",0,"$5,800",PORTLAND TRAIL BLAZERS,v lal, 113-110,NA,   
+C,"Nurkic, Jusuf^",47.5,"$7,400",PORTLAND TRAIL BLAZERS,v lal, 113-110,28:53,   28pt 5rb 5as 3st 3to 12-20fg 4-4ft
+C,"Lopez, Brook^",33.1,"$5,300",LOS ANGELES LAKERS,@ por, 110-113,29:14,   27pt 3rb 1as 1bl 2to 1trey 9-15fg 8-9ft
+C,"Gasol, Pau^",20.2,"$6,100",SAN ANTONIO SPURS,v gsw, 92-112,25:55,   11pt 6rb 2as 1to 1trey 5-8fg
+C,"Pachulia, Zaza^",8.6,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,13:06,   4pt 3rb 2as 2to 2-3fg
+C,"McGee, JaVale",6,"$3,300",GOLDEN STATE WARRIORS,@ sas, 112-92,7:10,   0pt 1st 1bl
+C,"Collins, Zach",1.2,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,10:47,   0pt 1rb 0-2fg
+C,"Bogut, Andrew",0,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,DNP,   
+C,"Zubac, Ivica",0,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,DNP,   
+C,"Lauvergne, Joffrey",0,"$3,100",SAN ANTONIO SPURS,v gsw, 92-112,NA,   
+C,"Leonard, Meyers",0,"$3,000",PORTLAND TRAIL BLAZERS,v lal, 113-110,NA,   
+C,"Bryant, Thomas",0,"$3,000",LOS ANGELES LAKERS,@ por, 110-113,NA,   
+C,"Jones, Damian",0,"$3,000",GOLDEN STATE WARRIORS,@ sas, 112-92,NA,   

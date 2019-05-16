@@ -1,0 +1,131 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Westbrook, Russell^",67,"$11,000",OKLAHOMA CITY THUNDER,v por, 123-114,36:43,   29pt 10rb 14as 1st 5to 1trey 9-20fg 10-12ft
+PG,"Lillard, Damian^",60.75,"$8,100",PORTLAND TRAIL BLAZERS,@ okc, 114-123,40:24,   34pt 5rb 8as 5st 5to 2trey 12-24fg 8-8ft
+PG/SG,"McCollum, C.J.^",42.75,"$6,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,38:10,   31pt 3rb 3as 1bl 4to 7trey 11-23fg 2-2ft
+PG/SG,"VanVleet, Fred^",42.75,"$4,700",TORONTO RAPTORS,v sac, 120-105,32:11,   19pt 7rb 7as 1st 1bl 2to 3trey 6-10fg 4-5ft
+PG,"Lowry, Kyle^",39.5,"$7,600",TORONTO RAPTORS,v sac, 120-105,34:08,   19pt 4rb 9as 1bl 4to 4trey 6-15fg 3-3ft
+PG/SF,"Doncic, Luka^",37.25,"$8,400",DALLAS MAVERICKS,v lac, 106-98,32:18,   17pt 7rb 6as 1st 1bl 3to 5-15fg 7-10ft
+PG/SG,"Bayless, Jerryd",35.5,"$3,000",MINNESOTA TIMBERWOLVES,@ pho, 118-91,28:22,   14pt 4rb 7as 2st 4trey 5-16fg
+PG/SG,"Beverley, Patrick^",35.25,"$4,800",LOS ANGELES CLIPPERS,@ dal, 98-106,35:16,   16pt 9rb 3as 1st 3trey 6-14fg 1-3ft
+PG,"Smith Jr., Dennis^",33.5,"$4,500",DALLAS MAVERICKS,v lac, 106-98,36:44,   17pt 8rb 4as 1st 4to 1trey 6-17fg 4-4ft
+PG/SG,"Ferrell, Yogi^",31.75,"$3,100",SACRAMENTO KINGS,@ tor, 105-120,38:30,   10pt 7rb 6as 2st 2to 2trey 4-13fg
+SG,"Bradley, Avery^",26.75,"$4,000",LOS ANGELES CLIPPERS,@ dal, 98-106,38:30,   15pt 5rb 3as 1to 3trey 5-11fg 2-2ft
+PG/SG,"Booker, Devin^",25.75,"$8,300",PHOENIX SUNS,v min, 91-118,24:12,   14pt 3rb 4as 1st 1bl 4to 6-11fg 2-2ft
+PG/SG,"Harris, Devin",23.75,"$3,000",DALLAS MAVERICKS,v lac, 106-98,17:18,   13pt 3rb 3as 1st 1to 2trey 5-8fg 1-2ft
+PG/SG,"Williams, Louis",21.75,"$6,600",LOS ANGELES CLIPPERS,@ dal, 98-106,23:28,   15pt 1rb 4as 2to 1trey 5-16fg 4-4ft
+PG/SG,"Wright, Delon",20.5,"$4,100",TORONTO RAPTORS,v sac, 120-105,24:22,   9pt 6rb 2as 1st 3to 1trey 2-6fg 4-5ft
+PG/SG,"Schroder, Dennis",19.75,"$5,400",OKLAHOMA CITY THUNDER,v por, 123-114,22:45,   13pt 1rb 2as 1st 1trey 5-13fg 2-4ft
+PG/SG,"Rose, Derrick^",16.25,"$6,300",MINNESOTA TIMBERWOLVES,@ pho, 118-91,23:14,   6pt 1rb 5as 1st 1to 3-9fg
+PG,"Melton, De'Anthony^",13.25,"$3,700",PHOENIX SUNS,v min, 91-118,22:16,   4pt 1rb 3as 2st 1to 2-6fg
+PG/SG,"Gilgeous-Alexander, Shai^",12.75,"$4,600",LOS ANGELES CLIPPERS,@ dal, 98-106,20:22,   8pt 1rb 1as 1bl 4-14fg
+SG,"Daniels, Troy",12.75,"$3,000",PHOENIX SUNS,v min, 91-118,17:24,   7pt 1rb 1st 1bl 1trey 3-7fg
+SG,"Robinson, Jerome",9.5,"$3,000",LOS ANGELES CLIPPERS,@ dal, 98-106,9:33,   3pt 2rb 1as 1st 1trey 1-2fg
+PG/SG,"Mason III, Frank",7.5,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,9:30,   2pt 3as 1st 2to 1-3fg
+PG/SG,"Crawford, Jamal",7.25,"$3,500",PHOENIX SUNS,v min, 91-118,21:35,   0pt 1rb 4as 0-4fg
+PG,"Terrell, Jared",6.5,"$3,000",MINNESOTA TIMBERWOLVES,@ pho, 118-91,5:36,   5pt 1as 1to 1trey 2-3fg
+PG/SG,"Curry, Seth",3.25,"$3,200",PORTLAND TRAIL BLAZERS,@ okc, 114-123,12:29,   2pt 1rb 1-2fg
+PG/SG,"Brunson, Jalen",0,"$3,900",DALLAS MAVERICKS,v lac, 106-98,3:47,   0pt
+PG/SG,"Loyd, Jordan",0,"$3,000",TORONTO RAPTORS,v sac, 120-105,1:29,   0pt 0-1fg
+PG,"Okobo, Elie",0,"$3,300",PHOENIX SUNS,v min, 91-118,3:48,   0pt 0-4fg
+PG/SG,"Felton, Raymond",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,DNP,   
+PG/SG,"Baldwin, Wade",0,"$3,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,DNP,   
+PG,"Fox, De'Aaron",0,"$7,300",SACRAMENTO KINGS,@ tor, 105-120,DNP,   
+PG,"Teodosic, Milos",0,"$3,000",LOS ANGELES CLIPPERS,@ dal, 98-106,NA,   
+PG/SG,"Macon, Daryl",0,"$3,000",DALLAS MAVERICKS,v lac, 106-98,NA,   
+PG/SG,"Simons, Anfernee",0,"$3,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,NA,   
+PG/SG,"Burton, Deonte",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,NA,   
+PG,"Evans, Jawun",0,"$3,000",PHOENIX SUNS,v min, 91-118,NA,   
+SG,"Trent Jr., Gary",0,"$3,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,NA,   
+PG/SG,"Barea, Jose",0,"$3,000",DALLAS MAVERICKS,v lac, 106-98,NA,   
+PG,"Teague, Jeff",0,"$5,900",MINNESOTA TIMBERWOLVES,@ pho, 118-91,NA,   
+PG,"Jones, Tyus",0,"$4,000",MINNESOTA TIMBERWOLVES,@ pho, 118-91,NA,   
+SF/PF,"George, Paul^",64,"$9,700",OKLAHOMA CITY THUNDER,v por, 123-114,37:55,   36pt 8rb 4as 5st 1bl 3to 3trey 10-21fg 13-15ft
+SF/PF,"Jackson, Josh",52,"$4,100",PHOENIX SUNS,v min, 91-118,31:29,   27pt 10rb 3as 3bl 1to 2trey 10-18fg 5-9ft
+SG/SF,"Bogdanovic, Bogdan^",45.5,"$5,200",SACRAMENTO KINGS,@ tor, 105-120,36:04,   16pt 8rb 9as 3st 1to 1trey 6-15fg 3-4ft
+SG/SF,"Okogie, Josh^",35.75,"$4,200",MINNESOTA TIMBERWOLVES,@ pho, 118-91,24:57,   21pt 5rb 2as 2st 1to 4trey 7-11fg 3-3ft
+SG/SF,"Wiggins, Andrew^",30.75,"$5,800",MINNESOTA TIMBERWOLVES,@ pho, 118-91,33:47,   17pt 9rb 2as 2to 1trey 7-18fg 2-4ft
+SF/PF,"Harris, Tobias^",29.75,"$8,000",LOS ANGELES CLIPPERS,@ dal, 98-106,34:23,   9pt 7rb 4as 1st 2bl 1to 1trey 1-9fg 6-6ft
+SG/SF,"Hield, Buddy^",29.25,"$6,900",SACRAMENTO KINGS,@ tor, 105-120,35:27,   15pt 3rb 5as 1st 1bl 4to 2trey 5-14fg 3-3ft
+SG/SF,"Ferguson, Terrance^",26.5,"$3,700",OKLAHOMA CITY THUNDER,v por, 123-114,36:30,   14pt 2rb 1as 4st 1to 2trey 6-8fg
+SF/PF,"Aminu, Al-Farouq^",26.25,"$5,100",PORTLAND TRAIL BLAZERS,@ okc, 114-123,30:40,   4pt 13rb 4as 1-7fg 2-4ft
+SF/PF,"Barnes, Harrison^",25.5,"$5,500",DALLAS MAVERICKS,v lac, 106-98,33:33,   20pt 2rb 1as 3trey 7-14fg 3-4ft
+SG/SF,"Oubre, Kelly",24.25,"$5,600",PHOENIX SUNS,v min, 91-118,26:20,   13pt 3rb 1st 3bl 3to 2trey 5-10fg 1-2ft
+PF,"Grant, Jerami^",24.25,"$5,300",OKLAHOMA CITY THUNDER,v por, 123-114,33:10,   11pt 5rb 1st 2bl 2trey 4-8fg 1-2ft
+SG/SF,"Miles, C.J.",23,"$3,400",TORONTO RAPTORS,v sac, 120-105,15:36,   15pt 2rb 1as 1bl 4trey 5-7fg 1-2ft
+SG/SF,"Bridges, Mikal^",17.5,"$3,800",PHOENIX SUNS,v min, 91-118,28:51,   7pt 4as 1st 1bl 1trey 3-11fg
+SG/SF,"McLemore, Ben",15,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,12:55,   10pt 2rb 1bl 1to 2trey 3-4fg 2-3ft
+PF,"Saric, Dario",15,"$4,200",MINNESOTA TIMBERWOLVES,@ pho, 118-91,16:54,   5pt 4rb 3as 1trey 2-9fg
+SG/SF,"Green, Danny^",15,"$4,800",TORONTO RAPTORS,v sac, 120-105,22:43,   6pt 2rb 1as 1st 1bl 2trey 2-8fg
+SG/SF,"Powell, Norman",13.75,"$3,800",TORONTO RAPTORS,v sac, 120-105,20:48,   11pt 1rb 1as 1to 1trey 4-7fg 2-5ft
+SF/PF,"Finney-Smith, Dorian",13.5,"$3,700",DALLAS MAVERICKS,v lac, 106-98,21:01,   5pt 4rb 1as 1st 1to 1trey 1-1fg 2-2ft
+SG/SF,"Matthews, Wes^",12.25,"$4,400",DALLAS MAVERICKS,v lac, 106-98,32:52,   9pt 1rb 1as 1trey 3-9fg 2-5ft
+SF/PF,"Tolliver, Anthony",11.25,"$3,400",MINNESOTA TIMBERWOLVES,@ pho, 118-91,19:49,   3pt 5rb 1as 1trey 1-4fg
+SF/PF,"Deng, Luol",9.75,"$3,000",MINNESOTA TIMBERWOLVES,@ pho, 118-91,14:42,   4pt 5rb 1to 2-6fg
+SF/PF,"Layman, Jake",9.25,"$3,600",PORTLAND TRAIL BLAZERS,@ okc, 114-123,17:56,   4pt 3rb 1as 2-7fg
+SF/PF,"Scott, Mike",8.75,"$3,100",LOS ANGELES CLIPPERS,@ dal, 98-106,9:39,   7pt 1rb 1trey 3-7fg
+SF/PF,"Warren, T.J.^",7.75,"$5,700",PHOENIX SUNS,v min, 91-118,16:05,   4pt 1rb 2as 1to 2-2fg
+SF/PF,"Harkless, Maurice^",7.25,"$4,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,17:55,   0pt 3rb 1as 1st 0-4fg
+SG/SF,"Turner, Evan",7,"$4,300",PORTLAND TRAIL BLAZERS,@ okc, 114-123,17:26,   4pt 2rb 1as 2to 2-3fg
+SG/SF,"McCaw, Patrick",6.75,"$3,100",TORONTO RAPTORS,v sac, 120-105,7:23,   0pt 3rb 1as 1st 1to 0-2fg
+SG/SF,"Williams, C.J.",5.75,"$3,000",MINNESOTA TIMBERWOLVES,@ pho, 118-91,5:36,   3pt 1rb 1as 1to 1trey 1-1fg
+SF/PF,"Jackson, Justin",5.5,"$3,500",SACRAMENTO KINGS,@ tor, 105-120,17:11,   4pt 1as 2-6fg
+SG/SF,"Wallace, Tyrone",5.25,"$3,200",LOS ANGELES CLIPPERS,@ dal, 98-106,9:36,   4pt 1rb 1-5fg 2-2ft
+SF,"Bates-Diop, Keita",4.5,"$3,000",MINNESOTA TIMBERWOLVES,@ pho, 118-91,5:36,   2pt 2rb 1-2fg
+SG/SF,"Thornwell, Sindarius",4.25,"$3,000",LOS ANGELES CLIPPERS,@ dal, 98-106,7:23,   3pt 1rb 1-1fg 1-4ft
+SG/SF,"Richardson, Malachi",0,"$3,000",TORONTO RAPTORS,v sac, 120-105,1:29,   0pt
+SF,"Nader, Abdel",0,"$3,100",OKLAHOMA CITY THUNDER,v por, 123-114,10:07,   0pt
+SG/SF,"Broekhoff, Ryan",0,"$3,000",DALLAS MAVERICKS,v lac, 106-98,DNP,   
+SG/SF,"Stauskas, Nik",0,"$3,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,DNP,   
+SG/SF,"Shumpert, Iman",0,"$3,900",SACRAMENTO KINGS,@ tor, 105-120,DNP,   
+SF/PF,"Bjelica, Nemanja",0,"$3,900",SACRAMENTO KINGS,@ tor, 105-120,DNP,   
+SG/SF,"Diallo, Hamidou",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,DNP,   
+SG/SF,"Luwawu, Timothe",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,DNP,   
+SG/SF,"Abrines, Alex",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,DNP,   
+SF/PF,"Antetokounmpo, Kostas",0,"$3,000",DALLAS MAVERICKS,v lac, 106-98,NA,   
+SF/PF,"Mbah a Moute, Luc",0,"$3,000",LOS ANGELES CLIPPERS,@ dal, 98-106,NA,   
+SF/PF,"Anunoby, OG",0,"$3,300",TORONTO RAPTORS,v sac, 120-105,NA,   
+PF,"Spalding, Ray",0,"$3,000",DALLAS MAVERICKS,v lac, 106-98,NA,   
+SG/SF,"Roberson, Andre",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,NA,   
+SF/PF,"Gabriel, Wenyen",0,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,NA,   
+SG/SF,"King, George",0,"$3,000",PHOENIX SUNS,v min, 91-118,NA,   
+SF/PF,"Grantham, Donte",0,"$3,000",OKLAHOMA CITY THUNDER,v por, 123-114,NA,   
+SF/PF,"Williams, Troy",0,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,NA,   
+SF/PF,"Gallinari, Danilo",0,"$6,500",LOS ANGELES CLIPPERS,@ dal, 98-106,NA,   
+SF/PF,"Leonard, Kawhi",0,"$9,300",TORONTO RAPTORS,v sac, 120-105,NA,   
+SF/PF,"Covington, Robert",0,"$6,100",MINNESOTA TIMBERWOLVES,@ pho, 118-91,NA,   
+C,"Towns, Karl-Anthony^",65.5,"$10,600",MINNESOTA TIMBERWOLVES,@ pho, 118-91,31:30,   25pt 18rb 7as 2st 1bl 2to 2trey 10-15fg 3-5ft
+C,"Jordan, DeAndre^",50.5,"$6,400",DALLAS MAVERICKS,v lac, 106-98,34:57,   13pt 16rb 4as 1st 4bl 6-8fg 1-2ft
+C,"Nurkic, Jusuf^",47.25,"$7,500",PORTLAND TRAIL BLAZERS,@ okc, 114-123,36:30,   22pt 15rb 1as 1st 2bl 5to 9-17fg 4-6ft
+PF/C,"Bagley, Marvin^",43.75,"$5,000",SACRAMENTO KINGS,@ tor, 105-120,37:48,   22pt 11rb 1as 1st 2bl 2to 10-20fg 2-2ft
+C,"Adams, Steven^",34,"$6,200",OKLAHOMA CITY THUNDER,v por, 123-114,36:25,   14pt 8rb 3as 2st 1bl 1to 7-12fg
+PF/C,"Ibaka, Serge^",30,"$5,900",TORONTO RAPTORS,v sac, 120-105,25:18,   15pt 10rb 1as 1to 5-13fg 5-6ft
+PF/C,"Bender, Dragan^",30,"$4,000",PHOENIX SUNS,v min, 91-118,30:00,   13pt 10rb 2as 1to 1trey 5-10fg 2-5ft
+PF/C,"Siakam, Pascal^",28,"$6,300",TORONTO RAPTORS,v sac, 120-105,31:21,   18pt 4rb 1as 1st 1bl 2to 1trey 8-14fg 1-1ft
+PF/C,"Harrell, Montrezl^",26.5,"$6,800",LOS ANGELES CLIPPERS,@ dal, 98-106,31:19,   11pt 8rb 3as 1bl 2to 4-7fg 3-4ft
+PF/C,"Giles, Harry",22.5,"$3,600",SACRAMENTO KINGS,@ tor, 105-120,22:40,   11pt 4rb 2as 2bl 1to 4-8fg 3-6ft
+PF/C,"Gibson, Taj^",21.25,"$4,900",MINNESOTA TIMBERWOLVES,@ pho, 118-91,24:30,   13pt 7rb 1as 4to 4-7fg 5-7ft
+C,"Cauley-Stein, Willie^",20.5,"$6,100",SACRAMENTO KINGS,@ tor, 105-120,24:37,   10pt 6rb 2as 4-5fg 2-2ft
+PF/C,"Collins, Zach",12.5,"$3,300",PORTLAND TRAIL BLAZERS,@ okc, 114-123,12:07,   4pt 6rb 1as 1to 2-3fg
+PF/C,"Motley, Johnathan",12.25,"$3,200",LOS ANGELES CLIPPERS,@ dal, 98-106,15:14,   7pt 3rb 1st 1to 2-5fg 3-4ft
+PF/C,"Nowitzki, Dirk",12.25,"$3,000",DALLAS MAVERICKS,v lac, 106-98,10:22,   8pt 1rb 1bl 2trey 3-6fg
+PF/C,"Boucher, Chris",11.75,"$3,100",TORONTO RAPTORS,v sac, 120-105,11:39,   8pt 3rb 2-4fg 4-4ft
+PF/C,"Leonard, Meyers",11.25,"$3,300",PORTLAND TRAIL BLAZERS,@ okc, 114-123,16:23,   9pt 1rb 1as 2to 1trey 3-5fg 2-2ft
+C,"Noel, Nerlens",10.75,"$3,300",OKLAHOMA CITY THUNDER,v por, 123-114,11:35,   0pt 3rb 2as 2st 0-1fg
+PF/C,"Kleber, Maxi",10,"$4,300",DALLAS MAVERICKS,v lac, 106-98,14:27,   2pt 6rb 1as 2to 1-2fg
+C,"Monroe, Greg",9.5,"$3,400",TORONTO RAPTORS,v sac, 120-105,11:33,   0pt 4rb 1as 2st 2to 0-4fg 0-4ft
+C,"Koufos, Kosta",9,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,5:18,   5pt 2rb 1bl 1to 2-3fg 1-2ft
+PF/C,"Acy, Quincy",7.5,"$3,500",PHOENIX SUNS,v min, 91-118,18:00,   2pt 4rb 1as 2to 1-4fg
+PF/C,"Patterson, Patrick",7,"$3,200",OKLAHOMA CITY THUNDER,v por, 123-114,14:50,   6pt 2trey 2-2fg
+PF/C,"Dieng, Gorgui",3.25,"$3,200",MINNESOTA TIMBERWOLVES,@ pho, 118-91,5:27,   0pt 3rb 1to 0-2fg
+C,"Gortat, Marcin",2.5,"$3,400",LOS ANGELES CLIPPERS,@ dal, 98-106,5:17,   0pt 2rb
+PF/C,"Powell, Dwight",2,"$3,500",DALLAS MAVERICKS,v lac, 106-98,2:41,   2pt 1-1fg
+C,"Marjanovic, Boban",0,"$3,000",LOS ANGELES CLIPPERS,@ dal, 98-106,DNP,   
+C,"Mejri, Salah",0,"$3,000",DALLAS MAVERICKS,v lac, 106-98,DNP,   
+PF/C,"Swanigan, Caleb",0,"$3,000",PORTLAND TRAIL BLAZERS,@ okc, 114-123,DNP,   
+PF/C,"Anderson, Ryan",0,"$3,000",PHOENIX SUNS,v min, 91-118,DNP,   
+PF/C,"Randolph, Zach",0,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,NA,   
+C,"Ayton, Deandre",0,"$6,700",PHOENIX SUNS,v min, 91-118,NA,   
+PF/C,"Holmes, Richaun",0,"$4,100",PHOENIX SUNS,v min, 91-118,NA,   
+PF/C,"Labissiere, Skal",0,"$3,000",SACRAMENTO KINGS,@ tor, 105-120,NA,   
+C,"Delgado, Angel",0,"$3,000",LOS ANGELES CLIPPERS,@ dal, 98-106,NA,   
+C,"Valanciunas, Jonas",0,"$4,500",TORONTO RAPTORS,v sac, 120-105,NA,   

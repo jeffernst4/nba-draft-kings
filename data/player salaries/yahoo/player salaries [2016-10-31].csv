@@ -1,0 +1,120 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Lowry, Kyle^",49,$38,TORONTO RAPTORS,v den, 105-102,35:37,   29pt 5rb 7as 3st 3to 1trey 10-20fg 8-10ft
+PG,"Paul, Chris^",45,$47,LOS ANGELES CLIPPERS,v pho, 116-98,29:57,   24pt 5rb 8as 2st 2to 2trey 8-15fg 6-7ft
+SG,"DeRozan, DeMar^",41.5,$37,TORONTO RAPTORS,v den, 105-102,38:52,   33pt 5rb 1as 1st 1to 13-23fg 7-9ft
+PG,"Canaan, Isaiah",31.1,$10,CHICAGO BULLS,@ bkn, 118-88,22:01,   15pt 3rb 6as 1st 3trey 5-7fg 2-2ft
+PG,"Mudiay, Emmanuel^",29.7,$26,DENVER NUGGETS,@ tor, 102-105,32:55,   16pt 6rb 4as 1bl 2to 1trey 6-17fg 3-4ft
+SG,"Barton, Will^",28.3,$21,DENVER NUGGETS,@ tor, 102-105,29:48,   16pt 4rb 3as 1bl 2trey 5-7fg 4-5ft
+PG,"Schroder, Dennis^",28.1,$23,ATLANTA HAWKS,v sac, 106-95,32:01,   17pt 3rb 5as 1to 2trey 5-14fg 5-6ft
+PG,"Lin, Jeremy^",27.9,$23,BROOKLYN NETS,v chi, 88-118,23:55,   14pt 2rb 4as 4st 3to 1trey 6-10fg 1-2ft
+PG,"Bledsoe, Eric^",26.1,$36,PHOENIX SUNS,@ lac, 98-116,31:58,   12pt 8rb 5as 3to 5-14fg 2-4ft
+SG,"Wade, Dwyane^",25.1,$34,CHICAGO BULLS,@ bkn, 118-88,28:45,   12pt 3rb 4as 3st 1bl 5to 1trey 5-13fg 1-1ft
+PG,"Lawson, Ty^",24.9,$17,SACRAMENTO KINGS,@ atl, 95-106,23:09,   8pt 2rb 6as 3st 1to 1trey 3-5fg 1-2ft
+SG,"Crawford, Jamal",23.9,$19,LOS ANGELES CLIPPERS,v pho, 116-98,26:45,   14pt 2rb 3as 2st 1to 5-10fg 4-4ft
+PG,"Rondo, Rajon^",23.8,$33,CHICAGO BULLS,@ bkn, 118-88,25:27,   10pt 4rb 4as 2st 1bl 3to 5-8fg
+PG,"Nelson, Jameer",20.4,$10,DENVER NUGGETS,@ tor, 102-105,21:30,   13pt 2rb 1as 1st 3trey 5-9fg
+SG,"Bogdanovic, Bojan^",20.1,$17,BROOKLYN NETS,v chi, 88-118,20:45,   15pt 3rb 1as 1to 2trey 5-11fg 3-4ft
+SG,"Korver, Kyle^",19.5,$11,ATLANTA HAWKS,v sac, 106-95,32:14,   17pt 1st 2to 5trey 6-11fg
+SG,"Redick, J.J.^",18.6,$19,LOS ANGELES CLIPPERS,v pho, 116-98,25:36,   13pt 3rb 1as 1st 2to 1trey 6-13fg
+SG,"McLemore, Ben",18.4,$10,SACRAMENTO KINGS,@ atl, 95-106,25:40,   12pt 2rb 1as 1bl 1trey 5-11fg 1-2ft
+SG,"Temple, Garrett",17.4,$10,SACRAMENTO KINGS,@ atl, 95-106,24:51,   9pt 2rb 3as 1bl 1to 1trey 4-8fg
+PG,"Ulis, Tyler",17.4,$10,PHOENIX SUNS,@ lac, 98-116,17:57,   4pt 2rb 6as 2st 2to 1-5fg 2-2ft
+SG,"Knight, Brandon^",17,$26,PHOENIX SUNS,@ lac, 98-116,31:25,   18pt 2to 2trey 6-13fg 4-4ft
+SG,"Barbosa, Leandro",16.6,$10,PHOENIX SUNS,@ lac, 98-116,12:32,   9pt 3rb 1as 1st 1trey 4-5fg
+PG,"Joseph, Cory",16.6,$11,TORONTO RAPTORS,v den, 105-102,23:36,   6pt 3rb 4as 1st 1to 3-8fg
+SG,"Kilpatrick, Sean",16.4,$10,BROOKLYN NETS,v chi, 88-118,25:09,   13pt 2rb 1st 1to 3-13fg 7-7ft
+PG,"Delaney, Malcolm",15.4,$10,ATLANTA HAWKS,v sac, 106-95,15:59,   6pt 2rb 4as 2trey 2-6fg
+SG,"Afflalo, Arron^",15.4,$11,SACRAMENTO KINGS,@ atl, 95-106,25:26,   9pt 2rb 2as 1st 1to 3-3fg 3-3ft
+SG,"Harris, Joe",14.4,$11,BROOKLYN NETS,v chi, 88-118,22:50,   9pt 2rb 1as 1st 1to 1trey 4-8fg 0-1ft
+PG,"Whitehead, Isaiah",8.8,$10,BROOKLYN NETS,v chi, 88-118,21:09,   6pt 4rb 2as 5to 3-11fg
+PG,"Felton, Raymond",7.7,$10,LOS ANGELES CLIPPERS,v pho, 116-98,18:03,   4pt 1rb 1bl 1trey 1-3fg 1-2ft
+PG,"Rivers, Austin",7.5,$11,LOS ANGELES CLIPPERS,v pho, 116-98,23:40,   8pt 1as 2to 4-9fg
+SG,"Hardaway Jr., Tim",6.4,$10,ATLANTA HAWKS,v sac, 106-95,12:37,   5pt 2rb 1to 2-6fg 1-3ft
+SG,"Valentine, Denzel",5.5,$10,CHICAGO BULLS,@ bkn, 118-88,7:01,   3pt 1bl 1trey 1-3fg
+PG,"Murray, Jamal",5.4,$11,DENVER NUGGETS,@ tor, 102-105,11:47,   1pt 2rb 2as 1to 0-4fg 1-1ft
+SG,"Powell, Norman",3.2,$10,TORONTO RAPTORS,v den, 105-102,2:27,   2pt 1rb 1-1fg
+PG,"Carter-Williams, Michael",2.4,$16,CHICAGO BULLS,@ bkn, 118-88,4:55,   0pt 2rb 1st 2to 0-1fg
+SG,"Miller, Mike",0,$10,DENVER NUGGETS,@ tor, 102-105,DNP,   
+SG,"Richardson, Malachi",0,$10,SACRAMENTO KINGS,@ atl, 95-106,DNP,   
+PG,"VanVleet, Fred",0,$10,TORONTO RAPTORS,v den, 105-102,DNP,   
+PG,"Vasquez, Greivis",0,$10,BROOKLYN NETS,v chi, 88-118,DNP,   
+PG,"Beasley, Malik",0,$10,DENVER NUGGETS,@ tor, 102-105,DNP,   
+SG,"Jenkins, John",0,$10,PHOENIX SUNS,@ lac, 98-116,DNP,   
+SG,"Grant, Jerian",0,$10,CHICAGO BULLS,@ bkn, 118-88,NA,   
+PG,"Wright, Delon",0,$10,TORONTO RAPTORS,v den, 105-102,NA,   
+SG,"Foye, Randy",0,$10,BROOKLYN NETS,v chi, 88-118,NA,   
+SG,"Booker, Devin",0,$31,PHOENIX SUNS,@ lac, 98-116,NA,   
+SG,"Hunter, R.J.",0,$10,CHICAGO BULLS,@ bkn, 118-88,NA,   
+PG,"Collison, Darren",0,$23,SACRAMENTO KINGS,@ atl, 95-106,NA,   
+SG,"Harris, Gary",0,$17,DENVER NUGGETS,@ tor, 102-105,NA,   
+PF,"Millsap, Paul^",45.8,$40,ATLANTA HAWKS,v sac, 106-95,31:41,   13pt 14rb 8as 3st 1bl 4to 5-14fg 3-4ft
+PF,"Griffin, Blake^",39.2,$41,LOS ANGELES CLIPPERS,v pho, 116-98,31:30,   21pt 11rb 5as 1bl 5to 1trey 4-7fg 12-14ft
+PF,"Mirotic, Nikola",37.5,$19,CHICAGO BULLS,@ bkn, 118-88,24:58,   16pt 10rb 3as 3bl 3to 4trey 6-14fg
+SF,"Gay, Rudy^",35.6,$26,SACRAMENTO KINGS,@ atl, 95-106,31:03,   22pt 3rb 5as 2st 2to 1trey 8-13fg 5-7ft
+SF,"Butler, Jimmy^",32.2,$42,CHICAGO BULLS,@ bkn, 118-88,27:17,   22pt 6rb 2as 1to 2trey 6-10fg 8-9ft
+PF,"Gibson, Taj^",29.2,$18,CHICAGO BULLS,@ bkn, 118-88,24:39,   14pt 11rb 1st 1bl 2to 7-9fg
+PF,"Cousins, DeMarcus^",28.4,$52,SACRAMENTO KINGS,@ atl, 95-106,31:43,   14pt 12rb 1as 1bl 4to 1trey 6-16fg 1-3ft
+PF,"Patterson, Patrick",27.9,$12,TORONTO RAPTORS,v den, 105-102,32:51,   3pt 7rb 3as 1st 5bl 1-4fg 1-2ft
+SF,"Barnes, Matt",24.5,$15,SACRAMENTO KINGS,@ atl, 95-106,27:45,   14pt 5rb 3as 1st 4to 4trey 4-9fg 2-2ft
+SF,"Bazemore, Kent^",23.4,$22,ATLANTA HAWKS,v sac, 106-95,28:08,   11pt 2rb 1as 3st 1bl 1trey 3-9fg 4-4ft
+SF,"Warren, T.J.^",22.3,$15,PHOENIX SUNS,@ lac, 98-116,28:56,   15pt 4rb 1as 1st 1to 6-14fg 3-5ft
+SF,"Sefolosha, Thabo",21.7,$11,ATLANTA HAWKS,v sac, 106-95,23:49,   4pt 6rb 3as 4st 2to 2-5fg
+SF,"Gallinari, Danilo^",20.9,$32,DENVER NUGGETS,@ tor, 102-105,37:05,   16pt 2rb 1as 2trey 3-11fg 8-8ft
+PF,"Scola, Luis",20.1,$10,BROOKLYN NETS,v chi, 88-118,16:02,   4pt 8rb 3as 1st 2-5fg
+PF,"Booker, Trevor^",19.6,$14,BROOKLYN NETS,v chi, 88-118,19:15,   5pt 8rb 3st 1to 2-7fg 1-2ft
+SF,"McDermott, Doug",19.1,$11,CHICAGO BULLS,@ bkn, 118-88,24:10,   12pt 3rb 3as 1to 4-10fg 4-4ft
+SF,"Tucker, P.J.",16.7,$14,PHOENIX SUNS,@ lac, 98-116,26:49,   7pt 6rb 2st 2to 1trey 3-6fg
+SF,"Chandler, Wilson",16.6,$15,DENVER NUGGETS,@ tor, 102-105,31:17,   9pt 3rb 1as 1bl 1trey 2-7fg 4-6ft
+SF,"Carroll, DeMarre^",15.4,$15,TORONTO RAPTORS,v den, 105-102,28:31,   10pt 2rb 1bl 2trey 4-8fg
+PF,"Dudley, Jared^",15,$12,PHOENIX SUNS,@ lac, 98-116,19:15,   5pt 5rb 1as 2st 2to 1trey 2-6fg
+PF,"Jokic, Nikola^",14.3,$27,DENVER NUGGETS,@ tor, 102-105,22:22,   12pt 4rb 1as 4to 6-9fg
+PF,"Faried, Kenneth",14,$20,DENVER NUGGETS,@ tor, 102-105,15:09,   6pt 5rb 1bl 1-3fg 4-4ft
+SF,"Ross, Terrence",11.9,$10,TORONTO RAPTORS,v den, 105-102,14:57,   7pt 2rb 1st 1trey 2-5fg 2-2ft
+PF,"Chriss, Marquese",11.9,$10,PHOENIX SUNS,@ lac, 98-116,17:33,   9pt 2rb 1as 1st 3to 2-4fg 5-6ft
+SF,"Bennett, Anthony",10.7,$10,BROOKLYN NETS,v chi, 88-118,12:00,   7pt 1rb 1st 1trey 2-7fg 2-2ft
+SF,"Hollis-Jefferson, Rondae^",10.1,$16,BROOKLYN NETS,v chi, 88-118,30:12,   2pt 3rb 3as 1bl 2to 1-7fg
+SF,"Johnson, Wesley",9.5,$10,LOS ANGELES CLIPPERS,v pho, 116-98,16:30,   3pt 5rb 1trey 1-3fg
+PF,"Humphries, Kris",8.7,$10,ATLANTA HAWKS,v sac, 106-95,13:09,   5pt 1rb 2as 1to 1trey 1-1fg 2-2ft
+PF,"Portis, Bobby",7.4,$11,CHICAGO BULLS,@ bkn, 118-88,4:25,   6pt 2rb 1to 3-4fg
+PF,"Siakam, Pascal^",6.8,$10,TORONTO RAPTORS,v den, 105-102,15:09,   2pt 4rb 1-4fg
+SF,"Mbah a Moute, Luc^",6.7,$10,LOS ANGELES CLIPPERS,v pho, 116-98,19:59,   2pt 1rb 1as 1st 1-3fg 0-1ft
+SF,"Bender, Dragan",6.2,$10,PHOENIX SUNS,@ lac, 98-116,6:52,   0pt 1rb 2as 1st 0-1fg
+SF,"Zipser, Paul",5.9,$10,CHICAGO BULLS,@ bkn, 118-88,4:25,   0pt 2rb 1as 1st 0-1fg
+PF,"Tolliver, Anthony",5.2,$10,SACRAMENTO KINGS,@ atl, 95-106,13:41,   3pt 1rb 1as 1to 1trey 1-3fg
+PF,"McCullough, Chris",3.6,$10,BROOKLYN NETS,v chi, 88-118,10:14,   0pt 3rb 0-2fg
+SF,"Prince, Taurean",0,$10,ATLANTA HAWKS,v sac, 106-95,DNP,   
+PF,"Stokes, Jarnell",0,$10,DENVER NUGGETS,@ tor, 102-105,DNP,   
+SF,"Caboclo, Bruno",0,$10,TORONTO RAPTORS,v den, 105-102,DNP,   
+SF,"Anderson, Alan",0,$10,LOS ANGELES CLIPPERS,v pho, 116-98,DNP,   
+SF,"Bembry, DeAndre",0,$10,ATLANTA HAWKS,v sac, 106-95,DNP,   
+PF,"Pierce, Paul",0,$10,LOS ANGELES CLIPPERS,v pho, 116-98,NA,   
+SF,"LeVert, Caris",0,$10,BROOKLYN NETS,v chi, 88-118,NA,   
+PF,"Sullinger, Jared",0,$18,TORONTO RAPTORS,v den, 105-102,NA,   
+SF,"Jones, Derrick",0,$10,PHOENIX SUNS,@ lac, 98-116,NA,   
+PF,"Johnson, Brice",0,$10,LOS ANGELES CLIPPERS,v pho, 116-98,NA,   
+PF,"Casspi, Omri",0,$14,SACRAMENTO KINGS,@ atl, 95-106,NA,   
+PF,"Labissiere, Skal",0,$10,SACRAMENTO KINGS,@ atl, 95-106,NA,   
+PF,"Scott, Mike",0,$10,ATLANTA HAWKS,v sac, 106-95,NA,   
+PF,"Arthur, Darrell",0,$10,DENVER NUGGETS,@ tor, 102-105,NA,   
+C,"Nurkic, Jusuf^",47.1,$14,DENVER NUGGETS,@ tor, 102-105,38:07,   13pt 18rb 1as 1st 5bl 1to 5-14fg 3-7ft
+C,"Jordan, DeAndre^",40.2,$33,LOS ANGELES CLIPPERS,v pho, 116-98,31:19,   19pt 11rb 2as 1st 2bl 1to 8-10fg 3-6ft
+C,"Howard, Dwight^",38.7,$31,ATLANTA HAWKS,v sac, 106-95,30:06,   18pt 11rb 1as 4bl 2to 5-9fg 8-20ft
+C,"Valanciunas, Jonas^",24.3,$28,TORONTO RAPTORS,v den, 105-102,30:36,   12pt 9rb 1as 1bl 2to 6-12fg
+C,"Koufos, Kosta^",22.1,$10,SACRAMENTO KINGS,@ atl, 95-106,24:47,   4pt 8rb 3as 2st 2bl 4to 2-5fg
+C,"Len, Alex",20.5,$16,PHOENIX SUNS,@ lac, 98-116,24:51,   13pt 5rb 1as 1st 2to 4-13fg 5-8ft
+C,"Lopez, Robin^",17,$21,CHICAGO BULLS,@ bkn, 118-88,19:25,   4pt 5rb 2as 2bl 1-5fg 2-2ft
+C,"Lopez, Brook^",16.4,$33,BROOKLYN NETS,v chi, 88-118,21:48,   13pt 2rb 1bl 1to 5-11fg 3-3ft
+C,"Speights, Marreese",14,$10,LOS ANGELES CLIPPERS,v pho, 116-98,13:06,   8pt 5rb 1st 2to 2-6fg 4-4ft
+C,"Muscala, Mike",13.6,$10,ATLANTA HAWKS,v sac, 106-95,20:16,   10pt 3rb 2-4fg 6-8ft
+C,"Felicio, Cristiano",12.9,$10,CHICAGO BULLS,@ bkn, 118-88,22:33,   4pt 7rb 1as 1to 2-4fg
+C,"Chandler, Tyson^",12.9,$15,PHOENIX SUNS,@ lac, 98-116,18:07,   4pt 7rb 1as 1to 1-2fg 2-2ft
+C,"Hamilton, Justin",12.4,$17,BROOKLYN NETS,v chi, 88-118,16:41,   0pt 7rb 1st 1bl 0-4fg
+C,"Poeltl, Jakob",11,$10,TORONTO RAPTORS,v den, 105-102,17:24,   1pt 5rb 2bl 0-3fg 1-2ft
+C,"Cauley-Stein, Willie",5.7,$13,SACRAMENTO KINGS,@ atl, 95-106,11:55,   0pt 1rb 1as 1st 1bl 1to 0-2fg
+C,"Williams, Alan",1.2,$10,PHOENIX SUNS,@ lac, 98-116,3:45,   2pt 1rb 2to 1-1fg
+C,"Hernangomez, Juan",0,$10,DENVER NUGGETS,@ tor, 102-105,DNP,   
+C,"Bass, Brandon",0,$10,LOS ANGELES CLIPPERS,v pho, 116-98,DNP,   
+C,"Nogueira, Lucas",0,$10,TORONTO RAPTORS,v den, 105-102,DNP,   
+C,"Papagiannis, Georgios",0,$10,SACRAMENTO KINGS,@ atl, 95-106,NA,   
+C,"Splitter, Tiago",0,$10,ATLANTA HAWKS,v sac, 106-95,NA,   
+C,"Stone, Diamond",-1,$10,LOS ANGELES CLIPPERS,v pho, 116-98,3:35,   0pt 1to 0-1fg

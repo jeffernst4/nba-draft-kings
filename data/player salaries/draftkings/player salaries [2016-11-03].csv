@@ -1,0 +1,151 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Antetokounmpo, Giannis^",55.25,"$9,000",MILWAUKEE BUCKS,v ind, 125-107,33:58,   27pt 7rb 9as 2st 2bl 4to 11-18fg 5-7ft
+PG,"Westbrook, Russell^",48,"$12,900",OKLAHOMA CITY THUNDER,@ gsw, 96-122,28:52,   20pt 6rb 10as 1st 2bl 6to 2trey 4-15fg 10-14ft
+SG,"Bradley, Avery^",44.5,"$5,800",BOSTON CELTICS,@ cle, 122-128,38:52,   26pt 10rb 2as 1st 3to 2trey 11-20fg 2-2ft
+PG,"Thomas, Isaiah^",41.25,"$7,500",BOSTON CELTICS,@ cle, 122-128,33:35,   30pt 3rb 6as 3to 8-19fg 14-14ft
+PG,"Curry, Stephen^",39.25,"$8,800",GOLDEN STATE WARRIORS,v okc, 122-96,30:03,   21pt 1rb 7as 2st 1bl 1to 2trey 6-14fg 7-8ft
+PG,"Irving, Kyrie^",37,"$7,600",CLEVELAND CAVALIERS,v bos, 128-122,34:01,   23pt 4rb 6as 3to 3trey 9-18fg 2-3ft
+PG,"Teague, Jeff^",34.5,"$5,800",INDIANA PACERS,@ mil, 107-125,29:54,   16pt 4rb 6as 3st 4to 1trey 4-11fg 7-8ft
+PG,"Nelson, Jameer",33.75,"$3,000",DENVER NUGGETS,@ min, 102-99,33:40,   14pt 7rb 7as 1st 5to 2trey 5-10fg 2-2ft
+SG,"Thompson, Klay^",32,"$6,300",GOLDEN STATE WARRIORS,v okc, 122-96,32:58,   18pt 2rb 3as 2st 1bl 2to 4trey 7-15fg
+SG,"Fournier, Evan^",31.75,"$6,100",ORLANDO MAGIC,v sac, 102-94,35:58,   29pt 1rb 1as 3to 3trey 10-15fg 6-7ft
+SG,"Brogdon, Malcolm",31,"$3,100",MILWAUKEE BUCKS,v ind, 125-107,24:13,   12pt 2rb 5as 3st 1bl 2trey 3-5fg 4-4ft
+PG,"Mudiay, Emmanuel^",31,"$6,000",DENVER NUGGETS,@ min, 102-99,32:53,   12pt 6rb 3as 5st 6to 4-18fg 4-4ft
+SG,"Ellis, Monta^",30.25,"$5,500",INDIANA PACERS,@ mil, 107-125,33:39,   6pt 3rb 10as 3st 1to 2-4fg 2-2ft
+SG,"LaVine, Zach^",27.75,"$6,200",MINNESOTA TIMBERWOLVES,v den, 99-102,35:40,   14pt 5rb 3as 1st 2trey 4-13fg 4-6ft
+PG,"Lawson, Ty^",26.75,"$5,100",SACRAMENTO KINGS,@ orl, 94-102,35:07,   11pt 7rb 5as 2to 1trey 5-9fg 0-2ft
+PG/SG,"Oladipo, Victor^",26.75,"$6,600",OKLAHOMA CITY THUNDER,@ gsw, 96-122,30:00,   21pt 3rb 4trey 8-13fg 1-4ft
+PG,"Dunn, Kris^",26.75,"$4,900",MINNESOTA TIMBERWOLVES,v den, 99-102,29:52,   3pt 5rb 9as 3st 4to 1-6fg 1-2ft
+PG,"Payton, Elfrid^",25.75,"$6,000",ORLANDO MAGIC,v sac, 102-94,33:35,   6pt 3rb 11as 1to 3-13fg 0-1ft
+PG/SG,"Smart, Marcus",23,"$4,400",BOSTON CELTICS,@ cle, 122-128,28:15,   14pt 2rb 2as 1bl 3trey 5-9fg 1-2ft
+PG/SG,"Shumpert, Iman",22.75,"$3,100",CLEVELAND CAVALIERS,v bos, 128-122,25:48,   15pt 3rb 2as 2trey 3-7fg 7-8ft
+SG,"McLemore, Ben",19,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,27:46,   11pt 4rb 1as 1st 2to 1trey 5-7fg
+SG,"Smith, J.R.^",17.5,"$4,300",CLEVELAND CAVALIERS,v bos, 128-122,35:17,   3pt 2rb 1as 3st 2bl 1trey 1-5fg
+PG,"Brooks, Aaron",16.5,"$3,000",INDIANA PACERS,@ mil, 107-125,14:02,   8pt 5as 1st 4to 2trey 3-4fg
+PG,"Christon, Semaj",15.75,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,19:08,   4pt 3rb 3as 2st 1to 2-6fg
+PG,"Augustin, D.J.",15,"$3,000",ORLANDO MAGIC,v sac, 102-94,14:25,   8pt 5as 3to 2trey 3-8fg
+PG,"Rozier, Terry",13,"$3,300",BOSTON CELTICS,@ cle, 122-128,15:58,   7pt 2rb 2as 1trey 3-5fg
+PG/SG,"Dellavedova, Matthew^",13,"$4,700",MILWAUKEE BUCKS,v ind, 125-107,23:47,   5pt 2rb 4as 1st 5to 2-6fg 1-1ft
+PG/SG,"Clark, Ian",12.25,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,19:03,   8pt 3rb 1trey 3-5fg 1-1ft
+SG,"Abrines, Alex",10.75,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,19:20,   5pt 3rb 1as 1trey 1-6fg 2-2ft
+PG,"Livingston, Shaun",10,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,17:21,   6pt 2rb 1as 3-4fg
+PG/SG,"Murray, Jamal^",9.25,"$3,700",DENVER NUGGETS,@ min, 102-99,29:27,   0pt 3rb 4as 1to 0-8fg
+PG/SG,"Temple, Garrett",8.25,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,12:53,   0pt 3rb 2as 1st 1to 0-2fg
+PG,"Jones, Tyus",8,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,18:08,   2pt 2rb 1as 1st 1-5fg
+PG,"Watson, C.J.",7.25,"$3,000",ORLANDO MAGIC,v sac, 102-94,12:02,   0pt 3rb 1as 1st 0-1fg
+PG,"Terry, Jason",7,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,17:51,   7pt 1to 1trey 2-3fg 2-2ft
+SG,"Afflalo, Arron^",4.5,"$3,800",SACRAMENTO KINGS,@ orl, 94-102,18:26,   3pt 1as 1-6fg 1-1ft
+SG,"Liggins, DeAndre",0,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,1:07,   0pt
+SG,"Vaughn, Rashad",0,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,1:14,   0pt
+SG,"Young, James",0,"$3,000",BOSTON CELTICS,@ cle, 122-128,2:04,   0pt
+SG,"McRae, Jordan",0,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,1:07,   0pt
+SG,"Young, Joseph",0,"$3,000",INDIANA PACERS,@ mil, 107-125,1:41,   0pt
+PG,"Lucas, John",0,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,DNP,   
+SG,"Miller, Mike",0,"$3,000",DENVER NUGGETS,@ min, 102-99,DNP,   
+SG,"Wilcox, C.J.",0,"$3,000",ORLANDO MAGIC,v sac, 102-94,DNP,   
+PG,"Beasley, Malik",0,"$3,000",DENVER NUGGETS,@ min, 102-99,DNP,   
+PG,"Jackson, Demetrius",0,"$3,000",BOSTON CELTICS,@ cle, 122-128,DNP,   
+PG,"Felder, Kay",0,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,NA,   
+SG,"Richardson, Malachi",0,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,NA,   
+PG/SG,"Stuckey, Rodney",0,"$3,000",INDIANA PACERS,@ mil, 107-125,NA,   
+SG,"Middleton, Khris",0,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,NA,   
+PG,"Williams, Maurice",0,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,NA,   
+PG,"Payne, Cameron",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,NA,   
+SG,"Meeks, Jodie",0,"$3,000",ORLANDO MAGIC,v sac, 102-94,NA,   
+PG,"Collison, Darren",0,"$5,300",SACRAMENTO KINGS,@ orl, 94-102,NA,   
+PG,"Rubio, Ricky",0,"$5,600",MINNESOTA TIMBERWOLVES,v den, 99-102,NA,   
+SG,"Harris, Gary",0,"$4,800",DENVER NUGGETS,@ min, 102-99,NA,   
+SG,"Jones, James",-0.5,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,00:31,   0pt 1to
+SG,"Morrow, Anthony",-0.5,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,9:18,   0pt 1to 0-2fg
+SF/PF,"James, LeBron^",59.75,"$9,600",CLEVELAND CAVALIERS,v bos, 128-122,36:22,   30pt 7rb 12as 1st 2to 1trey 12-22fg 5-5ft
+SF/PF,"Durant, Kevin^",53.75,"$10,200",GOLDEN STATE WARRIORS,v okc, 122-96,31:08,   39pt 7rb 1as 1bl 2to 7trey 15-24fg 2-3ft
+SF/PF,"Parker, Jabari^",43.5,"$5,600",MILWAUKEE BUCKS,v ind, 125-107,33:03,   27pt 8rb 3as 1bl 4to 4trey 11-17fg 1-1ft
+SF,"Brown, Jaylen^",37.25,"$3,300",BOSTON CELTICS,@ cle, 122-128,35:26,   19pt 5rb 2as 3st 1bl 1to 3trey 8-16fg 0-1ft
+SF,"George, Paul^",36.5,"$8,400",INDIANA PACERS,@ mil, 107-125,37:19,   23pt 4rb 1as 2st 2bl 6to 4trey 9-20fg 1-3ft
+SF/PF,"Gordon, Aaron^",35.5,"$5,700",ORLANDO MAGIC,v sac, 102-94,30:43,   13pt 10rb 3as 1st 1bl 1to 1trey 5-10fg 2-3ft
+SG/SF,"Miles, C.J.",32.75,"$3,600",INDIANA PACERS,@ mil, 107-125,23:35,   19pt 3rb 2as 3st 2trey 6-10fg 5-6ft
+SF,"Wiggins, Andrew^",30.75,"$6,100",MINNESOTA TIMBERWOLVES,v den, 99-102,34:45,   25pt 3rb 1as 1to 2trey 9-18fg 5-5ft
+SF,"Gallinari, Danilo^",29.75,"$5,800",DENVER NUGGETS,@ min, 102-99,36:58,   19pt 5rb 2as 1to 4trey 6-9fg 3-3ft
+PF,"Sabonis, Domantas^",28.5,"$3,600",OKLAHOMA CITY THUNDER,@ gsw, 96-122,26:54,   13pt 6rb 3as 1st 1bl 2to 1trey 6-12fg
+SF,"Chandler, Wilson",27.5,"$4,500",DENVER NUGGETS,@ min, 102-99,27:29,   19pt 6rb 1st 2to 8-12fg 3-5ft
+PF,"Bjelica, Nemanja",24.5,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,22:05,   14pt 8rb 1as 4to 2trey 5-13fg 2-2ft
+SF,"Gay, Rudy^",23,"$6,500",SACRAMENTO KINGS,@ orl, 94-102,31:49,   16pt 2rb 2as 1st 3to 2trey 6-13fg 2-5ft
+SG/SF,"Snell, Tony^",22.25,"$3,400",MILWAUKEE BUCKS,v ind, 125-107,28:55,   14pt 1rb 2as 2st 2to 2trey 6-9fg
+PF,"Casspi, Omri",20.75,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,23:16,   12pt 5rb 1st 1to 2trey 5-13fg
+SF/PF,"Green, Jeff",19.75,"$3,500",ORLANDO MAGIC,v sac, 102-94,18:36,   15pt 3rb 1to 3trey 5-9fg 2-2ft
+PF,"Faried, Kenneth",18.75,"$5,000",DENVER NUGGETS,@ min, 102-99,19:07,   8pt 5rb 1as 1st 1bl 2to 4-4fg
+PF,"Looney, Kevon",17,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,10:37,   4pt 6rb 1as 1st 1bl 2-2fg
+PF,"Frye, Channing",16.5,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,14:37,   11pt 2rb 1st 1to 3trey 4-8fg
+PF,"Young, Thaddeus^",15,"$5,900",INDIANA PACERS,@ mil, 107-125,27:46,   9pt 4rb 1st 2to 4-8fg 1-2ft
+SF,"Iguodala, Andre",11.25,"$3,500",GOLDEN STATE WARRIORS,v okc, 122-96,24:40,   3pt 3rb 2as 1bl 1to 1-5fg 1-2ft
+SF/PF,"Grant, Jerami",11,"$3,900",OKLAHOMA CITY THUNDER,@ gsw, 96-122,25:19,   6pt 4rb 3-9fg 0-2ft
+SF,"Singler, Kyle",10.5,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,17:05,   6pt 2rb 1bl 1to 1trey 2-5fg 1-2ft
+SF/PF,"Beasley, Michael",9,"$3,100",MILWAUKEE BUCKS,v ind, 125-107,12:57,   4pt 2rb 1as 1bl 2to 2-6fg
+PF,"Allen, Lavoy",8.75,"$3,000",INDIANA PACERS,@ mil, 107-125,15:10,   2pt 3rb 2as 1-3fg
+SG/SF,"Muhammad, Shabazz",8.75,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,13:15,   5pt 1rb 1st 1trey 2-5fg
+PF,"Jerebko, Jonas",7.25,"$3,000",BOSTON CELTICS,@ cle, 122-128,13:24,   4pt 1rb 1bl 2-5fg
+SG/SF,"Green, Gerald",7,"$3,000",BOSTON CELTICS,@ cle, 122-128,9:08,   6pt 2trey 2-6fg
+PF,"Maker, Thon",7,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,1:14,   6pt 2trey 2-2fg
+SF,"Barnes, Matt",6.25,"$4,000",SACRAMENTO KINGS,@ orl, 94-102,9:16,   2pt 3rb 1as 2to 1-2fg
+PF,"Arthur, Darrell",6,"$3,000",DENVER NUGGETS,@ min, 102-99,8:32,   2pt 2rb 1as 1-3fg
+SG/SF,"Dunleavy, Mike",5.75,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,12:43,   3pt 1rb 1as 0-1fg 3-4ft
+SF,"Jefferson, Richard",5.75,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,14:20,   2pt 3rb 1-2fg
+SG/SF,"Rush, Brandon",4.75,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,12:20,   0pt 1rb 1as 1bl 0-1fg
+SG/SF,"Roberson, Andre^",4.75,"$4,400",OKLAHOMA CITY THUNDER,@ gsw, 96-122,18:06,   2pt 3rb 2to 1-6fg
+PF,"McAdoo, James Michael",3.5,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,7:03,   0pt 1as 1bl 0-2fg
+PF,"West, David",3.5,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,6:02,   2pt 2rb 2to 1-2fg
+PF,"Teletovic, Mirza",3.5,"$3,200",MILWAUKEE BUCKS,v ind, 125-107,14:48,   3pt 1trey 1-3fg
+PF,"Mickey, Jordan",3.25,"$3,000",BOSTON CELTICS,@ cle, 122-128,9:45,   2pt 1rb 1-2fg
+SG/SF,"Hezonja, Mario",3.25,"$3,000",ORLANDO MAGIC,v sac, 102-94,11:30,   0pt 3rb 1to 0-2fg
+SF,"Niang, Georges",1.5,"$3,000",INDIANA PACERS,@ mil, 107-125,1:41,   0pt 1as 0-1fg
+SF,"Robinson III, Glenn",1,"$3,000",INDIANA PACERS,@ mil, 107-125,7:13,   0pt 1as 1to
+SF,"Rudez, Damjan",0,"$3,000",ORLANDO MAGIC,v sac, 102-94,DNP,   
+SF/PF,"Tolliver, Anthony",0,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,DNP,   
+PF,"Payne, Adreian",0,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,DNP,   
+PF,"Hill, Jordan",0,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,DNP,   
+PF,"Labissiere, Skal",0,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,DNP,   
+PF,"Stokes, Jarnell",0,"$3,000",DENVER NUGGETS,@ min, 102-99,DNP,   
+PF,"Onuaku, Arinze",0,"$3,000",ORLANDO MAGIC,v sac, 102-94,DNP,   
+PF,"Olynyk, Kelly",0,"$3,300",BOSTON CELTICS,@ cle, 122-128,NA,   
+SG/SF,"Barton, Will",0,"$6,000",DENVER NUGGETS,@ min, 102-99,NA,   
+SG/SF,"McCaw, Patrick",0,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,NA,   
+PF,"Zimmerman, Stephen",0,"$3,000",ORLANDO MAGIC,v sac, 102-94,NA,   
+SF,"Crowder, Jae",0,"$5,700",BOSTON CELTICS,@ cle, 122-128,NA,   
+SF,"Novak, Steve",0,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,NA,   
+SF,"Huestis, Josh",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,NA,   
+PF,"Christmas, Rakeem",0,"$3,000",INDIANA PACERS,@ mil, 107-125,NA,   
+C,"Towns, Karl-Anthony^",60,"$7,900",MINNESOTA TIMBERWOLVES,v den, 99-102,37:31,   32pt 14rb 2as 1st 2bl 2to 2trey 11-19fg 8-10ft
+PF/C,"Cousins, DeMarcus^",53.25,"$10,600",SACRAMENTO KINGS,@ orl, 94-102,36:19,   33pt 7rb 4as 2st 1bl 2to 1trey 12-20fg 8-9ft
+C,"Monroe, Greg",47.5,"$5,400",MILWAUKEE BUCKS,v ind, 125-107,25:39,   16pt 16rb 6as 1bl 2to 6-10fg 4-5ft
+C,"Thompson, Tristan^",43.5,"$4,200",CLEVELAND CAVALIERS,v bos, 128-122,31:04,   15pt 14rb 1as 1st 3bl 6-7fg 3-4ft
+PF/C,"Love, Kevin^",43,"$7,100",CLEVELAND CAVALIERS,v bos, 128-122,33:03,   26pt 8rb 1as 2bl 1to 4trey 5-15fg 12-13ft
+C,"Zeller, Tyler^",38,"$3,800",BOSTON CELTICS,@ cle, 122-128,27:46,   11pt 10rb 6as 2bl 5-8fg 1-2ft
+C,"Pachulia, Zaza^",37.5,"$3,700",GOLDEN STATE WARRIORS,v okc, 122-96,22:37,   8pt 10rb 5as 2st 3bl 1to 4-4fg
+PF/C,"Green, Draymond^",37,"$7,800",GOLDEN STATE WARRIORS,v okc, 122-96,29:10,   9pt 10rb 5as 1st 4bl 4to 2-9fg 5-6ft
+C,"Nurkic, Jusuf^",33.25,"$6,500",DENVER NUGGETS,@ min, 102-99,26:47,   18pt 5rb 1as 2st 2bl 1to 7-13fg 4-7ft
+C,"Vucevic, Nikola^",28.25,"$6,400",ORLANDO MAGIC,v sac, 102-94,29:00,   10pt 9rb 3as 2st 3to 4-11fg 2-6ft
+C,"Adams, Steven^",25,"$5,900",OKLAHOMA CITY THUNDER,@ gsw, 96-122,23:48,   11pt 4rb 1as 2st 2bl 1to 5-7fg 1-2ft
+PF/C,"Lauvergne, Joffrey",23.75,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,18:42,   8pt 7rb 2as 2st 1to 1trey 3-5fg 1-2ft
+PF/C,"Ibaka, Serge^",23.25,"$5,700",ORLANDO MAGIC,v sac, 102-94,32:37,   17pt 3rb 1bl 1trey 6-13fg 4-4ft
+PF/C,"Turner, Myles^",22.5,"$7,300",INDIANA PACERS,@ mil, 107-125,23:59,   15pt 2rb 1as 2st 2to 1trey 6-9fg 2-2ft
+C,"Biyombo, Bismack",20.75,"$3,400",ORLANDO MAGIC,v sac, 102-94,21:34,   4pt 9rb 1st 2bl 1to 2-2fg
+PF/C,"Johnson, Amir^",19,"$3,900",BOSTON CELTICS,@ cle, 122-128,25:47,   3pt 4rb 5as 2bl 1to 1-5fg 1-1ft
+PF/C,"Jokic, Nikola^",18.75,"$6,800",DENVER NUGGETS,@ min, 102-99,14:26,   8pt 3rb 5as 1to 3-3fg 2-4ft
+C,"Jefferson, Al",15.75,"$3,300",INDIANA PACERS,@ mil, 107-125,19:03,   5pt 7rb 1bl 1-8fg 3-4ft
+C,"Koufos, Kosta^",14.25,"$3,400",SACRAMENTO KINGS,@ orl, 94-102,20:28,   2pt 7rb 1as 1st 1-3fg
+C,"Plumlee, Miles^",13.75,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,22:21,   4pt 3rb 2as 2st 2to 1-2fg 2-4ft
+PF/C,"Dieng, Gorgui^",10,"$6,700",MINNESOTA TIMBERWOLVES,v den, 99-102,27:54,   2pt 4rb 2as 1bl 4to 1-6fg
+C,"Cauley-Stein, Willie",6.75,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,24:40,   4pt 1rb 1st 1to 2-5fg
+C,"McGee, JaVale",5.5,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,4:43,   4pt 1bl 1to 2-3fg
+C,"Seraphin, Kevin",4.75,"$3,000",INDIANA PACERS,@ mil, 107-125,4:58,   4pt 1rb 1to 2-3fg
+C,"Varejao, Anderson",4.25,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,4:35,   0pt 1rb 1as 1st 1to 0-1fg
+C,"Hernangomez, Juan",4,"$3,000",DENVER NUGGETS,@ min, 102-99,10:41,   2pt 2rb 1to 1-1fg
+C,"Aldrich, Cole",3.5,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,8:30,   2pt 1st 1to 1-2fg
+C,"Kanter, Enes",1.5,"$5,200",OKLAHOMA CITY THUNDER,@ gsw, 96-122,3:28,   0pt 1bl 1to 0-1fg
+C,"Collison, Nick",0,"$3,000",OKLAHOMA CITY THUNDER,@ gsw, 96-122,DNP,   
+C,"Henson, John",0,"$3,000",MILWAUKEE BUCKS,v ind, 125-107,DNP,   
+C,"Andersen, Chris",0,"$3,000",CLEVELAND CAVALIERS,v bos, 128-122,DNP,   
+C,"Papagiannis, Georgios",0,"$3,000",SACRAMENTO KINGS,@ orl, 94-102,NA,   
+C,"Jones, Damian",0,"$3,000",GOLDEN STATE WARRIORS,v okc, 122-96,NA,   
+C,"Horford, Al",0,"$6,300",BOSTON CELTICS,@ cle, 122-128,NA,   
+C,"Pekovic, Nikola",0,"$3,000",MINNESOTA TIMBERWOLVES,v den, 99-102,NA,   

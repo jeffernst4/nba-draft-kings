@@ -1,0 +1,91 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Rondo, Rajon^",49.8,$25,CHICAGO BULLS,@ bos, 111-97,40:22,   11pt 9rb 14as 5st 3to 5-11fg 1-2ft
+PG,"Paul, Chris^",42.9,$46,LOS ANGELES CLIPPERS,v uta, 99-91,32:56,   21pt 2rb 10as 3st 1bl 5to 3trey 9-15fg
+PG,"Lowry, Kyle^",39.3,$40,TORONTO RAPTORS,v mil, 106-100,39:17,   22pt 4rb 5as 3st 1bl 4to 2trey 6-12fg 8-9ft
+SG,"DeRozan, DeMar^",33.9,$41,TORONTO RAPTORS,v mil, 106-100,37:37,   23pt 7rb 3as 2to 9-18fg 5-6ft
+SG,"Wade, Dwyane^",33.3,$27,CHICAGO BULLS,@ bos, 111-97,32:12,   22pt 4rb 2as 1bl 3trey 9-16fg 1-2ft
+PG,"Smart, Marcus",33.1,$16,BOSTON CELTICS,v chi, 97-111,27:20,   13pt 8rb 2as 2st 2bl 1to 1trey 6-11fg
+PG,"Thomas, Isaiah^",25.3,$45,BOSTON CELTICS,v chi, 97-111,41:47,   20pt 4rb 2as 1st 5to 1trey 6-15fg 7-13ft
+PG,"Hill, George^",24.4,$23,UTAH JAZZ,@ lac, 91-99,36:47,   12pt 7rb 4as 3to 2trey 5-12fg
+SG,"Ingles, Joe^",23.7,$11,UTAH JAZZ,@ lac, 91-99,32:57,   9pt 6rb 3as 3st 4to 2trey 3-5fg 1-2ft
+SG,"Bradley, Avery^",23.1,$23,BOSTON CELTICS,v chi, 97-111,39:58,   12pt 3rb 3as 1st 1bl 2to 2trey 5-15fg
+SG,"Snell, Tony^",18.4,$13,MILWAUKEE BUCKS,@ tor, 100-106,30:41,   14pt 2rb 4trey 5-7fg
+PG,"Brogdon, Malcolm^",16.8,$17,MILWAUKEE BUCKS,@ tor, 100-106,37:19,   7pt 4rb 3as 1bl 2to 1trey 3-11fg
+SG,"Crawford, Jamal",14.4,$10,LOS ANGELES CLIPPERS,v uta, 99-91,24:16,   10pt 2rb 2as 1to 3-12fg 4-4ft
+SG,"Hood, Rodney",12.9,$15,UTAH JAZZ,@ lac, 91-99,24:36,   10pt 2rb 1st 2to 1trey 3-7fg 3-4ft
+PG,"Dellavedova, Matthew",12.6,$10,MILWAUKEE BUCKS,@ tor, 100-106,22:26,   7pt 3rb 1as 1trey 3-10fg
+SG,"Redick, J.J.^",12.4,$14,LOS ANGELES CLIPPERS,v uta, 99-91,32:39,   4pt 2rb 2as 2st 1to 2-7fg
+PG,"Joseph, Cory",12,$12,TORONTO RAPTORS,v mil, 106-100,17:58,   11pt 1as 2to 3trey 4-6fg
+PG,"Rozier, Terry",9.7,$10,BOSTON CELTICS,v chi, 97-111,12:44,   5pt 1rb 2as 1trey 2-4fg
+PG,"Mack, Shelvin",8.2,$10,UTAH JAZZ,@ lac, 91-99,11:00,   5pt 1rb 1as 1trey 2-4fg
+SG,"Terry, Jason",7.7,$10,MILWAUKEE BUCKS,@ tor, 100-106,5:34,   3pt 1rb 1as 1st 1-1fg 1-1ft
+SG,"Wright, Delon",6.9,$10,TORONTO RAPTORS,v mil, 106-100,8:25,   0pt 2rb 3as 0-1fg
+PG,"Carter-Williams, Michael",4,$10,CHICAGO BULLS,@ bos, 111-97,4:03,   2pt 1st 1-3fg
+SG,"Young, James",3.5,$10,BOSTON CELTICS,v chi, 97-111,1:35,   3pt 1trey 1-2fg
+PG,"Grant, Jerian",0,$10,CHICAGO BULLS,@ bos, 111-97,5:46,   0pt 0-3fg
+SG,"Valentine, Denzel",0,$10,CHICAGO BULLS,@ bos, 111-97,00:32,   0pt
+PG,"Exum, Dante",0,$10,UTAH JAZZ,@ lac, 91-99,DNP,   
+SG,"Morrow, Anthony",0,$10,CHICAGO BULLS,@ bos, 111-97,DNP,   
+PG,"Neto, Raul",0,$10,UTAH JAZZ,@ lac, 91-99,DNP,   
+PG,"VanVleet, Fred",0,$10,TORONTO RAPTORS,v mil, 106-100,DNP,   
+SG,"Vaughn, Rashad",0,$10,MILWAUKEE BUCKS,@ tor, 100-106,DNP,   
+SG,"Anderson, Alan",0,$10,LOS ANGELES CLIPPERS,v uta, 99-91,DNP,   
+SG,"Powell, Norman",0,$10,TORONTO RAPTORS,v mil, 106-100,DNP,   
+PG,"Payne, Cameron",0,$10,CHICAGO BULLS,@ bos, 111-97,NA,   
+PG,"Jackson, Demetrius",0,$10,BOSTON CELTICS,v chi, 97-111,NA,   
+PG,"Burks, Alec",0,$10,UTAH JAZZ,@ lac, 91-99,NA,   
+PG,"Canaan, Isaiah",0,$10,CHICAGO BULLS,@ bos, 111-97,NA,   
+SG,"Payton, Gary",0,$10,MILWAUKEE BUCKS,@ tor, 100-106,NA,   
+PG,"Rivers, Austin",0,$10,LOS ANGELES CLIPPERS,v uta, 99-91,NA,   
+SF,"Butler, Jimmy^",53.1,$51,CHICAGO BULLS,@ bos, 111-97,43:06,   22pt 8rb 8as 4st 2bl 3to 1trey 8-19fg 5-6ft
+PF,"Antetokounmpo, Giannis^",53,$52,MILWAUKEE BUCKS,@ tor, 100-106,42:14,   24pt 15rb 7as 2st 4to 1trey 9-24fg 5-7ft
+PF,"Ibaka, Serge^",38.4,$25,TORONTO RAPTORS,v mil, 106-100,35:32,   16pt 7rb 6as 2bl 1to 4trey 6-15fg
+PF,"Griffin, Blake^",35.5,$41,LOS ANGELES CLIPPERS,v uta, 99-91,38:44,   24pt 5rb 2as 1bl 1trey 11-21fg 1-1ft
+SF,"Hayward, Gordon^",30.7,$37,UTAH JAZZ,@ lac, 91-99,38:40,   20pt 6rb 2as 1to 3trey 5-15fg 7-7ft
+SF,"Middleton, Khris^",29.5,$28,MILWAUKEE BUCKS,@ tor, 100-106,41:13,   20pt 5rb 2as 1st 3to 3trey 6-14fg 5-5ft
+PF,"Mirotic, Nikola^",28.9,$22,CHICAGO BULLS,@ bos, 111-97,27:41,   13pt 7rb 2as 2bl 1to 3trey 5-13fg
+PF,"Olynyk, Kelly",28.3,$10,BOSTON CELTICS,v chi, 97-111,23:31,   11pt 4rb 7as 1st 1to 2trey 4-8fg 1-2ft
+SF,"Crowder, Jae^",24.6,$23,BOSTON CELTICS,v chi, 97-111,35:21,   16pt 3rb 4as 2to 2trey 6-11fg 2-2ft
+PF,"Favors, Derrick^",23.4,$18,UTAH JAZZ,@ lac, 91-99,33:20,   13pt 7rb 1bl 5-7fg 3-5ft
+PF,"Patterson, Patrick",22.1,$10,TORONTO RAPTORS,v mil, 106-100,30:02,   8pt 3rb 3as 3st 1to 2trey 2-6fg 2-2ft
+SF,"Zipser, Paul",17.7,$10,CHICAGO BULLS,@ bos, 111-97,29:00,   16pt 1rb 1as 2to 2trey 6-8fg 2-2ft
+SF,"Mbah a Moute, Luc^",17.6,$10,LOS ANGELES CLIPPERS,v uta, 99-91,37:47,   4pt 8rb 2as 1bl 1to 2-5fg
+SF,"Johnson, Joe",16.7,$13,UTAH JAZZ,@ lac, 91-99,28:49,   13pt 1rb 1as 1st 1to 6-15fg 1-2ft
+SF,"Felton, Raymond",16.4,$10,LOS ANGELES CLIPPERS,v uta, 99-91,16:35,   5pt 2rb 5as 1st 1to 1trey 2-5fg
+SF,"Carroll, DeMarre^",14.7,$10,TORONTO RAPTORS,v mil, 106-100,17:25,   9pt 1rb 1as 1bl 2trey 3-4fg 1-3ft
+SF,"Tucker, P.J.",14.5,$12,TORONTO RAPTORS,v mil, 106-100,27:52,   5pt 5rb 2as 1trey 2-4fg 0-2ft
+PF,"Speights, Marreese",12.6,$10,LOS ANGELES CLIPPERS,v uta, 99-91,13:17,   7pt 3rb 1as 1trey 3-4fg
+PF,"Pierce, Paul",8,$10,LOS ANGELES CLIPPERS,v uta, 99-91,9:16,   6pt 2as 1to 3-4fg
+PF,"Portis, Bobby",7.1,$14,CHICAGO BULLS,@ bos, 111-97,9:22,   3pt 3rb 1trey 1-1fg
+PF,"Johnson, Amir^",5.4,$10,BOSTON CELTICS,v chi, 97-111,8:37,   4pt 2rb 1to 2-3fg
+PF,"Hawes, Spencer",4.7,$10,MILWAUKEE BUCKS,@ tor, 100-106,5:57,   2pt 1rb 1as 1-2fg
+SF,"Brown, Jaylen",2.7,$10,BOSTON CELTICS,v chi, 97-111,8:52,   2pt 1rb 1as 2to 1-3fg
+PF,"Teletovic, Mirza",2.4,$10,MILWAUKEE BUCKS,@ tor, 100-106,12:33,   0pt 2rb 0-2fg
+PF,"Lauvergne, Joffrey",0,$10,CHICAGO BULLS,@ bos, 111-97,DNP,   
+PF,"Beasley, Michael",0,$14,MILWAUKEE BUCKS,@ tor, 100-106,DNP,   
+SF,"Jerebko, Jonas",0,$10,BOSTON CELTICS,v chi, 97-111,DNP,   
+PF,"Johnson, Brice",0,$10,LOS ANGELES CLIPPERS,v uta, 99-91,DNP,   
+PF,"Bolomboy, Joel",0,$10,UTAH JAZZ,@ lac, 91-99,DNP,   
+PF,"Lyles, Trey",0,$10,UTAH JAZZ,@ lac, 91-99,DNP,   
+SF,"Johnson, Wesley",0,$10,LOS ANGELES CLIPPERS,v uta, 99-91,DNP,   
+PF,"Bass, Brandon",0,$10,LOS ANGELES CLIPPERS,v uta, 99-91,DNP,   
+SF,"Green, Gerald",0,$10,BOSTON CELTICS,v chi, 97-111,DNP,   
+PF,"Nogueira, Lucas",0,$10,TORONTO RAPTORS,v mil, 106-100,DNP,   
+PF,"Mickey, Jordan",0,$10,BOSTON CELTICS,v chi, 97-111,NA,   
+SF,"Caboclo, Bruno",0,$10,TORONTO RAPTORS,v mil, 106-100,NA,   
+SF,"Parker, Jabari",0,$10,MILWAUKEE BUCKS,@ tor, 100-106,NA,   
+PF,"Siakam, Pascal",0,$10,TORONTO RAPTORS,v mil, 106-100,NA,   
+C,"Jordan, DeAndre^",39,$33,LOS ANGELES CLIPPERS,v uta, 99-91,34:30,   18pt 15rb 1st 1bl 1to 9-11fg 0-3ft
+C,"Lopez, Robin^",35.1,$13,CHICAGO BULLS,@ bos, 111-97,32:16,   18pt 8rb 1as 2st 1bl 8-11fg 2-2ft
+C,"Horford, Al^",30.7,$27,BOSTON CELTICS,v chi, 97-111,31:36,   7pt 11rb 5as 1st 1bl 1to 3-8fg 1-2ft
+C,"Monroe, Greg",25.3,$16,MILWAUKEE BUCKS,@ tor, 100-106,21:50,   18pt 4rb 1as 1st 1to 6-9fg 6-6ft
+C,"Maker, Thon^",20.1,$10,MILWAUKEE BUCKS,@ tor, 100-106,20:13,   5pt 3rb 4as 1st 2bl 1to 1trey 2-7fg
+C,"Valanciunas, Jonas^",20,$18,TORONTO RAPTORS,v mil, 106-100,22:08,   10pt 10rb 2to 4-10fg 2-3ft
+C,"Diaw, Boris^",15.2,$10,UTAH JAZZ,@ lac, 91-99,25:19,   7pt 1rb 3as 1st 1bl 2to 1trey 2-4fg 2-2ft
+C,"Withey, Jeff",7.9,$10,UTAH JAZZ,@ lac, 91-99,8:32,   2pt 2rb 1as 1st 1-1fg
+C,"Felicio, Cristiano",6.6,$10,CHICAGO BULLS,@ bos, 111-97,15:40,   4pt 3rb 1to 2-3fg
+C,"Zeller, Tyler",4.2,$10,BOSTON CELTICS,v chi, 97-111,8:39,   4pt 1rb 1to 2-2fg
+C,"Poeltl, Jakob",3.2,$10,TORONTO RAPTORS,v mil, 106-100,3:44,   2pt 1rb 1-1fg
+C,"Henson, John",0,$10,MILWAUKEE BUCKS,@ tor, 100-106,DNP,   
+C,"Gobert, Rudy",0,$40,UTAH JAZZ,@ lac, 91-99,NA,   
+C,"Stone, Diamond",0,$10,LOS ANGELES CLIPPERS,v uta, 99-91,NA,   

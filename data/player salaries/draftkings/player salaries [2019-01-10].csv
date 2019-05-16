@@ -1,0 +1,134 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Westbrook, Russell^",83.25,"$11,300",OKLAHOMA CITY THUNDER,@ sas, 147-154,49:35,   24pt 13rb 24as 2st 3to 11-22fg 2-5ft
+PG/SG,"White, Derrick^",46.75,"$4,900",SAN ANTONIO SPURS,v okc, 154-147,48:22,   23pt 5rb 8as 2st 1bl 2to 1trey 10-17fg 2-2ft
+PG/SF,"Winslow, Justise^",40.25,"$5,900",MIAMI HEAT,v bos, 115-99,31:52,   13pt 7rb 11as 1to 2trey 5-9fg 1-2ft
+PG,"Irving, Kyrie^",39.25,"$9,000",BOSTON CELTICS,@ mia, 99-115,34:44,   22pt 5rb 5as 1st 1bl 3to 2trey 10-19fg
+PG/SG,"Murray, Jamal^",32.5,"$7,300",DENVER NUGGETS,v lac, 121-100,32:10,   23pt 6rb 2as 4to 2trey 10-16fg 1-1ft
+PG/SG,"Mills, Patty",31.75,"$3,500",SAN ANTONIO SPURS,v okc, 154-147,29:23,   14pt 3rb 6as 2st 1to 3trey 5-7fg 1-1ft
+PG/SG,"Beasley, Malik^",31.25,"$3,800",DENVER NUGGETS,v lac, 121-100,31:02,   15pt 1rb 5as 2st 1bl 3trey 6-10fg
+PG,"Fox, De'Aaron^",30.75,"$7,600",SACRAMENTO KINGS,v det, 112-102,24:16,   12pt 5rb 6as 1st 1bl 2to 1trey 5-8fg 1-4ft
+PG/SG,"Forbes, Bryn^",29,"$4,300",SAN ANTONIO SPURS,v okc, 154-147,42:19,   14pt 8rb 2as 1st 3to 3trey 4-6fg 3-3ft
+PG/SG,"Brown, Bruce^",26.75,"$3,700",DETROIT PISTONS,@ sac, 102-112,20:52,   15pt 1rb 2as 3st 1bl 2to 1trey 6-11fg 2-2ft
+PG/SG,"Williams, Louis",26,"$6,900",LOS ANGELES CLIPPERS,@ den, 100-121,24:37,   19pt 5as 2to 1trey 7-15fg 4-5ft
+PG/SG,"Smart, Marcus^",25.25,"$4,700",BOSTON CELTICS,@ mia, 99-115,33:06,   18pt 1rb 2as 1bl 2to 4trey 5-10fg 4-5ft
+PG,"Morris, Monte",23.5,"$3,800",DENVER NUGGETS,v lac, 121-100,23:52,   14pt 2rb 4as 2trey 6-12fg
+PG/SG,"Wade, Dwyane",23,"$5,100",MIAMI HEAT,v bos, 115-99,22:34,   19pt 1as 1st 2to 3trey 8-12fg
+PG/SG,"Schroder, Dennis",23,"$4,800",OKLAHOMA CITY THUNDER,@ sas, 147-154,36:03,   14pt 2rb 4as 1to 2trey 5-14fg 2-2ft
+PG/SG,"Johnson, Tyler",17.75,"$4,400",MIAMI HEAT,v bos, 115-99,15:20,   11pt 3rb 1as 3trey 4-8fg
+PG/SG,"Beverley, Patrick",17.25,"$3,800",LOS ANGELES CLIPPERS,@ den, 100-121,22:33,   2pt 3rb 4as 3bl 1to 1-3fg
+PG,"Calderon, Jose",17.25,"$3,200",DETROIT PISTONS,@ sac, 102-112,20:20,   2pt 3rb 6as 2st 3to 1-3fg
+PG/SG,"Ferrell, Yogi",16.25,"$3,300",SACRAMENTO KINGS,v det, 112-102,23:44,   11pt 3rb 1as 2to 2trey 4-6fg 1-1ft
+PG/SG,"Galloway, Langston",14.25,"$3,100",DETROIT PISTONS,@ sac, 102-112,24:57,   8pt 3rb 1as 2trey 2-7fg 2-2ft
+PG/SG,"Jackson, Reggie^",13.5,"$5,000",DETROIT PISTONS,@ sac, 102-112,24:04,   6pt 4rb 2as 1to 3-11fg
+PG/SG,"Wallace, Tyrone",13.5,"$3,100",LOS ANGELES CLIPPERS,@ den, 100-121,19:21,   7pt 4rb 1as 3-4fg 1-4ft
+SG,"Thomas, Khyri",13,"$3,000",DETROIT PISTONS,@ sac, 102-112,16:34,   8pt 2st 2trey 3-6fg
+PG/SG,"Rozier, Terry",13,"$4,000",BOSTON CELTICS,@ mia, 99-115,16:44,   4pt 6rb 1st 1to 1-8fg 2-2ft
+SG,"Bradley, Avery^",11.5,"$3,400",LOS ANGELES CLIPPERS,@ den, 100-121,25:49,   2pt 2rb 2as 2st 1-6fg
+PG/SG,"Gilgeous-Alexander, Shai^",8,"$4,600",LOS ANGELES CLIPPERS,@ den, 100-121,20:26,   3pt 2rb 1as 1st 3to 1trey 1-4fg
+PG/SG,"Wanamaker, Brad",3,"$3,000",BOSTON CELTICS,@ mia, 99-115,2:32,   2pt 1as 1to 0-1fg 2-2ft
+PG/SG,"Mason III, Frank",1.5,"$3,000",SACRAMENTO KINGS,v det, 112-102,3:36,   0pt 1as 0-1fg
+PG/SG,"Goodwin, Brandon",1.5,"$3,000",DENVER NUGGETS,v lac, 121-100,3:04,   0pt 1as 0-2fg
+PG/SG,"Felton, Raymond",0,"$3,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,DNP,   
+SG,"Harris, Gary",0,"$5,600",DENVER NUGGETS,v lac, 121-100,DNP,   
+PG/SG,"Ellington, Wayne",0,"$3,100",MIAMI HEAT,v bos, 115-99,DNP,   
+PG,"Teodosic, Milos",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,NA,   
+PG,"Murray, Dejounte",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,NA,   
+PG/SG,"Dozier, PJ",0,"$3,000",BOSTON CELTICS,@ mia, 99-115,NA,   
+PG/SG,"Burton, Deonte",0,"$3,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,NA,   
+PG,"Dragic, Goran",0,"$5,500",MIAMI HEAT,v bos, 115-99,NA,   
+SG,"Robinson, Jerome",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,NA,   
+PG/SG,"Walker, Lonnie",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,NA,   
+PG,"Thomas, Isaiah",0,"$4,000",DENVER NUGGETS,v lac, 121-100,NA,   
+PG,"Smith, Ishmael",0,"$3,300",DETROIT PISTONS,@ sac, 102-112,NA,   
+PG/SG,"Evans, Keenan",0,"$3,000",DETROIT PISTONS,@ sac, 102-112,NA,   
+PG,"Lofton, Zach",0,"$3,000",DETROIT PISTONS,@ sac, 102-112,NA,   
+PF,"Grant, Jerami^",48,"$4,800",OKLAHOMA CITY THUNDER,@ sas, 147-154,43:54,   25pt 12rb 1as 3bl 3to 1trey 10-20fg 4-6ft
+SF/PF,"George, Paul^",48,"$9,800",OKLAHOMA CITY THUNDER,@ sas, 147-154,46:32,   30pt 8rb 1as 3st 2to 3trey 11-25fg 5-7ft
+SG/SF,"DeRozan, DeMar^",46,"$8,300",SAN ANTONIO SPURS,v okc, 154-147,49:22,   16pt 8rb 11as 1st 1bl 4to 7-22fg 2-5ft
+SF/PF,"Harris, Tobias^",41.25,"$7,400",LOS ANGELES CLIPPERS,@ den, 100-121,31:07,   18pt 11rb 4as 1bl 7-15fg 4-4ft
+SF/PF,"Morris, Marcus^",33.5,"$5,600",BOSTON CELTICS,@ mia, 99-115,28:44,   17pt 6rb 1as 1st 2bl 3trey 7-13fg
+SG/SF,"Richardson, Josh^",32.75,"$5,800",MIAMI HEAT,v bos, 115-99,33:41,   18pt 3rb 6as 4trey 7-13fg
+SF/PF,"Gallinari, Danilo^",30.25,"$7,100",LOS ANGELES CLIPPERS,@ den, 100-121,32:23,   18pt 3rb 4as 1st 2to 3trey 6-17fg 3-6ft
+SG/SF,"Bullock, Reggie^",28.75,"$4,600",DETROIT PISTONS,@ sac, 102-112,30:26,   15pt 1rb 6as 1st 3trey 4-9fg 4-4ft
+SF/PF,"Jones, Derrick",28.75,"$4,000",MIAMI HEAT,v bos, 115-99,28:30,   14pt 7rb 2st 1bl 2to 2trey 6-9fg
+SG/SF,"Craig, Torrey^",27.5,"$4,000",DENVER NUGGETS,v lac, 121-100,30:25,   14pt 4rb 3st 1bl 1to 2trey 6-8fg
+SG/SF,"Belinelli, Marco",26.5,"$3,200",SAN ANTONIO SPURS,v okc, 154-147,22:35,   19pt 2rb 1as 1bl 2to 5trey 6-10fg 2-2ft
+SF/PF,"Tatum, Jayson^",26,"$6,000",BOSTON CELTICS,@ mia, 99-115,31:38,   17pt 4rb 1as 1bl 1to 2trey 4-11fg 7-7ft
+SG/SF,"Ferguson, Terrance^",25.25,"$3,400",OKLAHOMA CITY THUNDER,@ sas, 147-154,41:01,   21pt 1rb 1to 7trey 7-12fg
+SF/PF,"Johnson, James^",24.75,"$4,200",MIAMI HEAT,v bos, 115-99,19:30,   12pt 5rb 3as 1bl 1to 1trey 5-15fg 1-2ft
+SF/PF,"Bjelica, Nemanja^",24.25,"$5,400",SACRAMENTO KINGS,v det, 112-102,25:29,   7pt 5rb 5as 2bl 2to 1trey 2-5fg 2-2ft
+SF/PF,"Bertans, Davis",24,"$3,700",SAN ANTONIO SPURS,v okc, 154-147,25:41,   12pt 4rb 2as 1st 4trey 4-4fg
+SF/PF,"Johnson, Stanley",22,"$3,100",DETROIT PISTONS,@ sac, 102-112,22:43,   16pt 2rb 1as 1st 2to 2trey 5-10fg 4-4ft
+SG/SF,"Hield, Buddy^",21,"$6,700",SACRAMENTO KINGS,v det, 112-102,28:38,   18pt 2rb 1to 2trey 8-13fg
+SG/SF,"Waiters, Dion",20.5,"$3,500",MIAMI HEAT,v bos, 115-99,20:21,   8pt 4rb 3as 1st 2trey 3-12fg
+SG/SF,"Bogdanovic, Bogdan",19.75,"$6,200",SACRAMENTO KINGS,v det, 112-102,20:58,   6pt 3rb 4as 2st 3-9fg
+SG/SF,"Shumpert, Iman^",19.5,"$3,700",SACRAMENTO KINGS,v det, 112-102,21:43,   13pt 2rb 2as 1to 3trey 5-10fg
+SF,"Nader, Abdel",14.75,"$3,200",OKLAHOMA CITY THUNDER,@ sas, 147-154,12:13,   9pt 3rb 1st 1to 1trey 4-4fg
+SF/PF,"Lyles, Trey",13.5,"$3,600",DENVER NUGGETS,v lac, 121-100,22:20,   7pt 2rb 1as 1bl 1trey 3-11fg
+SG/SF,"Kennard, Luke^",13.25,"$3,300",DETROIT PISTONS,@ sac, 102-112,22:54,   5pt 1rb 2as 1st 1bl 1to 1trey 1-8fg 2-2ft
+SF/PF,"Hayward, Gordon",13.25,"$5,700",BOSTON CELTICS,@ mia, 99-115,20:07,   6pt 1rb 4as 3-7fg
+SF/PF,"Hernangomez, Juan",11.25,"$3,700",DENVER NUGGETS,v lac, 121-100,22:22,   2pt 3rb 1as 2bl 1-3fg
+SF/PF,"Jackson, Justin",10.5,"$4,100",SACRAMENTO KINGS,v det, 112-102,19:46,   7pt 2rb 1as 1to 3-10fg 1-1ft
+SG/SF,"Brown, Jaylen",8,"$4,500",BOSTON CELTICS,@ mia, 99-115,13:50,   2pt 2rb 1as 1bl 1-5fg 0-1ft
+SG/SF,"McGruder, Rodney^",7.75,"$3,300",MIAMI HEAT,v bos, 115-99,14:56,   3pt 3rb 1as 2to 1trey 1-4fg
+SF/PF,"Robinson III, Glenn",6,"$3,000",DETROIT PISTONS,@ sac, 102-112,9:10,   6pt 1-3fg 4-5ft
+SF/PF,"Scott, Mike",5.5,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,9:23,   3pt 1bl 1trey 1-4fg
+PF,"Lydon, Tyler",5.5,"$3,000",DENVER NUGGETS,v lac, 121-100,3:04,   3pt 1st 1trey 1-1fg
+SG/SF,"Diallo, Hamidou",4.75,"$3,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,11:28,   2pt 1rb 1as 1-1fg
+SF/PF,"Ojeleye, Semi",2.75,"$3,100",BOSTON CELTICS,@ mia, 99-115,5:31,   0pt 1rb 1as
+SG/SF,"McLemore, Ben",0,"$3,200",SACRAMENTO KINGS,v det, 112-102,3:36,   0pt
+SF/PF,"Cunningham, Dante",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,00:03,   0pt
+SG/SF,"Thornwell, Sindarius",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,4:45,   0pt
+SF,"Pondexter, Quincy",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,DNP,   
+SG/SF,"Luwawu, Timothe",0,"$3,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,DNP,   
+PF,"Haslem, Udonis",0,"$3,000",MIAMI HEAT,v bos, 115-99,DNP,   
+SF/PF,"Gay, Rudy",0,"$5,300",SAN ANTONIO SPURS,v okc, 154-147,DNP,   
+SF/PF,"Mbah a Moute, Luc",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,NA,   
+SG/SF,"Robinson, Duncan",0,"$3,000",MIAMI HEAT,v bos, 115-99,NA,   
+SF/PF,"Vanderbilt, Jarred",0,"$3,000",DENVER NUGGETS,v lac, 121-100,NA,   
+SG/SF,"Roberson, Andre",0,"$3,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,NA,   
+SF/PF,"Gabriel, Wenyen",0,"$3,000",SACRAMENTO KINGS,v det, 112-102,NA,   
+SG/SF,"Barton, Will",0,"$5,000",DENVER NUGGETS,v lac, 121-100,NA,   
+SF/PF,"Grantham, Donte",0,"$3,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,NA,   
+PF,"Maten, Yante",0,"$3,000",MIAMI HEAT,v bos, 115-99,NA,   
+SF/PF,"Williams, Troy",0,"$3,000",SACRAMENTO KINGS,v det, 112-102,NA,   
+PF,"Moore, Ben",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,NA,   
+SG/SF,"Abrines, Alex",0,"$3,300",OKLAHOMA CITY THUNDER,@ sas, 147-154,NA,   
+SF/PF,"Porter, Michael",0,"$3,000",DENVER NUGGETS,v lac, 121-100,NA,   
+SG/SF,"Bird, Jabari",0,"$3,000",BOSTON CELTICS,@ mia, 99-115,NA,   
+PF/C,"Aldridge, LaMarcus^",78.75,"$7,200",SAN ANTONIO SPURS,v okc, 154-147,48:34,   56pt 9rb 4as 4bl 5to 20-33fg 16-16ft
+C,"Jokic, Nikola^",58.5,"$10,500",DENVER NUGGETS,v lac, 121-100,27:48,   18pt 14rb 10as 2bl 1to 8-19fg 2-3ft
+C,"Cauley-Stein, Willie^",43,"$6,600",SACRAMENTO KINGS,v det, 112-102,25:03,   14pt 14rb 5as 2bl 3to 5-10fg 4-6ft
+PF/C,"Plumlee, Mason",42,"$4,200",DENVER NUGGETS,v lac, 121-100,20:12,   17pt 12rb 5as 1bl 2to 7-8fg 3-5ft
+C,"Adams, Steven^",36.25,"$7,000",OKLAHOMA CITY THUNDER,@ sas, 147-154,37:36,   19pt 7rb 1as 2st 2bl 2to 8-13fg 3-4ft
+PF/C,"Adebayo, Bam",32.25,"$4,600",MIAMI HEAT,v bos, 115-99,26:41,   8pt 7rb 5as 2st 2bl 3-5fg 2-2ft
+PF/C,"Giles, Harry",31,"$3,200",SACRAMENTO KINGS,v det, 112-102,22:57,   14pt 4rb 3as 2st 3bl 5to 5-9fg 4-4ft
+C,"Drummond, Andre^",28.75,"$9,100",DETROIT PISTONS,@ sac, 102-112,31:29,   12pt 11rb 2as 1bl 7to 5-9fg 2-3ft
+PF/C,"Leuer, Jon",27.25,"$3,100",DETROIT PISTONS,@ sac, 102-112,16:31,   9pt 11rb 3st 3to 4-5fg 1-2ft
+C,"Whiteside, Hassan^",26.5,"$6,800",MIAMI HEAT,v bos, 115-99,21:19,   9pt 10rb 2as 1st 4-8fg 1-2ft
+PF/C,"Harrell, Montrezl",24.5,"$6,500",LOS ANGELES CLIPPERS,@ den, 100-121,22:01,   16pt 6rb 1bl 2to 7-9fg 2-2ft
+PF/C,"Bagley, Marvin",23.25,"$5,000",SACRAMENTO KINGS,v det, 112-102,20:14,   10pt 7rb 1as 2st 2to 4-5fg 2-2ft
+PF/C,"Millsap, Paul^",20.75,"$6,300",DENVER NUGGETS,v lac, 121-100,23:41,   8pt 9rb 1st 1to 2-9fg 4-4ft
+C,"Gasol, Pau^",14.25,"$3,100",SAN ANTONIO SPURS,v okc, 154-147,15:47,   0pt 3rb 3as 1st 2bl
+PF/C,"Horford, Al^",12.5,"$6,100",BOSTON CELTICS,@ mia, 99-115,23:10,   2pt 4rb 3as 1bl 2to 1-8fg
+PF/C,"Williams, Robert",12.5,"$3,100",BOSTON CELTICS,@ mia, 99-115,14:19,   2pt 4rb 1as 1st 1bl 1-1fg
+PF/C,"Motley, Johnathan",9.25,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,4:21,   6pt 3rb 1to 1-4fg 4-5ft
+PF/C,"Theis, Daniel",7.75,"$3,900",BOSTON CELTICS,@ mia, 99-115,13:03,   2pt 3rb 1st 1-4fg
+PF/C,"Patterson, Patrick",7.5,"$3,200",OKLAHOMA CITY THUNDER,@ sas, 147-154,11:38,   3pt 2rb 1as 1trey 1-3fg
+C,"Gortat, Marcin^",6.75,"$4,000",LOS ANGELES CLIPPERS,@ den, 100-121,17:15,   6pt 1rb 1to 3-3fg
+PF/C,"Yabusele, Guerschon",5.5,"$3,000",BOSTON CELTICS,@ mia, 99-115,2:32,   5pt 1trey 2-2fg
+C,"Poeltl, Jakob",4.75,"$3,600",SAN ANTONIO SPURS,v okc, 154-147,7:54,   0pt 1rb 1as 1bl
+C,"Marjanovic, Boban",3.75,"$3,400",LOS ANGELES CLIPPERS,@ den, 100-121,5:59,   0pt 3rb 0-3fg
+PF/C,"Olynyk, Kelly",2.5,"$3,900",MIAMI HEAT,v bos, 115-99,5:16,   0pt 2rb 0-1fg
+PF/C,"Eubanks, Drew",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,DNP,   
+PF/C,"Koufos, Kosta",0,"$3,100",SACRAMENTO KINGS,v det, 112-102,DNP,   
+PF/C,"Randolph, Zach",0,"$3,000",SACRAMENTO KINGS,v det, 112-102,NA,   
+C,"Noel, Nerlens",0,"$3,400",OKLAHOMA CITY THUNDER,@ sas, 147-154,NA,   
+C,"Welsh, Thomas",0,"$3,000",DENVER NUGGETS,v lac, 121-100,NA,   
+PF/C,"Metu, Chimezie",0,"$3,000",SAN ANTONIO SPURS,v okc, 154-147,NA,   
+PF/C,"Ellenson, Henry",0,"$3,000",DETROIT PISTONS,@ sac, 102-112,NA,   
+C,"Pachulia, Zaza",0,"$3,400",DETROIT PISTONS,@ sac, 102-112,NA,   
+PF/C,"Labissiere, Skal",0,"$3,000",SACRAMENTO KINGS,v det, 112-102,NA,   
+C,"Delgado, Angel",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 100-121,NA,   
+C,"Baynes, Aron",0,"$3,400",BOSTON CELTICS,@ mia, 99-115,NA,   
+PF/C,"Griffin, Blake",0,"$9,200",DETROIT PISTONS,@ sac, 102-112,NA,   

@@ -1,0 +1,77 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Curry, Stephen^",59.1,"$10,000",GOLDEN STATE WARRIORS,@ nor, 109-98,38,   39pt 8rb 9as 1st 5to 6trey 11-20fg 11-12ft
+SG,"Butler, Jimmy^",48.4,"$8,500",CHICAGO BULLS,@ mil, 90-92,41,   33pt 7rb 2as 3st 1bl 4to 5trey 12-17fg 4-4ft
+SG,"Gordon, Eric^",39.1,"$5,100",NEW ORLEANS PELICANS,v gsw, 98-109,35,   29pt 3rb 5as 1to 3trey 12-21fg 2-2ft
+SG,"Johnson, Joe^",37.5,"$6,200",BROOKLYN NETS,v atl, 91-83,42,   16pt 10rb 5as 2st 2to 2trey 5-17fg 4-5ft
+PG,"Lillard, Damian^",36.9,"$7,400",PORTLAND TRAIL BLAZERS,v mem, 109-115,41,   22pt 2rb 9as 1bl 3to 2trey 9-17fg 2-4ft
+SG,"McCollum, C.J.",34.8,"$4,300",PORTLAND TRAIL BLAZERS,v mem, 109-115,27,   26pt 4rb 2st 2trey 8-14fg 8-9ft
+SG,"Mayo, O.J.",33.6,"$4,500",MILWAUKEE BUCKS,v chi, 92-90,24,   18pt 3rb 4as 4st 2to 4trey 6-11fg 2-2ft
+SG,"Thompson, Klay^",32.6,"$7,400",GOLDEN STATE WARRIORS,@ nor, 109-98,36,   25pt 3rb 1st 1bl 4trey 10-19fg 1-1ft
+SG,"Lee, Courtney^",28.5,"$3,900",MEMPHIS GRIZZLIES,@ por, 115-109,33,   20pt 5rb 1as 1st 1to 1trey 5-8fg 9-9ft
+PG,"Teague, Jeff^",26.6,"$6,300",ATLANTA HAWKS,@ bkn, 83-91,30,   12pt 3rb 6as 3st 4to 4-13fg 4-5ft
+PG,"Conley, Mike^",25.6,"$5,800",MEMPHIS GRIZZLIES,@ por, 115-109,26,   14pt 3rb 4as 1st 1trey 6-14fg 1-1ft
+PG,"Rose, Derrick^",25,"$6,100",CHICAGO BULLS,@ mil, 90-92,39,   14pt 5rb 6as 1st 1bl 8to 2trey 5-13fg 2-2ft
+PG,"Calathes, Nick",24.3,"$3,500",MEMPHIS GRIZZLIES,@ por, 115-109,27,   13pt 4rb 3as 1bl 2trey 4-9fg 3-6ft
+SG,"Antetokounmpo, Giannis^",23.6,"$6,800",MILWAUKEE BUCKS,v chi, 92-90,26,   10pt 8rb 2as 1st 1to 3-7fg 4-6ft
+PG,"Williams, Deron^",21.4,"$6,500",BROOKLYN NETS,v atl, 91-83,26,   3pt 7rb 6as 2st 3to 1trey 1-8fg 0-0ft
+PG,"Bayless, Jerryd",21.1,"$3,500",MILWAUKEE BUCKS,v chi, 92-90,25,   10pt 3rb 5as 3-10fg 4-5ft
+PG,"Jack, Jarrett",21,"$4,900",BROOKLYN NETS,v atl, 91-83,27,   5pt 5rb 8as 2to 1trey 1-3fg 2-2ft
+PG,"Evans, Tyreke^",19.5,"$7,700",NEW ORLEANS PELICANS,v gsw, 98-109,33,   4pt 5rb 5as 2st 2to 2-10fg 0-0ft
+PG,"Carter-Williams, Michael^",17.9,"$7,000",MILWAUKEE BUCKS,v chi, 92-90,25,   8pt 2rb 5as 1st 2to 4-11fg 0-0ft
+SG,"Korver, Kyle^",15.9,"$5,300",ATLANTA HAWKS,@ bkn, 83-91,38,   2pt 2rb 5as 2bl 1-8fg 0-0ft
+SG,"Allen, Tony^",15,"$4,800",MEMPHIS GRIZZLIES,@ por, 115-109,24,   8pt 5rb 1st 1to 3-4fg 2-2ft
+SG,"Afflalo, Arron^",11.7,"$3,800",PORTLAND TRAIL BLAZERS,v mem, 109-115,27,   5pt 6rb 1as 2to 1trey 2-5fg 0-1ft
+SG,"Bazemore, Kent",11.5,"$3,500",ATLANTA HAWKS,@ bkn, 83-91,19,   6pt 5rb 1as 2to 2-5fg 2-2ft
+PG,"Holiday, Jrue",10,"$6,800",NEW ORLEANS PELICANS,v gsw, 98-109,17,   4pt 4as 1st 2to 2-5fg 0-0ft
+PG,"Livingston, Shaun",9.7,"$3,500",GOLDEN STATE WARRIORS,@ nor, 109-98,17,   0pt 1rb 3as 1st 1bl 0-2fg 0-0ft
+SG,"Anderson, Alan",8.7,"$3,600",BROOKLYN NETS,v atl, 91-83,20,   8pt 1rb 1as 2to 3-4fg 2-2ft
+PG,"Blake, Steve",7,"$3,500",PORTLAND TRAIL BLAZERS,v mem, 109-115,9,   2pt 2as 1bl 0-1fg 2-2ft
+SG,"Barbosa, Leandro",6.5,"$3,500",GOLDEN STATE WARRIORS,@ nor, 109-98,11,   6pt 1as 1to 3-5fg 0-0ft
+PG,"Schroder, Dennis",5.2,"$4,900",ATLANTA HAWKS,@ bkn, 83-91,23,   3pt 1rb 2as 2to 1-9fg 1-2ft
+PG,"Brooks, Aaron",3,"$4,800",CHICAGO BULLS,@ mil, 90-92,9,   0pt 1st 1bl 1to 0-2fg 0-1ft
+SG,"Snell, Tony",1.4,"$3,500",CHICAGO BULLS,@ mil, 90-92,7,   0pt 2rb 1to 0-2fg 0-0ft
+PG,"Mack, Shelvin",0,"$3,500",ATLANTA HAWKS,@ bkn, 83-91,0,   0pt 0-0fg 0-0ft
+PG,"Hinrich, Kirk",0,"$3,500",CHICAGO BULLS,@ mil, 90-92,1,   0pt 0-0fg 0-0ft
+PG,"Cole, Norris",-4,"$3,800",NEW ORLEANS PELICANS,v gsw, 98-109,18,   0pt 4to 0-5fg 0-0ft
+PF,"Davis, Anthony^",55.7,"$11,800",NEW ORLEANS PELICANS,v gsw, 98-109,40,   36pt 11rb 1as 3bl 1to 14-20fg 8-9ft
+PF,"Millsap, Paul^",53.9,"$7,600",ATLANTA HAWKS,@ bkn, 83-91,35,   18pt 17rb 3as 5st 1bl 1to 2trey 7-18fg 2-2ft
+SF,"Green, Draymond^",48,"$7,900",GOLDEN STATE WARRIORS,@ nor, 109-98,42,   22pt 10rb 8as 1st 1bl 2to 3trey 9-14fg 1-2ft
+SF,"Batum, Nicolas^",40.2,"$6,200",PORTLAND TRAIL BLAZERS,v mem, 109-115,42,   27pt 6rb 4as 6trey 9-18fg 3-3ft
+PF,"Aldridge, LaMarcus^",39.9,"$9,400",PORTLAND TRAIL BLAZERS,v mem, 109-115,45,   21pt 7rb 5as 2bl 1to 6-18fg 9-10ft
+PF,"Gasol, Pau^",35,"$8,900",CHICAGO BULLS,@ mil, 90-92,34,   16pt 10rb 4as 1st 2bl 5to 5-10fg 6-7ft
+PF,"Young, Thaddeus^",33.7,"$5,900",BROOKLYN NETS,v atl, 91-83,41,   18pt 11rb 3as 1st 4to 8-16fg 2-2ft
+SF,"Bogdanovic, Bojan^",30.1,"$4,100",BROOKLYN NETS,v atl, 91-83,34,   19pt 3rb 1as 3st 3trey 7-13fg 2-2ft
+SF,"Carroll, DeMarre^",27.2,"$5,800",ATLANTA HAWKS,@ bkn, 83-91,33,   22pt 6rb 1st 4to 3trey 9-12fg 1-2ft
+SF,"Dudley, Jared",26.9,"$3,600",MILWAUKEE BUCKS,v chi, 92-90,29,   13pt 2rb 5as 2st 1bl 2to 3trey 5-9fg 0-0ft
+PF,"Anderson, Ryan",26.2,"$4,400",NEW ORLEANS PELICANS,v gsw, 98-109,35,   10pt 6rb 4as 2bl 1to 2trey 4-11fg 0-0ft
+PF,"Randolph, Zach^",24.8,"$7,000",MEMPHIS GRIZZLIES,@ por, 115-109,32,   16pt 4rb 4as 2to 6-12fg 4-4ft
+PF,"Cunningham, Dante",24.6,"$4,100",NEW ORLEANS PELICANS,v gsw, 98-109,26,   10pt 8rb 2as 1bl 4-4fg 2-2ft
+SF,"Barnes, Harrison^",24.1,"$4,300",GOLDEN STATE WARRIORS,@ nor, 109-98,35,   6pt 8rb 3as 1st 1bl 3-7fg 0-2ft
+PF,"Henson, John",23,"$4,800",MILWAUKEE BUCKS,v chi, 92-90,26,   6pt 5rb 2as 1st 4bl 2to 3-7fg 0-2ft
+SF,"Dunleavy, Mike^",22.5,"$4,500",CHICAGO BULLS,@ mil, 90-92,34,   10pt 5rb 3as 1st 1bl 2to 2trey 4-5fg 0-0ft
+SF,"Middleton, Khris^",22.3,"$6,700",MILWAUKEE BUCKS,v chi, 92-90,46,   10pt 4rb 1as 3st 1bl 2to 1trey 4-15fg 1-1ft
+PF,"Gibson, Taj",18.8,"$4,600",CHICAGO BULLS,@ mil, 90-92,25,   8pt 4rb 2as 1st 1bl 1to 3-7fg 2-4ft
+SF,"Green, Jeff",15.7,"$5,000",MEMPHIS GRIZZLIES,@ por, 115-109,26,   9pt 6rb 1as 2to 2-9fg 5-5ft
+SF,"Iguodala, Andre",15.4,"$4,000",GOLDEN STATE WARRIORS,@ nor, 109-98,24,   8pt 2rb 2as 1st 3-8fg 2-2ft
+PF,"Ilyasova, Ersan^",14.4,"$5,200",MILWAUKEE BUCKS,v chi, 92-90,17,   9pt 2rb 2st 1to 1trey 3-11fg 2-2ft
+PF,"Scott, Mike",12,"$3,800",ATLANTA HAWKS,@ bkn, 83-91,12,   6pt 5rb 3-6fg 0-0ft
+SF,"Carter, Vince",10.6,"$3,500",MEMPHIS GRIZZLIES,@ por, 115-109,17,   5pt 3rb 1bl 2-2fg 1-1ft
+PF,"Mirotic, Nikola",10.2,"$6,100",CHICAGO BULLS,@ mil, 90-92,20,   5pt 1rb 2as 2st 3to 1trey 2-7fg 0-0ft
+SF,"Pondexter, Quincy^",4.4,"$4,200",NEW ORLEANS PELICANS,v gsw, 98-109,21,   0pt 2rb 1st 0-2fg 0-0ft
+PF,"Speights, Marreese",2.7,"$3,500",GOLDEN STATE WARRIORS,@ nor, 109-98,4,   0pt 1rb 1as 0-1fg 0-0ft
+SF,"Teletovic, Mirza",1.2,"$3,500",BROOKLYN NETS,v atl, 91-83,4,   0pt 1rb 0-3fg 0-0ft
+C,"Gasol, Marc^",45.4,"$8,200",MEMPHIS GRIZZLIES,@ por, 115-109,39,   25pt 7rb 4as 3bl 6-17fg 13-14ft
+C,"Lopez, Brook^",39.6,"$8,500",BROOKLYN NETS,v atl, 91-83,42,   22pt 13rb 2bl 2to 7-18fg 8-12ft
+C,"Horford, Al^",28.1,"$7,300",ATLANTA HAWKS,@ bkn, 83-91,31,   7pt 8rb 5as 1st 2bl 2to 3-12fg 1-2ft
+C,"Pachulia, Zaza^",26.5,"$5,500",MILWAUKEE BUCKS,v chi, 92-90,22,   8pt 5rb 1as 6st 1to 3-6fg 2-4ft
+C,"Noah, Joakim^",15,"$6,400",CHICAGO BULLS,@ mil, 90-92,30,   4pt 5rb 4as 1to 2-5fg 0-2ft
+C,"Antic, Pero",13.8,"$3,500",ATLANTA HAWKS,@ bkn, 83-91,19,   7pt 4rb 1st 1trey 2-7fg 2-2ft
+C,"Bogut, Andrew^",12.1,"$6,000",GOLDEN STATE WARRIORS,@ nor, 109-98,22,   2pt 3rb 1as 3bl 1to 1-1fg 0-0ft
+C,"Kaman, Chris",10.7,"$4,100",PORTLAND TRAIL BLAZERS,v mem, 109-115,17,   2pt 6rb 1as 1-2fg 0-0ft
+C,"Koufos, Kosta",9.7,"$3,500",MEMPHIS GRIZZLIES,@ por, 115-109,16,   5pt 1rb 1as 1bl 2-2fg 1-1ft
+C,"Asik, Omer^",9.2,"$4,700",NEW ORLEANS PELICANS,v gsw, 98-109,14,   3pt 1rb 2as 1st 1-4fg 1-1ft
+C,"Lopez, Robin^",8.3,"$4,500",PORTLAND TRAIL BLAZERS,v mem, 109-115,27,   4pt 4rb 1as 2to 1-2fg 2-2ft
+C,"Ezeli, Festus",3.6,"$3,500",GOLDEN STATE WARRIORS,@ nor, 109-98,9,   1pt 3rb 1to 0-2fg 1-4ft
+C,"Ajinca, Alexis",2,"$3,500",NEW ORLEANS PELICANS,v gsw, 98-109,2,   2pt 1-1fg 0-0ft
+C,"Plumlee, Mason",1.2,"$3,500",BROOKLYN NETS,v atl, 91-83,4,   0pt 1rb 0-1fg 0-0ft
+C,"Leonard, Meyers",0,"$4,600",PORTLAND TRAIL BLAZERS,v mem, 109-115,5,   0pt 0-0fg 0-0ft

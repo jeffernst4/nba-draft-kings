@@ -1,0 +1,100 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Lowry, Kyle^",46,"$8,000",TORONTO RAPTORS,v gsw, 131-128,40:47,   10pt 8rb 12as 3st 1to 2trey 4-14fg
+PG,"Fox, De'Aaron^",39.75,"$7,200",SACRAMENTO KINGS,v lac, 121-133,31:30,   17pt 3rb 9as 2st 1bl 2to 1trey 6-13fg 4-4ft
+PG,"Gilgeous-Alexander, Shai^",37.75,"$4,900",LOS ANGELES CLIPPERS,@ sac, 133-121,32:28,   17pt 5rb 4as 2st 2bl 1trey 6-9fg 4-5ft
+SG,"Thompson, Klay^",32.75,"$7,400",GOLDEN STATE WARRIORS,@ tor, 128-131,43:50,   23pt 3rb 3as 1bl 4to 3trey 9-20fg 2-2ft
+SG,"Bradley, Avery^",31.25,"$3,900",LOS ANGELES CLIPPERS,@ sac, 133-121,31:40,   16pt 3rb 6as 1bl 3to 4trey 6-10fg
+PG,"Joseph, Cory",28,"$4,400",INDIANA PACERS,@ lal, 96-104,27:07,   10pt 6rb 6as 1bl 2to 1trey 4-8fg 1-2ft
+PG,"Collison, Darren^",27.25,"$4,700",INDIANA PACERS,@ lal, 96-104,26:39,   9pt 3rb 4as 4st 1trey 3-12fg 2-2ft
+SG,"Hart, Josh",23.25,"$3,600",LOS ANGELES LAKERS,v ind, 104-96,25:05,   13pt 1rb 2as 3st 1to 1trey 6-7fg 0-1ft
+PG,"Livingston, Shaun",21,"$3,000",GOLDEN STATE WARRIORS,@ tor, 128-131,16:39,   4pt 2rb 7as 1st 1bl 1-5fg 2-3ft
+PG,"Ball, Lonzo^",20,"$5,700",LOS ANGELES LAKERS,v ind, 104-96,33:40,   2pt 8rb 4as 2bl 4to 1-6fg
+PG/SG,"Williams, Louis",15,"$5,600",LOS ANGELES CLIPPERS,@ sac, 133-121,19:07,   10pt 2rb 2as 2to 1trey 3-10fg 3-3ft
+SG,"Lee, Damion",14.75,"$3,000",GOLDEN STATE WARRIORS,@ tor, 128-131,18:07,   7pt 3rb 2st 1to 1trey 3-7fg
+PG/SG,"Wright, Delon",12,"$3,400",TORONTO RAPTORS,v gsw, 131-128,12:03,   8pt 2as 2trey 2-3fg 2-2ft
+PG,"Cook, Quinn^",11,"$4,800",GOLDEN STATE WARRIORS,@ tor, 128-131,21:19,   8pt 1as 1st 1to 4-9fg
+PG,"Holiday, Aaron",10.5,"$3,700",INDIANA PACERS,@ lal, 96-104,13:16,   7pt 1as 1st 1to 1trey 2-5fg 2-2ft
+SG,"Williams, Troy",8,"$3,000",SACRAMENTO KINGS,v lac, 121-133,22:52,   6pt 2rb 1to 2-6fg 2-2ft
+PG/SG,"Beverley, Patrick",6.75,"$4,300",LOS ANGELES CLIPPERS,@ sac, 133-121,15:53,   6pt 1rb 1to 2-3fg 2-4ft
+PG,"Teodosic, Milos",6.5,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,5:57,   0pt 3as 1st 0-1fg
+SG,"Thornwell, Sindarius",5,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,8:39,   2pt 1as 1st 1to 1-2fg
+PG/SG,"VanVleet, Fred",4.75,"$4,600",TORONTO RAPTORS,v gsw, 131-128,14:52,   0pt 1rb 3as 2to 0-3fg
+PG/SG,"Ferrell, Yogi",1.5,"$3,000",SACRAMENTO KINGS,v lac, 121-133,1:12,   0pt 1as
+SG,"Evans III, Jacob",0,"$3,000",GOLDEN STATE WARRIORS,@ tor, 128-131,00:20,   0pt
+PG,"Mason III, Frank",0,"$3,000",SACRAMENTO KINGS,v lac, 121-133,1:38,   0pt
+PG/SG,"Wallace, Tyrone",0,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,00:21,   0pt
+PG,"Sumner, Edmond",0,"$3,000",INDIANA PACERS,@ lal, 96-104,DNP,   
+PG,"Brown, Lorenzo",0,"$3,200",TORONTO RAPTORS,v gsw, 131-128,DNP,   
+SG,"Richardson, Malachi",0,"$3,200",TORONTO RAPTORS,v gsw, 131-128,DNP,   
+SG,"Mykhailiuk, Sviatoslav",0,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,DNP,   
+PG/SG,"Oladipo, Victor",0,"$8,800",INDIANA PACERS,@ lal, 96-104,NA,   
+SG,"Caruso, Alex",0,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,NA,   
+PG/SG,"Curry, Stephen",0,"$9,500",GOLDEN STATE WARRIORS,@ tor, 128-131,NA,   
+PG,"Rondo, Rajon",0,"$5,000",LOS ANGELES LAKERS,v ind, 104-96,NA,   
+SG,"Reed, Davon",0,"$3,000",INDIANA PACERS,@ lal, 96-104,NA,   
+PG,"Loyd, Jordan",0,"$3,000",TORONTO RAPTORS,v gsw, 131-128,NA,   
+SG,"Robinson, Jerome",0,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,NA,   
+SF/PF,"Durant, Kevin^",76.75,"$11,000",GOLDEN STATE WARRIORS,@ tor, 128-131,42:56,   51pt 11rb 6as 1to 4trey 18-31fg 11-12ft
+SF/PF,"James, LeBron^",62.75,"$10,700",LOS ANGELES LAKERS,v ind, 104-96,38:09,   38pt 9rb 7as 2st 4to 2trey 15-27fg 6-10ft
+SF/PF,"Leonard, Kawhi^",56.5,"$9,300",TORONTO RAPTORS,v gsw, 131-128,44:06,   37pt 8rb 3as 1st 1bl 1to 3trey 14-24fg 6-6ft
+SF/PF,"Harris, Tobias^",43,"$8,200",LOS ANGELES CLIPPERS,@ sac, 133-121,32:47,   28pt 6rb 4as 3trey 11-17fg 3-3ft
+SG/SF,"Bogdanovic, Bogdan",41,"$5,200",SACRAMENTO KINGS,v lac, 121-133,35:20,   26pt 4rb 6as 1to 3trey 8-20fg 7-8ft
+SF/PF,"Jerebko, Jonas",39.75,"$3,900",GOLDEN STATE WARRIORS,@ tor, 128-131,32:34,   20pt 9rb 3as 1st 1bl 3to 3trey 8-13fg 1-1ft
+PF,"Bagley, Marvin",37,"$5,300",SACRAMENTO KINGS,v lac, 121-133,27:22,   18pt 10rb 2as 1st 8-15fg 2-2ft
+PF,"Siakam, Pascal^",33,"$6,100",TORONTO RAPTORS,v gsw, 131-128,42:29,   26pt 2rb 1as 1bl 1to 3trey 8-10fg 7-8ft
+SG/SF,"Green, Danny^",31.25,"$4,100",TORONTO RAPTORS,v gsw, 131-128,38:31,   13pt 5rb 3as 1st 2bl 3trey 5-10fg
+SF/PF,"Gallinari, Danilo^",31,"$6,500",LOS ANGELES CLIPPERS,@ sac, 133-121,33:22,   16pt 4rb 2as 3st 2trey 7-15fg
+SF/PF,"Young, Thaddeus^",27.75,"$4,500",INDIANA PACERS,@ lal, 96-104,32:39,   11pt 5rb 1as 5st 2to 5-13fg 1-2ft
+SG/SF,"Ingram, Brandon^",27.25,"$5,800",LOS ANGELES LAKERS,v ind, 104-96,31:14,   14pt 1rb 3as 1st 3bl 1to 6-15fg 2-5ft
+SG/SF,"Evans, Tyreke^",25.5,"$5,000",INDIANA PACERS,@ lal, 96-104,24:40,   9pt 4rb 5as 3st 6to 2trey 2-10fg 3-4ft
+SF/PF,"Kuzma, Kyle^",25.25,"$5,600",LOS ANGELES LAKERS,v ind, 104-96,33:01,   11pt 9rb 2as 1to 1trey 4-9fg 2-3ft
+SG/SF,"Iguodala, Andre^",23,"$3,800",GOLDEN STATE WARRIORS,@ tor, 128-131,36:18,   6pt 4rb 5as 1st 2bl 3to 3-7fg
+SG/SF,"Bogdanovic, Bojan^",20.75,"$5,300",INDIANA PACERS,@ lal, 96-104,38:09,   14pt 3rb 2as 2to 2trey 4-11fg 4-5ft
+SG/SF,"Hield, Buddy^",19.5,"$5,700",SACRAMENTO KINGS,v lac, 121-133,29:52,   10pt 6rb 2as 2to 4-13fg 2-2ft
+SF/PF,"Bjelica, Nemanja^",18.25,"$4,200",SACRAMENTO KINGS,v lac, 121-133,19:16,   11pt 5rb 1as 2to 1trey 4-5fg 2-2ft
+SG/SF,"Caldwell-Pope, Kentavious",16.5,"$3,600",LOS ANGELES LAKERS,v ind, 104-96,17:47,   11pt 2rb 1as 3trey 4-7fg
+SF,"Jackson, Justin",15.5,"$3,000",SACRAMENTO KINGS,v lac, 121-133,11:39,   8pt 4rb 1as 2trey 3-4fg
+SF/PF,"McDermott, Doug",15.5,"$3,500",INDIANA PACERS,@ lal, 96-104,18:25,   10pt 2rb 1bl 2trey 3-5fg 2-2ft
+SF/PF,"Scott, Mike",14,"$3,400",LOS ANGELES CLIPPERS,@ sac, 133-121,15:13,   5pt 6rb 1as 1to 1trey 2-8fg
+SF/PF,"Beasley, Michael",11,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,8:52,   6pt 2rb 1as 1st 2to 3-4fg
+PF,"Giles, Harry",11,"$3,300",SACRAMENTO KINGS,v lac, 121-133,6:53,   4pt 2rb 3as 2-4fg
+SG/SF,"Shumpert, Iman^",8.5,"$3,600",SACRAMENTO KINGS,v lac, 121-133,21:58,   4pt 2rb 1bl 1-3fg 2-2ft
+SF,"Anunoby, OG",7.75,"$3,500",TORONTO RAPTORS,v gsw, 131-128,16:09,   5pt 3rb 3to 1trey 2-7fg
+PF,"Bell, Jordan",5,"$3,400",GOLDEN STATE WARRIORS,@ tor, 128-131,15:52,   0pt 4rb 0-3fg
+SG/SF,"Stephenson, Lance",3.25,"$3,700",LOS ANGELES LAKERS,v ind, 104-96,4:34,   0pt 1rb 1st 0-2fg
+SG/SF,"Miles, C.J.",1.5,"$3,100",TORONTO RAPTORS,v gsw, 131-128,3:26,   0pt 2rb 2to 0-1fg
+SG/SF,"McLemore, Ben",0,"$3,000",SACRAMENTO KINGS,v lac, 121-133,DNP,   
+PF,"Leaf, TJ",0,"$3,100",INDIANA PACERS,@ lal, 96-104,DNP,   
+SF/PF,"Mbah a Moute, Luc",0,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,NA,   
+PF,"Williams, Johnathan",0,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,NA,   
+PF,"Boucher, Chris",0,"$3,000",TORONTO RAPTORS,v gsw, 131-128,NA,   
+PF,"Johnson, Alize",0,"$3,000",INDIANA PACERS,@ lal, 96-104,NA,   
+SF,"Gabriel, Wenyen",0,"$3,000",SACRAMENTO KINGS,v lac, 121-133,NA,   
+SF,"Motley, Johnathan",0,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,NA,   
+SF,"Derrickson, Marcus",0,"$3,000",GOLDEN STATE WARRIORS,@ tor, 128-131,NA,   
+PF,"McKinnie, Alfonzo",0,"$3,100",GOLDEN STATE WARRIORS,@ tor, 128-131,NA,   
+SG/SF,"Powell, Norman",0,"$3,100",TORONTO RAPTORS,v gsw, 131-128,NA,   
+PF/C,"Sabonis, Domantas",48.25,"$7,500",INDIANA PACERS,@ lal, 96-104,29:07,   20pt 15rb 3as 1st 1bl 2to 1trey 6-13fg 7-8ft
+PF/C,"Harrell, Montrezl",35,"$7,600",LOS ANGELES CLIPPERS,@ sac, 133-121,26:30,   24pt 6rb 1as 1bl 8-10fg 8-12ft
+C,"Cauley-Stein, Willie^",33,"$5,900",SACRAMENTO KINGS,v lac, 121-133,30:28,   17pt 10rb 1as 1st 3to 8-13fg 1-4ft
+PF/C,"Ibaka, Serge^",27.5,"$5,500",TORONTO RAPTORS,v gsw, 131-128,36:51,   20pt 4rb 1as 1bl 3to 1trey 8-13fg 3-4ft
+C,"McGee, JaVale^",26.5,"$5,100",LOS ANGELES LAKERS,v ind, 104-96,22:07,   6pt 8rb 3as 4bl 4to 3-6fg
+PF/C,"Looney, Kevon",22.5,"$3,800",GOLDEN STATE WARRIORS,@ tor, 128-131,26:18,   7pt 10rb 2as 3-7fg 1-2ft
+C,"Chandler, Tyson",20.75,"$3,100",LOS ANGELES LAKERS,v ind, 104-96,25:31,   3pt 9rb 2as 2bl 1to 0-3fg 3-4ft
+C,"Valanciunas, Jonas",18.5,"$5,000",TORONTO RAPTORS,v gsw, 131-128,15:46,   12pt 4rb 1bl 1to 4-5fg 4-4ft
+C,"Gortat, Marcin^",18.25,"$3,700",LOS ANGELES CLIPPERS,@ sac, 133-121,18:03,   9pt 5rb 1as 1bl 1to 4-5fg 1-1ft
+C,"Turner, Myles^",16,"$6,200",INDIANA PACERS,@ lal, 96-104,29:58,   6pt 6rb 1as 1bl 2to 3-9fg
+C,"Jones, Damian^",1.5,"$3,400",GOLDEN STATE WARRIORS,@ tor, 128-131,10:47,   2pt 1to 1-1fg
+PF/C,"Anigbogu, Ike",0,"$3,000",INDIANA PACERS,@ lal, 96-104,DNP,   
+C,"Marjanovic, Boban",0,"$3,500",LOS ANGELES CLIPPERS,@ sac, 133-121,DNP,   
+C,"Wagner, Moritz",0,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,DNP,   
+PF/C,"O'Quinn, Kyle",0,"$3,300",INDIANA PACERS,@ lal, 96-104,DNP,   
+C,"Monroe, Greg",0,"$3,200",TORONTO RAPTORS,v gsw, 131-128,DNP,   
+C,"Zubac, Ivica",0,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,DNP,   
+PF/C,"Cousins, DeMarcus",0,"$6,000",GOLDEN STATE WARRIORS,@ tor, 128-131,NA,   
+PF/C,"Labissiere, Skal",0,"$3,000",SACRAMENTO KINGS,v lac, 121-133,NA,   
+C,"Delgado, Angel",0,"$3,000",LOS ANGELES CLIPPERS,@ sac, 133-121,NA,   
+C,"Koufos, Kosta",0,"$3,000",SACRAMENTO KINGS,v lac, 121-133,NA,   
+PF/C,"Randolph, Zach",0,"$3,000",SACRAMENTO KINGS,v lac, 121-133,NA,   
+PF/C,"Green, Draymond",0,"$7,000",GOLDEN STATE WARRIORS,@ tor, 128-131,NA,   
+C,"Bonga, Isaac",0,"$3,000",LOS ANGELES LAKERS,v ind, 104-96,NA,   

@@ -1,0 +1,61 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Harden, James^",53.8,$60,HOUSTON ROCKETS,@ gsw, 100-104,38:40,   35pt 4rb 6as 3st 4to 4trey 9-28fg 13-14ft
+PG,"Irving, Kyrie^",46.9,$41,BOSTON CELTICS,@ mil, 112-90,33:09,   26pt 7rb 11as 4to 2trey 12-21fg
+SG,"Gordon, Eric^",35.8,$16,HOUSTON ROCKETS,@ gsw, 100-104,36:45,   27pt 4rb 2bl 2to 4trey 10-19fg 3-4ft
+PG,"Curry, Stephen^",32.4,$41,GOLDEN STATE WARRIORS,v hou, 104-100,37:02,   18pt 7rb 4as 1st 3to 3trey 5-12fg 5-5ft
+PG,"Paul, Chris^",30.6,$33,HOUSTON ROCKETS,@ gsw, 100-104,36:10,   17pt 3rb 4as 3st 5to 3trey 5-9fg 4-7ft
+PG,"Rozier, Terry",26.3,$15,BOSTON CELTICS,@ mil, 112-90,19:39,   11pt 9rb 3as 2trey 4-8fg 1-2ft
+SG,"Thompson, Klay^",25.3,$24,GOLDEN STATE WARRIORS,v hou, 104-100,41:23,   13pt 4rb 3as 2st 3to 2trey 5-13fg 1-1ft
+SG,"Iguodala, Andre^",23.8,$12,GOLDEN STATE WARRIORS,v hou, 104-100,34:14,   14pt 4rb 2as 1bl 1to 1trey 6-7fg 1-4ft
+SG,"Brown, Jaylen^",22.8,$18,BOSTON CELTICS,@ mil, 112-90,35:45,   19pt 4rb 1to 3trey 8-14fg
+PG,"Bledsoe, Eric^",19.4,$32,MILWAUKEE BUCKS,v bos, 90-112,25:20,   6pt 2rb 4as 2st 1to 1-5fg 4-6ft
+PG,"Hill, George",15.9,$10,MILWAUKEE BUCKS,v bos, 90-112,24:09,   9pt 2rb 3as 1trey 4-8fg 0-2ft
+PG,"Frazier, Tim",9.2,$10,MILWAUKEE BUCKS,v bos, 90-112,3:23,   2pt 1rb 2as 1st 1-1fg
+PG,"Livingston, Shaun",8,$10,GOLDEN STATE WARRIORS,v hou, 104-100,14:29,   2pt 2as 1st 0-2fg 2-2ft
+SG,"House, Danuel",5.6,$10,HOUSTON ROCKETS,@ gsw, 100-104,20:54,   3pt 3rb 1to 1trey 1-4fg
+SG,"Brown, Sterling^",5.6,$14,MILWAUKEE BUCKS,v bos, 90-112,22:23,   3pt 3rb 1to 1trey 1-7fg
+SG,"Wanamaker, Brad",0.5,$10,BOSTON CELTICS,@ mil, 112-90,2:47,   0pt 1as 1to 0-1fg
+SG,"Evans III, Jacob",0,$10,GOLDEN STATE WARRIORS,v hou, 104-100,DNP,   
+SG,"Brogdon, Malcolm",0,$14,MILWAUKEE BUCKS,v bos, 90-112,DNP,   
+PG,"Cook, Quinn",0,$10,GOLDEN STATE WARRIORS,v hou, 104-100,DNP,   
+PG,"Chiozza, Chris",0,$10,HOUSTON ROCKETS,@ gsw, 100-104,DNP,   
+SG,"Gibson, Jonathan",0,$10,BOSTON CELTICS,@ mil, 112-90,NA,   
+SG,"Smart, Marcus",0,$19,BOSTON CELTICS,@ mil, 112-90,NA,   
+PG,"Rivers, Austin",0,$10,HOUSTON ROCKETS,@ gsw, 100-104,NA,   
+SG,"DiVincenzo, Donte",0,$10,MILWAUKEE BUCKS,v bos, 90-112,NA,   
+SG,"Frazier, Michael",0,$10,HOUSTON ROCKETS,@ gsw, 100-104,NA,   
+SF,"Durant, Kevin^",45.5,$42,GOLDEN STATE WARRIORS,v hou, 104-100,43:23,   35pt 5rb 3as 1st 1bl 6to 1trey 11-25fg 12-15ft
+PF,"Green, Draymond^",39.3,$29,GOLDEN STATE WARRIORS,v hou, 104-100,39:59,   14pt 9rb 9as 1st 1bl 5to 7-9fg
+PF,"Antetokounmpo, Giannis^",35.6,$55,MILWAUKEE BUCKS,v bos, 90-112,34:18,   22pt 8rb 2as 1bl 2to 3trey 7-21fg 5-10ft
+SF,"Middleton, Khris^",35,$31,MILWAUKEE BUCKS,v bos, 90-112,33:50,   16pt 10rb 6as 2to 3trey 5-12fg 3-3ft
+SF,"Hayward, Gordon",29.3,$19,BOSTON CELTICS,@ mil, 112-90,29:31,   13pt 4rb 5as 1st 1bl 2to 1trey 5-8fg 2-2ft
+PF,"Morris, Marcus^",27.9,$16,BOSTON CELTICS,@ mil, 112-90,30:21,   9pt 7rb 1as 3bl 1trey 4-6fg
+SF,"Tatum, Jayson^",24.7,$25,BOSTON CELTICS,@ mil, 112-90,29:43,   4pt 6rb 1as 1st 3bl 2-7fg
+PF,"Ilyasova, Ersan",19.2,$10,MILWAUKEE BUCKS,v bos, 90-112,19:07,   9pt 6rb 1st 3-9fg 3-3ft
+PF,"Mirotic, Nikola",17.8,$11,MILWAUKEE BUCKS,v bos, 90-112,20:33,   13pt 4rb 3trey 5-9fg
+PF,"Tucker, P.J.^",16.1,$14,HOUSTON ROCKETS,@ gsw, 100-104,39:01,   0pt 3rb 1as 4st 1to 0-4fg
+SF,"Connaughton, Pat",12,$15,MILWAUKEE BUCKS,v bos, 90-112,24:25,   5pt 5rb 2as 2to 1trey 2-10fg
+SF,"Shumpert, Iman",7.2,$10,HOUSTON ROCKETS,@ gsw, 100-104,20:54,   3pt 1rb 1st 1trey 1-4fg
+SF,"Green, Gerald",5,$10,HOUSTON ROCKETS,@ gsw, 100-104,7:11,   3pt 1bl 1to 1trey 1-1fg
+SF,"McKinnie, Alfonzo",3.6,$10,GOLDEN STATE WARRIORS,v hou, 104-100,9:00,   0pt 3rb 0-1fg
+SF,"Snell, Tony",3,$10,MILWAUKEE BUCKS,v bos, 90-112,3:23,   0pt 1st
+PF,"Williams, Robert",2.4,$10,BOSTON CELTICS,@ mil, 112-90,1:29,   0pt 2rb
+SF,"Ojeleye, Semi",2,$10,BOSTON CELTICS,@ mil, 112-90,8:14,   2pt 1-3fg
+SF,"Yabusele, Guerschon",1.2,$10,BOSTON CELTICS,@ mil, 112-90,2:47,   0pt 1rb
+PF,"Bell, Jordan",0,$10,GOLDEN STATE WARRIORS,v hou, 104-100,00:04,   0pt
+PF,"Clark, Gary",0,$10,HOUSTON ROCKETS,@ gsw, 100-104,DNP,   
+PF,"Jerebko, Jonas",0,$10,GOLDEN STATE WARRIORS,v hou, 104-100,DNP,   
+PF,"Hartenstein, Isaiah",0,$10,HOUSTON ROCKETS,@ gsw, 100-104,DNP,   
+C,"Horford, Al^",49.7,$24,BOSTON CELTICS,@ mil, 112-90,31:39,   20pt 11rb 3as 1st 3bl 3trey 8-16fg 1-2ft
+C,"Hilario, Nene",20.9,$10,HOUSTON ROCKETS,@ gsw, 100-104,13:34,   8pt 2rb 1as 3st 3-3fg 2-2ft
+C,"Capela, Clint^",14.2,$27,HOUSTON ROCKETS,@ gsw, 100-104,26:49,   4pt 6rb 2as 1-2fg 2-2ft
+C,"Looney, Kevon",12.1,$10,GOLDEN STATE WARRIORS,v hou, 104-100,15:34,   6pt 3rb 1as 1st 2to 3-4fg
+C,"Lopez, Brook^",8.6,$23,MILWAUKEE BUCKS,v bos, 90-112,25:46,   3pt 3rb 1bl 1to 1trey 1-5fg
+C,"Theis, Daniel",6,$10,BOSTON CELTICS,@ mil, 112-90,6:01,   4pt 1bl 1to 2-2fg
+C,"Baynes, Aron",6,$10,BOSTON CELTICS,@ mil, 112-90,8:55,   4pt 1st 1to 1trey 1-1fg 1-2ft
+C,"Bogut, Andrew",5.6,$12,GOLDEN STATE WARRIORS,v hou, 104-100,4:49,   2pt 3rb 1-2fg
+C,"Wilson, D.J.",2,$10,MILWAUKEE BUCKS,v bos, 90-112,3:23,   2pt 1-2fg
+C,"Faried, Kenneth",0,$10,HOUSTON ROCKETS,@ gsw, 100-104,DNP,   
+C,"Cousins, DeMarcus",0,$10,GOLDEN STATE WARRIORS,v hou, 104-100,NA,   
+C,"Jones, Damian",0,$10,GOLDEN STATE WARRIORS,v hou, 104-100,NA,   
+C,"Gasol, Pau",0,$10,MILWAUKEE BUCKS,v bos, 90-112,NA,   

@@ -1,0 +1,61 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Rondo, Rajon^",58.25,"$7,300",NEW ORLEANS PELICANS,@ gsw, 116-121,38:07,   22pt 7rb 12as 5st 7to 3trey 8-15fg 3-3ft
+PG/SG,"Holiday, Jrue^",50,"$7,500",NEW ORLEANS PELICANS,@ gsw, 116-121,46:33,   24pt 8rb 8as 1st 1bl 2to 2trey 11-24fg
+PG/SG,"Curry, Stephen",45.25,"$8,500",GOLDEN STATE WARRIORS,v nor, 121-116,27:14,   28pt 7rb 2as 3st 6to 5trey 8-15fg 7-7ft
+PG,"Lowry, Kyle^",39.75,"$7,700",TORONTO RAPTORS,v cle, 112-113,39:40,   18pt 3rb 10as 1st 4to 3trey 6-12fg 3-3ft
+PG/SF,"Iguodala, Andre^",35.5,"$4,500",GOLDEN STATE WARRIORS,v nor, 121-116,33:49,   15pt 8rb 2as 3st 1bl 2to 1trey 5-8fg 4-7ft
+SG,"Thompson, Klay^",22,"$6,600",GOLDEN STATE WARRIORS,v nor, 121-116,37:47,   10pt 6rb 3as 2to 2trey 4-20fg
+PG/SG,"VanVleet, Fred",16.25,"$3,700",TORONTO RAPTORS,v cle, 112-113,15:09,   9pt 3rb 2as 1trey 2-7fg 4-4ft
+PG/SG,"Hill, George^",10.5,"$4,200",CLEVELAND CAVALIERS,@ tor, 113-112,28:19,   4pt 3as 1bl 2-7fg
+PG/SG,"Clarkson, Jordan",9.5,"$3,000",CLEVELAND CAVALIERS,@ tor, 113-112,12:07,   5pt 2rb 1as 1trey 2-7fg
+PG/SG,"Livingston, Shaun",9.25,"$3,100",GOLDEN STATE WARRIORS,v nor, 121-116,14:11,   4pt 1rb 3as 1to 2-5fg
+PG/SG,"Wright, Delon",9,"$4,700",TORONTO RAPTORS,v cle, 112-113,16:00,   5pt 1as 1bl 1trey 2-6fg
+SG,"Young, Nick^",5.75,"$2,700",GOLDEN STATE WARRIORS,v nor, 121-116,11:10,   3pt 1rb 1as 1to 1trey 1-4fg
+PG/SG,"Clark, Ian",2,"$3,000",NEW ORLEANS PELICANS,@ gsw, 116-121,6:12,   2pt 1-2fg
+PG/SG,"Cook, Quinn",0,"$3,200",GOLDEN STATE WARRIORS,v nor, 121-116,DNP,   
+PG/SG,"Jackson, Frank",0,"$2,500",NEW ORLEANS PELICANS,@ gsw, 116-121,DNP,   
+PG,"Calderon, Jose",0,"$2,900",CLEVELAND CAVALIERS,@ tor, 113-112,DNP,   
+PG,"Brown, Lorenzo",0,"$2,500",TORONTO RAPTORS,v cle, 112-113,DNP,   
+PG/SG,"Crawford, Jordan",0,"$2,700",NEW ORLEANS PELICANS,@ gsw, 116-121,DNP,   
+SF/PF,"James, LeBron^",69.75,"$11,900",CLEVELAND CAVALIERS,@ tor, 113-112,46:56,   26pt 11rb 13as 1st 2bl 1to 1trey 12-30fg 1-6ft
+SF/PF,"Durant, Kevin^",57,"$9,700",GOLDEN STATE WARRIORS,v nor, 121-116,41:18,   29pt 6rb 7as 2st 3bl 2to 2trey 11-23fg 5-6ft
+SG/SF,"DeRozan, DeMar^",45.25,"$7,800",TORONTO RAPTORS,v cle, 112-113,40:17,   22pt 7rb 5as 1st 3bl 2to 10-20fg 2-3ft
+PF,"Mirotic, Nikola^",36.25,"$6,900",NEW ORLEANS PELICANS,@ gsw, 116-121,39:02,   18pt 9rb 1as 2st 3trey 7-16fg 1-3ft
+SG/SF,"Smith, J.R.^",32,"$4,000",CLEVELAND CAVALIERS,@ tor, 113-112,36:01,   20pt 2rb 2as 2st 5trey 6-11fg 3-3ft
+SF/PF,"Green, Jeff",29,"$3,500",CLEVELAND CAVALIERS,@ tor, 113-112,27:35,   16pt 2rb 3as 2st 1bl 1to 1trey 4-4fg 7-8ft
+SG/SF,"Korver, Kyle^",25.5,"$4,300",CLEVELAND CAVALIERS,@ tor, 113-112,37:42,   19pt 2rb 1as 5trey 7-17fg
+SG/SF,"Moore, E'Twaun^",21.5,"$4,400",NEW ORLEANS PELICANS,@ gsw, 116-121,35:43,   14pt 2rb 1as 1st 1to 4trey 5-13fg
+SF/PF,"Looney, Kevon",21.5,"$3,300",GOLDEN STATE WARRIORS,v nor, 121-116,22:53,   8pt 8rb 1as 1st 3-3fg 2-2ft
+SG/SF,"Miles, C.J.",16.25,"$3,400",TORONTO RAPTORS,v cle, 112-113,21:18,   6pt 5rb 1as 1bl 1to 2trey 2-6fg
+SF/PF,"Miller, Darius",13.5,"$3,200",NEW ORLEANS PELICANS,@ gsw, 116-121,17:02,   5pt 2rb 3as 1st 1to 1-3fg 3-3ft
+PF,"Siakam, Pascal",13.25,"$3,300",TORONTO RAPTORS,v cle, 112-113,22:23,   11pt 1rb 1as 2to 1trey 4-5fg 2-5ft
+SF/PF,"Anunoby, OG^",13,"$3,200",TORONTO RAPTORS,v cle, 112-113,30:27,   7pt 2rb 2as 1trey 3-5fg
+SF/PF,"Hill, Solomon",7.75,"$2,700",NEW ORLEANS PELICANS,@ gsw, 116-121,9:53,   2pt 1rb 3as 1-6fg
+SG/SF,"Hood, Rodney",4.75,"$3,200",CLEVELAND CAVALIERS,@ tor, 113-112,16:04,   2pt 1rb 1bl 1to 1-5fg
+SG/SF,"Osman, Cedi",0,"$2,700",CLEVELAND CAVALIERS,@ tor, 113-112,DNP,   
+SG/SF,"Powell, Norman",0,"$2,800",TORONTO RAPTORS,v cle, 112-113,DNP,   
+PF,"Nogueira, Lucas",0,"$2,500",TORONTO RAPTORS,v cle, 112-113,DNP,   
+SG/SF,"Liggins, DeAndre",0,"$2,500",NEW ORLEANS PELICANS,@ gsw, 116-121,DNP,   
+SF/PF,"White, Okaro",0,"$2,500",CLEVELAND CAVALIERS,@ tor, 113-112,NA,   
+SG/SF,"McCaw, Patrick",0,"$2,500",GOLDEN STATE WARRIORS,v nor, 121-116,NA,   
+PF,"McKinnie, Alfonzo",0,"$2,500",TORONTO RAPTORS,v cle, 112-113,NA,   
+SG/SF,"Richardson, Malachi",0,"$2,500",TORONTO RAPTORS,v cle, 112-113,NA,   
+PF/C,"Davis, Anthony^",62.25,"$10,700",NEW ORLEANS PELICANS,@ gsw, 116-121,42:59,   25pt 15rb 5as 2st 3bl 2to 1trey 12-24fg
+PF/C,"Green, Draymond^",57.25,"$8,100",GOLDEN STATE WARRIORS,v nor, 121-116,40:45,   20pt 9rb 12as 1st 2bl 1to 2trey 7-11fg 4-5ft
+C,"Valanciunas, Jonas^",52.25,"$6,200",TORONTO RAPTORS,v cle, 112-113,34:28,   21pt 21rb 2as 1bl 3to 7-19fg 7-9ft
+PF/C,"Thompson, Tristan",30.5,"$4,600",CLEVELAND CAVALIERS,@ tor, 113-112,26:04,   14pt 12rb 5-8fg 4-4ft
+PF/C,"Love, Kevin^",25.75,"$6,400",CLEVELAND CAVALIERS,@ tor, 113-112,34:12,   7pt 13rb 2as 2to 1trey 3-13fg
+PF/C,"West, David",18.75,"$3,500",GOLDEN STATE WARRIORS,v nor, 121-116,10:53,   4pt 3rb 5as 2bl 1to 2-2fg
+PF/C,"Ibaka, Serge^",14,"$5,000",TORONTO RAPTORS,v cle, 112-113,28:30,   9pt 2rb 2as 1to 3-8fg 3-3ft
+PF/C,"Poeltl, Jakob",11.5,"$3,400",TORONTO RAPTORS,v cle, 112-113,16:48,   4pt 6rb 0-3fg 4-4ft
+PF/C,"Diallo, Cheick",6.5,"$2,700",NEW ORLEANS PELICANS,@ gsw, 116-121,4:28,   4pt 2rb 2-2fg
+C,"Pachulia, Zaza",0,"$2,600",GOLDEN STATE WARRIORS,v nor, 121-116,DNP,   
+C,"Zizic, Ante",0,"$2,600",CLEVELAND CAVALIERS,@ tor, 113-112,DNP,   
+C,"McGee, JaVale",0,"$3,300",GOLDEN STATE WARRIORS,v nor, 121-116,DNP,   
+C,"Okafor, Emeka",0,"$2,600",NEW ORLEANS PELICANS,@ gsw, 116-121,DNP,   
+PF/C,"Nance, Larry",0,"$3,600",CLEVELAND CAVALIERS,@ tor, 113-112,DNP,   
+PF/C,"Bell, Jordan",0,"$2,700",GOLDEN STATE WARRIORS,v nor, 121-116,DNP,   
+C,"Ajinca, Alexis",0,"$2,500",NEW ORLEANS PELICANS,@ gsw, 116-121,NA,   
+PF/C,"Cousins, DeMarcus",0,"$2,500",NEW ORLEANS PELICANS,@ gsw, 116-121,NA,   
+C,"Perkins, Kendrick",0,"$2,500",CLEVELAND CAVALIERS,@ tor, 113-112,NA,   
+C,"Jones, Damian",0,"$2,500",GOLDEN STATE WARRIORS,v nor, 121-116,NA,   

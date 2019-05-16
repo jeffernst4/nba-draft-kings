@@ -1,0 +1,299 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Bledsoe, Eric^",62.5,$28,MILWAUKEE BUCKS,@ bkn, 131-121,34:12,   29pt 5rb 7as 5st 2bl 4to 3trey 10-19fg 6-6ft
+PG,"Walker, Kemba^",54.5,$42,CHARLOTTE HORNETS,@ uta, 102-111,36:33,   47pt 5rb 3as 3to 4trey 15-28fg 13-15ft
+PG,"Dragic, Goran^",50.7,$21,MIAMI HEAT,@ bos, 105-110,38:55,   30pt 1rb 5as 5st 3to 3trey 12-20fg 3-3ft
+SG,"Green, Danny^",48.5,$11,TORONTO RAPTORS,v orl, 121-109,27:58,   29pt 5rb 1as 2st 3bl 3to 7trey 11-15fg
+SG,"Mitchell, Donovan^",46.1,$33,UTAH JAZZ,v cha, 111-102,36:56,   25pt 3rb 5as 4st 2to 4trey 8-17fg 5-6ft
+SG,"Turner, Evan",43.2,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,24:56,   13pt 11rb 10as 1st 1to 1trey 5-5fg 2-2ft
+SG,"Booker, Devin^",42.1,$47,PHOENIX SUNS,v cle, 122-113,35:05,   25pt 3rb 13as 6to 2trey 8-18fg 7-7ft
+PG,"Lowry, Kyle^",41.7,$27,TORONTO RAPTORS,v orl, 121-109,26:55,   12pt 6rb 7as 3st 1bl 3trey 3-6fg 3-4ft
+PG,"Russell, D'Angelo^",41.5,$38,BROOKLYN NETS,v mil, 121-131,35:22,   28pt 10rb 3as 1st 6to 4trey 9-27fg 6-6ft
+PG,"Jones, Tyus^",39.6,$18,MINNESOTA TIMBERWOLVES,v por, 122-132,33:16,   14pt 3rb 10as 3st 2to 7-12fg
+PG,"Irving, Kyrie^",39.1,$44,BOSTON CELTICS,v mia, 110-105,32:32,   25pt 8rb 3as 2st 6to 5trey 7-19fg 6-6ft
+PG,"Simmons, Ben^",38.9,$42,PHILADELPHIA 76ERS,@ dal, 102-122,31:31,   17pt 7rb 5as 3bl 3to 5-15fg 7-11ft
+PG,"Rubio, Ricky^",38.9,$19,UTAH JAZZ,v cha, 111-102,29:58,   20pt 2rb 13as 3to 1trey 5-13fg 9-9ft
+SG,"Ellington, Wayne^",36.8,$10,DETROIT PISTONS,@ ind, 102-111,37:59,   26pt 4rb 2as 1bl 4trey 10-19fg 2-4ft
+SG,"Wiggins, Andrew^",36.4,$25,MINNESOTA TIMBERWOLVES,v por, 122-132,33:54,   21pt 7rb 4as 1st 2to 1trey 7-18fg 6-6ft
+PG,"Clarkson, Jordan",34.7,$16,CLEVELAND CAVALIERS,@ pho, 113-122,32:34,   20pt 6rb 3as 1st 1trey 8-16fg 3-3ft
+PG,"Lillard, Damian^",34,$46,PORTLAND TRAIL BLAZERS,@ min, 132-122,34:01,   15pt 5rb 12as 5to 3trey 6-17fg 0-1ft
+PG,"Wade, Dwyane",33.5,$22,MIAMI HEAT,@ bos, 105-110,29:27,   17pt 5rb 7as 1st 3to 8-17fg 1-1ft
+SG,"Redick, J.J.^",32.5,$19,PHILADELPHIA 76ERS,@ dal, 102-122,28:31,   26pt 5rb 1as 1st 4to 4trey 8-17fg 6-6ft
+PG,"Hill, George",30.9,$10,MILWAUKEE BUCKS,@ bkn, 131-121,27:06,   22pt 2rb 3as 1st 1to 8-11fg 6-7ft
+SG,"Lamb, Jeremy",30.8,$22,CHARLOTTE HORNETS,@ uta, 102-111,30:30,   23pt 4rb 1st 1trey 9-16fg 4-4ft
+SG,"Fournier, Evan^",30.8,$21,ORLANDO MAGIC,@ tor, 109-121,30:18,   21pt 4rb 4as 1to 1trey 8-16fg 4-4ft
+PG,"Burke, Trey",30.7,$10,DALLAS MAVERICKS,v phi, 122-102,29:05,   16pt 6rb 5as 6-14fg 4-6ft
+PG,"VanVleet, Fred",30.5,$19,TORONTO RAPTORS,v orl, 121-109,26:38,   10pt 7as 2st 2bl 2to 2trey 3-6fg 2-2ft
+PG,"Jackson, Reggie^",29.2,$18,DETROIT PISTONS,@ ind, 102-111,30:02,   22pt 6rb 4as 6to 1trey 8-19fg 5-5ft
+PG,"McConnell, T.J.",29.1,$10,PHILADELPHIA 76ERS,@ dal, 102-122,16:57,   15pt 3rb 1as 1st 2bl 1trey 7-10fg
+PG,"Sexton, Collin^",28.3,$20,CLEVELAND CAVALIERS,@ pho, 113-122,38:31,   21pt 4rb 3as 2to 1trey 9-23fg 2-2ft
+PG,"Harrison, Shaquille^",27.5,$19,CHICAGO BULLS,@ nyk, 105-113,29:37,   6pt 10rb 5as 1st 1to 3-11fg
+PG,"Mudiay, Emmanuel^",26,$18,NEW YORK KNICKS,v chi, 113-105,36:09,   17pt 5rb 4as 3to 2trey 7-21fg 1-2ft
+PG,"Carter-Williams, Michael",26,$11,ORLANDO MAGIC,@ tor, 109-121,25:24,   8pt 5rb 6as 1st 4-10fg
+SG,"Brown, Sterling^",25.5,$10,MILWAUKEE BUCKS,@ bkn, 131-121,35:46,   14pt 5rb 3as 1st 2to 1trey 6-11fg 1-1ft
+PG,"Crawford, Jamal",24.5,$10,PHOENIX SUNS,v cle, 122-113,30:12,   19pt 5as 2to 3trey 7-10fg 2-2ft
+SG,"Evans, Tyreke^",24.1,$10,INDIANA PACERS,v det, 111-102,26:54,   13pt 3rb 3as 1st 1bl 3to 4trey 4-10fg 1-2ft
+PG,"Brunson, Jalen^",23.5,$18,DALLAS MAVERICKS,v phi, 122-102,18:55,   13pt 7as 1trey 6-11fg
+PG,"Frazier, Tim",23.1,$10,MILWAUKEE BUCKS,@ bkn, 131-121,22:17,   7pt 3rb 7as 1st 1to 2trey 2-4fg 1-2ft
+SG,"Bayless, Jerryd",22.4,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,14:44,   10pt 2rb 6as 1st 2to 4-6fg 2-2ft
+PG,"Curry, Seth",21.9,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,21:51,   19pt 2rb 1as 1to 5trey 7-14fg
+SG,"Smart, Marcus^",20.7,$20,BOSTON CELTICS,v mia, 110-105,26:21,   16pt 1rb 1as 1st 1to 4trey 6-11fg
+SG,"Luwawu, Timothe^",20.6,$11,CHICAGO BULLS,@ nyk, 105-113,26:25,   10pt 3rb 2as 2st 2to 1trey 3-10fg 3-3ft
+SG,"Allen, Kadeem",20.1,$10,NEW YORK KNICKS,v chi, 113-105,9:26,   7pt 3rb 5as 1st 1to 1trey 1-2fg 4-4ft
+SG,"Selden, Wayne^",20,$13,CHICAGO BULLS,@ nyk, 105-113,34:22,   11pt 5rb 1st 1trey 5-12fg
+PG,"Holiday, Aaron",19.7,$10,INDIANA PACERS,v det, 111-102,25:28,   10pt 1rb 5as 1bl 2to 2trey 3-4fg 2-4ft
+SG,"Monk, Malik",19.7,$10,CHARLOTTE HORNETS,@ uta, 102-111,24:48,   6pt 6rb 1as 2st 1to 1trey 2-7fg 1-2ft
+PG,"Arcidiacono, Ryan",18.2,$10,CHICAGO BULLS,@ nyk, 105-113,17:20,   14pt 1rb 2as 1trey 5-8fg 3-3ft
+SG,"Ross, Terrence",17.9,$18,ORLANDO MAGIC,@ tor, 109-121,24:21,   6pt 2rb 3as 2st 1to 2trey 2-10fg
+SG,"Galloway, Langston",15.9,$10,DETROIT PISTONS,@ ind, 102-111,23:22,   9pt 2rb 1as 1st 2trey 3-10fg 1-1ft
+SG,"Okogie, Josh^",15.6,$15,MINNESOTA TIMBERWOLVES,v por, 122-132,28:30,   9pt 3rb 1st 1trey 4-7fg
+PG,"Augustin, D.J.^",15.4,$17,ORLANDO MAGIC,@ tor, 109-121,22:36,   8pt 2rb 6as 4to 2trey 3-9fg
+PG,"Dinwiddie, Spencer",14.7,$20,BROOKLYN NETS,v mil, 121-131,19:01,   12pt 1rb 1as 1st 3to 3-8fg 6-6ft
+PG,"Joseph, Cory^",14.7,$10,INDIANA PACERS,v det, 111-102,31:06,   4pt 1rb 3as 2st 1to 2-9fg
+PG,"Graham, Devonte'",14.4,$10,CHARLOTTE HORNETS,@ uta, 102-111,26:33,   0pt 2rb 6as 1st 0-7fg
+PG,"Reynolds, Cameron",13.9,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,20:47,   7pt 2rb 1as 1st 1trey 3-5fg
+SG,"Knight, Brandon^",13.4,$10,CLEVELAND CAVALIERS,@ pho, 113-122,25:09,   10pt 2rb 1st 2to 2trey 4-8fg
+PG,"Lin, Jeremy",10.6,$10,TORONTO RAPTORS,v orl, 121-109,17:21,   5pt 3rb 1bl 1to 1-4fg 3-4ft
+PG,"Rozier, Terry",10.6,$22,BOSTON CELTICS,v mia, 110-105,20:08,   5pt 3rb 2as 1to 1trey 1-5fg 2-2ft
+PG,"Blakeney, Antonio",9.9,$10,CHICAGO BULLS,@ nyk, 105-113,16:53,   6pt 2rb 1as 3-8fg
+PG,"Neto, Raul",9.9,$10,UTAH JAZZ,v cha, 111-102,13:12,   2pt 2rb 5as 2to 1-5fg
+PG,"Smith, Ishmael",9.9,$10,DETROIT PISTONS,@ ind, 102-111,19:58,   6pt 2rb 3as 3to 3-5fg
+PG,"Macon, Daryl",9.6,$10,DALLAS MAVERICKS,v phi, 122-102,23:11,   2pt 3rb 4as 2to 1-8fg
+SG,"Jenkins, John",9.2,$10,NEW YORK KNICKS,v chi, 113-105,19:56,   8pt 1rb 2trey 2-7fg 2-2ft
+SG,"Daniels, Troy",8.9,$10,PHOENIX SUNS,v cle, 122-113,24:40,   5pt 2rb 1as 1trey 2-9fg
+SG,"Fredette, Jimmer",7.5,$10,PHOENIX SUNS,v cle, 122-113,5:52,   6pt 1as 2-3fg 2-2ft
+SG,"Lee, Courtney^",7.3,$10,DALLAS MAVERICKS,v phi, 122-102,18:01,   2pt 4rb 1as 1to 1-5fg
+PG,"Loyd, Jordan",5,$10,TORONTO RAPTORS,v orl, 121-109,4:07,   5pt 1trey 1-2fg 2-2ft
+SG,"Meeks, Jodie",4.7,$10,TORONTO RAPTORS,v orl, 121-109,12:00,   2pt 1rb 1as 1-3fg
+PG,"Sampson, Brandon",4.5,$10,CHICAGO BULLS,@ nyk, 105-113,8:06,   0pt 1as 1st 0-2fg
+SG,"Smith, Zhaire",4.5,$10,PHILADELPHIA 76ERS,@ dal, 102-122,9:45,   0pt 1as 1bl 0-1fg
+SG,"Highsmith, Haywood",4.4,$10,PHILADELPHIA 76ERS,@ dal, 102-122,5:57,   2pt 2rb 1-3fg
+PG,"Okobo, Elie^",4.2,$10,PHOENIX SUNS,v cle, 122-113,13:07,   6pt 1rb 3to 2trey 2-3fg
+SG,"Bacon, Dwayne^",3.2,$11,CHARLOTTE HORNETS,@ uta, 102-111,5:28,   2pt 1rb 1-2fg
+PG,"Grant, Jerian",3.2,$10,ORLANDO MAGIC,@ tor, 109-121,5:45,   2pt 1rb 1-2fg 0-2ft
+PG,"Milton, Shake",1.2,$10,PHILADELPHIA 76ERS,@ dal, 102-122,17:00,   0pt 1rb 0-4fg
+SG,"Alkins, Rawle",0,$10,CHICAGO BULLS,@ nyk, 105-113,1:30,   0pt 0-1fg
+SG,"Simons, Anfernee",0,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,DNP,   
+SG,"Allen, Grayson",0,$10,UTAH JAZZ,v cha, 111-102,DNP,   
+SG,"Reed, Davon",0,$10,INDIANA PACERS,v det, 111-102,DNP,   
+PG,"Mack, Shelvin",0,$10,CHARLOTTE HORNETS,@ uta, 102-111,DNP,   
+SG,"Trent Jr., Gary",0,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,DNP,   
+PG,"Sumner, Edmond",0,$10,INDIANA PACERS,v det, 111-102,DNP,   
+PG,"Calderon, Jose",0,$10,DETROIT PISTONS,@ ind, 102-111,DNP,   
+PG,"Mitrou-Long, Nazareth",0,$10,UTAH JAZZ,v cha, 111-102,DNP,   
+PG,"Melton, De'Anthony",0,$10,PHOENIX SUNS,v cle, 122-113,DNP,   
+SG,"Wanamaker, Brad",0,$10,BOSTON CELTICS,v mia, 110-105,DNP,   
+SG,"Thomas, Khyri",0,$10,DETROIT PISTONS,@ ind, 102-111,DNP,   
+PG,"Terrell, Jared",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,DNP,   
+PG,"Napier, Shabazz",0,$10,BROOKLYN NETS,v mil, 121-131,DNP,   
+SG,"Harris, Devin",0,$10,DALLAS MAVERICKS,v phi, 122-102,DNP,   
+SG,"Creek, Mitch",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,DNP,   
+PG,"Chealey, Joe",0,$10,CHARLOTTE HORNETS,@ uta, 102-111,NA,   
+PG,"Ntilikina, Frank",0,$10,NEW YORK KNICKS,v chi, 113-105,NA,   
+SG,"King, George",0,$10,PHOENIX SUNS,v cle, 122-113,NA,   
+SG,"Fultz, Markelle",0,$10,ORLANDO MAGIC,@ tor, 109-121,NA,   
+SG,"McCollum, C.J.",0,$29,PORTLAND TRAIL BLAZERS,@ min, 132-122,NA,   
+SG,"Matthews, Wes",0,$11,INDIANA PACERS,v det, 111-102,NA,   
+SG,"Brogdon, Malcolm",0,$10,MILWAUKEE BUCKS,@ bkn, 131-121,NA,   
+SG,"Oladipo, Victor",0,$10,INDIANA PACERS,v det, 111-102,NA,   
+SG,"LaVine, Zach",0,$34,CHICAGO BULLS,@ nyk, 105-113,NA,   
+SG,"Korver, Kyle",0,$10,UTAH JAZZ,v cha, 111-102,NA,   
+SG,"Valentine, Denzel",0,$10,CHICAGO BULLS,@ nyk, 105-113,NA,   
+SG,"Smith, J.R.",0,$10,CLEVELAND CAVALIERS,@ pho, 113-122,NA,   
+PG,"Johnson, Tyler",0,$17,PHOENIX SUNS,v cle, 122-113,NA,   
+SG,"Caupain, Troy",0,$10,ORLANDO MAGIC,@ tor, 109-121,NA,   
+SG,"Trier, Allonzo",0,$10,NEW YORK KNICKS,v chi, 113-105,NA,   
+PG,"Dozier, PJ",0,$10,BOSTON CELTICS,v mia, 110-105,NA,   
+PG,"Winslow, Justise",0,$21,MIAMI HEAT,@ bos, 105-110,NA,   
+PG,"Rose, Derrick",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,NA,   
+PG,"Briscoe, Isaiah",0,$10,ORLANDO MAGIC,@ tor, 109-121,NA,   
+SG,"Macura, J.P.",0,$10,CHARLOTTE HORNETS,@ uta, 102-111,NA,   
+PG,"Dunn, Kris",0,$20,CHICAGO BULLS,@ nyk, 105-113,NA,   
+SG,"Barea, Jose",0,$10,DALLAS MAVERICKS,v phi, 122-102,NA,   
+PG,"Exum, Dante",0,$10,UTAH JAZZ,v cha, 111-102,NA,   
+SG,"DiVincenzo, Donte",0,$10,MILWAUKEE BUCKS,@ bkn, 131-121,NA,   
+SG,"Brown, Jaylen",0,$19,BOSTON CELTICS,v mia, 110-105,NA,   
+PG,"Lucas, Kalin",0,$10,DETROIT PISTONS,@ ind, 102-111,NA,   
+PG,"Doncic, Luka",0,$38,DALLAS MAVERICKS,v phi, 122-102,NA,   
+SG,"Hunter, R.J.",0,$10,BOSTON CELTICS,v mia, 110-105,NA,   
+PG,"Collison, Darren",0,$22,INDIANA PACERS,v det, 111-102,NA,   
+PG,"Dellavedova, Matthew",0,$10,CLEVELAND CAVALIERS,@ pho, 113-122,NA,   
+SG,"Williams, C.J.",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,NA,   
+PG,"Smith Jr., Dennis",0,$16,NEW YORK KNICKS,v chi, 113-105,NA,   
+PG,"Teague, Jeff",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,NA,   
+SG,"Whitehead, Isaiah",0,$10,DETROIT PISTONS,@ ind, 102-111,NA,   
+PG,"Parker, Tony",0,$10,CHARLOTTE HORNETS,@ uta, 102-111,NA,   
+PF,"Jackson, Josh",55,$17,PHOENIX SUNS,v cle, 122-113,34:16,   19pt 10rb 4as 1st 5bl 2trey 7-11fg 3-4ft
+PF,"Antetokounmpo, Giannis^",46.2,$54,MILWAUKEE BUCKS,@ bkn, 131-121,29:58,   28pt 11rb 2as 1st 1bl 4to 1trey 9-23fg 9-11ft
+SF,"Bogdanovic, Bojan^",44.4,$23,INDIANA PACERS,v det, 111-102,37:05,   19pt 7rb 6as 3st 1to 1trey 7-16fg 4-4ft
+PF,"Harris, Tobias^",37.7,$29,PHILADELPHIA 76ERS,@ dal, 102-122,33:41,   25pt 6rb 3as 1bl 2to 1trey 10-19fg 4-5ft
+SF,"Tatum, Jayson^",36.7,$23,BOSTON CELTICS,v mia, 110-105,33:31,   19pt 6rb 5as 1st 4trey 7-15fg 1-2ft
+SF,"Dotson, Damyean^",36.2,$17,NEW YORK KNICKS,v chi, 113-105,41:03,   18pt 6rb 6as 1st 1bl 4to 6trey 6-8fg
+SF,"Jackson, Justin^",35.7,$10,DALLAS MAVERICKS,v phi, 122-102,30:12,   24pt 6rb 3as 3trey 7-11fg 7-8ft
+PF,"Sampson, JaKarr",35.4,$10,CHICAGO BULLS,@ nyk, 105-113,29:40,   22pt 7rb 1st 1bl 1to 1trey 8-10fg 5-6ft
+SF,"LeVert, Caris",34.8,$17,BROOKLYN NETS,v mil, 121-131,30:27,   24pt 4rb 6as 3to 4trey 8-15fg 4-6ft
+PF,"Sabonis, Domantas",33.9,$23,INDIANA PACERS,v det, 111-102,23:19,   18pt 12rb 3as 3to 8-10fg 2-2ft
+SF,"Leonard, Kawhi^",33.9,$45,TORONTO RAPTORS,v orl, 121-109,27:04,   15pt 7rb 5as 1st 1trey 5-12fg 4-4ft
+SF,"Connaughton, Pat^",33.9,$16,MILWAUKEE BUCKS,@ bkn, 131-121,34:24,   12pt 7rb 3as 3st 2trey 5-9fg
+SF,"Hood, Rodney^",33.3,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,28:43,   21pt 4rb 1as 2st 3trey 8-14fg 2-2ft
+PF,"Bender, Dragan^",33,$10,PHOENIX SUNS,v cle, 122-113,27:27,   12pt 10rb 2as 2bl 6-11fg
+SF,"Isaac, Jonathan^",32.8,$19,ORLANDO MAGIC,@ tor, 109-121,29:32,   8pt 4rb 2as 3st 3bl 1to 2trey 3-6fg
+SF,"Knox, Kevin^",32.3,$13,NEW YORK KNICKS,v chi, 113-105,40:25,   19pt 9rb 3as 1bl 5to 2trey 6-15fg 5-6ft
+PF,"Young, Thaddeus^",32.3,$21,INDIANA PACERS,v det, 111-102,34:17,   19pt 9rb 5as 5to 8-12fg 3-4ft
+SF,"Carroll, DeMarre^",31,$11,BROOKLYN NETS,v mil, 121-131,34:49,   20pt 5rb 2as 1bl 1to 2trey 6-14fg 6-8ft
+SF,"Bridges, Mikal^",28.4,$14,PHOENIX SUNS,v cle, 122-113,40:34,   15pt 2rb 2as 3bl 1to 3trey 5-9fg 2-2ft
+SF,"Harris, Joe^",26.7,$13,BROOKLYN NETS,v mil, 121-131,35:09,   17pt 6rb 3as 2to 5trey 6-9fg
+SF,"Ingles, Joe^",26,$22,UTAH JAZZ,v cha, 111-102,31:48,   15pt 5rb 4as 1to 5trey 5-8fg
+SF,"Harkless, Maurice^",25.8,$15,PORTLAND TRAIL BLAZERS,@ min, 132-122,20:56,   7pt 4rb 2as 2st 2bl 1to 3-7fg 1-3ft
+SF,"Lemon Jr., Walter^",24.9,$10,CHICAGO BULLS,@ nyk, 105-113,30:40,   6pt 2rb 5as 3st 3-12fg 0-1ft
+SF,"Hayward, Gordon",24.3,$18,BOSTON CELTICS,v mia, 110-105,28:59,   11pt 4rb 1as 2st 1bl 2to 1trey 4-7fg 2-2ft
+PF,"Gordon, Aaron^",23.3,$28,ORLANDO MAGIC,@ tor, 109-121,27:48,   6pt 4rb 3as 3bl 1to 3-7fg
+PF,"Ennis, James^",23.1,$10,PHILADELPHIA 76ERS,@ dal, 102-122,21:47,   4pt 8rb 3as 2bl 1to 1-6fg 2-4ft
+PF,"Aminu, Al-Farouq^",22.7,$11,PORTLAND TRAIL BLAZERS,@ min, 132-122,29:47,   9pt 6rb 1as 1st 1bl 1to 1trey 4-9fg
+SF,"Waiters, Dion^",22.4,$19,MIAMI HEAT,@ bos, 105-110,37:16,   14pt 2rb 4as 1st 3to 2trey 5-14fg 2-2ft
+PF,"Sefolosha, Thabo",20.6,$10,UTAH JAZZ,v cha, 111-102,22:44,   14pt 3rb 2st 3to 4trey 5-6fg
+SF,"Iwundu, Wes",20.6,$10,ORLANDO MAGIC,@ tor, 109-121,20:31,   16pt 3rb 2as 2to 2trey 7-7fg
+PF,"Kidd-Gilchrist, Michael",19.1,$10,CHARLOTTE HORNETS,@ uta, 102-111,22:26,   5pt 3rb 1as 3st 1trey 2-5fg
+PF,"Finney-Smith, Dorian",18.9,$10,DALLAS MAVERICKS,v phi, 122-102,15:50,   9pt 2rb 1as 2st 1trey 4-8fg 0-1ft
+PF,"Johnson, James",18.8,$10,MIAMI HEAT,@ bos, 105-110,23:13,   7pt 4rb 6as 2to 1trey 2-8fg 2-3ft
+PF,"Saric, Dario^",18.4,$12,MINNESOTA TIMBERWOLVES,v por, 122-132,28:10,   13pt 2rb 2as 2trey 5-8fg 1-1ft
+PF,"Morris, Marcus",17.6,$20,BOSTON CELTICS,v mia, 110-105,24:23,   8pt 3rb 2as 1st 2trey 3-11fg
+PF,"Jefferson, Amile",16.1,$10,ORLANDO MAGIC,@ tor, 109-121,5:45,   5pt 3rb 1as 1st 1bl 1-1fg 3-4ft
+SF,"McDermott, Doug",15.4,$10,INDIANA PACERS,v det, 111-102,23:40,   11pt 2rb 2as 1to 1trey 5-8fg
+PF,"Williams, Marvin^",14,$16,CHARLOTTE HORNETS,@ uta, 102-111,24:13,   0pt 5rb 2st 1bl 1to 0-4fg
+PF,"Scott, Mike",13.9,$10,PHILADELPHIA 76ERS,@ dal, 102-122,22:51,   4pt 7rb 1as 1-5fg 2-2ft
+PF,"Bolden, Jonah^",13.9,$11,PHILADELPHIA 76ERS,@ dal, 102-122,29:58,   2pt 7rb 1as 1bl 1to 1-6fg
+SF,"Stauskas, Nik",13.7,$10,CLEVELAND CAVALIERS,@ pho, 113-122,17:10,   9pt 1rb 1as 1bl 1to 3trey 3-8fg
+PF,"Siakam, Pascal^",13.6,$33,TORONTO RAPTORS,v orl, 121-109,27:43,   6pt 3rb 4as 2to 1trey 2-9fg 1-2ft
+PF,"Chriss, Marquese",13.4,$10,CLEVELAND CAVALIERS,@ pho, 113-122,9:30,   6pt 7rb 1to 3-5fg
+PF,"Thomas, Lance",13.3,$10,NEW YORK KNICKS,v chi, 113-105,31:31,   6pt 4rb 1as 1bl 2to 3-6fg
+SF,"Broekhoff, Ryan",13,$10,DALLAS MAVERICKS,v phi, 122-102,16:22,   7pt 5rb 3-8fg 1-2ft
+PF,"Nowitzki, Dirk^",13,$10,DALLAS MAVERICKS,v phi, 122-102,17:23,   7pt 5rb 1trey 3-10fg
+PF,"Layman, Jake",12.2,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,13:59,   11pt 1rb 1trey 3-6fg 4-6ft
+SF,"O'Neale, Royce",11.7,$10,UTAH JAZZ,v cha, 111-102,22:46,   9pt 1rb 1as 1trey 4-6fg
+SF,"Nwaba, David",11.3,$10,CLEVELAND CAVALIERS,@ pho, 113-122,15:40,   2pt 4rb 1as 1bl 1-4fg
+SF,"Dudley, Jared",10.9,$10,BROOKLYN NETS,v mil, 121-131,21:35,   2pt 2rb 1as 2st 1to 1-6fg
+SF,"Powell, Norman",10.7,$10,TORONTO RAPTORS,v orl, 121-109,16:49,   7pt 1rb 1as 1st 2to 1trey 3-6fg
+PF,"Osman, Cedi^",10.5,$19,CLEVELAND CAVALIERS,@ pho, 113-122,32:37,   3pt 3as 1st 1-12fg 1-1ft
+SF,"Brown, Bruce^",10.4,$10,DETROIT PISTONS,@ ind, 102-111,19:28,   0pt 2rb 2as 2st 1to 0-1fg
+PF,"Kurucs, Rodions^",9.8,$10,BROOKLYN NETS,v mil, 121-131,16:40,   4pt 4rb 1st 2to 1trey 1-5fg 1-2ft
+SF,"Robinson III, Glenn",9.7,$10,DETROIT PISTONS,@ ind, 102-111,13:11,   7pt 1rb 1as 1trey 2-4fg 2-2ft
+PF,"Niang, Georges",9,$10,UTAH JAZZ,v cha, 111-102,9:20,   4pt 5rb 1to 1-6fg 2-2ft
+SF,"Bates-Diop, Keita",8.2,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,13:03,   7pt 1rb 2trey 2-4fg 1-2ft
+SF,"Bridges, Miles^",7,$17,CHARLOTTE HORNETS,@ uta, 102-111,26:20,   0pt 5rb 1st 2to 0-5fg
+PF,"Tolliver, Anthony",6.2,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,19:36,   6pt 1rb 1to 2trey 2-7fg
+PF,"Martin, Jarell",6.2,$10,ORLANDO MAGIC,@ tor, 109-121,5:45,   5pt 1rb 1trey 1-3fg 2-2ft
+PF,"Jones, Derrick^",5.4,$10,MIAMI HEAT,@ bos, 105-110,17:26,   1pt 2rb 1bl 1to 0-1fg 1-2ft
+PF,"Anderson, Ryan",4.8,$10,MIAMI HEAT,@ bos, 105-110,6:09,   0pt 4rb 0-1fg
+SF,"Simmons, Jonathon",4.5,$10,PHILADELPHIA 76ERS,@ dal, 102-122,4:00,   0pt 3as 0-1fg
+PF,"Spalding, Ray",4.4,$10,PHOENIX SUNS,v cle, 122-113,4:37,   2pt 2rb 1-3fg
+PF,"Crowder, Jae^",4,$15,UTAH JAZZ,v cha, 111-102,25:16,   0pt 5rb 2to 0-6fg
+PF,"Leaf, TJ",3.2,$10,INDIANA PACERS,v det, 111-102,4:06,   0pt 1rb 1bl 1to 0-1fg
+PF,"Frye, Channing",3,$10,CLEVELAND CAVALIERS,@ pho, 113-122,3:18,   3pt 1trey 1-2fg
+SF,"Yabusele, Guerschon",2.7,$10,BOSTON CELTICS,v mia, 110-105,2:33,   0pt 1rb 1as
+PF,"Kaminsky, Frank",2.6,$10,CHARLOTTE HORNETS,@ uta, 102-111,10:52,   0pt 3rb 1to 0-3fg
+PF,"Miller, Malcolm",2.4,$10,TORONTO RAPTORS,v orl, 121-109,4:07,   0pt 2rb 0-1fg
+SF,"Ojeleye, Semi",2,$10,BOSTON CELTICS,v mia, 110-105,5:56,   2pt 1-1fg 0-1ft
+SF,"Colson, Bonzie",0,$10,MILWAUKEE BUCKS,@ bkn, 131-121,1:27,   0pt 0-1fg
+PF,"Leuer, Jon",0,$10,DETROIT PISTONS,@ ind, 102-111,6:30,   0pt 0-2fg
+SF,"Richardson, Josh",0,$22,MIAMI HEAT,@ bos, 105-110,DNP,   
+PF,"Robinson, Duncan",0,$10,MIAMI HEAT,@ bos, 105-110,DNP,   
+PF,"Ilyasova, Ersan",0,$10,MILWAUKEE BUCKS,@ bkn, 131-121,DNP,   
+SF,"Batum, Nicolas",0,$18,CHARLOTTE HORNETS,@ uta, 102-111,DNP,   
+PF,"Hollis-Jefferson, Rondae",0,$10,BROOKLYN NETS,v mil, 121-131,DNP,   
+PF,"Williams, Robert",0,$10,BOSTON CELTICS,v mia, 110-105,DNP,   
+PF,"Gibson, Taj",0,$18,MINNESOTA TIMBERWOLVES,v por, 122-132,DNP,   
+SF,"Middleton, Khris",0,$34,MILWAUKEE BUCKS,@ bkn, 131-121,DNP,   
+SF,"Snell, Tony",0,$10,MILWAUKEE BUCKS,@ bkn, 131-121,DNP,   
+SF,"Maten, Yante",0,$10,MIAMI HEAT,@ bos, 105-110,DNP,   
+SF,"Graham, Treveon",0,$10,BROOKLYN NETS,v mil, 121-131,DNP,   
+PF,"Ellenson, Henry",0,$10,NEW YORK KNICKS,v chi, 113-105,DNP,   
+SF,"Pinson, Theo",0,$10,BROOKLYN NETS,v mil, 121-131,DNP,   
+PF,"Haslem, Udonis",0,$10,MIAMI HEAT,@ bos, 105-110,DNP,   
+PF,"Labissiere, Skal",0,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,DNP,   
+PF,"Love, Kevin",0,$29,CLEVELAND CAVALIERS,@ pho, 113-122,DNP,   
+SF,"Mykhailiuk, Sviatoslav",0,$10,DETROIT PISTONS,@ ind, 102-111,DNP,   
+PF,"Hezonja, Mario",0,$10,NEW YORK KNICKS,v chi, 113-105,DNP,   
+SF,"Antetokounmpo, Kostas",0,$10,DALLAS MAVERICKS,v phi, 122-102,NA,   
+SF,"Korkmaz, Furkan",0,$10,PHILADELPHIA 76ERS,@ dal, 102-122,NA,   
+SF,"Hardaway Jr., Tim",0,$10,DALLAS MAVERICKS,v phi, 122-102,NA,   
+SF,"Frazier, Melvin",0,$10,ORLANDO MAGIC,@ tor, 109-121,NA,   
+PF,"Warren, T.J.",0,$25,PHOENIX SUNS,v cle, 122-113,NA,   
+SF,"Porter, Otto",0,$25,CHICAGO BULLS,@ nyk, 105-113,NA,   
+PF,"Vonleh, Noah",0,$12,NEW YORK KNICKS,v chi, 113-105,NA,   
+SF,"McCaw, Patrick",0,$10,TORONTO RAPTORS,v orl, 121-109,NA,   
+SF,"Blossomgame, Jaron",0,$10,CLEVELAND CAVALIERS,@ pho, 113-122,NA,   
+PF,"Markkanen, Lauri",0,$29,CHICAGO BULLS,@ nyk, 105-113,NA,   
+PF,"Griffin, Blake",0,$37,DETROIT PISTONS,@ ind, 102-111,NA,   
+SF,"Covington, Robert",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,NA,   
+PF,"Williams, Alan",0,$10,BROOKLYN NETS,v mil, 121-131,NA,   
+SF,"Oubre, Kelly",0,$10,PHOENIX SUNS,v cle, 122-113,NA,   
+SF,"Musa, Dzanan",0,$10,BROOKLYN NETS,v mil, 121-131,NA,   
+PF,"Anunoby, OG",0,$10,TORONTO RAPTORS,v orl, 121-109,NA,   
+PF,"Porzingis, Kristaps",0,$10,DALLAS MAVERICKS,v phi, 122-102,NA,   
+SF,"Hutchison, Chandler",0,$10,CHICAGO BULLS,@ nyk, 105-113,NA,   
+SF,"Butler, Jimmy",0,$37,PHILADELPHIA 76ERS,@ dal, 102-122,NA,   
+PF,"Mirotic, Nikola",0,$20,MILWAUKEE BUCKS,@ bkn, 131-121,NA,   
+PF,"Henson, John",0,$10,CLEVELAND CAVALIERS,@ pho, 113-122,NA,   
+PF,"Hicks, Isaiah",0,$10,NEW YORK KNICKS,v chi, 113-105,NA,   
+SF,"Kennard, Luke",0,$10,DETROIT PISTONS,@ ind, 102-111,NA,   
+PF,"Cavanaugh, Tyler",0,$10,UTAH JAZZ,v cha, 111-102,NA,   
+PF,"Johnson, Alize",0,$10,INDIANA PACERS,v det, 111-102,NA,   
+SF,"Deng, Luol",0,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,NA,   
+SF,"McGruder, Rodney",0,$10,MIAMI HEAT,@ bos, 105-110,NA,   
+PF,"Favors, Derrick",0,$22,UTAH JAZZ,v cha, 111-102,NA,   
+SF,"Crabbe, Allen",0,$10,BROOKLYN NETS,v mil, 121-131,NA,   
+C,"Drummond, Andre^",54.9,$45,DETROIT PISTONS,@ ind, 102-111,37:14,   18pt 17rb 5as 4st 3to 8-18fg 2-5ft
+C,"Horford, Al^",49.2,$22,BOSTON CELTICS,v mia, 110-105,34:05,   19pt 11rb 10as 1st 1to 7-13fg 5-5ft
+C,"Turner, Myles^",48.2,$26,INDIANA PACERS,v det, 111-102,34:05,   17pt 6rb 3st 5bl 2trey 5-7fg 5-6ft
+C,"Gobert, Rudy^",48.1,$38,UTAH JAZZ,v cha, 111-102,39:01,   18pt 18rb 1as 3bl 2to 8-10fg 2-7ft
+C,"Adebayo, Bam^",44.8,$21,MIAMI HEAT,@ bos, 105-110,30:41,   19pt 14rb 2as 2bl 1trey 8-12fg 2-2ft
+C,"Kanter, Enes^",44.7,$18,PORTLAND TRAIL BLAZERS,@ min, 132-122,25:41,   20pt 11rb 1as 4bl 2to 7-10fg 6-8ft
+C,"Lopez, Robin^",42.4,$16,CHICAGO BULLS,@ nyk, 105-113,30:05,   29pt 7rb 2as 1bl 1to 12-18fg 5-8ft
+C,"Towns, Karl-Anthony^",42.4,$52,MINNESOTA TIMBERWOLVES,v por, 122-132,31:43,   17pt 12rb 4as 2bl 1to 1trey 6-21fg 4-4ft
+C,"Kornet, Luke^",41.7,$13,NEW YORK KNICKS,v chi, 113-105,28:28,   24pt 6rb 1as 3bl 5trey 8-11fg 3-3ft
+C,"Mejri, Salah",41.3,$10,DALLAS MAVERICKS,v phi, 122-102,23:57,   16pt 14rb 3as 2bl 2to 2trey 5-9fg 4-7ft
+C,"Robinson, Mitchell^",40,$23,NEW YORK KNICKS,v chi, 113-105,33:02,   14pt 10rb 4as 3bl 1to 4-4fg 6-8ft
+C,"Lopez, Brook^",36.4,$24,MILWAUKEE BUCKS,@ bkn, 131-121,33:09,   14pt 2rb 2as 2st 4bl 1to 1trey 5-11fg 3-3ft
+C,"Maker, Thon^",35.2,$10,DETROIT PISTONS,@ ind, 102-111,41:30,   14pt 6rb 2as 4bl 1to 4trey 4-10fg 2-2ft
+C,"Hernangomez, Guillermo",33.6,$10,CHARLOTTE HORNETS,@ uta, 102-111,21:18,   15pt 8rb 2as 2st 1bl 3to 5-10fg 5-8ft
+C,"Nance, Larry^",32.4,$20,CLEVELAND CAVALIERS,@ pho, 113-122,30:19,   9pt 12rb 4as 2st 3to 4-7fg 1-1ft
+C,"Vucevic, Nikola^",31.1,$41,ORLANDO MAGIC,@ tor, 109-121,25:59,   13pt 13rb 3as 2to 2trey 5-14fg 1-2ft
+C,"Dieng, Gorgui",30.8,$10,MINNESOTA TIMBERWOLVES,v por, 122-132,16:17,   18pt 4rb 2as 1st 1bl 1to 1trey 7-8fg 3-4ft
+C,"Holmes, Richaun^",30,$10,PHOENIX SUNS,v cle, 122-113,24:10,   13pt 10rb 2bl 1to 6-7fg 1-3ft
+C,"Allen, Jarrett^",29.8,$18,BROOKLYN NETS,v mil, 121-131,27:24,   10pt 9rb 2as 1st 2bl 3to 4-7fg 2-4ft
+C,"Zizic, Ante",29.4,$10,CLEVELAND CAVALIERS,@ pho, 113-122,13:53,   15pt 7rb 2as 1bl 5-6fg 5-9ft
+C,"Olynyk, Kelly^",28.7,$12,MIAMI HEAT,@ bos, 105-110,39:34,   14pt 6rb 1as 2st 1bl 3to 3trey 4-11fg 3-3ft
+C,"Powell, Dwight^",28.3,$20,DALLAS MAVERICKS,v phi, 122-102,22:24,   14pt 4rb 3as 1st 1bl 1to 2trey 5-6fg 2-3ft
+C,"Kleber, Maxi",27,$10,DALLAS MAVERICKS,v phi, 122-102,24:40,   12pt 5rb 2as 2st 2trey 5-8fg
+C,"Davis, Ed",26.3,$11,BROOKLYN NETS,v mil, 121-131,19:33,   4pt 14rb 1as 2bl 2to 1-3fg 2-2ft
+C,"Whiteside, Hassan",24,$17,MIAMI HEAT,@ bos, 105-110,17:19,   3pt 10rb 2as 2bl 1-4fg 1-2ft
+C,"Gasol, Marc^",23.8,$21,TORONTO RAPTORS,v orl, 121-109,24:58,   13pt 4rb 4as 2trey 4-8fg 3-3ft
+C,"Ibaka, Serge",23.7,$19,TORONTO RAPTORS,v orl, 121-109,20:13,   15pt 6rb 1as 1bl 3to 1trey 7-10fg 0-1ft
+C,"Thompson, Tristan^",21,$13,CLEVELAND CAVALIERS,@ pho, 113-122,21:19,   15pt 5rb 6-8fg 3-6ft
+C,"Birch, Khem",20.8,$10,ORLANDO MAGIC,@ tor, 109-121,16:16,   11pt 4rb 2as 1bl 1to 5-8fg 1-1ft
+C,"Baynes, Aron^",19.2,$10,BOSTON CELTICS,v mia, 110-105,25:09,   4pt 11rb 1bl 1to 0-7fg 4-4ft
+C,"Collins, Zach",15.9,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,26:38,   8pt 2rb 1as 2bl 2to 3-5fg 2-2ft
+C,"Leonard, Meyers",15.8,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,13:28,   9pt 4rb 2as 1to 1trey 4-4fg
+C,"Wilson, D.J.",14.5,$10,MILWAUKEE BUCKS,@ bkn, 131-121,21:41,   5pt 5rb 1as 1st 1to 1trey 2-5fg
+C,"Marjanovic, Boban",13.9,$10,PHILADELPHIA 76ERS,@ dal, 102-122,13:16,   5pt 7rb 1as 1to 1-4fg 3-4ft
+C,"Felicio, Cristiano",11.4,$10,CHICAGO BULLS,@ nyk, 105-113,15:22,   1pt 7rb 2as 1to 0-2fg 1-2ft
+C,"Udoh, Ekpe",11.1,$10,UTAH JAZZ,v cha, 111-102,8:59,   4pt 3rb 1as 1st 1to 1-2fg 2-2ft
+C,"Biyombo, Bismack^",9.4,$10,CHARLOTTE HORNETS,@ uta, 102-111,10:59,   4pt 2rb 2as 2-3fg
+C,"Johnson, Amir",4.4,$10,PHILADELPHIA 76ERS,@ dal, 102-122,4:46,   2pt 2rb 1-2fg
+C,"Boucher, Chris",2.2,$10,TORONTO RAPTORS,v orl, 121-109,4:07,   2pt 1rb 1to 1-2fg
+C,"Theis, Daniel",2.2,$10,BOSTON CELTICS,v mia, 110-105,6:23,   1pt 1rb 0-2fg 1-2ft
+C,"Pachulia, Zaza",1.7,$10,DETROIT PISTONS,@ ind, 102-111,10:46,   0pt 1rb 1as 1to
+C,"Bradley, Tony",0,$10,UTAH JAZZ,v cha, 111-102,DNP,   
+C,"Jordan, DeAndre",0,$20,NEW YORK KNICKS,v chi, 113-105,DNP,   
+C,"Adel, Deng",0,$10,CLEVELAND CAVALIERS,@ pho, 113-122,DNP,   
+C,"O'Quinn, Kyle",0,$10,INDIANA PACERS,v det, 111-102,DNP,   
+C,"Zeller, Cody",0,$18,CHARLOTTE HORNETS,@ uta, 102-111,NA,   
+C,"Carter Jr., Wendell",0,$10,CHICAGO BULLS,@ nyk, 105-113,NA,   
+C,"Nurkic, Jusuf",0,$10,PORTLAND TRAIL BLAZERS,@ min, 132-122,NA,   
+C,"Gasol, Pau",0,$10,MILWAUKEE BUCKS,@ bkn, 131-121,NA,   
+C,"Ayton, Deandre",0,$27,PHOENIX SUNS,v cle, 122-113,NA,   
+C,"Mozgov, Timofey",0,$10,ORLANDO MAGIC,@ tor, 109-121,NA,   
+C,"Monroe, Greg",0,$10,BOSTON CELTICS,v mia, 110-105,NA,   
+C,"Embiid, Joel",0,$52,PHILADELPHIA 76ERS,@ dal, 102-122,NA,   
+C,"Patton, Justin",0,$10,PHILADELPHIA 76ERS,@ dal, 102-122,NA,   
+C,"Bamba, Mohamed",0,$10,ORLANDO MAGIC,@ tor, 109-121,NA,   

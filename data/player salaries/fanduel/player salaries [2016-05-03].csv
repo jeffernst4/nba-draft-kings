@@ -1,0 +1,60 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Wade, Dwyane^",44.2,"$7,500",MIAMI HEAT,@ tor, 102-96,36:58,   24pt 6rb 4as 3st 2bl 3to 1trey 10-21fg 3-3ft
+PG,"Lillard, Damian^",39.8,"$8,400",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,39:47,   25pt 4rb 6as 2st 3to 6trey 8-20fg 3-3ft
+SG,"DeRozan, DeMar^",35.2,"$7,400",TORONTO RAPTORS,v mia, 96-102,42:08,   22pt 6rb 4as 1st 2to 9-22fg 4-6ft
+PG,"Dragic, Goran^",33.2,"$6,500",MIAMI HEAT,@ tor, 102-96,41:05,   26pt 6rb 2as 3to 3trey 10-20fg 3-5ft
+SG,"Thompson, Klay^",33.1,"$8,000",GOLDEN STATE WARRIORS,v por, 110-99,39:32,   27pt 3rb 3as 2to 5trey 7-20fg 8-8ft
+SG,"McCollum, C.J.^",29.4,"$7,000",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,40:23,   22pt 2rb 2as 1st 1bl 2to 1trey 9-19fg 3-4ft
+PG,"Livingston, Shaun^",27.8,"$4,600",GOLDEN STATE WARRIORS,v por, 110-99,33:01,   14pt 4rb 4as 1st 1bl 1to 6-15fg 2-2ft
+SG,"Ross, Terrence",26.9,"$3,500",TORONTO RAPTORS,v mia, 96-102,27:25,   19pt 2rb 1as 1st 2bl 2to 2trey 7-13fg 3-5ft
+PG,"Lowry, Kyle^",23.8,"$7,800",TORONTO RAPTORS,v mia, 96-102,42:35,   7pt 4rb 6as 3st 3to 1trey 3-13fg
+SG,"Henderson, Gerald",20.9,"$3,600",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,27:25,   12pt 2rb 3as 1st 2trey 5-9fg
+PG,"Joseph, Cory",14.6,"$3,700",TORONTO RAPTORS,v mia, 96-102,22:54,   10pt 3rb 2as 2to 5-9fg
+SG,"Crabbe, Allen",13.9,"$3,900",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,19:43,   5pt 2rb 3as 1st 2-2fg 1-2ft
+SG,"Richardson, Josh",13.4,"$3,900",MIAMI HEAT,@ tor, 102-96,24:27,   11pt 2rb 1st 2to 2trey 3-6fg 3-4ft
+SG,"Barbosa, Leandro",9.6,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,13:12,   7pt 3rb 1to 1trey 3-6fg
+SG,"Powell, Norman^",8.4,"$3,600",TORONTO RAPTORS,v mia, 96-102,21:54,   2pt 2rb 2as 1st 1to 1-5fg
+SG,"Clark, Ian",7.4,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,11:54,   5pt 2rb 2-2fg 1-2ft
+SG,"Green, Gerald",5.9,"$3,600",MIAMI HEAT,@ tor, 102-96,7:05,   0pt 2rb 1as 1bl 0-2fg
+PG,"Roberts, Brian",1.5,"$3,500",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,5:11,   0pt 1as 0-2fg
+PG,"Johnson, Tyler",0,"$3,500",MIAMI HEAT,@ tor, 102-96,DNP,   0pt
+PG,"Wright, Delon",0,"$3,500",TORONTO RAPTORS,v mia, 96-102,DNP,   0pt
+SG,"Connaughton, Pat",0,"$3,500",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,DNP,   0pt
+SG,"Rush, Brandon",0,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,DNP,   0pt
+PG,"Curry, Stephen",0,"$10,600",GOLDEN STATE WARRIORS,v por, 110-99,NA,   0pt
+PG,"Weber, Briante",0,"$3,500",MIAMI HEAT,@ tor, 102-96,NA,   0pt
+PF,"Green, Draymond^",52.3,"$9,300",GOLDEN STATE WARRIORS,v por, 110-99,40:49,   17pt 14rb 7as 1st 4bl 2to 7-20fg 3-4ft
+SF,"Iguodala, Andre",31,"$4,400",GOLDEN STATE WARRIORS,v por, 110-99,31:48,   15pt 5rb 4as 2st 1trey 6-9fg 2-2ft
+SF,"Johnson, Joe^",30.4,"$4,700",MIAMI HEAT,@ tor, 102-96,41:46,   16pt 7rb 2as 2st 1to 7-19fg 2-3ft
+PF,"Deng, Luol^",22.3,"$6,600",MIAMI HEAT,@ tor, 102-96,39:17,   10pt 4rb 3as 4st 5to 2trey 4-9fg
+SF,"Aminu, Al-Farouq^",22.2,"$5,600",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,36:59,   14pt 6rb 2as 1bl 4to 3trey 5-10fg 1-2ft
+SF,"Harkless, Maurice^",19.9,"$5,100",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,27:23,   11pt 7rb 1as 1to 1trey 4-11fg 2-4ft
+SF,"Carroll, DeMarre^",18.8,"$4,400",TORONTO RAPTORS,v mia, 96-102,36:55,   10pt 4rb 2st 1bl 2to 2trey 4-7fg
+SF,"Barnes, Harrison^",17.1,"$4,400",GOLDEN STATE WARRIORS,v por, 110-99,32:39,   13pt 3rb 1as 1to 1trey 5-8fg 2-2ft
+PF,"Davis, Ed",13,"$3,600",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,15:00,   4pt 5rb 2bl 1to 1-2fg 2-4ft
+PF,"Patterson, Patrick",6.1,"$3,600",TORONTO RAPTORS,v mia, 96-102,18:26,   2pt 3rb 1as 1to 1-4fg
+PF,"Stoudemire, Amare",5.2,"$3,500",MIAMI HEAT,@ tor, 102-96,7:53,   4pt 1rb 2-2fg
+SF,"Winslow, Justise",4,"$3,500",MIAMI HEAT,@ tor, 102-96,21:38,   0pt 5rb 2to 0-2fg
+PF,"Haslem, Udonis",3.4,"$3,500",MIAMI HEAT,@ tor, 102-96,5:31,   2pt 2rb 1to 1-1fg
+PF,"Speights, Marreese",2.5,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,4:22,   0pt 1as 1bl 1to 0-4fg
+SF,"Montero, Luis",0,"$3,500",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,DNP,   0pt
+SF,"Johnson, James",0,"$3,500",TORONTO RAPTORS,v mia, 96-102,DNP,   0pt
+PF,"Scola, Luis",0,"$3,500",TORONTO RAPTORS,v mia, 96-102,DNP,   0pt
+PF,"McRoberts, Josh",0,"$3,500",MIAMI HEAT,@ tor, 102-96,DNP,   0pt
+PF,"Thompson, Jason",0,"$3,500",TORONTO RAPTORS,v mia, 96-102,DNP,   0pt
+PF,"Vonleh, Noah",0,"$3,500",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,DNP,   0pt
+PF,"McAdoo, James Michael",0,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,DNP,   0pt
+SF,"Wright, Dorell",0,"$3,500",MIAMI HEAT,@ tor, 102-96,DNP,   0pt
+SF,"Caboclo, Bruno",0,"$3,500",TORONTO RAPTORS,v mia, 96-102,NA,   0pt
+PF,"Bosh, Chris",0,"$7,000",MIAMI HEAT,@ tor, 102-96,NA,   0pt
+PF,"Looney, Kevon",0,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,NA,   0pt
+PF,"Alexander, Cliff",0,"$3,500",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,NA,   0pt
+C,"Valanciunas, Jonas^",54.3,"$6,200",TORONTO RAPTORS,v mia, 96-102,41:10,   24pt 14rb 3as 2st 3bl 1to 10-16fg 4-4ft
+C,"Whiteside, Hassan^",35.4,"$8,000",MIAMI HEAT,@ tor, 102-96,39:20,   9pt 17rb 2st 1bl 3-7fg 3-6ft
+C,"Plumlee, Mason^",21.2,"$6,300",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,28:09,   6pt 11rb 4as 1bl 6to 2-6fg 2-2ft
+C,"Ezeli, Festus",17.7,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,12:52,   8pt 6rb 1as 1bl 1to 4-4fg
+C,"Bogut, Andrew^",15.4,"$4,500",GOLDEN STATE WARRIORS,v por, 110-99,16:23,   4pt 7rb 2bl 1to 2-2fg
+C,"Biyombo, Bismack",2.6,"$4,100",TORONTO RAPTORS,v mia, 96-102,11:33,   0pt 3rb 1to
+C,"Varejao, Anderson",1.2,"$3,500",GOLDEN STATE WARRIORS,v por, 110-99,3:28,   0pt 1rb 0-1fg
+C,"Kaman, Chris",0,"$3,500",PORTLAND TRAIL BLAZERS,@ gsw, 99-110,DNP,   0pt
+C,"Nogueira, Lucas",0,"$3,500",TORONTO RAPTORS,v mia, 96-102,NA,   0pt

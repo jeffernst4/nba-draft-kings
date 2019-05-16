@@ -1,0 +1,64 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Lillard, Damian^",76.5,$37,PORTLAND TRAIL BLAZERS,v okc, 121-129,47:20,   51pt 5rb 9as 1st 2bl 3to 3trey 15-28fg 18-20ft
+PG,"Westbrook, Russell^",41.9,$54,OKLAHOMA CITY THUNDER,@ por, 129-121,40:04,   37pt 7rb 3as 8to 5trey 14-28fg 4-6ft
+SG,"McCollum, C.J.^",36,$26,PORTLAND TRAIL BLAZERS,v okc, 121-129,44:47,   25pt 5rb 1st 1bl 1to 3trey 9-24fg 4-4ft
+PG,"Collison, Darren^",29.3,$22,INDIANA PACERS,@ mil, 98-117,26:02,   9pt 4rb 9as 1st 1to 2-7fg 5-6ft
+PG,"Bledsoe, Eric^",26,$29,MILWAUKEE BUCKS,v ind, 117-98,25:45,   12pt 5rb 4as 1st 1to 6-10fg
+PG,"Schroder, Dennis",22.8,$22,OKLAHOMA CITY THUNDER,@ por, 129-121,26:54,   14pt 4rb 4as 2to 7-16fg
+SG,"Matthews, Wes^",21.6,$14,INDIANA PACERS,@ mil, 98-117,34:04,   10pt 3rb 2as 2st 1to 2trey 3-9fg 2-4ft
+SG,"Brogdon, Malcolm^",19.8,$21,MILWAUKEE BUCKS,v ind, 117-98,29:01,   7pt 4rb 2as 1st 1bl 1to 1trey 3-9fg
+PG,"Joseph, Cory",17,$12,INDIANA PACERS,@ mil, 98-117,23:46,   5pt 4as 1st 1bl 1trey 2-9fg
+SG,"Ferguson, Terrance^",14,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,29:02,   6pt 5rb 1bl 1to 1trey 2-3fg 1-2ft
+PG,"Curry, Seth",11.4,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,14:03,   8pt 2rb 1st 2to 1trey 3-6fg 1-2ft
+SG,"DiVincenzo, Donte",8.9,$10,MILWAUKEE BUCKS,v ind, 117-98,8:38,   5pt 2rb 1as 1trey 2-4fg
+SG,"Evans, Tyreke",5.7,$10,INDIANA PACERS,@ mil, 98-117,11:33,   3pt 1rb 1as 1trey 1-6fg
+PG,"Holiday, Aaron",2,$10,INDIANA PACERS,@ mil, 98-117,2:23,   2pt 1-2fg
+PG,"Sumner, Edmond",1.5,$10,INDIANA PACERS,@ mil, 98-117,2:23,   0pt 1as
+PG,"Felton, Raymond",0,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,2:27,   0pt
+SG,"Trent Jr., Gary",0,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,DNP,   
+SG,"Grantham, Donte",0,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,DNP,   
+SG,"Turner, Evan",0,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,NA,   
+PG,"Burton, Deonte",0,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,NA,   
+SG,"Oladipo, Victor",0,$10,INDIANA PACERS,@ mil, 98-117,NA,   
+SG,"Roberson, Andre",0,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,NA,   
+PG,"Hill, George",0,$10,MILWAUKEE BUCKS,v ind, 117-98,NA,   
+PG,"Duval, Trevon",0,$10,MILWAUKEE BUCKS,v ind, 117-98,NA,   
+SG,"Simons, Anfernee",0,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,NA,   
+SG,"Brown, Sterling",0,$10,MILWAUKEE BUCKS,v ind, 117-98,NA,   
+SG,"Reed, Davon",0,$10,INDIANA PACERS,@ mil, 98-117,NA,   
+SF,"George, Paul^",63.8,$51,OKLAHOMA CITY THUNDER,@ por, 129-121,43:11,   32pt 14rb 6as 3st 3to 1trey 7-23fg 17-20ft
+PF,"Antetokounmpo, Giannis^",47.9,$54,MILWAUKEE BUCKS,v ind, 117-98,33:00,   29pt 12rb 5as 1bl 6to 1trey 10-17fg 8-8ft
+SF,"Middleton, Khris^",41.4,$28,MILWAUKEE BUCKS,v ind, 117-98,32:12,   27pt 2rb 4as 3st 3to 4trey 8-15fg 7-9ft
+SF,"Bogdanovic, Bojan^",29.5,$25,INDIANA PACERS,@ mil, 98-117,32:30,   17pt 5rb 1as 2st 1to 3trey 6-15fg 2-4ft
+PF,"Young, Thaddeus^",27.4,$25,INDIANA PACERS,@ mil, 98-117,33:20,   10pt 2rb 4as 2st 2bl 3to 2trey 3-9fg 2-2ft
+PF,"Grant, Jerami^",27.2,$20,OKLAHOMA CITY THUNDER,@ por, 129-121,25:54,   14pt 6rb 1st 1bl 1trey 6-9fg 1-1ft
+PF,"Aminu, Al-Farouq^",20.8,$14,PORTLAND TRAIL BLAZERS,v okc, 121-129,37:27,   9pt 9rb 1bl 2to 2-8fg 5-6ft
+PF,"Morris, Markieff",17.5,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,22:39,   4pt 10rb 1as 2-6fg
+SF,"Connaughton, Pat",17.4,$10,MILWAUKEE BUCKS,v ind, 117-98,18:07,   3pt 7rb 4as 1trey 1-3fg
+SF,"Hood, Rodney",16.9,$11,PORTLAND TRAIL BLAZERS,v okc, 121-129,31:45,   10pt 2rb 1as 1st 2trey 3-8fg 2-2ft
+PF,"Mirotic, Nikola",16.7,$18,MILWAUKEE BUCKS,v ind, 117-98,19:21,   2pt 6rb 1as 1st 1bl 1-6fg
+PF,"Ilyasova, Ersan",14.4,$10,MILWAUKEE BUCKS,v ind, 117-98,12:49,   9pt 2rb 1bl 2trey 3-6fg 1-2ft
+SF,"Harkless, Maurice^",10.6,$17,PORTLAND TRAIL BLAZERS,v okc, 121-129,21:13,   2pt 3rb 1st 1bl 1to 0-3fg 2-2ft
+SF,"Snell, Tony",10.2,$10,MILWAUKEE BUCKS,v ind, 117-98,18:33,   9pt 1rb 1trey 4-7fg
+SF,"Nader, Abdel",9.4,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,21:49,   4pt 2rb 1st 2-4fg
+PF,"Leaf, TJ",7.4,$10,INDIANA PACERS,@ mil, 98-117,10:56,   2pt 2rb 1bl 1-1fg
+SF,"McDermott, Doug",7.2,$10,INDIANA PACERS,@ mil, 98-117,15:03,   7pt 1rb 1to 1trey 3-6fg
+PF,"Layman, Jake",1.7,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,15:35,   0pt 1rb 1as 1to 0-3fg
+PF,"Labissiere, Skal",0,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,00:02,   0pt 0-2ft
+PF,"Patterson, Patrick",0,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,DNP,   
+PF,"Sabonis, Domantas",0,$25,INDIANA PACERS,@ mil, 98-117,NA,   
+SF,"Colson, Bonzie",0,$10,MILWAUKEE BUCKS,v ind, 117-98,NA,   
+SF,"Diallo, Hamidou",0,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,NA,   
+PF,"Johnson, Alize",0,$10,INDIANA PACERS,@ mil, 98-117,NA,   
+C,"Turner, Myles^",56.9,$27,INDIANA PACERS,@ mil, 98-117,34:59,   22pt 17rb 3as 1st 3bl 2to 4trey 8-19fg 2-2ft
+C,"Nurkic, Jusuf^",43.9,$30,PORTLAND TRAIL BLAZERS,v okc, 121-129,33:44,   13pt 17rb 3as 2st 1bl 3to 4-8fg 5-8ft
+C,"Lopez, Brook^",34.2,$20,MILWAUKEE BUCKS,v ind, 117-98,30:50,   13pt 6rb 1st 4bl 1to 3trey 5-8fg
+C,"Adams, Steven^",31.4,$24,OKLAHOMA CITY THUNDER,@ por, 129-121,38:47,   12pt 7rb 2st 2bl 1to 6-11fg
+C,"O'Quinn, Kyle",20.5,$10,INDIANA PACERS,@ mil, 98-117,13:01,   11pt 5rb 1as 1st 1to 5-7fg 1-2ft
+C,"Kanter, Enes",15.2,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,18:20,   3pt 6rb 2bl 1to 1-6fg 1-1ft
+C,"Noel, Nerlens",12.6,$10,OKLAHOMA CITY THUNDER,@ por, 129-121,14:13,   6pt 3rb 1bl 2-5fg 2-3ft
+C,"Gasol, Pau",9,$10,MILWAUKEE BUCKS,v ind, 117-98,10:43,   1pt 5rb 1bl 1to 0-1fg 1-2ft
+C,"Wilson, D.J.",3,$10,MILWAUKEE BUCKS,v ind, 117-98,1:01,   0pt 1bl
+C,"Leonard, Meyers",1.2,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,00:44,   0pt 1rb
+C,"Collins, Zach",0,$10,PORTLAND TRAIL BLAZERS,v okc, 121-129,DNP,   
+C,"Wood, Christian",0,$10,MILWAUKEE BUCKS,v ind, 117-98,DNP,   

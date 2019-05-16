@@ -1,0 +1,90 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+SG,"Harden, James^",58.1,"$10,200",HOUSTON ROCKETS,v gsw, 97-96,43:46,   35pt 8rb 9as 2st 4to 4trey 11-26fg 9-11ft
+PG,"Westbrook, Russell^",48.5,"$10,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,34:19,   26pt 15as 2st 1bl 6to 2trey 9-16fg 6-9ft
+PG,"Lowry, Kyle^",37.8,"$8,300",TORONTO RAPTORS,@ ind, 101-85,40:27,   21pt 4rb 8as 1st 2to 4trey 8-21fg 1-2ft
+SG,"Matthews, Wes^",34,"$4,700",DALLAS MAVERICKS,v okc, 102-131,32:50,   22pt 5rb 2as 2st 1to 3trey 6-13fg 7-10ft
+SG,"Thompson, Klay^",32.6,"$7,500",GOLDEN STATE WARRIORS,@ hou, 96-97,40:14,   17pt 8rb 2as 2st 1to 7-20fg 3-5ft
+PG,"Felton, Raymond^",31.6,"$5,300",DALLAS MAVERICKS,v okc, 102-131,35:26,   18pt 3rb 4as 4st 4to 1trey 8-15fg 1-2ft
+PG,"Livingston, Shaun^",31.5,"$3,700",GOLDEN STATE WARRIORS,@ hou, 96-97,30:05,   16pt 5rb 3as 3st 1to 6-13fg 4-4ft
+SG,"DeRozan, DeMar^",29.9,"$7,600",TORONTO RAPTORS,@ ind, 101-85,36:01,   21pt 2rb 3as 2st 2to 7-19fg 7-9ft
+SG,"Waiters, Dion",28.3,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,28:14,   19pt 4rb 3as 1st 2to 4trey 7-11fg 1-1ft
+PG,"Barea, Jose^",22.9,"$4,800",DALLAS MAVERICKS,v okc, 102-131,32:18,   15pt 2rb 7as 5to 1trey 6-14fg 2-2ft
+PG,"Beverley, Patrick^",20.7,"$4,900",HOUSTON ROCKETS,v gsw, 97-96,33:09,   10pt 6rb 3as 1to 2trey 4-12fg
+PG,"Hill, George^",20.6,"$4,500",INDIANA PACERS,v tor, 85-101,32:58,   13pt 3rb 2as 1st 1to 2trey 3-7fg 5-6ft
+PG,"Joseph, Cory",19.4,"$3,700",TORONTO RAPTORS,@ ind, 101-85,24:14,   10pt 2rb 4as 1st 1to 5-10fg
+SG,"Clark, Ian",18.7,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,21:24,   11pt 1rb 5as 1to 1trey 4-7fg 2-2ft
+SG,"Ellis, Monta^",18.2,"$6,000",INDIANA PACERS,v tor, 85-101,36:29,   7pt 6rb 4as 1st 4to 3-9fg 1-2ft
+SG,"Roberson, Andre^",17,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,23:44,   5pt 5rb 2st 1bl 1trey 1-1fg 2-2ft
+SG,"Hill, Solomon",14.6,"$3,800",INDIANA PACERS,v tor, 85-101,28:20,   8pt 3rb 2as 2trey 2-5fg 2-2ft
+SG,"Ross, Terrence",11.6,"$3,500",TORONTO RAPTORS,@ ind, 101-85,9:51,   5pt 3rb 2as 1trey 2-3fg
+SG,"Harris, Devin",9.2,"$3,600",DALLAS MAVERICKS,v okc, 102-131,23:18,   5pt 1rb 2as 2-5fg 1-2ft
+PG,"Terry, Jason",7.5,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,22:16,   6pt 1as 2trey 2-10fg
+SG,"Stuckey, Rodney",6.2,"$3,600",INDIANA PACERS,v tor, 85-101,16:55,   5pt 1rb 1-2fg 3-3ft
+SG,"Foye, Randy",6.1,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,13:41,   3pt 3rb 1as 2to 1trey 1-3fg
+SG,"Powell, Norman",3.2,"$3,700",TORONTO RAPTORS,@ ind, 101-85,2:59,   2pt 1rb 1-1fg
+SG,"Young, Joseph",3,"$3,500",INDIANA PACERS,v tor, 85-101,1:24,   3pt 1trey 1-2fg
+PG,"Payne, Cameron",1.5,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,3:48,   0pt 1as 0-1fg 0-2ft
+SG,"Morrow, Anthony",1.2,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,3:30,   0pt 1rb
+SG,"Barbosa, Leandro",0.2,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,9:49,   0pt 1rb 1to 0-1fg
+PG,"Wright, Delon",0,"$3,500",TORONTO RAPTORS,@ ind, 101-85,1:24,   0pt
+PG,"Williams, Deron",0,"$5,700",DALLAS MAVERICKS,v okc, 102-131,DNP,   0pt
+SG,"Rush, Brandon",0,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,DNP,   0pt
+PG,"Curry, Stephen",0,"$10,900",GOLDEN STATE WARRIORS,@ hou, 96-97,NA,   0pt
+PG,"Goudelock, Andrew",0,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,NA,   0pt
+PG,"Lawson, Ty",-1,"$3,500",INDIANA PACERS,v tor, 85-101,6:50,   0pt 1to 0-1fg
+SF,"George, Paul^",46,"$8,800",INDIANA PACERS,v tor, 85-101,41:55,   25pt 10rb 6as 1st 1bl 4to 1trey 6-19fg 12-12ft
+SF,"Durant, Kevin^",44.9,"$10,200",OKLAHOMA CITY THUNDER,@ dal, 131-102,37:03,   34pt 7rb 3as 1st 4to 3trey 11-25fg 9-11ft
+PF,"Nowitzki, Dirk^",36.7,"$6,800",DALLAS MAVERICKS,v okc, 102-131,32:33,   16pt 6rb 5as 1st 2bl 7-12fg 2-3ft
+PF,"Motiejunas, Donatas^",35.6,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,31:04,   14pt 13rb 2as 2st 1bl 3to 2trey 5-11fg 2-2ft
+PF,"Turner, Myles",33.1,"$5,200",INDIANA PACERS,v tor, 85-101,31:12,   17pt 8rb 1as 3bl 1to 7-12fg 3-4ft
+PF,"Ibaka, Serge^",32.2,"$5,900",OKLAHOMA CITY THUNDER,@ dal, 131-102,37:01,   16pt 6rb 2as 1st 2bl 2trey 7-9fg
+PF,"Speights, Marreese",27.8,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,18:19,   22pt 4rb 1bl 1to 3trey 7-11fg 5-6ft
+SF,"Carroll, DeMarre^",25,"$4,800",TORONTO RAPTORS,@ ind, 101-85,35:10,   17pt 5rb 1st 1bl 2to 3trey 7-16fg
+PF,"Green, Draymond^",22.9,"$9,000",GOLDEN STATE WARRIORS,@ hou, 96-97,37:16,   9pt 7rb 7as 1st 7to 3-9fg 3-6ft
+SF,"Ariza, Trevor^",19.5,"$5,900",HOUSTON ROCKETS,v gsw, 97-96,42:04,   7pt 5rb 1as 3st 1bl 3to 1trey 3-12fg
+SF,"Beasley, Michael",19,"$3,800",HOUSTON ROCKETS,v gsw, 97-96,20:32,   12pt 5rb 1st 1to 5-10fg 2-2ft
+SF,"Iguodala, Andre",18.3,"$3,900",GOLDEN STATE WARRIORS,@ hou, 96-97,32:43,   7pt 4rb 3as 1bl 1trey 2-5fg 2-2ft
+SF,"Anderson, Justin",16.7,"$3,800",DALLAS MAVERICKS,v okc, 102-131,19:26,   12pt 1rb 1as 1bl 1trey 3-8fg 5-6ft
+PF,"Patterson, Patrick",14.8,"$3,900",TORONTO RAPTORS,@ ind, 101-85,26:13,   7pt 4rb 1st 1bl 1to 1trey 2-7fg 2-2ft
+SF,"Barnes, Harrison^",13.4,"$4,600",GOLDEN STATE WARRIORS,@ hou, 96-97,23:33,   9pt 2rb 2as 1to 1trey 3-7fg 2-2ft
+PF,"McAdoo, James Michael",9.8,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,7:34,   1pt 4rb 2bl 1-2ft
+PF,"Lee, David",8.4,"$3,800",DALLAS MAVERICKS,v okc, 102-131,16:54,   6pt 2rb 3-3fg
+PF,"Scola, Luis^",5.9,"$3,500",TORONTO RAPTORS,@ ind, 101-85,15:41,   3pt 2rb 1as 1to 1trey 1-4fg
+SF,"Huestis, Josh",5.4,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,2:27,   3pt 2rb 1trey 1-1fg
+PF,"Allen, Lavoy^",4.4,"$3,500",INDIANA PACERS,v tor, 85-101,8:56,   0pt 2rb 1bl 0-2fg
+PF,"Collison, Nick",3.5,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,12:01,   0pt 1as 1st
+PF,"Powell, Dwight",2,"$3,500",DALLAS MAVERICKS,v okc, 102-131,5:21,   0pt 1st 0-1fg
+SF,"Miles, C.J.",1.7,"$3,600",INDIANA PACERS,v tor, 85-101,8:21,   0pt 1rb 1as 1to 0-3fg
+PF,"Capela, Clint",1.4,"$3,800",HOUSTON ROCKETS,v gsw, 97-96,5:09,   0pt 2rb 1to 0-1fg
+PF,"Villanueva, Charlie",1,"$3,500",DALLAS MAVERICKS,v okc, 102-131,5:21,   2pt 1to 1-2fg
+SF,"Brewer, Corey",0,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,3:29,   0pt
+SF,"Robinson III, Glenn",0,"$3,500",INDIANA PACERS,v tor, 85-101,1:24,   0pt 0-1fg
+SF,"Singler, Kyle",0,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,DNP,   0pt
+PF,"Harrell, Montrezl",0,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,DNP,   0pt
+PF,"Jones, Terrence",0,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,DNP,   0pt
+SF,"Johnson, James",0,"$3,500",TORONTO RAPTORS,@ ind, 101-85,DNP,   0pt
+PF,"Thompson, Jason",0,"$3,500",TORONTO RAPTORS,@ ind, 101-85,DNP,   0pt
+SF,"McDaniels, K.J.",0,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,DNP,   0pt
+SF,"Dekker, Sam",0,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,NA,   0pt
+PF,"Looney, Kevon",0,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,NA,   0pt
+SF,"Caboclo, Bruno",0,"$3,500",TORONTO RAPTORS,@ ind, 101-85,NA,   0pt
+PF,"Evans, Jeremy",0,"$3,500",DALLAS MAVERICKS,v okc, 102-131,NA,   0pt
+PF,"McGary, Mitch",0,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,NA,   0pt
+PF,"Christmas, Rakeem",0,"$3,500",INDIANA PACERS,v tor, 85-101,NA,   0pt
+PF,"Smith, Josh",-1,"$3,500",HOUSTON ROCKETS,v gsw, 97-96,5:29,   0pt 1to 0-1fg 0-2ft
+C,"Kanter, Enes",36.1,"$4,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,21:34,   21pt 8rb 1as 1st 1bl 1trey 6-7fg 8-10ft
+C,"Howard, Dwight^",35.6,"$6,800",HOUSTON ROCKETS,v gsw, 97-96,33:03,   13pt 13rb 2as 1st 2bl 2to 6-9fg 1-6ft
+C,"Valanciunas, Jonas^",25.8,"$6,500",TORONTO RAPTORS,@ ind, 101-85,27:21,   9pt 14rb 1bl 2to 3-8fg 3-3ft
+C,"Biyombo, Bismack",17.6,"$4,000",TORONTO RAPTORS,@ ind, 101-85,20:39,   6pt 8rb 1bl 3-5fg
+C,"Pachulia, Zaza^",16.7,"$3,900",DALLAS MAVERICKS,v okc, 102-131,18:52,   5pt 6rb 3as 0-1fg 5-6ft
+C,"Adams, Steven^",14.7,"$4,400",OKLAHOMA CITY THUNDER,@ dal, 131-102,22:38,   4pt 6rb 1as 1st 2-4fg
+C,"Bogut, Andrew^",12.3,"$4,500",GOLDEN STATE WARRIORS,@ hou, 96-97,14:38,   2pt 4rb 1as 2bl 1-2fg
+C,"Mahinmi, Ian^",9.8,"$4,800",INDIANA PACERS,v tor, 85-101,23:52,   7pt 4rb 1bl 4to 3-5fg 1-4ft
+C,"Ezeli, Festus",4.6,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,4:25,   2pt 3rb 1to 1-4fg
+C,"Mejri, Salah",4.4,"$3,600",DALLAS MAVERICKS,v okc, 102-131,13:52,   0pt 2rb 1st 0-1fg 0-2ft
+C,"McGee, JaVale",2.4,"$3,500",DALLAS MAVERICKS,v okc, 102-131,3:48,   1pt 2rb 1to 0-1fg 1-2ft
+C,"Hill, Jordan",0,"$3,500",INDIANA PACERS,v tor, 85-101,1:24,   0pt
+C,"Varejao, Anderson",0,"$3,500",GOLDEN STATE WARRIORS,@ hou, 96-97,DNP,   0pt
+C,"Mohammed, Nazr",0,"$3,500",OKLAHOMA CITY THUNDER,@ dal, 131-102,NA,   0pt
+C,"Whittington, Shayne",0,"$3,500",INDIANA PACERS,v tor, 85-101,NA,   0pt
+C,"Nogueira, Lucas",0,"$3,500",TORONTO RAPTORS,@ ind, 101-85,NA,   0pt

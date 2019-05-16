@@ -1,0 +1,88 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Westbrook, Russell^",55.75,"$13,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,33:19,   21pt 9rb 14as 1st 3to 1trey 9-18fg 2-3ft
+PG,"Rubio, Ricky^",51.75,"$5,400",MINNESOTA TIMBERWOLVES,v dal, 101-92,30:28,   13pt 5rb 15as 5st 3to 3-9fg 7-7ft
+SG,"Wade, Dwyane^",38.5,"$6,200",CHICAGO BULLS,v okc, 94-109,27:31,   22pt 4rb 6as 1bl 1to 2trey 7-16fg 6-8ft
+PG/SG,"Jennings, Brandon^",37.25,"$3,800",NEW YORK KNICKS,v nor, 96-110,29:03,   20pt 5rb 4as 2st 2to 4trey 8-14fg
+SG,"Hield, Buddy^",28,"$4,400",NEW ORLEANS PELICANS,@ nyk, 110-96,27:26,   11pt 4rb 3as 3st 3trey 4-7fg
+PG,"Holiday, Jrue^",26,"$6,600",NEW ORLEANS PELICANS,@ nyk, 110-96,25:17,   9pt 4rb 7as 1st 2to 1trey 3-8fg 2-3ft
+PG,"Williams, Deron^",25,"$5,600",DALLAS MAVERICKS,@ min, 92-101,33:23,   11pt 2rb 7as 1st 3to 1trey 5-9fg
+SG,"Oladipo, Victor^",22.5,"$6,300",OKLAHOMA CITY THUNDER,@ chi, 109-94,24:39,   13pt 2rb 2as 2st 1to 1trey 6-9fg
+PG,"Baker, Ron",21.75,"$3,000",NEW YORK KNICKS,v nor, 96-110,25:11,   6pt 7rb 4as 1st 2to 3-5fg
+SG,"LaVine, Zach^",21.5,"$6,700",MINNESOTA TIMBERWOLVES,v dal, 101-92,28:34,   5pt 6rb 5as 1st 2to 1trey 2-7fg
+PG,"Carter-Williams, Michael^",18.75,"$4,800",CHICAGO BULLS,v okc, 94-109,24:13,   15pt 1rb 2as 1to 6-11fg 3-3ft
+SG,"Moore, E'Twaun",15.75,"$3,100",NEW ORLEANS PELICANS,@ nyk, 110-96,23:57,   8pt 1rb 3as 1bl 4-8fg
+SG,"Abrines, Alex",14.5,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,18:53,   7pt 2rb 2as 1bl 1to 1trey 3-6fg
+SG,"Curry, Seth",14,"$3,800",DALLAS MAVERICKS,@ min, 92-101,30:01,   8pt 2rb 1st 1bl 3to 2trey 3-6fg
+PG,"Grant, Jerian",13.5,"$3,100",CHICAGO BULLS,v okc, 94-109,21:22,   11pt 2rb 1to 1trey 4-7fg 2-2ft
+SG,"Matthews, Wes^",13.5,"$4,900",DALLAS MAVERICKS,@ min, 92-101,36:52,   2pt 4rb 5as 2to 1-7fg
+PG,"Dunn, Kris",12.75,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,17:32,   3pt 1rb 3as 2st 1bl 4to 1-3fg 1-2ft
+SG,"Vujacic, Sasha",11.5,"$3,000",NEW YORK KNICKS,v nor, 96-110,9:48,   8pt 1as 1st 1to 1trey 2-5fg 3-3ft
+PG,"Jones, Tyus",10.75,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,11:09,   7pt 1rb 1st 1trey 3-3fg
+SG,"Holiday, Justin",9.75,"$3,300",NEW YORK KNICKS,v nor, 96-110,20:30,   9pt 1rb 2to 1trey 3-10fg 2-2ft
+PG,"Payne, Cameron",9.5,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,14:41,   0pt 4rb 3as 0-6fg
+SG,"Lee, Courtney^",9.5,"$4,100",NEW YORK KNICKS,v nor, 96-110,27:30,   5pt 2rb 1as 1trey 2-8fg
+PG,"Canaan, Isaiah",9.25,"$3,000",CHICAGO BULLS,v okc, 94-109,8:26,   5pt 1rb 2as 1to 1trey 1-3fg 2-2ft
+PG,"Galloway, Langston",9,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,19:00,   5pt 1as 1bl 1trey 2-8fg
+PG,"Barea, Jose",8,"$4,000",DALLAS MAVERICKS,@ min, 92-101,14:04,   0pt 2rb 4as 1to 0-4fg
+PG,"Harris, Devin",6.25,"$3,000",DALLAS MAVERICKS,@ min, 92-101,14:04,   4pt 1rb 1as 1to 2-5fg
+PG,"Frazier, Tim",2,"$3,700",NEW ORLEANS PELICANS,@ nyk, 110-96,5:27,   0pt 1st 0-1fg
+PG,"Rondo, Rajon",0,"$4,700",CHICAGO BULLS,v okc, 94-109,DNP,   
+SG,"Rush, Brandon",0,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,DNP,   
+PG,"Rose, Derrick",0,"$5,800",NEW YORK KNICKS,v nor, 96-110,DNP,   
+SG,"Morrow, Anthony",0,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,DNP,   
+PG,"Christon, Semaj",0,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,DNP,   
+PG/SG,"Valentine, Denzel",0,"$3,000",CHICAGO BULLS,v okc, 94-109,NA,   
+SG,"Brussino, Nicolas",0,"$3,000",DALLAS MAVERICKS,@ min, 92-101,NA,   
+SF/PF,"Barnes, Harrison^",35.5,"$6,400",DALLAS MAVERICKS,@ min, 92-101,33:59,   30pt 2rb 1as 1to 4trey 13-23fg
+SF,"Anthony, Carmelo^",27.5,"$7,200",NEW YORK KNICKS,v nor, 96-110,26:19,   18pt 6rb 1as 1to 2trey 7-15fg 2-3ft
+SG/SF,"Evans, Tyreke",20,"$3,900",NEW ORLEANS PELICANS,@ nyk, 110-96,21:02,   12pt 2rb 4as 3to 2trey 5-9fg
+PF,"Porzingis, Kristaps^",18.5,"$7,400",NEW YORK KNICKS,v nor, 96-110,23:55,   9pt 4rb 1as 2bl 2to 3-13fg 3-4ft
+SF,"Roberson, Andre^",18,"$3,900",OKLAHOMA CITY THUNDER,@ chi, 109-94,32:31,   8pt 2rb 2as 1st 1bl 1to 2trey 3-5fg
+SF,"Wiggins, Andrew^",16.5,"$6,500",MINNESOTA TIMBERWOLVES,v dal, 101-92,35:59,   13pt 4rb 3to 5-11fg 3-6ft
+SF/PF,"Cunningham, Dante^",16.25,"$3,500",NEW ORLEANS PELICANS,@ nyk, 110-96,30:26,   9pt 3rb 1st 3trey 3-5fg
+SF/PF,"Grant, Jerami",15.5,"$3,100",OKLAHOMA CITY THUNDER,@ chi, 109-94,16:23,   7pt 2rb 1as 2bl 1trey 3-6fg
+SF/PF,"Bjelica, Nemanja",14.75,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,29:19,   3pt 5rb 2as 1st 1trey 1-2fg
+SG/SF,"Muhammad, Shabazz",13.5,"$3,100",MINNESOTA TIMBERWOLVES,v dal, 101-92,20:18,   11pt 2rb 1to 1trey 5-9fg
+SG/SF,"Butler, Jimmy^",13.5,"$9,300",CHICAGO BULLS,v okc, 94-109,28:48,   1pt 2rb 7as 1to 0-6fg 1-2ft
+PF,"Sabonis, Domantas^",12.25,"$3,200",OKLAHOMA CITY THUNDER,@ chi, 109-94,21:47,   5pt 5rb 1as 1to 1-5fg 3-3ft
+PF,"Portis, Bobby",11.5,"$3,000",CHICAGO BULLS,v okc, 94-109,10:03,   7pt 2rb 1st 1to 1trey 3-7fg
+SF/PF,"Thomas, Lance",11.25,"$3,000",NEW YORK KNICKS,v nor, 96-110,19:26,   9pt 1rb 2trey 2-5fg 3-4ft
+SF,"Hill, Solomon^",10.25,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,23:04,   2pt 1rb 1as 2st 1bl 1to 1-5fg
+SF,"McDermott, Doug",10,"$4,200",CHICAGO BULLS,v okc, 94-109,25:14,   7pt 2rb 1trey 2-6fg 2-2ft
+PF,"N'dour, Maurice",5.25,"$3,000",NEW YORK KNICKS,v nor, 96-110,14:35,   0pt 3rb 1st 1to 0-1fg
+SF,"Finney-Smith, Dorian",5,"$3,000",DALLAS MAVERICKS,@ min, 92-101,6:40,   3pt 1st 1to 1trey 1-1fg
+SF/PF,"Mirotic, Nikola",4.75,"$4,700",CHICAGO BULLS,v okc, 94-109,16:01,   3pt 1rb 1st 4to 1trey 1-4fg
+SG/SF,"Anderson, Justin",2,"$3,000",DALLAS MAVERICKS,@ min, 92-101,5:49,   2pt 1-2fg
+SF,"Zipser, Paul",1.25,"$3,000",CHICAGO BULLS,v okc, 94-109,8:26,   0pt 1rb 0-3fg
+PF,"Diallo, Cheick",0,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,5:27,   0pt 0-4fg
+PF,"Hill, Jordan",0,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,DNP,   
+PF,"Payne, Adreian",0,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,DNP,   
+SF,"Singler, Kyle",0,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,NA,   
+SF,"Huestis, Josh",0,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,NA,   
+SF,"Pondexter, Quincy",0,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,NA,   
+SF,"Kuzminskas, Mindaugas",0,"$3,100",NEW YORK KNICKS,v nor, 96-110,NA,   
+PF/C,"Davis, Anthony^",73.5,"$11,100",NEW ORLEANS PELICANS,@ nyk, 110-96,28:58,   40pt 18rb 2as 3bl 1trey 14-22fg 11-12ft
+PF/C,"Towns, Karl-Anthony^",62.75,"$8,900",MINNESOTA TIMBERWOLVES,v dal, 101-92,37:15,   34pt 11rb 4as 1st 3bl 3to 2trey 15-19fg 2-2ft
+C,"Kanter, Enes",41.25,"$5,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,27:48,   20pt 11rb 3as 1st 1to 9-11fg 2-3ft
+PF/C,"Nowitzki, Dirk^",40.75,"$5,200",DALLAS MAVERICKS,@ min, 92-101,31:12,   26pt 5rb 4as 5trey 8-16fg 5-7ft
+C,"Felicio, Cristiano",33.25,"$3,000",CHICAGO BULLS,v okc, 94-109,24:00,   11pt 11rb 1as 3st 1to 5-6fg 1-1ft
+C,"Adams, Steven^",32.75,"$6,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,36:19,   22pt 5rb 2as 1bl 1to 11-14fg
+PF/C,"Gibson, Taj^",23.75,"$4,600",CHICAGO BULLS,v okc, 94-109,20:07,   9pt 7rb 2st 1bl 4-8fg 1-1ft
+C,"Noah, Joakim^",19,"$4,900",NEW YORK KNICKS,v nor, 96-110,17:45,   4pt 10rb 2as 1to 2-3fg
+PF/C,"Jones, Terrence",18.75,"$4,000",NEW ORLEANS PELICANS,@ nyk, 110-96,13:35,   11pt 3rb 1st 1bl 4-6fg 3-4ft
+PF/C,"Dieng, Gorgui^",17.75,"$5,700",MINNESOTA TIMBERWOLVES,v dal, 101-92,25:20,   12pt 5rb 1to 5-8fg 2-4ft
+C,"Motiejunas, Donatas",16,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,16:21,   3pt 4rb 3as 2st 2to 1trey 1-2fg
+C,"Hernangomez, Guillermo",14.5,"$3,000",NEW YORK KNICKS,v nor, 96-110,13:16,   6pt 4rb 3as 2to 3-4fg
+C,"Bogut, Andrew^",11,"$3,200",DALLAS MAVERICKS,@ min, 92-101,17:50,   2pt 4rb 2as 1bl 2to 1-2fg
+C,"Lopez, Robin^",10,"$3,900",CHICAGO BULLS,v okc, 94-109,25:49,   3pt 4rb 1bl 1-7fg 1-1ft
+PF/C,"O'Quinn, Kyle",8.5,"$3,600",NEW YORK KNICKS,v nor, 96-110,12:42,   2pt 2rb 2bl 1-2fg
+C,"Mejri, Salah",5.75,"$3,000",DALLAS MAVERICKS,@ min, 92-101,10:08,   2pt 3rb 1-2fg
+PF/C,"Lauvergne, Joffrey",5,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,13:40,   6pt 3to 1trey 2-3fg 1-2ft
+C,"Aldrich, Cole",3.5,"$3,400",MINNESOTA TIMBERWOLVES,v dal, 101-92,4:06,   0pt 2rb 1as 1to
+PF/C,"Powell, Dwight",2,"$3,300",DALLAS MAVERICKS,@ min, 92-101,5:58,   2pt 0-1fg 2-2ft
+C,"Collison, Nick",0,"$3,000",OKLAHOMA CITY THUNDER,@ chi, 109-94,DNP,   
+C,"Ajinca, Alexis",0,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,DNP,   
+C,"Plumlee, Marshall",0,"$3,000",NEW YORK KNICKS,v nor, 96-110,NA,   
+C,"Pekovic, Nikola",0,"$3,000",MINNESOTA TIMBERWOLVES,v dal, 101-92,NA,   
+C,"Hammons, A.J.",0,"$3,000",DALLAS MAVERICKS,@ min, 92-101,NA,   
+C,"Asik, Omer",0,"$3,000",NEW ORLEANS PELICANS,@ nyk, 110-96,NA,   

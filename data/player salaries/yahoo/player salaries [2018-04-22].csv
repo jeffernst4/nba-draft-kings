@@ -1,0 +1,121 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Wall, John^",60.2,$42,WASHINGTON WIZARDS,v tor, 106-98,43:04,   27pt 6rb 14as 3st 4to 10-24fg 7-10ft
+SG,"Brown, Jaylen^",53.1,$23,BOSTON CELTICS,@ mil, 102-104,41:27,   34pt 8rb 1as 3st 1to 5trey 13-24fg 3-4ft
+SG,"DeRozan, DeMar^",50.2,$31,TORONTO RAPTORS,@ was, 98-106,38:03,   35pt 6rb 6as 1st 4to 1trey 10-29fg 14-18ft
+PG,"Lowry, Kyle^",38.9,$30,TORONTO RAPTORS,@ was, 98-106,38:48,   19pt 7rb 5as 2st 2to 4trey 7-15fg 1-1ft
+SG,"Beal, Bradley^",36,$30,WASHINGTON WIZARDS,v tor, 106-98,31:32,   31pt 5rb 2as 4to 5trey 10-19fg 6-7ft
+SG,"Oladipo, Victor^",34.7,$39,INDIANA PACERS,v cle, 100-104,41:10,   17pt 6rb 5as 2bl 3to 3trey 5-20fg 4-5ft
+PG,"Rozier, Terry^",33,$28,BOSTON CELTICS,@ mil, 102-104,35:51,   10pt 5rb 8as 1st 1bl 1to 2trey 3-12fg 2-2ft
+PG,"Collison, Darren^",33,$19,INDIANA PACERS,v cle, 100-104,31:48,   12pt 5rb 8as 1st 1trey 5-14fg 1-1ft
+SG,"Korver, Kyle^",29.1,$10,CLEVELAND CAVALIERS,@ ind, 104-100,26:13,   18pt 3rb 1as 2bl 4trey 4-9fg 6-7ft
+SG,"Stephenson, Lance",27.4,$11,INDIANA PACERS,v cle, 100-104,23:09,   11pt 2rb 6as 1st 1bl 1to 1trey 5-11fg
+SG,"Ginobili, Manu",26.1,$10,SAN ANTONIO SPURS,v gsw, 103-90,25:15,   16pt 3rb 5as 1to 3trey 5-10fg 3-4ft
+PG,"Bledsoe, Eric^",25.7,$29,MILWAUKEE BUCKS,v bos, 104-102,30:41,   9pt 1rb 5as 1st 2bl 1to 1trey 3-9fg 2-3ft
+PG,"Murray, Dejounte^",24.8,$19,SAN ANTONIO SPURS,v gsw, 103-90,26:29,   12pt 4rb 2as 1st 1bl 1to 3trey 4-8fg 1-2ft
+SG,"Wright, Delon",24.1,$14,TORONTO RAPTORS,@ was, 98-106,27:00,   7pt 3rb 5as 1st 1bl 1trey 3-7fg
+PG,"Livingston, Shaun",22.6,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,21:06,   10pt 3rb 2as 2st 5-9fg
+SG,"Thompson, Klay^",19.5,$23,GOLDEN STATE WARRIORS,@ sas, 90-103,42:24,   12pt 5rb 1as 1st 3to 2trey 4-16fg 2-2ft
+SG,"Mills, Patty^",18.5,$10,SAN ANTONIO SPURS,v gsw, 103-90,36:08,   9pt 5as 1st 1to 3trey 3-8fg 0-1ft
+SG,"Smith, J.R.^",17,$10,CLEVELAND CAVALIERS,@ ind, 104-100,35:18,   12pt 5rb 1to 4trey 4-12fg
+SG,"Brogdon, Malcolm^",16.8,$17,MILWAUKEE BUCKS,v bos, 104-102,30:34,   10pt 4rb 2as 1to 1trey 4-7fg 1-1ft
+PG,"Dellavedova, Matthew",15.6,$10,MILWAUKEE BUCKS,v bos, 104-102,17:19,   4pt 3rb 4as 1st 1to 1-3fg 2-2ft
+PG,"Clarkson, Jordan",14.9,$10,CLEVELAND CAVALIERS,@ ind, 104-100,22:19,   12pt 2rb 1as 1to 2trey 5-9fg
+PG,"Parker, Tony",14,$10,SAN ANTONIO SPURS,v gsw, 103-90,16:05,   9pt 2as 1st 1to 4-7fg 1-2ft
+PG,"Joseph, Cory",9.9,$10,INDIANA PACERS,v cle, 100-104,16:12,   0pt 2rb 3as 1st 0-2fg
+PG,"Cook, Quinn",9.7,$17,GOLDEN STATE WARRIORS,@ sas, 90-103,15:12,   4pt 1rb 1as 1bl 1-2fg 2-2ft
+PG,"Calderon, Jose^",9.4,$10,CLEVELAND CAVALIERS,@ ind, 104-100,19:29,   5pt 2rb 2as 1to 1trey 2-4fg
+SG,"Snell, Tony",8.9,$10,MILWAUKEE BUCKS,v bos, 104-102,17:46,   3pt 2rb 3as 1to 1trey 1-2fg
+PG,"Lawson, Ty",8.7,$11,WASHINGTON WIZARDS,v tor, 106-98,14:52,   0pt 1rb 1as 2st 0-4fg
+PG,"Larkin, Shane",6,$10,BOSTON CELTICS,@ mil, 102-104,16:31,   0pt 4as 0-1fg
+SG,"Hood, Rodney",5,$10,CLEVELAND CAVALIERS,@ ind, 104-100,13:57,   6pt 1to 1-2fg 4-4ft
+PG,"Satoransky, Tomas",1.2,$10,WASHINGTON WIZARDS,v tor, 106-98,5:51,   0pt 1rb 0-1fg
+SG,"Young, Nick",0,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,8:31,   0pt 0-1fg
+PG,"Jennings, Brandon",0,$10,MILWAUKEE BUCKS,v bos, 104-102,DNP,   
+SG,"Terry, Jason",0,$10,MILWAUKEE BUCKS,v bos, 104-102,DNP,   
+PG,"Frazier, Tim",0,$10,WASHINGTON WIZARDS,v tor, 106-98,DNP,   
+PG,"Smart, Marcus",0,$16,BOSTON CELTICS,@ mil, 102-104,DNP,   
+PG,"Brown, Lorenzo",0,$10,TORONTO RAPTORS,@ was, 98-106,DNP,   
+PG,"White, Derrick",0,$10,SAN ANTONIO SPURS,v gsw, 103-90,DNP,   
+SG,"Brown, Sterling",0,$10,MILWAUKEE BUCKS,v bos, 104-102,DNP,   
+PG,"Forbes, Bryn",0,$10,SAN ANTONIO SPURS,v gsw, 103-90,DNP,   
+SG,"Robinson III, Glenn",0,$10,INDIANA PACERS,v cle, 100-104,DNP,   
+SG,"Meeks, Jodie",0,$10,WASHINGTON WIZARDS,v tor, 106-98,DNP,   
+SG,"Young, Joseph",0,$10,INDIANA PACERS,v cle, 100-104,DNP,   
+SG,"Irving, Kyrie",0,$10,BOSTON CELTICS,@ mil, 102-104,NA,   
+PG,"Curry, Stephen",0,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,NA,   
+PG,"Hill, George",0,$10,CLEVELAND CAVALIERS,@ ind, 104-100,NA,   
+SG,"Leonard, Kawhi",0,$10,SAN ANTONIO SPURS,v gsw, 103-90,NA,   
+SG,"Hayward, Gordon",0,$10,BOSTON CELTICS,@ mil, 102-104,NA,   
+SG,"Richardson, Malachi",0,$10,TORONTO RAPTORS,@ was, 98-106,NA,   
+PG,"VanVleet, Fred",0,$10,TORONTO RAPTORS,@ was, 98-106,NA,   
+SG,"Paul, Brandon",0,$10,SAN ANTONIO SPURS,v gsw, 103-90,NA,   
+SG,"Sessions, Ramon",0,$10,WASHINGTON WIZARDS,v tor, 106-98,NA,   
+SG,"McCaw, Patrick",0,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,NA,   
+SF,"James, LeBron^",63.1,$58,CLEVELAND CAVALIERS,@ ind, 104-100,46:09,   32pt 13rb 7as 2bl 1to 12-22fg 8-9ft
+SF,"Durant, Kevin^",52.6,$50,GOLDEN STATE WARRIORS,@ sas, 90-103,40:49,   34pt 13rb 2as 1bl 3to 4trey 12-28fg 6-7ft
+PF,"Young, Thaddeus^",44.7,$22,INDIANA PACERS,v cle, 100-104,39:03,   12pt 16rb 1as 2st 2bl 1trey 5-12fg 1-4ft
+SF,"Middleton, Khris^",43.2,$35,MILWAUKEE BUCKS,v bos, 104-102,36:39,   23pt 6rb 2as 2st 2bl 2to 3trey 8-14fg 4-4ft
+PF,"Green, Draymond^",42.1,$30,GOLDEN STATE WARRIORS,@ sas, 90-103,41:49,   9pt 18rb 9as 1st 5to 1trey 4-14fg
+PF,"Antetokounmpo, Giannis^",40.9,$53,MILWAUKEE BUCKS,v bos, 104-102,40:26,   27pt 7rb 5as 2to 12-20fg 3-6ft
+PF,"Parker, Jabari",40.9,$19,MILWAUKEE BUCKS,v bos, 104-102,24:51,   16pt 7rb 1as 2st 3bl 2trey 5-10fg 4-6ft
+SF,"Tatum, Jayson^",34.1,$25,BOSTON CELTICS,@ mil, 102-104,35:57,   21pt 3rb 3as 2st 1to 2trey 7-16fg 5-6ft
+PF,"Horford, Al^",33.8,$28,BOSTON CELTICS,@ mil, 102-104,36:39,   13pt 9rb 4as 2bl 2to 4-8fg 5-5ft
+SF,"Gay, Rudy^",30.4,$15,SAN ANTONIO SPURS,v gsw, 103-90,37:12,   14pt 7rb 2as 2st 1to 7-15fg 0-1ft
+SF,"Porter, Otto^",28.7,$23,WASHINGTON WIZARDS,v tor, 106-98,39:44,   12pt 6rb 1as 1st 2bl 1to 2trey 4-8fg 2-4ft
+PF,"Morris, Markieff^",24.5,$17,WASHINGTON WIZARDS,v tor, 106-98,30:34,   6pt 5rb 1as 1st 3bl 1to 3-7fg
+PF,"Sabonis, Domantas",24.2,$13,INDIANA PACERS,v cle, 100-104,25:14,   19pt 6rb 2to 1trey 9-12fg 0-1ft
+SF,"Oubre, Kelly",24,$15,WASHINGTON WIZARDS,v tor, 106-98,23:53,   10pt 5rb 2as 2st 1to 2-6fg 6-7ft
+PF,"Ibaka, Serge^",24,$19,TORONTO RAPTORS,@ was, 98-106,34:10,   7pt 10rb 1st 2bl 4to 1trey 2-5fg 2-4ft
+PF,"Green, Jeff",20.8,$10,CLEVELAND CAVALIERS,@ ind, 104-100,24:23,   8pt 4rb 4as 1bl 1to 1trey 3-5fg 1-2ft
+SF,"Bogdanovic, Bojan^",19.2,$20,INDIANA PACERS,v cle, 100-104,33:48,   10pt 6rb 2as 1to 2trey 4-13fg
+PF,"Nance, Larry",17.6,$15,CLEVELAND CAVALIERS,@ ind, 104-100,15:29,   6pt 3rb 2st 1bl 1to 2-4fg 2-2ft
+SF,"Morris, Marcus",16.8,$18,BOSTON CELTICS,@ mil, 102-104,26:19,   13pt 4rb 1to 1trey 4-14fg 4-6ft
+PF,"Anderson, Kyle",16.6,$14,SAN ANTONIO SPURS,v gsw, 103-90,18:32,   10pt 3rb 1bl 4-4fg 2-2ft
+PF,"Siakam, Pascal",15.6,$10,TORONTO RAPTORS,@ was, 98-106,18:22,   3pt 3rb 3bl 1-4fg 1-2ft
+SF,"Iguodala, Andre^",15.2,$12,GOLDEN STATE WARRIORS,@ sas, 90-103,26:23,   4pt 6rb 2as 1st 2to 0-3fg 4-4ft
+PF,"West, David",15.1,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,13:37,   8pt 3rb 1as 1st 1to 4-6fg
+SF,"Anunoby, OG^",12.7,$10,TORONTO RAPTORS,@ was, 98-106,22:25,   4pt 1rb 1as 2st 2-3fg
+SF,"Green, Danny^",11.4,$10,SAN ANTONIO SPURS,v gsw, 103-90,20:53,   6pt 2rb 1bl 2trey 2-7fg
+PF,"Scott, Mike",9.9,$10,WASHINGTON WIZARDS,v tor, 106-98,14:51,   4pt 2rb 1as 1bl 1to 2-5fg
+SF,"Looney, Kevon",9.5,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,13:14,   2pt 5rb 1as 1-5fg
+SF,"Miles, C.J.",4.7,$10,TORONTO RAPTORS,@ was, 98-106,21:21,   2pt 1rb 1as 1st 3to 1-4fg
+PF,"Booker, Trevor",4.4,$10,INDIANA PACERS,v cle, 100-104,6:50,   2pt 2rb 2-2ft
+SF,"Ojeleye, Semi",3.2,$10,BOSTON CELTICS,@ mil, 102-104,17:05,   2pt 1rb 1-4fg
+SF,"Yabusele, Guerschon",0,$10,BOSTON CELTICS,@ mil, 102-104,5:51,   0pt 0-1fg
+SF,"Osman, Cedi",0,$10,CLEVELAND CAVALIERS,@ ind, 104-100,DNP,   
+PF,"Lauvergne, Joffrey",0,$10,SAN ANTONIO SPURS,v gsw, 103-90,DNP,   
+PF,"Leaf, TJ",0,$10,INDIANA PACERS,v cle, 100-104,DNP,   
+PF,"Bell, Jordan",0,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,DNP,   
+SF,"Muhammad, Shabazz",0,$10,MILWAUKEE BUCKS,v bos, 104-102,DNP,   
+PF,"Nader, Abdel",0,$10,BOSTON CELTICS,@ mil, 102-104,DNP,   
+PF,"White, Okaro",0,$10,CLEVELAND CAVALIERS,@ ind, 104-100,DNP,   
+PF,"McKinnie, Alfonzo",0,$10,TORONTO RAPTORS,@ was, 98-106,DNP,   
+SF,"Powell, Norman",0,$10,TORONTO RAPTORS,@ was, 98-106,DNP,   
+PF,"Nogueira, Lucas",0,$10,TORONTO RAPTORS,@ was, 98-106,DNP,   
+SF,"Poythress, Alex",0,$10,INDIANA PACERS,v cle, 100-104,NA,   
+PF,"McCullough, Chris",0,$10,WASHINGTON WIZARDS,v tor, 106-98,NA,   
+PF,"Wilson, D.J.",0,$10,MILWAUKEE BUCKS,v bos, 104-102,NA,   
+PF,"Theis, Daniel",0,$10,BOSTON CELTICS,@ mil, 102-104,NA,   
+PF,"Bertans, Davis",-1,$10,SAN ANTONIO SPURS,v gsw, 103-90,2:31,   0pt 1to 0-1fg
+C,"Aldridge, LaMarcus^",39,$39,SAN ANTONIO SPURS,v gsw, 103-90,37:53,   22pt 10rb 1st 1bl 1to 3trey 7-19fg 5-5ft
+C,"Love, Kevin^",26.7,$26,CLEVELAND CAVALIERS,@ ind, 104-100,29:15,   5pt 11rb 1as 2st 1bl 2to 2-10fg 1-2ft
+C,"Maker, Thon",25.9,$13,MILWAUKEE BUCKS,v bos, 104-102,30:47,   8pt 2rb 1as 5bl 1to 2trey 3-6fg
+C,"Baynes, Aron^",24.2,$10,BOSTON CELTICS,@ mil, 102-104,19:12,   9pt 11rb 2as 1to 4-6fg 1-2ft
+C,"Gortat, Marcin^",22.7,$10,WASHINGTON WIZARDS,v tor, 106-98,27:55,   12pt 6rb 1as 1st 1to 6-8fg 0-3ft
+C,"Turner, Myles^",22.6,$18,INDIANA PACERS,v cle, 100-104,22:46,   17pt 3rb 1st 1to 3trey 7-9fg
+C,"Poeltl, Jakob",20.9,$10,TORONTO RAPTORS,@ was, 98-106,24:27,   10pt 7rb 1as 1st 2to 4-6fg 2-2ft
+C,"Zeller, Tyler^",19.3,$10,MILWAUKEE BUCKS,v bos, 104-102,10:57,   4pt 4rb 1as 1st 2bl 1-2fg 2-2ft
+C,"Gasol, Pau",16,$17,SAN ANTONIO SPURS,v gsw, 103-90,19:02,   5pt 5rb 4as 1to 1trey 1-2fg 2-2ft
+C,"Valanciunas, Jonas^",14.6,$21,TORONTO RAPTORS,@ was, 98-106,15:24,   11pt 3rb 1bl 3to 4-6fg 3-3ft
+C,"Mahinmi, Ian",13.6,$10,WASHINGTON WIZARDS,v tor, 106-98,7:44,   4pt 3rb 2bl 2-3fg
+C,"McGee, JaVale^",13.4,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,16:55,   7pt 7rb 2to 3-6fg 1-2ft
+C,"Thompson, Tristan",1.7,$10,CLEVELAND CAVALIERS,@ ind, 104-100,7:28,   0pt 1rb 1as 1to 0-1fg
+C,"Monroe, Greg",1.4,$15,BOSTON CELTICS,@ mil, 102-104,5:08,   0pt 2rb 1to 0-1fg
+C,"Pachulia, Zaza",0,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,DNP,   
+C,"Perkins, Kendrick",0,$10,CLEVELAND CAVALIERS,@ ind, 104-100,DNP,   
+C,"Jefferson, Al",0,$10,INDIANA PACERS,v cle, 100-104,DNP,   
+C,"Smith, Jason",0,$10,WASHINGTON WIZARDS,v tor, 106-98,DNP,   
+C,"Zizic, Ante",0,$10,CLEVELAND CAVALIERS,@ ind, 104-100,DNP,   
+C,"Jones, Damian",0,$10,GOLDEN STATE WARRIORS,@ sas, 90-103,DNP,   
+C,"Anigbogu, Ike",0,$10,INDIANA PACERS,v cle, 100-104,NA,   
+C,"Henson, John",0,$16,MILWAUKEE BUCKS,v bos, 104-102,NA,   

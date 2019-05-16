@@ -1,0 +1,120 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Westbrook, Russell^",85,"$13,800",OKLAHOMA CITY THUNDER,v hou, 109-113,38:42,   35pt 14rb 14as 3st 1bl 5to 3trey 10-28fg 12-13ft
+PG,"Paul, Chris^",59.25,"$9,800",LOS ANGELES CLIPPERS,@ uta, 98-105,38:08,   27pt 9rb 12as 1st 2to 1trey 10-21fg 6-8ft
+PG,"Thomas, Isaiah^",48.5,"$8,100",BOSTON CELTICS,@ chi, 104-95,35:48,   33pt 4rb 7as 1st 5to 1trey 10-21fg 12-13ft
+PG,"Teague, Jeff^",45.5,"$6,800",INDIANA PACERS,v cle, 102-106,38:57,   15pt 4rb 10as 2st 3bl 3to 1trey 6-12fg 2-3ft
+PG,"Irving, Kyrie^",38.5,"$8,000",CLEVELAND CAVALIERS,@ ind, 106-102,36:41,   28pt 2rb 1st 3bl 1to 1trey 10-25fg 7-7ft
+PG/SG,"Harden, James^",35.25,"$11,100",HOUSTON ROCKETS,@ okc, 113-109,39:18,   16pt 7rb 8as 1st 7to 5-16fg 6-7ft
+SG,"Gordon, Eric",35,"$4,600",HOUSTON ROCKETS,@ okc, 113-109,36:03,   18pt 8rb 1as 2bl 1to 4trey 5-13fg 4-5ft
+PG/SG,"Williams, Louis",33.75,"$4,900",HOUSTON ROCKETS,@ okc, 113-109,31:48,   18pt 7rb 2as 2st 1to 1trey 5-13fg 7-7ft
+SG,"Crawford, Jamal",32.75,"$3,500",LOS ANGELES CLIPPERS,@ uta, 98-105,31:27,   25pt 1rb 2as 1st 2to 5trey 9-13fg 2-2ft
+SG,"Oladipo, Victor^",31.5,"$5,300",OKLAHOMA CITY THUNDER,v hou, 109-113,38:46,   15pt 4rb 2as 2st 2bl 1trey 7-10fg
+SG,"Green, Gerald^",28.25,"$2,700",BOSTON CELTICS,@ chi, 104-95,22:59,   18pt 7rb 1to 4trey 7-13fg
+SG,"Hood, Rodney",28,"$3,200",UTAH JAZZ,v lac, 105-98,35:12,   18pt 4rb 1as 1st 3trey 6-16fg 3-4ft
+PG/SG,"Smart, Marcus",27,"$5,000",BOSTON CELTICS,@ chi, 104-95,33:13,   5pt 8rb 6as 1st 1bl 3to 1trey 2-7fg
+SG,"Wade, Dwyane^",26.5,"$6,500",CHICAGO BULLS,v bos, 95-104,37:41,   11pt 6rb 2as 1st 2bl 2to 5-12fg 1-1ft
+PG,"Canaan, Isaiah",25.5,"$2,000",CHICAGO BULLS,v bos, 95-104,34:07,   13pt 2rb 3as 2st 3trey 4-10fg 2-4ft
+PG,"Beverley, Patrick^",20,"$5,500",HOUSTON ROCKETS,@ okc, 113-109,27:12,   6pt 3as 5st 3to 2trey 2-13fg
+PG/SF,"Felton, Raymond",19.25,"$2,600",LOS ANGELES CLIPPERS,@ uta, 98-105,21:30,   11pt 1rb 3st 2trey 3-5fg 3-3ft
+PG,"Williams, Deron",19,"$2,900",CLEVELAND CAVALIERS,@ ind, 106-102,13:10,   14pt 2rb 1as 2trey 4-4fg 4-5ft
+PG,"Hill, George^",16.25,"$5,900",UTAH JAZZ,v lac, 105-98,40:44,   13pt 1rb 2as 3to 1trey 4-11fg 4-5ft
+SG,"Bradley, Avery^",13.25,"$5,800",BOSTON CELTICS,@ chi, 104-95,33:51,   8pt 1rb 2as 1st 3to 1trey 3-9fg 1-2ft
+SG,"Smith, J.R.^",13,"$4,000",CLEVELAND CAVALIERS,@ ind, 106-102,28:49,   5pt 2rb 2st 1bl 2to 1trey 2-4fg
+SG,"Miles, C.J.^",12.75,"$3,800",INDIANA PACERS,v cle, 102-106,25:03,   6pt 3rb 1bl 2trey 2-5fg
+SG,"Redick, J.J.^",11,"$4,200",LOS ANGELES CLIPPERS,@ uta, 98-105,41:45,   12pt 4to 2trey 3-11fg 4-4ft
+PG/SG,"Shumpert, Iman",6.75,"$2,900",CLEVELAND CAVALIERS,@ ind, 106-102,16:39,   3pt 1rb 1st 1trey 1-4fg
+PG,"Exum, Dante",5,"$2,000",UTAH JAZZ,v lac, 105-98,11:45,   3pt 1as 1trey 1-1fg
+PG,"Neto, Raul",4.75,"$2,000",UTAH JAZZ,v lac, 105-98,7:16,   0pt 3rb 1as 1to
+PG,"Rozier, Terry",3.25,"$2,400",BOSTON CELTICS,@ chi, 104-95,11:05,   2pt 1rb 1-4fg
+PG,"Cole, Norris",2.25,"$2,000",OKLAHOMA CITY THUNDER,v hou, 109-113,9:18,   0pt 1rb 1bl 2to 0-3fg
+PG/SG,"Ellis, Monta",1.75,"$3,700",INDIANA PACERS,v cle, 102-106,5:30,   1pt 1rb 1to 0-2fg 1-2ft
+PG,"Grant, Jerian^",1.5,"$3,700",CHICAGO BULLS,v bos, 95-104,4:41,   0pt 1as 0-3fg
+PG,"Carter-Williams, Michael",0.5,"$3,000",CHICAGO BULLS,v bos, 95-104,8:07,   0pt 1as 2to
+PG,"Mack, Shelvin",0,"$2,500",UTAH JAZZ,v lac, 105-98,4:54,   0pt
+SG,"Jones, James",0,"$2,100",CLEVELAND CAVALIERS,@ ind, 106-102,DNP,   
+PG,"Brooks, Aaron",0,"$2,000",INDIANA PACERS,v cle, 102-106,DNP,   
+PG,"Brown, Bobby",0,"$2,000",HOUSTON ROCKETS,@ okc, 113-109,DNP,   
+SG,"Jones, Dahntay",0,"$2,000",CLEVELAND CAVALIERS,@ ind, 106-102,DNP,   
+SG,"Morrow, Anthony",0,"$2,000",CHICAGO BULLS,v bos, 95-104,DNP,   
+SG,"Anderson, Alan",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-105,DNP,   
+SG,"Young, James",0,"$2,000",BOSTON CELTICS,@ chi, 104-95,DNP,   
+PG,"Payne, Cameron",0,"$2,000",CHICAGO BULLS,v bos, 95-104,NA,   
+PG,"Jackson, Demetrius",0,"$2,000",BOSTON CELTICS,@ chi, 104-95,NA,   
+SG,"Burks, Alec",0,"$2,300",UTAH JAZZ,v lac, 105-98,NA,   
+PG,"Rondo, Rajon",0,"$7,000",CHICAGO BULLS,v bos, 95-104,NA,   
+PG,"Felder, Kay",0,"$2,000",CLEVELAND CAVALIERS,@ ind, 106-102,NA,   
+PG/SG,"Rivers, Austin",0,"$3,400",LOS ANGELES CLIPPERS,@ uta, 98-105,NA,   
+PG/SG,"Christon, Semaj",0,"$2,000",OKLAHOMA CITY THUNDER,v hou, 109-113,NA,   
+SG,"Young, Joseph",0,"$2,000",INDIANA PACERS,v cle, 102-106,NA,   0pt
+SF,"James, LeBron^",63.5,"$11,900",CLEVELAND CAVALIERS,@ ind, 106-102,44:44,   33pt 10rb 4as 4st 2bl 4to 1trey 13-25fg 6-9ft
+SF,"Butler, Jimmy^",54.25,"$10,000",CHICAGO BULLS,v bos, 95-104,45:47,   33pt 5rb 9as 1st 1to 7-16fg 19-23ft
+SG/SF,"Johnson, Joe",44.25,"$4,800",UTAH JAZZ,v lac, 105-98,34:36,   28pt 5rb 5as 1st 1to 2trey 12-17fg 2-2ft
+SF/PF,"George, Paul^",42.25,"$10,300",INDIANA PACERS,v cle, 102-106,43:55,   15pt 7rb 6as 4st 1bl 4to 3trey 5-21fg 2-3ft
+SG/SF,"Ingles, Joe^",38,"$4,500",UTAH JAZZ,v lac, 105-98,37:55,   8pt 6rb 11as 2st 1bl 2to 2trey 3-6fg
+SG/SF,"Stephenson, Lance",35,"$5,200",INDIANA PACERS,v cle, 102-106,30:11,   22pt 6rb 3as 2to 4trey 9-15fg 0-1ft
+PF,"Young, Thaddeus^",33.5,"$5,700",INDIANA PACERS,v cle, 102-106,33:56,   13pt 10rb 2as 2st 1to 6-14fg 1-2ft
+SF/PF,"Ariza, Trevor^",31.75,"$4,800",HOUSTON ROCKETS,@ okc, 113-109,42:46,   14pt 5rb 3as 3st 1to 3trey 4-8fg 3-3ft
+SF,"Roberson, Andre^",31,"$5,400",OKLAHOMA CITY THUNDER,v hou, 109-113,37:32,   13pt 4rb 2st 5bl 3to 1trey 5-9fg 2-12ft
+PF,"Mirotic, Nikola^",25.75,"$5,100",CHICAGO BULLS,v bos, 95-104,34:14,   13pt 7rb 1as 1st 1to 2trey 4-11fg 3-3ft
+PF,"Portis, Bobby",21,"$3,900",CHICAGO BULLS,v bos, 95-104,22:43,   8pt 8rb 1as 1bl 1to 4-7fg
+SF,"Crowder, Jae^",19,"$5,300",BOSTON CELTICS,@ chi, 104-95,40:00,   11pt 2rb 1as 2st 1to 1trey 5-9fg
+SF,"Mbah a Moute, Luc^",18.25,"$3,700",LOS ANGELES CLIPPERS,@ uta, 98-105,33:42,   5pt 5rb 1as 3st 1to 1-8fg 3-4ft
+PF,"Anderson, Ryan^",13.75,"$4,400",HOUSTON ROCKETS,@ okc, 113-109,19:50,   9pt 3rb 1st 3to 1trey 2-5fg 4-4ft
+SF/PF,"Grant, Jerami",13.25,"$3,800",OKLAHOMA CITY THUNDER,v hou, 109-113,14:22,   10pt 3rb 1to 5-5fg
+PF,"Gibson, Taj^",11,"$3,900",OKLAHOMA CITY THUNDER,v hou, 109-113,22:18,   6pt 2rb 1as 1st 2to 2-5fg 2-2ft
+PF,"Jerebko, Jonas",10.75,"$2,000",BOSTON CELTICS,@ chi, 104-95,9:50,   2pt 3rb 2as 1bl 0-3fg 2-2ft
+SF,"McDermott, Doug",10.25,"$2,700",OKLAHOMA CITY THUNDER,v hou, 109-113,19:07,   5pt 1rb 1st 1bl 1to 1trey 2-6fg
+SG/SF,"Abrines, Alex",9.5,"$2,200",OKLAHOMA CITY THUNDER,v hou, 109-113,15:29,   5pt 2rb 1as 1trey 2-4fg
+SG/SF,"Korver, Kyle",8.75,"$3,100",CLEVELAND CAVALIERS,@ ind, 106-102,18:09,   5pt 3rb 1to 1trey 1-5fg 2-2ft
+SF,"Robinson III, Glenn",6,"$2,200",INDIANA PACERS,v cle, 102-106,13:08,   6pt 3-3fg
+SF/PF,"Hayward, Gordon^",5.5,"$7,700",UTAH JAZZ,v lac, 105-98,9:12,   3pt 2rb 1to 1trey 1-3fg
+PF,"Diaw, Boris^",5,"$3,600",UTAH JAZZ,v lac, 105-98,10:25,   0pt 2rb 1as 1st 2to 0-4fg
+SG/SF,"Zipser, Paul",3.25,"$3,500",CHICAGO BULLS,v bos, 95-104,13:41,   0pt 3rb 1to 0-2fg
+SF/PF,"Pierce, Paul",1.25,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-105,12:07,   0pt 1rb 0-1fg
+SF,"Johnson, Wesley",1,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-105,3:51,   1pt 1-2ft
+PF,"Allen, Lavoy",0,"$2,000",INDIANA PACERS,v cle, 102-106,1:20,   0pt
+SG/SF,"Brown, Jaylen",0,"$2,300",BOSTON CELTICS,@ chi, 104-95,00:59,   0pt
+SF,"Singler, Kyle",0,"$2,000",OKLAHOMA CITY THUNDER,v hou, 109-113,DNP,   
+SF,"Williams, Troy",0,"$2,500",HOUSTON ROCKETS,@ okc, 113-109,DNP,   
+SF/PF,"Dekker, Sam",0,"$2,900",HOUSTON ROCKETS,@ okc, 113-109,DNP,   
+SG/SF,"Valentine, Denzel",0,"$2,200",CHICAGO BULLS,v bos, 95-104,DNP,   
+PF,"Johnson, Brice",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-105,DNP,   
+SF/PF,"Jefferson, Richard",0,"$2,500",CLEVELAND CAVALIERS,@ ind, 106-102,DNP,   
+PF,"Bolomboy, Joel",0,"$2,000",UTAH JAZZ,v lac, 105-98,DNP,   
+SF,"Williams, Derrick",0,"$2,300",CLEVELAND CAVALIERS,@ ind, 106-102,DNP,   
+PF,"Lyles, Trey",0,"$2,000",UTAH JAZZ,v lac, 105-98,DNP,   
+PF,"Bass, Brandon",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-105,DNP,   
+PF,"Johnson, Amir",0,"$2,900",BOSTON CELTICS,@ chi, 104-95,DNP,   
+PF,"Christmas, Rakeem",0,"$2,000",INDIANA PACERS,v cle, 102-106,DNP,   
+SF,"Huestis, Josh",0,"$2,000",OKLAHOMA CITY THUNDER,v hou, 109-113,NA,   
+PF,"Mickey, Jordan",0,"$2,000",BOSTON CELTICS,@ chi, 104-95,NA,   
+PF,"Wiltjer, Kyle",0,"$2,000",HOUSTON ROCKETS,@ okc, 113-109,NA,   
+PF,"Niang, Georges",0,"$2,000",INDIANA PACERS,v cle, 102-106,NA,   
+C,"Hilario, Nene",45,"$4,100",HOUSTON ROCKETS,@ okc, 113-109,25:26,   28pt 10rb 1as 1st 1to 12-12fg 4-7ft
+C,"Horford, Al^",42,"$6,700",BOSTON CELTICS,@ chi, 104-95,36:29,   15pt 12rb 4as 1st 1bl 1trey 6-11fg 2-2ft
+C,"Gobert, Rudy^",37.25,"$7,800",UTAH JAZZ,v lac, 105-98,23:50,   15pt 13rb 1as 2bl 2to 6-6fg 3-4ft
+C,"Adams, Steven^",36.75,"$4,600",OKLAHOMA CITY THUNDER,v hou, 109-113,36:54,   18pt 7rb 2as 1st 3bl 2to 8-10fg 2-5ft
+PF/C,"Love, Kevin^",30,"$7,500",CLEVELAND CAVALIERS,@ ind, 106-102,34:57,   5pt 16rb 3as 1bl 4to 1trey 2-13fg
+PF/C,"Favors, Derrick",30,"$5,600",UTAH JAZZ,v lac, 105-98,24:12,   17pt 6rb 1as 2st 7-10fg 3-6ft
+C,"Turner, Myles^",29.75,"$5,600",INDIANA PACERS,v cle, 102-106,33:13,   20pt 9rb 3to 8-10fg 4-6ft
+C,"Jordan, DeAndre^",27.5,"$7,900",LOS ANGELES CLIPPERS,@ uta, 98-105,36:54,   12pt 10rb 1as 5-8fg 2-6ft
+C,"Thompson, Tristan^",22.75,"$4,700",CLEVELAND CAVALIERS,@ ind, 106-102,34:07,   6pt 11rb 1as 1st 1to 2-6fg 2-2ft
+PF/C,"Olynyk, Kelly",18.25,"$4,800",BOSTON CELTICS,@ chi, 104-95,15:46,   10pt 3rb 1st 1bl 1trey 4-4fg 1-3ft
+C,"Lopez, Robin^",17.75,"$5,300",CHICAGO BULLS,v bos, 95-104,21:45,   8pt 7rb 1bl 2to 4-8fg
+PF/C,"Frye, Channing",13.75,"$3,700",CLEVELAND CAVALIERS,@ ind, 106-102,12:44,   7pt 1rb 2as 1bl 1trey 2-4fg 2-2ft
+PF/C,"Speights, Marreese^",12,"$3,900",LOS ANGELES CLIPPERS,@ uta, 98-105,20:36,   5pt 4rb 1as 1trey 2-8fg
+C,"Lauvergne, Joffrey",10.75,"$2,000",CHICAGO BULLS,v bos, 95-104,6:55,   6pt 3rb 1as 1to 3-6fg
+C,"Capela, Clint^",10.75,"$5,000",HOUSTON ROCKETS,@ okc, 113-109,17:37,   4pt 5rb 1as 2to 2-5fg
+C,"Seraphin, Kevin",8.5,"$2,800",INDIANA PACERS,v cle, 102-106,14:47,   4pt 2rb 1bl 2-6fg
+C,"Felicio, Cristiano",6.25,"$2,400",CHICAGO BULLS,v bos, 95-104,10:19,   3pt 3rb 1to 1-1fg 1-2ft
+C,"Kanter, Enes",6,"$3,800",OKLAHOMA CITY THUNDER,v hou, 109-113,7:32,   2pt 2rb 1bl 1to 1-5fg
+PF/C,"Sabonis, Domantas",0,"$2,100",OKLAHOMA CITY THUNDER,v hou, 109-113,DNP,   
+C,"Collison, Nick",0,"$2,000",OKLAHOMA CITY THUNDER,v hou, 109-113,DNP,   
+C,"Harrell, Montrezl",0,"$2,600",HOUSTON ROCKETS,@ okc, 113-109,DNP,   
+C,"Jefferson, Al",0,"$2,300",INDIANA PACERS,v cle, 102-106,DNP,   
+C,"Zeller, Tyler",0,"$2,000",BOSTON CELTICS,@ chi, 104-95,DNP,   
+C,"Stone, Diamond",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-105,DNP,   
+C,"Withey, Jeff",0,"$2,400",UTAH JAZZ,v lac, 105-98,NA,   
+PF/C,"Griffin, Blake",0,"$7,600",LOS ANGELES CLIPPERS,@ uta, 98-105,NA,   
+C,"Onuaku, Chinanu",0,"$2,000",HOUSTON ROCKETS,@ okc, 113-109,NA,   
+C,"Tavares, Walter",0,"$2,000",CLEVELAND CAVALIERS,@ ind, 106-102,NA,   

@@ -22,7 +22,7 @@ playerAnalysis$predictions <- predict(model$OLS)
 playerAnalysis$residuals <- playerAnalysis$predictions - playerAnalysis$fantasy_points
 
 plotParameters <- list(
-  PlayerName = "Draymond Green",
+  PlayerName = "DeMarcus Cousins",
   Season = 2016:2019,
   Location = "AWAY"
 )

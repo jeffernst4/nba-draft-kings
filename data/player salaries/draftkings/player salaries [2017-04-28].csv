@@ -1,0 +1,91 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Wall, John^",64.25,"$10,600",WASHINGTON WIZARDS,@ atl, 115-99,43:56,   42pt 1rb 8as 4st 2bl 7to 1trey 16-25fg 9-10ft
+PG,"Schroder, Dennis^",48.25,"$8,000",ATLANTA HAWKS,v was, 99-115,40:10,   26pt 1rb 10as 2st 2to 3trey 8-18fg 7-8ft
+PG,"Paul, Chris^",47.75,"$10,300",LOS ANGELES CLIPPERS,@ uta, 98-93,37:53,   29pt 3rb 8as 2st 4to 2trey 10-20fg 7-8ft
+SG,"Beal, Bradley^",46.75,"$7,800",WASHINGTON WIZARDS,@ atl, 115-99,34:19,   31pt 3rb 3as 3st 1bl 3to 2trey 11-17fg 7-8ft
+PG,"Hill, George^",35.25,"$5,700",UTAH JAZZ,v lac, 93-98,31:30,   22pt 5rb 3as 1bl 1trey 8-13fg 5-9ft
+SG,"Bradley, Avery^",35.25,"$5,900",BOSTON CELTICS,@ chi, 105-83,30:31,   23pt 5rb 3as 3trey 9-12fg 2-4ft
+PG,"Thomas, Isaiah^",29.25,"$8,800",BOSTON CELTICS,@ chi, 105-83,25:40,   12pt 5rb 6as 1st 1to 1trey 4-11fg 3-4ft
+PG/SG,"Smart, Marcus",22.5,"$5,300",BOSTON CELTICS,@ chi, 105-83,24:44,   6pt 4rb 2as 3st 1bl 1to 2trey 2-6fg
+PG/SG,"Rivers, Austin^",22.5,"$3,200",LOS ANGELES CLIPPERS,@ uta, 98-93,34:34,   13pt 4rb 1as 1bl 1to 3trey 5-10fg
+PG,"Rozier, Terry",19.5,"$2,300",BOSTON CELTICS,@ chi, 105-83,22:20,   9pt 2rb 2as 1st 1bl 2trey 2-4fg 3-4ft
+SG,"Hardaway Jr., Tim^",19.25,"$4,500",ATLANTA HAWKS,v was, 99-115,40:10,   13pt 3rb 1as 2trey 5-18fg 1-2ft
+SG,"Crawford, Jamal",19.25,"$4,000",LOS ANGELES CLIPPERS,@ uta, 98-93,29:03,   12pt 1rb 3as 1st 1to 5-12fg 2-2ft
+PG,"Calderon, Jose",13.25,"$2,500",ATLANTA HAWKS,v was, 99-115,15:40,   6pt 1rb 2as 1bl 2trey 2-4fg
+SG,"Wade, Dwyane^",12.25,"$7,200",CHICAGO BULLS,v bos, 83-105,19:12,   2pt 3rb 3as 1st 1-10fg
+PG,"Canaan, Isaiah^",10.5,"$4,300",CHICAGO BULLS,v bos, 83-105,25:03,   9pt 1as 1to 1trey 3-5fg 2-2ft
+PG,"Carter-Williams, Michael",10.5,"$2,400",CHICAGO BULLS,v bos, 83-105,13:30,   8pt 2as 1to 3-6fg 2-4ft
+PG/SF,"Felton, Raymond",8.75,"$2,700",LOS ANGELES CLIPPERS,@ uta, 98-93,19:33,   2pt 3rb 1as 1st 1to 1-4fg
+SG,"Hood, Rodney",7.25,"$4,100",UTAH JAZZ,v lac, 93-98,24:26,   4pt 3rb 1to 2-10fg
+SG,"Redick, J.J.^",6.75,"$4,500",LOS ANGELES CLIPPERS,@ uta, 98-93,20:31,   4pt 1rb 1as 1to 1trey 1-4fg 1-1ft
+PG,"Neto, Raul",5.5,"$2,000",UTAH JAZZ,v lac, 93-98,13:34,   5pt 1trey 2-4fg
+PG,"Grant, Jerian",4.75,"$2,700",CHICAGO BULLS,v bos, 83-105,5:09,   4pt 1rb 1to 2-3fg
+PG,"Jennings, Brandon",2.5,"$2,800",WASHINGTON WIZARDS,@ atl, 115-99,16:14,   0pt 2as 1to 0-2fg
+SG,"Morrow, Anthony",1.25,"$2,100",CHICAGO BULLS,v bos, 83-105,7:54,   0pt 1rb 0-2fg
+SG,"Dunleavy, Mike",0,"$2,000",ATLANTA HAWKS,v was, 99-115,1:11,   0pt
+PG,"Satoransky, Tomas",0,"$2,000",WASHINGTON WIZARDS,@ atl, 115-99,00:54,   0pt
+SG,"McClellan, Sheldon",0,"$2,000",WASHINGTON WIZARDS,@ atl, 115-99,00:38,   0pt
+SG,"Young, James",0,"$2,000",BOSTON CELTICS,@ chi, 105-83,3:49,   0pt 0-1fg
+PG,"Delaney, Malcolm",0,"$2,000",ATLANTA HAWKS,v was, 99-115,DNP,   
+PG,"Exum, Dante",0,"$2,000",UTAH JAZZ,v lac, 93-98,DNP,   
+PG,"Mack, Shelvin",0,"$2,000",UTAH JAZZ,v lac, 93-98,DNP,   
+SG,"Anderson, Alan",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-93,DNP,   
+PG,"Burke, Trey",0,"$2,300",WASHINGTON WIZARDS,@ atl, 115-99,DNP,   
+PG,"Payne, Cameron",0,"$2,000",CHICAGO BULLS,v bos, 83-105,NA,   
+PG,"Jackson, Demetrius",0,"$2,000",BOSTON CELTICS,@ chi, 105-83,NA,   
+SG,"Burks, Alec",0,"$2,000",UTAH JAZZ,v lac, 93-98,NA,   
+PG,"Rondo, Rajon",0,"$6,800",CHICAGO BULLS,v bos, 83-105,NA,   
+SF/PF,"Hayward, Gordon^",50.25,"$7,900",UTAH JAZZ,v lac, 93-98,42:08,   31pt 7rb 4as 2st 2to 3trey 9-20fg 10-11ft
+PF,"Morris, Markieff^",37,"$5,100",WASHINGTON WIZARDS,@ atl, 115-99,39:56,   17pt 8rb 1as 1st 3bl 1to 2trey 7-14fg 1-3ft
+SG/SF,"Butler, Jimmy^",36.25,"$9,800",CHICAGO BULLS,v bos, 83-105,31:23,   23pt 7rb 3st 3to 9-17fg 5-5ft
+SF/PF,"Porter, Otto^",27,"$5,500",WASHINGTON WIZARDS,@ atl, 115-99,27:51,   8pt 8rb 3as 2st 1to 2trey 3-5fg
+SF,"Mbah a Moute, Luc^",24.5,"$4,200",LOS ANGELES CLIPPERS,@ uta, 98-93,28:43,   13pt 6rb 1as 1st 1trey 5-8fg 2-4ft
+PF,"Portis, Bobby",23.75,"$3,700",CHICAGO BULLS,v bos, 83-105,29:58,   5pt 11rb 2as 1st 1to 1trey 2-7fg
+SF,"Green, Gerald^",23.5,"$3,500",BOSTON CELTICS,@ chi, 105-83,27:23,   16pt 2rb 3as 2to 3trey 6-13fg 1-1ft
+SF/PF,"Crowder, Jae^",22.75,"$5,600",BOSTON CELTICS,@ chi, 105-83,27:53,   12pt 5rb 1as 1st 1to 3trey 4-8fg 1-2ft
+SG/SF,"Bazemore, Kent",20,"$4,600",ATLANTA HAWKS,v was, 99-115,29:46,   9pt 6rb 3as 1bl 7to 1trey 4-6fg
+SG/SF,"Oubre, Kelly",18.25,"$2,900",WASHINGTON WIZARDS,@ atl, 115-99,20:57,   5pt 1rb 1as 5st 1trey 1-4fg 2-2ft
+PF,"Jerebko, Jonas",17.5,"$2,100",BOSTON CELTICS,@ chi, 105-83,19:02,   3pt 4rb 4as 1st 1bl 2to 1trey 1-4fg
+SG/SF,"Bogdanovic, Bojan",17,"$3,800",WASHINGTON WIZARDS,@ atl, 115-99,24:55,   10pt 2rb 1st 1bl 1to 2trey 3-6fg 2-2ft
+SF,"Prince, Taurean^",16.25,"$4,700",ATLANTA HAWKS,v was, 99-115,32:50,   4pt 5rb 2as 1st 1bl 2to 2-5fg
+SG/SF,"Johnson, Joe",16.25,"$5,600",UTAH JAZZ,v lac, 93-98,33:45,   9pt 3rb 3as 3to 1trey 3-9fg 2-3ft
+SG/SF,"Zipser, Paul",15.25,"$2,800",CHICAGO BULLS,v bos, 83-105,28:16,   7pt 5rb 1as 1trey 3-9fg
+SG/SF,"Ingles, Joe^",11,"$4,600",UTAH JAZZ,v lac, 93-98,32:22,   0pt 2rb 3as 2st 0-4fg
+SF,"Valentine, Denzel",10,"$2,000",CHICAGO BULLS,v bos, 83-105,15:43,   2pt 4rb 1as 1bl 1to 1-5fg
+PF,"Mirotic, Nikola^",9.5,"$5,400",CHICAGO BULLS,v bos, 83-105,19:55,   5pt 2rb 1as 1trey 2-4fg
+SF/PF,"Pierce, Paul",8.25,"$2,100",LOS ANGELES CLIPPERS,@ uta, 98-93,21:43,   3pt 3rb 1as 1to 1trey 1-3fg
+SG/SF,"Brown, Jaylen",8,"$2,000",BOSTON CELTICS,@ chi, 105-83,7:28,   6pt 2rb 1to 3-7fg 0-1ft
+PF,"Ilyasova, Ersan",2.25,"$3,300",ATLANTA HAWKS,v was, 99-115,5:02,   1pt 1rb 1-2ft
+PF,"Humphries, Kris",0,"$2,200",ATLANTA HAWKS,v was, 99-115,DNP,   
+PF,"Johnson, Brice",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-93,DNP,   
+PF,"Lyles, Trey",0,"$2,000",UTAH JAZZ,v lac, 93-98,DNP,   
+SF,"Johnson, Wesley",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-93,DNP,   0pt
+PF,"Bass, Brandon",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-93,DNP,   
+PF,"Johnson, Amir",0,"$2,400",BOSTON CELTICS,@ chi, 105-83,DNP,   
+SF,"Sefolosha, Thabo",0,"$2,300",ATLANTA HAWKS,v was, 99-115,DNP,   
+PF,"McCullough, Chris",0,"$2,000",WASHINGTON WIZARDS,@ atl, 115-99,NA,   
+PF,"Bolomboy, Joel",0,"$2,000",UTAH JAZZ,v lac, 93-98,NA,   
+PF,"Mickey, Jordan",0,"$2,000",BOSTON CELTICS,@ chi, 105-83,NA,   
+SF,"Kelly, Ryan",0,"$2,000",ATLANTA HAWKS,v was, 99-115,NA,   
+SF,"Bembry, DeAndre",0,"$2,000",ATLANTA HAWKS,v was, 99-115,NA,   
+PF/C,"Millsap, Paul^",63,"$8,400",ATLANTA HAWKS,v was, 99-115,46:11,   31pt 10rb 7as 4st 1bl 6to 1trey 13-23fg 4-4ft
+C,"Gobert, Rudy^",38.75,"$7,700",UTAH JAZZ,v lac, 93-98,33:27,   15pt 9rb 2as 2st 3bl 1to 5-10fg 5-10ft
+C,"Jordan, DeAndre^",35,"$7,500",LOS ANGELES CLIPPERS,@ uta, 98-93,38:20,   13pt 18rb 1as 7to 5-8fg 3-11ft
+C,"Horford, Al^",30.5,"$7,400",BOSTON CELTICS,@ chi, 105-83,26:57,   12pt 6rb 7as 1trey 5-5fg 1-2ft
+C,"Howard, Dwight^",20.75,"$6,300",ATLANTA HAWKS,v was, 99-115,22:31,   9pt 7rb 1as 2st 5to 3-4fg 3-3ft
+PF/C,"Favors, Derrick",19.75,"$4,900",UTAH JAZZ,v lac, 93-98,14:33,   2pt 7rb 2as 2st 1bl 1-6fg
+PF/C,"Olynyk, Kelly",17,"$4,400",BOSTON CELTICS,@ chi, 105-83,19:04,   6pt 6rb 2bl 1to 3-8fg
+C,"Lauvergne, Joffrey",16.75,"$2,000",CHICAGO BULLS,v bos, 83-105,15:03,   8pt 5rb 2as 1to 1-4fg 6-6ft
+C,"Lopez, Robin^",16.75,"$5,200",CHICAGO BULLS,v bos, 83-105,24:15,   10pt 5rb 1bl 3to 5-9fg
+C,"Gortat, Marcin^",14.25,"$5,800",WASHINGTON WIZARDS,@ atl, 115-99,18:23,   2pt 7rb 3as 2to 1-4fg
+PF/C,"Speights, Marreese",14,"$3,900",LOS ANGELES CLIPPERS,@ uta, 98-93,9:40,   9pt 2rb 1bl 1trey 4-6fg
+PF/C,"Diaw, Boris^",9.5,"$2,800",UTAH JAZZ,v lac, 93-98,14:15,   5pt 2rb 1as 1trey 2-2fg
+PF/C,"Smith, Jason",2.5,"$3,000",WASHINGTON WIZARDS,@ atl, 115-99,11:20,   0pt 2rb 0-1fg
+C,"Zeller, Tyler",2.5,"$2,000",BOSTON CELTICS,@ chi, 105-83,5:09,   0pt 2rb 0-1fg
+PF/C,"Muscala, Mike",1.25,"$2,600",ATLANTA HAWKS,v was, 99-115,6:30,   0pt 1rb
+C,"Ochefu, Daniel",1.25,"$2,000",WASHINGTON WIZARDS,@ atl, 115-99,00:38,   0pt 1rb
+C,"Felicio, Cristiano",0.75,"$2,600",CHICAGO BULLS,v bos, 83-105,4:39,   0pt 1rb 1to
+C,"Withey, Jeff",0,"$2,000",UTAH JAZZ,v lac, 93-98,DNP,   
+PF/C,"Griffin, Blake",0,"$7,000",LOS ANGELES CLIPPERS,@ uta, 98-93,NA,   
+C,"Mahinmi, Ian",0,"$2,600",WASHINGTON WIZARDS,@ atl, 115-99,NA,   
+C,"Stone, Diamond",0,"$2,000",LOS ANGELES CLIPPERS,@ uta, 98-93,NA,   

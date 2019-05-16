@@ -1,0 +1,99 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Smith Jr., Dennis^",52,"$6,800",NEW YORK KNICKS,v sas, 130-118,29:44,   19pt 6rb 13as 2st 1trey 8-17fg 2-3ft
+PG,"Lowry, Kyle^",47,"$7,300",TORONTO RAPTORS,v orl, 98-113,35:44,   19pt 4rb 10as 4st 5to 2trey 6-13fg 5-5ft
+PG,"Augustin, D.J.^",31.75,"$4,300",ORLANDO MAGIC,@ tor, 113-98,27:00,   12pt 5rb 8as 1st 3to 2trey 5-6fg 0-2ft
+PG/SG,"Murray, Jamal^",31.5,"$6,300",DENVER NUGGETS,v lac, 123-96,24:26,   16pt 4rb 6as 1st 3to 2trey 6-12fg 2-3ft
+PG/SG,"Williams, Louis",30.5,"$7,000",LOS ANGELES CLIPPERS,@ den, 96-123,24:06,   24pt 2rb 2as 1st 3to 1trey 6-15fg 11-11ft
+PG/SG,"Forbes, Bryn^",28,"$4,000",SAN ANTONIO SPURS,@ nyk, 118-130,27:49,   15pt 6rb 3as 2trey 4-12fg 5-5ft
+PG,"Morris, Monte",26.75,"$4,100",DENVER NUGGETS,v lac, 123-96,22:16,   12pt 1rb 5as 2st 1bl 2to 2trey 5-8fg
+PG,"Grant, Jerian",25.75,"$3,100",ORLANDO MAGIC,@ tor, 113-98,21:00,   7pt 3rb 7as 1st 1bl 1trey 3-5fg
+SG,"Harris, Gary",22,"$4,900",DENVER NUGGETS,v lac, 123-96,21:49,   14pt 2rb 2as 1st 1to 2trey 4-8fg 4-6ft
+PG,"Mudiay, Emmanuel",20.5,"$5,400",NEW YORK KNICKS,v sas, 130-118,19:04,   19pt 1as 3to 3trey 8-10fg
+PG/SG,"Beverley, Patrick^",19.5,"$4,500",LOS ANGELES CLIPPERS,@ den, 96-123,25:33,   2pt 6rb 4as 2bl 0-1fg 2-2ft
+PG/SG,"Mills, Patty",17.75,"$4,000",SAN ANTONIO SPURS,@ nyk, 118-130,32:41,   8pt 3rb 4as 2to 2trey 2-14fg 2-2ft
+PG,"Thomas, Isaiah",17.25,"$3,800",DENVER NUGGETS,v lac, 123-96,23:45,   10pt 1rb 4as 1bl 4to 3-11fg 4-4ft
+PG/SF,"McCaw, Patrick",14.5,"$3,400",TORONTO RAPTORS,v orl, 98-113,15:10,   8pt 2rb 1as 1st 1trey 3-5fg 1-1ft
+PG/SG,"Trier, Allonzo",14.25,"$3,700",NEW YORK KNICKS,v sas, 130-118,28:24,   9pt 3rb 1as 3-10fg 3-3ft
+PG/SG,"Lin, Jeremy",14.25,"$4,400",TORONTO RAPTORS,v orl, 98-113,18:26,   6pt 1rb 5as 1to 2-8fg 2-4ft
+SG,"Meeks, Jodie",13.5,"$3,000",TORONTO RAPTORS,v orl, 98-113,16:45,   10pt 2rb 2trey 4-9fg
+PG/SG,"Beasley, Malik^",13,"$4,700",DENVER NUGGETS,v lac, 123-96,24:31,   8pt 2rb 1as 2trey 3-4fg
+PG/SG,"Gilgeous-Alexander, Shai^",12.25,"$4,000",LOS ANGELES CLIPPERS,@ den, 96-123,29:49,   1pt 1rb 4as 2st 1bl 4to 0-9fg 1-2ft
+PG/SG,"Jenkins, John",6.25,"$3,100",NEW YORK KNICKS,v sas, 130-118,11:24,   3pt 1rb 1as 1trey 1-2fg
+SG,"Robinson, Jerome",4,"$3,200",LOS ANGELES CLIPPERS,@ den, 96-123,4:52,   2pt 2rb 1to 1-6fg
+PG/SG,"Wallace, Tyrone",2,"$3,200",LOS ANGELES CLIPPERS,@ den, 96-123,8:01,   2pt 1-2fg
+PG/SG,"White, Derrick",0,"$4,800",SAN ANTONIO SPURS,@ nyk, 118-130,DNP,   
+PG/SG,"Walker, Lonnie",0,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,NA,   
+PG/SF,"Ntilikina, Frank",0,"$3,800",NEW YORK KNICKS,v sas, 130-118,NA,   
+PG,"Murray, Dejounte",0,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,NA,   
+PG/SG,"Goodwin, Brandon",0,"$3,000",DENVER NUGGETS,v lac, 123-96,NA,   
+PG/SG,"VanVleet, Fred",0,"$4,500",TORONTO RAPTORS,v orl, 98-113,NA,   
+PG/SG,"Allen, Kadeem",0,"$4,400",NEW YORK KNICKS,v sas, 130-118,NA,   
+PG/SG,"Fultz, Markelle",0,"$3,000",ORLANDO MAGIC,@ tor, 113-98,NA,   
+PG/SG,"Briscoe, Isaiah",0,"$3,600",ORLANDO MAGIC,@ tor, 113-98,NA,   
+PG/SG,"Loyd, Jordan",0,"$3,000",TORONTO RAPTORS,v orl, 98-113,NA,   
+SG,"Caupain, Troy",0,"$3,000",ORLANDO MAGIC,@ tor, 113-98,NA,   
+SG/SF,"DeRozan, DeMar^",53.25,"$8,100",SAN ANTONIO SPURS,@ nyk, 118-130,32:17,   32pt 9rb 4as 1st 1bl 12-22fg 8-10ft
+SG/SF,"Dotson, Damyean^",42.25,"$4,200",NEW YORK KNICKS,v sas, 130-118,36:36,   27pt 5rb 2as 1st 8trey 9-17fg 1-2ft
+SG/SF,"Ross, Terrence",41.25,"$5,300",ORLANDO MAGIC,@ tor, 113-98,29:51,   28pt 9rb 1as 2to 3trey 9-21fg 7-7ft
+SF/PF,"Knox, Kevin^",37.5,"$5,200",NEW YORK KNICKS,v sas, 130-118,32:53,   19pt 10rb 2as 1bl 2to 1trey 8-18fg 2-3ft
+SF/PF,"Isaac, Jonathan^",28.5,"$6,000",ORLANDO MAGIC,@ tor, 113-98,30:44,   16pt 6rb 2bl 1to 3trey 5-11fg 3-4ft
+SF/PF,"Thomas, Lance^",27.25,"$3,000",NEW YORK KNICKS,v sas, 130-118,30:22,   16pt 7rb 1as 2trey 7-13fg
+SF/PF,"Green, JaMychal",26.75,"$3,400",LOS ANGELES CLIPPERS,@ den, 96-123,22:27,   13pt 9rb 1as 1bl 3to 1trey 4-9fg 4-6ft
+SF/PF,"Gallinari, Danilo^",26.5,"$6,700",LOS ANGELES CLIPPERS,@ den, 96-123,24:34,   19pt 4rb 1as 1st 2to 6-13fg 7-7ft
+SF/PF,"Gordon, Aaron^",23.75,"$6,500",ORLANDO MAGIC,@ tor, 113-98,29:53,   7pt 7rb 6as 2to 2-11fg 3-4ft
+SG/SF,"Green, Danny^",23.5,"$4,100",TORONTO RAPTORS,v orl, 98-113,27:17,   10pt 6rb 4as 2to 2trey 4-9fg
+SF/PF,"Gay, Rudy^",21.75,"$5,700",SAN ANTONIO SPURS,@ nyk, 118-130,25:48,   10pt 5rb 2as 1st 1trey 4-10fg 1-1ft
+SG/SF,"Fournier, Evan^",17.75,"$5,800",ORLANDO MAGIC,@ tor, 113-98,31:13,   11pt 3rb 1as 1bl 3to 2trey 4-11fg 1-1ft
+SG/SF,"Shamet, Landry^",15.5,"$4,200",LOS ANGELES CLIPPERS,@ den, 96-123,28:31,   8pt 1as 3st 1to 1trey 3-6fg 1-1ft
+SF/PF,"Anunoby, OG^",14.5,"$3,400",TORONTO RAPTORS,v orl, 98-113,24:23,   5pt 6rb 1st 1to 1trey 2-6fg
+SG/SF,"Iwundu, Wes",14.25,"$3,300",ORLANDO MAGIC,@ tor, 113-98,22:19,   5pt 3rb 1as 2bl 2-5fg 1-2ft
+SF,"Pondexter, Quincy",12.25,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,10:15,   7pt 3rb 1as 2-3fg 3-3ft
+SF/PF,"Bertans, Davis^",11,"$3,700",SAN ANTONIO SPURS,@ nyk, 118-130,23:50,   4pt 4rb 1bl 1-4fg 2-2ft
+SG/SF,"Temple, Garrett",10,"$3,400",LOS ANGELES CLIPPERS,@ den, 96-123,23:08,   4pt 2rb 1as 1st 1-4fg 2-2ft
+SG/SF,"Belinelli, Marco",9.25,"$3,800",SAN ANTONIO SPURS,@ nyk, 118-130,24:19,   8pt 1rb 1to 1trey 2-5fg 3-3ft
+SG/SF,"Barton, Will^",9.25,"$5,100",DENVER NUGGETS,v lac, 123-96,24:26,   3pt 3rb 2as 2to 1trey 1-6fg
+SF/PF,"Cunningham, Dante",8.5,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,15:01,   4pt 2rb 1st 2-3fg
+SG/SF,"Craig, Torrey",8.25,"$3,200",DENVER NUGGETS,v lac, 123-96,7:47,   5pt 1rb 1st 2-3fg 1-1ft
+SF/PF,"Hernangomez, Juan",5.75,"$3,000",DENVER NUGGETS,v lac, 123-96,12:14,   1pt 3rb 1as 1to 1-3ft
+SG/SF,"Powell, Norman",2.5,"$3,900",TORONTO RAPTORS,v orl, 98-113,15:10,   0pt 2as 1to 0-3fg
+SF/PF,"Vanderbilt, Jarred",2,"$3,000",DENVER NUGGETS,v lac, 123-96,2:43,   2pt 1-1fg 0-2ft
+PF,"Lydon, Tyler",1.25,"$3,000",DENVER NUGGETS,v lac, 123-96,1:18,   0pt 1rb
+SG/SF,"Thornwell, Sindarius",0,"$3,100",LOS ANGELES CLIPPERS,@ den, 96-123,4:52,   0pt 0-2fg
+SF/PF,"Hezonja, Mario",0,"$3,500",NEW YORK KNICKS,v sas, 130-118,DNP,   
+SG/SF,"Frazier, Melvin",0,"$3,000",ORLANDO MAGIC,@ tor, 113-98,NA,   
+SF/PF,"Mbah a Moute, Luc",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 96-123,NA,   
+PF,"Moore, Ben",0,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,NA,   
+SF/PF,"Leonard, Kawhi",0,"$9,500",TORONTO RAPTORS,v orl, 98-113,NA,   
+SF/PF,"Porter, Michael",0,"$3,000",DENVER NUGGETS,v lac, 123-96,NA,   
+SF/PF,"Lyles, Trey",0,"$3,700",DENVER NUGGETS,v lac, 123-96,NA,   
+SF/PF,"Chandler, Wilson",0,"$3,700",LOS ANGELES CLIPPERS,@ den, 96-123,NA,   
+PF,"Miller, Malcolm",0,"$3,000",TORONTO RAPTORS,v orl, 98-113,NA,   
+PF/C,"Millsap, Paul^",55.5,"$6,100",DENVER NUGGETS,v lac, 123-96,31:38,   21pt 16rb 2as 3st 2bl 2to 2trey 8-13fg 3-6ft
+C,"Jokic, Nikola^",53,"$10,200",DENVER NUGGETS,v lac, 123-96,27:42,   22pt 16rb 3as 3st 1bl 6to 9-16fg 4-6ft
+C,"Vucevic, Nikola^",53,"$9,700",ORLANDO MAGIC,@ tor, 113-98,30:38,   23pt 12rb 4as 2st 1bl 3trey 10-17fg
+C,"Robinson, Mitchell",45,"$4,600",NEW YORK KNICKS,v sas, 130-118,30:03,   15pt 14rb 1as 5bl 1to 5-7fg 5-7ft
+PF/C,"Siakam, Pascal^",34.75,"$7,100",TORONTO RAPTORS,v orl, 98-113,36:44,   10pt 11rb 3as 2bl 2trey 3-10fg 2-2ft
+C,"Gasol, Marc^",29.75,"$5,600",TORONTO RAPTORS,v orl, 98-113,23:33,   16pt 5rb 5as 1to 1trey 7-13fg 1-2ft
+PF/C,"Aldridge, LaMarcus^",26.25,"$7,500",SAN ANTONIO SPURS,@ nyk, 118-130,21:10,   18pt 3rb 1as 2bl 2to 7-12fg 4-4ft
+C,"Poeltl, Jakob",25.75,"$3,700",SAN ANTONIO SPURS,@ nyk, 118-130,19:42,   12pt 9rb 2as 1to 6-7fg 0-1ft
+PF/C,"Plumlee, Mason",24.5,"$5,000",DENVER NUGGETS,v lac, 123-96,15:25,   9pt 6rb 4as 1bl 1to 1trey 2-3fg 4-4ft
+C,"Zubac, Ivica^",21.25,"$4,200",LOS ANGELES CLIPPERS,@ den, 96-123,19:12,   8pt 7rb 2as 1bl 1to 4-11fg
+PF/C,"Harrell, Montrezl",20,"$6,600",LOS ANGELES CLIPPERS,@ den, 96-123,16:29,   8pt 2rb 3as 1st 2bl 2to 3-7fg 2-2ft
+PF/C,"Ibaka, Serge",19.25,"$6,400",TORONTO RAPTORS,v orl, 98-113,23:49,   14pt 5rb 2to 7-14fg
+PF/C,"Birch, Khem",16,"$3,300",ORLANDO MAGIC,@ tor, 113-98,17:22,   4pt 4rb 1as 2st 1bl 1to 2-4fg
+PF/C,"Vonleh, Noah^",13.25,"$3,900",NEW YORK KNICKS,v sas, 130-118,17:57,   3pt 3rb 3as 1bl 1-3fg 1-1ft
+PF/C,"Motley, Johnathan",10.25,"$3,200",LOS ANGELES CLIPPERS,@ den, 96-123,8:26,   5pt 3rb 1as 1-2fg 3-4ft
+C,"Gasol, Pau",7.75,"$3,200",SAN ANTONIO SPURS,@ nyk, 118-130,5:44,   0pt 5rb 1as 0-2fg
+PF/C,"Ellenson, Henry",0,"$3,000",NEW YORK KNICKS,v sas, 130-118,3:33,   0pt 0-1fg
+PF/C,"Boucher, Chris",0,"$3,100",TORONTO RAPTORS,v orl, 98-113,2:59,   0pt 0-1fg
+PF/C,"Kornet, Luke",0,"$3,900",NEW YORK KNICKS,v sas, 130-118,DNP,   
+PF/C,"Martin, Jarell",0,"$3,000",ORLANDO MAGIC,@ tor, 113-98,DNP,   
+PF/C,"Jefferson, Amile",0,"$3,000",ORLANDO MAGIC,@ tor, 113-98,DNP,   
+PF/C,"Eubanks, Drew",0,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,NA,   
+C,"Jordan, DeAndre",0,"$6,200",NEW YORK KNICKS,v sas, 130-118,NA,   
+PF/C,"Hicks, Isaiah",0,"$3,000",NEW YORK KNICKS,v sas, 130-118,NA,   
+C,"Delgado, Angel",0,"$3,000",LOS ANGELES CLIPPERS,@ den, 96-123,NA,   
+C,"Bamba, Mohamed",0,"$3,400",ORLANDO MAGIC,@ tor, 113-98,NA,   
+C,"Welsh, Thomas",0,"$3,000",DENVER NUGGETS,v lac, 123-96,NA,   
+C,"Mozgov, Timofey",0,"$3,000",ORLANDO MAGIC,@ tor, 113-98,NA,   
+PF/C,"Metu, Chimezie",-0.5,"$3,000",SAN ANTONIO SPURS,@ nyk, 118-130,1:24,   0pt 1to

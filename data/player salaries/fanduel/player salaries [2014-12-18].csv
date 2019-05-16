@@ -1,0 +1,78 @@
+position,name,fantasy_points,salary,team,opponent,score,minutes_played,stats
+PG,"Curry, Stephen^",61.9,"$10,200",GOLDEN STATE WARRIORS,v okc, 114-109,42,   34pt 7rb 9as 4st 1bl 4to 5trey 14-24fg 1-1ft
+SG,"Butler, Jimmy^",59.5,"$8,100",CHICAGO BULLS,v nyk, 103-97,45,   35pt 5rb 7as 4st 1bl 2to 4trey 11-21fg 9-10ft
+PG,"Westbrook, Russell^",46.6,"$10,800",OKLAHOMA CITY THUNDER,@ gsw, 109-114,40,   33pt 3rb 8as 2st 6to 3trey 11-30fg 8-12ft
+PG,"Holiday, Jrue^",38.6,"$7,800",NEW ORLEANS PELICANS,@ hou, 99-90,38,   16pt 3rb 10as 2st 2bl 4to 8-19fg 0-1ft
+PG,"Knight, Brandon^",33,"$7,200",MILWAUKEE BUCKS,@ sac, 108-107,38,   20pt 5rb 4as 2st 3to 3trey 6-16fg 5-6ft
+SG,"Harden, James^",32.9,"$10,600",HOUSTON ROCKETS,v nor, 90-99,34,   21pt 7rb 5as 4to 2trey 8-23fg 3-5ft
+SG,"Hardaway Jr., Tim^",31.9,"$4,900",NEW YORK KNICKS,@ chi, 97-103,40,   23pt 2rb 5as 1st 3to 5trey 8-19fg 2-2ft
+SG,"Thompson, Klay^",31.9,"$7,900",GOLDEN STATE WARRIORS,v okc, 114-109,35,   19pt 2rb 5as 1st 1bl 1to 2trey 7-15fg 3-3ft
+SG,"Roberson, Andre^",30.9,"$3,800",OKLAHOMA CITY THUNDER,@ gsw, 109-114,34,   10pt 12rb 3as 1st 1trey 4-8fg 1-2ft
+PG,"Bayless, Jerryd",29.3,"$4,100",MILWAUKEE BUCKS,@ sac, 108-107,29,   17pt 4rb 5as 1bl 2to 3trey 6-12fg 2-2ft
+SG,"McLemore, Ben^",28.3,"$4,400",SACRAMENTO KINGS,v mil, 107-108,41,   22pt 4rb 3as 3to 1trey 8-10fg 5-5ft
+PG,"Collison, Darren^",27.7,"$7,600",SACRAMENTO KINGS,v mil, 107-108,40,   15pt 1rb 5as 3st 2to 2trey 6-11fg 1-1ft
+PG,"Brooks, Aaron",25.9,"$3,500",CHICAGO BULLS,v nyk, 103-97,25,   18pt 2rb 5as 1st 4to 3trey 5-9fg 5-6ft
+PG,"Beverley, Patrick^",24.6,"$5,600",HOUSTON ROCKETS,v nor, 90-99,37,   9pt 3rb 4as 3st 1bl 2to 1trey 2-8fg 4-4ft
+SG,"Mayo, O.J.^",21.9,"$4,800",MILWAUKEE BUCKS,@ sac, 108-107,23,   19pt 2rb 1as 1st 3to 3trey 7-13fg 2-2ft
+SG,"Antetokounmpo, Giannis^",20.1,"$6,200",MILWAUKEE BUCKS,@ sac, 108-107,37,   11pt 3rb 3as 1st 1bl 3to 4-5fg 3-4ft
+PG,"Calderon, Jose^",19.6,"$5,100",NEW YORK KNICKS,@ chi, 97-103,36,   12pt 3rb 2as 1st 1to 5-10fg 2-2ft
+SG,"Rivers, Austin^",18.2,"$3,700",NEW ORLEANS PELICANS,@ hou, 99-90,35,   10pt 1rb 6as 2to 4-10fg 2-2ft
+PG,"Sessions, Ramon",18.1,"$4,000",SACRAMENTO KINGS,v mil, 107-108,22,   9pt 3rb 5as 2to 3-9fg 3-4ft
+PG,"Marshall, Kendall",18,"$3,500",MILWAUKEE BUCKS,@ sac, 108-107,19,   8pt 6as 1st 1to 2trey 3-5fg 0-0ft
+PG,"Livingston, Shaun",15.9,"$4,200",GOLDEN STATE WARRIORS,v okc, 114-109,19,   12pt 2rb 1as 6-9fg 0-0ft
+PG,"Larkin, Shane",12.9,"$3,900",NEW YORK KNICKS,@ chi, 97-103,30,   5pt 2rb 3as 1bl 1to 2-7fg 1-2ft
+PG,"Daniels, Troy",12.6,"$3,500",HOUSTON ROCKETS,v nor, 90-99,16,   9pt 3rb 3trey 3-4fg 0-0ft
+PG,"Hinrich, Kirk^",11.5,"$4,000",CHICAGO BULLS,v nyk, 103-97,32,   8pt 3as 1to 2trey 3-7fg 0-0ft
+SG,"Morrow, Anthony",9.6,"$4,100",OKLAHOMA CITY THUNDER,@ gsw, 109-114,27,   4pt 3rb 1st 2-4fg 0-0ft
+PG,"Prigioni, Pablo",8.4,"$4,000",NEW YORK KNICKS,@ chi, 97-103,12,   5pt 2rb 1st 1to 1trey 2-4fg 0-0ft
+PG,"Jackson, Reggie",6.9,"$6,100",OKLAHOMA CITY THUNDER,@ gsw, 109-114,23,   4pt 2rb 1as 1to 2-8fg 0-0ft
+PG,"Canaan, Isaiah",4.5,"$4,800",HOUSTON ROCKETS,v nor, 90-99,11,   4pt 1as 1to 2-3fg 0-0ft
+PG,"Fredette, Jimmer",1.2,"$3,500",NEW ORLEANS PELICANS,@ hou, 99-90,3,   0pt 1rb 0-1fg 0-0ft
+SG,"Snell, Tony",1,"$3,500",CHICAGO BULLS,v nyk, 103-97,9,   0pt 1st 1to 0-1fg 0-0ft
+PG,"Moore, E'Twaun",-1,"$3,500",CHICAGO BULLS,v nyk, 103-97,4,   0pt 1to 0-0fg 0-0ft
+SG,"Stauskas, Nik",-1,"$3,500",SACRAMENTO KINGS,v mil, 107-108,9,   0pt 1to 0-1fg 0-0ft
+PF,"Davis, Anthony^",64.3,"$11,200",NEW ORLEANS PELICANS,@ hou, 99-90,41,   30pt 14rb 3as 2st 5bl 1to 10-17fg 10-12ft
+SF,"Green, Draymond^",42.3,"$7,500",GOLDEN STATE WARRIORS,v okc, 114-109,44,   16pt 9rb 9as 1st 1bl 2to 1trey 7-14fg 1-4ft
+SF,"Gay, Rudy^",40.8,"$8,600",SACRAMENTO KINGS,v mil, 107-108,39,   20pt 9rb 6as 1st 1to 1trey 9-15fg 1-2ft
+PF,"Gasol, Pau^",40.4,"$9,100",CHICAGO BULLS,v nyk, 103-97,36,   20pt 7rb 2as 5bl 1to 8-15fg 4-4ft
+SF,"Durant, Kevin^",35.4,"$9,600",OKLAHOMA CITY THUNDER,@ gsw, 109-114,19,   30pt 2rb 2as 1bl 2to 5trey 10-13fg 5-7ft
+PF,"Stoudemire, Amare^",35.2,"$6,100",NEW YORK KNICKS,@ chi, 97-103,31,   16pt 6rb 2as 2st 4bl 3to 7-13fg 2-3ft
+SF,"Ariza, Trevor^",29.1,"$6,200",HOUSTON ROCKETS,v nor, 90-99,40,   10pt 8rb 1as 4st 4-12fg 2-2ft
+SF,"Dudley, Jared",28.5,"$3,600",MILWAUKEE BUCKS,@ sac, 108-107,33,   19pt 5rb 1as 1st 2trey 7-10fg 3-3ft
+PF,"Mirotic, Nikola",26.7,"$5,400",CHICAGO BULLS,v nyk, 103-97,27,   13pt 1rb 3as 3st 1bl 2trey 4-7fg 3-4ft
+PF,"Ibaka, Serge^",26.2,"$7,200",OKLAHOMA CITY THUNDER,@ gsw, 109-114,34,   12pt 6rb 2as 1st 3bl 4to 2trey 5-8fg 0-0ft
+SF,"Barnes, Harrison^",25.9,"$5,400",GOLDEN STATE WARRIORS,v okc, 114-109,34,   12pt 7rb 1as 2st 2trey 5-11fg 0-0ft
+PF,"Anderson, Ryan",23.7,"$5,800",NEW ORLEANS PELICANS,@ hou, 99-90,30,   16pt 6rb 1as 1to 1trey 6-11fg 3-3ft
+PF,"Cunningham, Dante",23,"$4,100",NEW ORLEANS PELICANS,@ hou, 99-90,34,   15pt 5rb 1bl 1trey 6-10fg 2-2ft
+SF,"Iguodala, Andre",22.3,"$4,400",GOLDEN STATE WARRIORS,v okc, 114-109,30,   7pt 4rb 5as 1st 1bl 1to 2trey 2-6fg 1-2ft
+PF,"Speights, Marreese",20.5,"$5,200",GOLDEN STATE WARRIORS,v okc, 114-109,19,   10pt 5rb 1as 2bl 1to 5-10fg 0-0ft
+PF,"Motiejunas, Donatas^",15.8,"$6,000",HOUSTON ROCKETS,v nor, 90-99,23,   9pt 4rb 2as 1to 4-13fg 1-1ft
+PF,"Wear, Travis^",13.8,"$3,500",NEW YORK KNICKS,@ chi, 97-103,26,   8pt 4rb 1st 1to 4-7fg 0-0ft
+SF,"Papanikolaou, Kostas",12.4,"$4,500",HOUSTON ROCKETS,v nor, 90-99,23,   4pt 2rb 4as 1-4fg 2-2ft
+SF,"Acy, Quincy",10.8,"$3,600",NEW YORK KNICKS,@ chi, 97-103,10,   6pt 4rb 2-4fg 2-2ft
+PF,"Williams, Derrick",10.6,"$3,900",SACRAMENTO KINGS,v mil, 107-108,24,   9pt 3rb 2to 2trey 2-5fg 3-4ft
+SF,"Babbitt, Luke^",10.2,"$3,500",NEW ORLEANS PELICANS,@ hou, 99-90,14,   9pt 1rb 3trey 3-4fg 0-0ft
+PF,"Smith, Jason",10.1,"$3,500",NEW YORK KNICKS,@ chi, 97-103,17,   5pt 3rb 3as 3to 1-6fg 3-4ft
+SF,"Jones III, Perry",10,"$5,100",OKLAHOMA CITY THUNDER,@ gsw, 109-114,19,   4pt 5rb 2-7fg 0-0ft
+SF,"Dunleavy, Mike^",9.8,"$5,000",CHICAGO BULLS,v nyk, 103-97,29,   5pt 4rb 1trey 2-7fg 0-0ft
+PF,"Black, Tarik",9.4,"$3,600",HOUSTON ROCKETS,v nor, 90-99,9,   5pt 2rb 1st 1-1fg 3-4ft
+SF,"Lamb, Jeremy",8.8,"$4,900",OKLAHOMA CITY THUNDER,@ gsw, 109-114,14,   4pt 4rb 1-2fg 2-2ft
+SF,"Middleton, Khris",6.9,"$4,900",MILWAUKEE BUCKS,@ sac, 108-107,18,   1pt 2rb 1as 1st 0-3fg 1-2ft
+PF,"Thompson, Jason^",4.6,"$5,200",SACRAMENTO KINGS,v mil, 107-108,19,   3pt 3rb 2to 1-3fg 1-4ft
+SF,"Salmons, John",2.4,"$3,500",NEW ORLEANS PELICANS,@ hou, 99-90,14,   0pt 2rb 0-7fg 0-0ft
+SF,"Holiday, Justin",1.2,"$3,500",GOLDEN STATE WARRIORS,v okc, 114-109,7,   0pt 1rb 0-1fg 0-0ft
+PF,"Landry, Carl",0,"$3,900",SACRAMENTO KINGS,v mil, 107-108,10,   2pt 2to 1-1fg 0-0ft
+C,"Cousins, DeMarcus^",43.7,"$10,100",SACRAMENTO KINGS,v mil, 107-108,33,   27pt 11rb 5as 1st 6to 8-12fg 11-13ft
+C,"Howard, Dwight^",38.6,"$9,300",HOUSTON ROCKETS,v nor, 90-99,35,   17pt 13rb 2as 3bl 3to 7-15fg 3-5ft
+C,"Aldrich, Cole^",30.5,"$3,500",NEW YORK KNICKS,@ chi, 97-103,26,   13pt 10rb 3as 1st 1bl 3to 5-8fg 3-4ft
+C,"Noah, Joakim^",25.1,"$7,800",CHICAGO BULLS,v nyk, 103-97,34,   4pt 13rb 3as 1bl 1to 1-8fg 2-6ft
+C,"Pachulia, Zaza^",14,"$4,300",MILWAUKEE BUCKS,@ sac, 108-107,26,   7pt 5rb 2as 2to 2-7fg 3-6ft
+C,"Asik, Omer^",13.7,"$5,400",NEW ORLEANS PELICANS,@ hou, 99-90,28,   2pt 11rb 1as 3to 1-3fg 0-0ft
+C,"Dalembert, Samuel",11.5,"$3,500",NEW YORK KNICKS,@ chi, 97-103,13,   4pt 5rb 1as 2-4fg 0-0ft
+C,"Adams, Steven^",11,"$4,000",OKLAHOMA CITY THUNDER,@ gsw, 109-114,14,   6pt 5rb 1to 3-4fg 0-1ft
+C,"Ezeli, Festus^",9.9,"$3,500",GOLDEN STATE WARRIORS,v okc, 114-109,10,   4pt 2rb 1as 1bl 2-4fg 0-0ft
+C,"O'Bryant, Johnny^",6.7,"$3,500",MILWAUKEE BUCKS,@ sac, 108-107,17,   6pt 1rb 1as 2to 2-4fg 2-2ft
+C,"Perkins, Kendrick",3.7,"$3,800",OKLAHOMA CITY THUNDER,@ gsw, 109-114,16,   2pt 1rb 1as 1to 1-2fg 0-0ft
+C,"Dorsey, Joey",3.2,"$3,600",HOUSTON ROCKETS,v nor, 90-99,12,   2pt 1rb 1-3fg 0-0ft
+C,"Hollins, Ryan",1.2,"$3,900",SACRAMENTO KINGS,v mil, 107-108,3,   0pt 1rb 0-0fg 0-0ft
+C,"Withey, Jeff",1.2,"$3,500",NEW ORLEANS PELICANS,@ hou, 99-90,2,   1pt 1rb 1to 0-0fg 1-2ft
