@@ -34,6 +34,8 @@
 
 # Add in double_doubles and triple_doubles to player fantasy points feature
 
+# join salaries as a feature
+
 
 # Setup -----
 
@@ -147,7 +149,7 @@ data$TeamStats <-
   dataTransformation$TeamStats(data$PlayerBoxScores)
 
 # Create player analysis
-data$PlayerAnalysis <-
+data$Analysis <-
   data$PlayerBoxScores[, c("date",
                            "season",
                            "slug",
@@ -166,18 +168,18 @@ data$PlayerAnalysis <-
 # Feature Engineering -----
 
 # Create player minutes
-data$PlayerAnalysis <-
-  join(data$PlayerAnalysis,
+data$Analysis <-
+  join(data$Analysis,
        FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
   
 
 # Create player stats
-data$PlayerAnalysis <-
+data$Analysis <-
   join(
-    data$PlayerAnalysis,
+    data$Analysis,
     FeatureEngineering$Player_Stats(
       data$PlayerBoxScores,
-      FeatureEngineering$Opponent_Multipliers(data$TeamStats)
+      data$TeamStats
     )
   )
 
@@ -205,7 +207,7 @@ model$Predictors <-
 model$OLS <- lm(as.formula(paste0(
   model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
 )),
-na.omit(data$PlayerAnalysis))
+na.omit(data$Analysis))
 
 summary(model$OLS)
 
@@ -233,7 +235,7 @@ summary(model$OLS)
 model$RandomForest <-
   randomForest(
     minutes_played ~ salary_draftkings + salary_fanduel + salary_yahoo + player_fp_20 + player_fp_10 + player_fp_5 + player_fp_4 + player_fp_3 + player_fp_2 + player_fp_1 + player_minutes_20 + player_minutes_15 + player_minutes_10 + player_minutes_9 + player_minutes_8 + player_minutes_7 + player_minutes_6 + player_minutes_3 + player_minutes_2 + player_minutes_1,
-    data = na.omit(data$PlayerAnalysis[sample(nrow(data$PlayerAnalysis), 20000), ]),
+    data = na.omit(data$Analysis[sample(nrow(data$Analysis), 20000), ]),
     importance = TRUE
   )
 

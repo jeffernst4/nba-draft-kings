@@ -128,7 +128,7 @@ FeatureEngineering <- list(
   },
   
   # Calculate player fantasy points
-  Player_Stats = function(playerBoxScores, opponentAnalysis) {
+  Player_Stats = function(playerBoxScores, teamStats) {
     
     # Specify stats
     stats <- c(
@@ -145,12 +145,86 @@ FeatureEngineering <- list(
     playerBoxScores <-
       playerBoxScores[, c("slug", "date", "opponent", "location", stats)]
     
-    # Filter opponent analysis
-    opponentAnalysis <-
-      opponentAnalysis[, c("date", "opponent", "location", paste0(stats, "_multiplier"))]
+    # Create stats analysis
+    statsAnalysis <- teamStats[, c("opponent", "date", "location")]
+    
+    # Filter team stats
+    teamStats <-
+      teamStats[, c("opponent", "date", "location", stats)]
+    
+    # Create opponent stats
+    opponentStats <- eval(parse(
+      text = paste0(
+        "teamStats %>% group_by(opponent, location) %>% dplyr::mutate(",
+        paste0(
+          "opponent_",
+          stats,
+          "_25 = c(NA, head(rollmean(",
+          stats,
+          ", 25, na.pad = TRUE, align = 'right'), -1))",
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    opponentStats <-
+      opponentStats[, !(names(opponentStats) %in% stats)]
+    
+    # Join opponent stats
+    statsAnalysis <- join(statsAnalysis, opponentStats)
+    
+    # Create league stats
+    leagueStats <- eval(parse(
+      text = paste0(
+        "teamStats %>% group_by() %>% dplyr::mutate(",
+        paste0(
+          "league_",
+          stats,
+          "_100 = c(NA, head(rollmean(",
+          stats,
+          ", 100, na.pad = TRUE, align = 'right'), -1))",
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    leagueStats <-
+      leagueStats[, !(names(leagueStats) %in% stats)]
+    
+    # Join league stats
+    statsAnalysis <- join(statsAnalysis, leagueStats)
+    
+    # Calculate opponent multipliers
+    opponentMultipliers <- eval(parse(
+      text = paste0(
+        "statsAnalysis %>% group_by() %>% dplyr::mutate(",
+        paste0(
+          stats,
+          "_multiplier = opponent_",
+          stats,
+          "_25 / league_",
+          stats,
+          "_100",
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    opponentMultipliers <-
+      opponentMultipliers[,!(names(opponentMultipliers) %in% c(
+        stats,
+        paste0("opponent_", stats, "_25"),
+        paste0("league_", stats, "_100")
+      ))]
     
     # Join opponent analysis
-    playerBoxScores <- join(playerBoxScores, opponentAnalysis)
+    playerBoxScores <- join(playerBoxScores, opponentMultipliers)
     
     # Create rolling averages
     playerStats <- eval(parse(

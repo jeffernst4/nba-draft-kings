@@ -121,7 +121,7 @@ dataTransformation <- list(
     
     # Format names
     playerSalaries$name <-
-      gsub("\\^", "", sub("(\\w+),\\s(\\w+)", "\\2 \\1", playerSalaries$name))
+      gsub("\\^", "", sub("(.+),\\s(.+)", "\\2 \\1", playerSalaries$name))
     
     # Return player box scores
     return(playerSalaries)

@@ -1,4 +1,3 @@
- - rename files/folders to lowercase
  - use gitignore to stop uploading data folders
  - use separate file (ignored) to specify personal folders/files and registered keys
  - clean up python and r analysis file

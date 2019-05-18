@@ -11,8 +11,6 @@ config <- list(
     "steals",
     "blocks",
     "turnovers"
-  ),
-  
-  
+  )
   
 )
