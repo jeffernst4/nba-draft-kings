@@ -1,16 +1,20 @@
 
+# only run for csvs that don't exist already
+
+# get list of all playerId's on playerboxscores data
+# Scrape teams for every playerid greater than 2015 season
+# Match name + team + season to get player Id's
+# Match salary by date + playerId to playerBoxScores
+# -------see if any playerId doesn't have a match
+# Fill in all player records when they had salaries, but didn't play, fill all stats with 0
+
 # Import libraries
 import csv
-import io
-import pandas as pd
-import re
 import requests
-import urllib.request
-
-from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from lxml import html
 
+# Specify team abbreviations
 teamAbbreviations = {
     'atl': 'ATLANTA HAWKS',
     'bkn': 'BROOKLYN NETS',
@@ -45,8 +49,9 @@ teamAbbreviations = {
     'WES': 'WEST'
     }
 
+# Specify game abbreviations
 gameAbbreviations = {
-    'draftkings': 'df',
+    'draftkings': 'dk',
     'fanduel': 'fd',
     'yahoo': 'yh'
 }
@@ -65,49 +70,54 @@ def ParsePlayerSalaries(row):
         "stats": str(row[8].text_content()),
     }
 
+# Create scrape player salaries function
 def ScrapePlayerSalaries(startDate, endDate, game):
 
     # Format dates
     startDate = datetime.strptime(startDate, '%m/%d/%Y')
     endDate = datetime.strptime(endDate, '%m/%d/%Y')
-    currentDate = startDate
+    date = startDate
     
-    while (endDate - currentDate).days >= 0:
+    # Scrape each date
+    while (endDate - date).days >= 0:
         
-        print('Scraping player salaries for ' + currentDate.strftime('%Y-%m-%d'))
-    
+        # Print data being scraped
+        print('Scraping player salaries for ' + date.strftime('%Y-%m-%d'))
+        
+        # Create url
         url = 'http://rotoguru1.com/cgi-bin/hyday.pl?game={game}&mon={month}&day={day}&year={year}'.format(
                 game=gameAbbreviations.get(game),
-                day=currentDate.day,
-                month=currentDate.month,
-                year=currentDate.year
+                day=date.day,
+                month=date.month,
+                year=date.year
             )
         
-        # page = urllib.request.urlopen(url).read()
-        
+        # Request the webpage
         response = requests.get(url=url)
         
-        response.raise_for_status()
-        
+        # Get content from webpage
         page = response.content
         
+        # Parse webpage with html
         tree = html.fromstring(page)
         
+        # Find all rows in table
         rows = tree.xpath('//table/tr')
         
+        # Create an empty totals list
+        playerSalaries = []
         
-        
-        totals = []
-        
+        # Scrape every row of the table
         for row in rows:
-            #print(str(row[3].text_content()))
-            #if re.search("\$[0-9]+,[0-9]{3}", str(row[3].text_content()))
-            #    totals.append(parse_player_season_totals(row))
+            
+            # Check the length of the row
             if len(row) == 9:
-                totals.append(ParsePlayerSalaries(row))
-        # return totals
+                
+                # Parse each row and append it to the player salaries list
+                playerSalaries.append(ParsePlayerSalaries(row))
         
-        csv_columns = ['position',
+        # Specify the name of the columns
+        columnNames = ['position',
                        'name',
                        'fantasy_points',
                        'salary',
@@ -117,21 +127,33 @@ def ScrapePlayerSalaries(startDate, endDate, game):
                        'minutes_played',
                        'stats']
         
-        csv_file = 'data/player salaries/{game}/player salaries [{year}-{month}-{day}].csv'.format(
-                game=game,
-                day=f"{currentDate.day:02d}",
-                month=f"{currentDate.month:02d}",
-                year=currentDate.year
-                )
+        # Create file name
+        fileName = 'data/player salaries/{game}/player salaries [{year}-{month}-{day}].csv'.format(
+                    game=game,
+                    day=f"{date.day:02d}",
+                    month=f"{date.month:02d}",
+                    year=date.year
+                    )
         
-        with open(csv_file, 'w') as csvfile:
-            writer = csv.DictWriter(csvfile, lineterminator='\n', fieldnames=csv_columns)
+        # Create csv
+        with open(fileName, 'w') as file:
+            
+            # Set up csv writer
+            writer = csv.DictWriter(file, lineterminator='\n', fieldnames=columnNames)
+            
+            # Create file headers
             writer.writeheader()
-            for data in totals:
-                writer.writerow(data)
+            
+            # Copy data from player salaries
+            for data in playerSalaries:
                 
-        currentDate = currentDate + timedelta(days=1)
+                # Copy data to rows
+                writer.writerow(data)
         
-ScrapePlayerSalaries('01/01/2014', '05/14/2019', 'draftkings')
-ScrapePlayerSalaries('01/01/2014', '05/14/2019', 'fanduel')
-ScrapePlayerSalaries('01/01/2016', '01/01/2017', 'yahoo')
+        # Add one day to the date    
+        date = date + timedelta(days=1)
+        
+# Scrape player salaries
+ScrapePlayerSalaries('05/01/2019', '05/21/2019', 'draftkings')
+ScrapePlayerSalaries('05/01/2019', '05/21/2019', 'fanduel')
+ScrapePlayerSalaries('05/01/2019', '05/21/2019', 'yahoo')
