@@ -53,6 +53,10 @@
 
 # When calculating player stats per min fantasy points prediction, only use games they actually played in?
 
+# Fix player fp_per_min for games that have 0 minutes
+
+# Maybe use home/away by grouping into player types that play better at home vs away
+
 
 # Setup -----
 
@@ -284,7 +288,7 @@ model$Predictors <-
 model$OLS <- lm(as.formula(paste0(
   model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
 )),
-na.omit(data$Analysis))
+na.omit(data$Analysis[, c(model$Outcome, model$Predictors)]))
 
 summary(model$OLS)
 
