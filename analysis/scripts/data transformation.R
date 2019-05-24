@@ -1,6 +1,54 @@
 
 dataTransformation <- list(
   
+  # Transform player history
+  PlayerHistories = function(playerHistories) {
+    
+    # Return player history
+    return(playerHistories)
+    
+  },
+  
+  # Transform player salaries
+  PlayerSalaries = function(playerSalaries, gameType, nameCorrections) {
+    
+    # Format salaries to numeric
+    playerSalaries$salary <-
+      as.numeric(gsub('[$,]', '', playerSalaries$salary))
+    
+    # Rename column
+    names(playerSalaries) <- gsub("salary", paste0("salary_", tolower(gameType)), names(playerSalaries))
+    
+    # Format names
+    playerSalaries$name <-
+      gsub("\\^", "", sub("(.+),\\s(.+)", "\\2 \\1", playerSalaries$name))
+    
+    # Join name corrections with player salaries
+    playerSalaries <- join(playerSalaries, nameCorrections, type = "left")
+    
+    # Replace names with corrected names
+    playerSalaries$name[!is.na(playerSalaries$corrected_name)] <-
+      playerSalaries$corrected_name[!is.na(playerSalaries$corrected_name)]
+    
+    # Remove column
+    playerSalaries <- subset(playerSalaries, select = -corrected_name)
+    
+    # Filter player salaries
+    playerSalaries <-
+      playerSalaries[, c("date", "name", "team", paste0("salary_", tolower(gameType)))]
+    
+    # Remove all-star games
+    playerSalaries <-
+      playerSalaries[playerSalaries$team != "WEST", ]
+    
+    # Remove na's
+    playerSalaries <- na.exclude(playerSalaries)
+    
+    # Return player salaries
+    return(playerSalaries)
+    
+  },
+  
   # Transform player box scores
   PlayerBoxScores = function(playerBoxScores) {
     
@@ -16,7 +64,8 @@ dataTransformation <- list(
     playerBoxScores$seconds_played <- playerBoxScores$seconds_played / 60
     
     # Rename column
-    names(playerBoxScores) <- gsub("seconds_played", "minutes_played", names(playerBoxScores))
+    names(playerBoxScores) <-
+      gsub("seconds_played", "minutes_played", names(playerBoxScores))
     
     # Calculate made two points field goals
     playerBoxScores$two_pointers_made <-
@@ -67,64 +116,16 @@ dataTransformation <- list(
           x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5, 1.5, 3)
       ))
     
-    # Create team stats data frame
-    teamStats <-
-      aggregate(
-        cbind(
-          minutes_played,
-          field_goals_attempted,
-          free_throws_attempted,
-          turnovers
-        ) ~ date + team,
-        playerBoxScores,
-        sum
+    # Calculate fantasy points per minute
+    playerBoxScores$fantasy_points_per_min <-
+      ifelse(
+        playerBoxScores$minutes_played > 0,
+        playerBoxScores$fantasy_points / playerBoxScores$minutes_played,
+        NA
       )
-    
-    # Calculate team minutes per possession
-    teamStats$team_minutes_per_possession <-
-      #teamStats$minutes_played / 
-      (
-        teamStats$field_goals_attempted + 0.44 * teamStats$free_throws_attempted + teamStats$turnovers
-      )
-    
-    # Filter team stats
-    teamStats <-
-      teamStats[, c("date", "team", "team_minutes_per_possession")]
-    
-    # Join team stats with player box scores
-    playerBoxScores <- join(playerBoxScores, teamStats)
-    
-    # Calculate usage rate
-    playerBoxScores$usage_rate <-
-      (
-        playerBoxScores$field_goals_attempted + 0.44 * playerBoxScores$free_throws_attempted + playerBoxScores$turnovers
-      ) / playerBoxScores$team_minutes_per_possession
-    #/ (5 * playerBoxScores$minutes_played)
     
     # Return player box scores
     return(playerBoxScores)
-    
-  },
-  
-  # Transform player salaries
-  PlayerSalaries = function(playerSalaries, gameType) {
-    
-    # Format na's
-    playerSalaries$salary <- gsub("N/A", NA, playerSalaries$salary)
-    
-    # Format salaries to numeric
-    playerSalaries$salary <-
-      as.numeric(gsub('[$,]', '', playerSalaries$salary))
-    
-    # Rename column
-    names(playerSalaries) <- gsub("salary", paste0("salary_", tolower(gameType)), names(playerSalaries))
-    
-    # Format names
-    playerSalaries$name <-
-      gsub("\\^", "", sub("(.+),\\s(.+)", "\\2 \\1", playerSalaries$name))
-    
-    # Return player box scores
-    return(playerSalaries)
     
   },
   
@@ -226,6 +227,7 @@ dataTransformation <- list(
     teamStats <-
       aggregate(
         cbind(
+          minutes_played,
           points,
           three_pointers_made,
           rebounds,
@@ -242,5 +244,15 @@ dataTransformation <- list(
     return(teamStats)
     
   }
+  
+  # TeamRosters = function(teamRosters) {
+  #   
+  #   # Fix names
+  #   teamRosters$name <- gsub("[^[:alnum:]]+\\(TW\\)", "", teamRosters$name)
+  #   
+  #   # Return team rosters
+  #   return(teamRosters)
+  #   
+  # }
   
 )

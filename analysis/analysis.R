@@ -1,14 +1,9 @@
 
 # To Do -----
 
-# See if kris and isacc humphries 
-
 # put in correct order in optimizaiton part
 
 # Clean up code
-
-# find out what the roster is for each game to determine who was missing from
-# each game and try to predict if player will play in the game
 
 # Order columns same, date opponent slug, etc...
 
@@ -20,21 +15,43 @@
 
 # Get player news from cbs to add to player salaries for predicting time played
 
-# Match up names from basketball reference, draft kings, and rotoguru
-
-# Fix names of people who have weird prefix/suffix's
-
-# Use player salaries to find players who didn't play
+# Match up names from basketball reference and draft kings
 
 # Our projections are generated using sophisticated models that take into
 # account factors such as: per minute averages, opponents defense, vegas
 # odds/lines, rest
 
 # Scrape other projections to compare against my projections
+# http://www.dailyfantasyfuel.com/nba/projections/draftkings/2017-05-15/
 
 # Add in double_doubles and triple_doubles to player fantasy points feature
 
 # join salaries as a feature
+
+# Add in empty stats before transforming player box scores
+
+# maybe consider adding in defense against position or comparing fantasy points
+# method with/without matchup comparisons, test out all ways to calculate matchup
+# comparisons, maybe method for calculating fantasy points shouldn't be used in
+# minutes prediction
+
+# organize this notes section
+
+# maybe only use seasons >= 2016 since 2015 doesn't have players that didn't
+# play (12 vs 10k +), keep all dates until end to have data for league opponent
+# multipliers
+
+# Maybe use 1, 2, 3-5, 6-10, 10-20 averages instead of rolling averages all the
+# way back to 0 -- test this
+
+# Remove extra columns in player box scores, and order columns
+
+# opponent multipliers should be calculated just once in feature engineering,
+# but they may not be in player stats anyway (not per min)
+
+# Find a way to take into account location
+
+# When calculating player stats per min fantasy points prediction, only use games they actually played in?
 
 
 # Setup -----
@@ -57,44 +74,78 @@ sapply(c("data load", "data transformation", "feature engineering"), function(sc
 
 # Data Load -----
 
-# # Aggregate data
-# data <- list(
-#   PlayerBoxScores = dataLoad$GameStats(
-#     fileType = "player box scores"
-#   ),
-#   TeamBoxScores = dataLoad$GameStats(
-#     fileType = "team box scores"
-#   ),
-#   PlayerSeasonTotals = dataLoad$GameStats(
-#     fileType = "player season totals"
-#   ),
-#   SeasonSchedules = dataLoad$GameStats(
-#     fileType = "season schedules"
-#   ),
-#   PlayerSalaries = list(
-#     DraftKings = dataLoad$PlayerSalaries(
-#       fileType = "player salaries",
-#       gameType = "draftkings"
-#     ),
-#     FanDuel = dataLoad$PlayerSalaries(
-#       fileType = "player salaries",
-#       gameType = "fanduel"
-#     ),
-#     Yahoo = dataLoad$PlayerSalaries(
-#       fileType = "player salaries",
-#       gameType = "yahoo"
-#     )
-#   )
-# )
+# Aggregate data
+data <- list(
+  NameCorrections = list(PlayerSalaries = dataLoad$NameCorrections("player salaries")),
+  PlayerHistories = dataLoad$PlayerHistories(),
+  PlayerSalaries = list(
+    DraftKings = dataLoad$PlayerSalaries(gameType = "draftkings"),
+    FanDuel = dataLoad$PlayerSalaries(gameType = "fanduel"),
+    Yahoo = dataLoad$PlayerSalaries(gameType = "yahoo")
+  ),
+  PlayerBoxScores = dataLoad$GameStats(dataType = "player box scores"),
+  TeamBoxScores = dataLoad$GameStats(dataType = "team box scores"),
+  PlayerSeasonTotals = dataLoad$GameStats(dataType = "player season totals"),
+  SeasonSchedules = dataLoad$GameStats(dataType = "season schedules")
+)
 
-# # Save data
-# save(data, file = "analysis/data/data.RData")
+# Save data
+save(data, file = "analysis/data/data.RData")
 
 # Load data
 load("analysis/data/data.RData")
 
 
 # Data Transformation -----
+
+# Transform player history
+data$PlayerHistories <-
+  dataTransformation$PlayerHistories(data$PlayerHistories)
+
+# Transform player salaries
+data$PlayerSalaries <-
+  lapply(c("DraftKings", "FanDuel", "Yahoo"), function(x)
+    dataTransformation$PlayerSalaries(data$PlayerSalaries[[x]], x, data$NameCorrections$PlayerSalaries))
+
+# Rename player salary list
+names(data$PlayerSalaries) <- c("DraftKings", "FanDuel", "Yahoo")
+
+# Join all player salaries
+data$PlayerSalaries <-
+  join(
+    join(
+      data$PlayerSalaries$DraftKings,
+      data$PlayerSalaries$FanDuel,
+      type = "full"
+    ),
+    data$PlayerSalaries$Yahoo,
+    type = "full"
+  )
+
+#### Sort player salaries or do it below when it gets joined ########
+
+# Join player history with player salaries
+data$PlayerSalaries <-
+  join(data$PlayerSalaries, unique(data$PlayerHistories[, c("slug", "name", "team")]), type = "inner")
+
+# Join player box scores with player salaries
+data$PlayerSalaries <-
+  join(data$PlayerSalaries, unique(data$PlayerBoxScores[, c("team", "date", "location", "opponent", "outcome")]))
+
+# Join player salaries with player box scores
+data$PlayerBoxScores <- join(data$PlayerBoxScores, data$PlayerSalaries, type = "right")
+
+# Identify stats columns
+statsColumns <-
+  names(data$PlayerBoxScores)[!(names(data$PlayerBoxScores) %in% grep("salary\\_", names(data$PlayerBoxScores), value = TRUE))]
+
+# Replace na's
+data$PlayerBoxScores[statsColumns][is.na(data$PlayerBoxScores[statsColumns])] <- 0
+
+##### Make this more clean #############
+
+# Sort player box scores
+data$PlayerBoxScores <- data$PlayerBoxScores[with(data$PlayerBoxScores, order(date, team, slug, seconds_played)), ]
 
 # Transform season schedules
 data$SeasonSchedules <-
@@ -116,14 +167,6 @@ data$PlayerSeasonTotals <-
 data$PlayerBoxScores <-
   dataTransformation$PlayerBoxScores(data$PlayerBoxScores)
 
-# Transform player salaries
-data$PlayerSalaries <-
-  lapply(c("DraftKings", "FanDuel", "Yahoo"), function(x)
-    dataTransformation$PlayerSalaries(data$PlayerSalaries[[x]], x))
-
-# Rename player salary list
-names(data$PlayerSalaries) <- c("DraftKings", "FanDuel", "Yahoo")
-
 # Join season schedules with player box scores
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$SeasonSchedules[, c("date", "team", "season")])
@@ -132,19 +175,7 @@ data$PlayerBoxScores <-
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$PlayerSeasonTotals[, c("slug", "season", "team", "position")])
 
-# Join player salaries with player box scores
-data$PlayerBoxScores <-
-  join(data$PlayerBoxScores, data$PlayerSalaries$DraftKings[, c("date", "name", "team", "salary_draftkings")], type = "left")
-
-# Join player salaries with player box scores
-data$PlayerBoxScores <-
-  join(data$PlayerBoxScores, data$PlayerSalaries$FanDuel[, c("date", "name", "team", "salary_fanduel")], type = "left")
-
-# Join player salaries with player box scores
-data$PlayerBoxScores <-
-  join(data$PlayerBoxScores, data$PlayerSalaries$Yahoo[, c("date", "name", "team", "salary_yahoo")], type = "left")
-
-# Create team stats
+# Transform team stats
 data$TeamStats <-
   dataTransformation$TeamStats(data$PlayerBoxScores)
 
@@ -162,7 +193,8 @@ data$Analysis <-
                            "salary_draftkings",
                            "salary_fanduel",
                            "salary_yahoo",
-                           "fantasy_points")]
+                           "fantasy_points",
+                           "fantasy_points_per_min")]
 
 
 # Feature Engineering -----
@@ -178,6 +210,15 @@ data$Analysis <-
   join(
     data$Analysis,
     FeatureEngineering$Player_Stats(
+      data$PlayerBoxScores,
+      data$TeamStats
+    )
+  )
+
+data$Analysis <-
+  join(
+    data$Analysis,
+    FeatureEngineering$Player_Stats_Per_Min(
       data$PlayerBoxScores,
       data$TeamStats
     )
@@ -200,7 +241,12 @@ model$Predictors <-
     "player_fp_3",
     "player_fp_6",
     "player_fp_10",
-    "player_fp_20"
+    "player_fp_20",
+    "player_minutes_20",
+    "player_minutes_5",
+    "player_minutes_1",
+    "salary_draftkings",
+    "salary_yahoo"
   )
 
 # Create linear model
@@ -218,6 +264,30 @@ summary(model$OLS)
 # data = na.omit(data$Analysis[sample(257015, 5000), ]),
 # importance = TRUE)
 
+### Fantasy Points / min
+
+# Specify outcome variable
+model$Outcome <- "fantasy_points_per_min"
+
+# Specify predictor variables
+model$Predictors <-
+  c(
+    "player_fp_per_min5",
+    "player_fp_per_min10",
+    "player_fp_per_min20",
+    "salary_yahoo",
+    "salary_draftkings",
+    "salary_fanduel"
+  )
+
+# Create linear model
+model$OLS <- lm(as.formula(paste0(
+  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
+)),
+na.omit(data$Analysis))
+
+summary(model$OLS)
+
 
 ### MINUTES PLAYED
 
@@ -225,7 +295,12 @@ summary(model$OLS)
 # salary, difference of opponent vs team (maybe?, chance of overtime and also
 # better players play more, more difference means worse player will play more),
 # account for blowouts and overtimes (maybe use % of total team time rather than
-# actual playing time)
+# actual playing time), maybe add in age (more likely to be hurt), rest (more
+# rest is less likely to be hurt), look at other players on team who are injured
+# (that will give subs more playing time)
+
+# compare usual salary vs current salary instead of just salary, combine all 3
+# salary measurements (may have to do all of this in transformations)
 
 # https://cran.r-project.org/web/packages/ngram/vignettes/ngram-guide.pdf
 
@@ -240,6 +315,15 @@ model$RandomForest <-
   )
 
 ### R2 currently at .5471 with "player_fp_1", "player_fp_2", "player_fp_3", "player_fp_6", "player_fp_10", "player_fp_20"
+
+
+analysis <- data$Analysis
+
+analysis$minute_predictions <- predict(model$RandomForest, analysis)
+
+analysis$fp_predictions <- predict(model$OLS, analysis)
+
+analysis$total_predictions <- analysis$minute_predictions * analysis$fp_predictions
 
 
 # Prediction -----

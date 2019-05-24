@@ -1,0 +1,576 @@
+number,name,position,height,weight,birth_date,experience,college,team
+4,Arron Afflalo,SG,6-5,210,"October 15, 1985",7,"University of California, Los Angeles",PORTLAND TRAIL BLAZERS
+12,LaMarcus Aldridge,PF,6-11,260,"July 19, 1985",8,University of Texas at Austin,PORTLAND TRAIL BLAZERS
+5,Will Barton,SG,6-6,190,"January 6, 1991",2,University of Memphis,PORTLAND TRAIL BLAZERS
+88,Nicolas Batum,SF,6-8,200,"December 14, 1988",6,,PORTLAND TRAIL BLAZERS
+5,Steve Blake,PG,6-3,172,"February 26, 1980",11,University of Maryland,PORTLAND TRAIL BLAZERS
+18,Victor Claver,SF,6-9,224,"August 30, 1988",2,,PORTLAND TRAIL BLAZERS
+23,Allen Crabbe,SG,6-6,212,"April 9, 1992",1,University of California,PORTLAND TRAIL BLAZERS
+10,Tim Frazier,PG,6-1,170,"November 1, 1990",R,Pennsylvania State University,PORTLAND TRAIL BLAZERS
+19,Joel Freeland,C,6-10,250,"February 7, 1987",2,,PORTLAND TRAIL BLAZERS
+33,Alonzo Gee,SF,6-6,225,"May 29, 1987",5,University of Alabama,PORTLAND TRAIL BLAZERS
+35,Chris Kaman,C,7-0,265,"April 28, 1982",11,Central Michigan University,PORTLAND TRAIL BLAZERS
+11,Meyers Leonard,C,7-1,255,"February 27, 1992",2,University of Illinois at Urbana-Champaign,PORTLAND TRAIL BLAZERS
+0,Damian Lillard,PG,6-3,195,"July 15, 1990",2,Weber State University,PORTLAND TRAIL BLAZERS
+42,Robin Lopez,C,7-0,275,"April 1, 1988",6,Stanford University,PORTLAND TRAIL BLAZERS
+2,Wesley Matthews,SG,6-5,220,"October 14, 1986",5,Marquette University,PORTLAND TRAIL BLAZERS
+3,CJ McCollum,SG,6-3,190,"September 19, 1991",1,Lehigh University,PORTLAND TRAIL BLAZERS
+41,Thomas Robinson,PF,6-10,237,"March 17, 1991",2,University of Kansas,PORTLAND TRAIL BLAZERS
+1,Dorell Wright,SF,6-9,205,"December 2, 1985",10,,PORTLAND TRAIL BLAZERS
+12,Steven Adams,C,7-0,265,"July 20, 1993",1,University of Pittsburgh,OKLAHOMA CITY THUNDER
+14,D.J. Augustin,PG,6-0,183,"November 10, 1987",6,University of Texas at Austin,OKLAHOMA CITY THUNDER
+4,Nick Collison,PF,6-10,255,"October 26, 1980",10,University of Kansas,OKLAHOMA CITY THUNDER
+35,Kevin Durant,SF,6-9,240,"September 29, 1988",7,University of Texas at Austin,OKLAHOMA CITY THUNDER
+9,Serge Ibaka,PF,6-10,235,"September 18, 1989",5,,OKLAHOMA CITY THUNDER
+15,Reggie Jackson,PG,6-3,208,"April 16, 1990",3,Boston College,OKLAHOMA CITY THUNDER
+7,Grant Jerrett,PF,6-10,235,"July 8, 1993",R,University of Arizona,OKLAHOMA CITY THUNDER
+3,Perry Jones,SF,6-11,235,"September 24, 1991",2,Baylor University,OKLAHOMA CITY THUNDER
+34,Enes Kanter,C,6-11,250,"May 20, 1992",3,,OKLAHOMA CITY THUNDER
+11,Jeremy Lamb,SG,6-5,185,"May 30, 1992",2,University of Connecticut,OKLAHOMA CITY THUNDER
+33,Mitch McGary,PF,6-10,255,"June 6, 1992",R,University of Michigan,OKLAHOMA CITY THUNDER
+2,Anthony Morrow,SG,6-5,210,"September 27, 1985",6,Georgia Institute of Technology,OKLAHOMA CITY THUNDER
+6,Steve Novak,PF,6-10,225,"June 13, 1983",8,Marquette University,OKLAHOMA CITY THUNDER
+5,Kendrick Perkins,C,6-10,270,"November 10, 1984",11,,OKLAHOMA CITY THUNDER
+21,Andre Roberson,SG,6-7,210,"December 4, 1991",1,University of Colorado,OKLAHOMA CITY THUNDER
+5,Kyle Singler,SF,6-8,228,"May 4, 1988",2,Duke University,OKLAHOMA CITY THUNDER
+8,Ish Smith,PG,6-0,175,"July 5, 1988",4,Wake Forest University,OKLAHOMA CITY THUNDER
+31,Sebastian Telfair,PG,6-0,165,"June 9, 1985",9,,OKLAHOMA CITY THUNDER
+42,Lance Thomas,SF,6-8,240,"April 24, 1988",3,Duke University,OKLAHOMA CITY THUNDER
+23,Dion Waiters,SG,6-4,215,"December 10, 1991",2,Syracuse University,OKLAHOMA CITY THUNDER
+0,Russell Westbrook,PG,6-3,200,"November 12, 1988",6,"University of California, Los Angeles",OKLAHOMA CITY THUNDER
+22,Jerrelle Benimon,PF,6-8,245,"August 1, 1991",R,"Georgetown University, Towson University",UTAH JAZZ
+33,Trevor Booker,PF,6-8,228,"November 25, 1987",4,Clemson University,UTAH JAZZ
+3,Trey Burke,PG,6-1,175,"November 12, 1992",1,University of Michigan,UTAH JAZZ
+10,Alec Burks,SG,6-6,214,"July 20, 1991",3,University of Colorado,UTAH JAZZ
+19,Patrick Christopher,SG,6-5,209,"June 3, 1988",R,University of California,UTAH JAZZ
+21,Ian Clark,SG,6-3,175,"March 7, 1991",1,Belmont University,UTAH JAZZ
+45,Jack Cooley,C,6-9,260,"April 4, 1991",R,University of Notre Dame,UTAH JAZZ
+8,Bryce Cotton,PG,6-1,165,"August 11, 1992",R,Providence College,UTAH JAZZ
+40,Jeremy Evans,SF,6-9,200,"October 24, 1987",4,Western Kentucky University,UTAH JAZZ
+11,Dante Exum,PG,6-6,190,"July 13, 1995",R,,UTAH JAZZ
+15,Derrick Favors,PF,6-10,265,"July 15, 1991",4,Georgia Institute of Technology,UTAH JAZZ
+27,Rudy Gobert,C,7-1,245,"June 26, 1992",1,,UTAH JAZZ
+20,Gordon Hayward,SF,6-8,225,"March 23, 1990",4,Butler University,UTAH JAZZ
+5,Rodney Hood,SG,6-8,206,"October 20, 1992",R,"Mississippi State University, Duke University",UTAH JAZZ
+2,Joe Ingles,SF,6-8,226,"October 2, 1987",R,,UTAH JAZZ
+17,Grant Jerrett,PF,6-10,235,"July 8, 1993",R,University of Arizona,UTAH JAZZ
+23,Chris Johnson,SF,6-6,206,"April 29, 1990",2,University of Dayton,UTAH JAZZ
+0,Enes Kanter,C,6-11,250,"May 20, 1992",3,,UTAH JAZZ
+13,Elijah Millsap,SG,6-6,225,"August 12, 1987",R,"University of Louisiana at Lafayette, University of Alabama at Birmingham",UTAH JAZZ
+23,Toure' Murry,PG,6-5,195,"November 8, 1989",1,Wichita State University,UTAH JAZZ
+16,Steve Novak,SF,6-10,225,"June 13, 1983",8,Marquette University,UTAH JAZZ
+25,Elliot Williams,SG,6-5,190,"June 20, 1989",2,"Duke University, University of Memphis",UTAH JAZZ
+10,Arron Afflalo,SG,6-5,210,"October 15, 1985",7,"University of California, Los Angeles",DENVER NUGGETS
+00,Darrell Arthur,PF,6-9,235,"March 25, 1988",5,University of Kansas,DENVER NUGGETS
+5,Will Barton,SG,6-6,190,"January 6, 1991",2,University of Memphis,DENVER NUGGETS
+21,Wilson Chandler,SF,6-9,225,"May 10, 1987",7,DePaul University,DENVER NUGGETS
+20,Ian Clark,SG,6-3,175,"March 7, 1991",1,Belmont University,DENVER NUGGETS
+35,Kenneth Faried,PF,6-8,220,"November 19, 1989",3,Morehead State University,DENVER NUGGETS
+4,Randy Foye,SG,6-4,213,"September 24, 1983",8,Villanova University,DENVER NUGGETS
+22,Jamaal Franklin,SG,6-5,191,"July 21, 1991",1,San Diego State University,DENVER NUGGETS
+8,Danilo Gallinari,SF,6-10,225,"August 8, 1988",5,,DENVER NUGGETS
+1,Alonzo Gee,SF,6-6,225,"May 29, 1987",5,University of Alabama,DENVER NUGGETS
+11,Erick Green,PG,6-4,185,"May 9, 1991",R,Virginia Polytechnic Institute and State University,DENVER NUGGETS
+14,Gary Harris,SG,6-4,210,"September 14, 1994",R,Michigan State University,DENVER NUGGETS
+7,J.J. Hickson,C,6-9,242,"September 4, 1988",6,North Carolina State University,DENVER NUGGETS
+77,Joffrey Lauvergne,C,6-11,220,"September 30, 1991",R,,DENVER NUGGETS
+3,Ty Lawson,PG,5-11,195,"November 3, 1987",5,University of North Carolina,DENVER NUGGETS
+34,JaVale McGee,C,7-0,270,"January 19, 1988",6,"University of Nevada, Reno",DENVER NUGGETS
+25,Timofey Mozgov,C,7-1,275,"July 16, 1986",4,,DENVER NUGGETS
+28,Jameer Nelson,PG,6-0,190,"February 9, 1982",10,Saint Joseph's University,DENVER NUGGETS
+23,Jusuf Nurkic,C,7-0,275,"August 23, 1994",R,,DENVER NUGGETS
+5,Nate Robinson,PG,5-9,180,"May 31, 1984",9,University of Washington,DENVER NUGGETS
+12,Jeff Adrien,PF,6-7,245,"February 10, 1986",4,University of Connecticut,MINNESOTA TIMBERWOLVES
+24,Anthony Bennett,PF,6-8,245,"March 14, 1993",1,"University of Nevada, Las Vegas",MINNESOTA TIMBERWOLVES
+13,Corey Brewer,SF,6-9,186,"March 5, 1986",7,University of Florida,MINNESOTA TIMBERWOLVES
+7,Lorenzo Brown,PG,6-5,189,"August 26, 1990",1,North Carolina State University,MINNESOTA TIMBERWOLVES
+10,Chase Budinger,SF,6-7,209,"May 22, 1988",5,University of Arizona,MINNESOTA TIMBERWOLVES
+30,Troy Daniels,SG,6-4,205,"July 15, 1991",1,Virginia Commonwealth University,MINNESOTA TIMBERWOLVES
+5,Gorgui Dieng,C,6-11,252,"January 18, 1990",1,University of Louisville,MINNESOTA TIMBERWOLVES
+21,Kevin Garnett,PF,6-11,240,"May 19, 1976",19,,MINNESOTA TIMBERWOLVES
+41,Justin Hamilton,C,7-0,260,"April 1, 1990",1,"Iowa State University, Louisiana State University",MINNESOTA TIMBERWOLVES
+4,Robbie Hummel,SF,6-8,215,"March 8, 1989",1,Purdue University,MINNESOTA TIMBERWOLVES
+1,Sean Kilpatrick,SG,6-4,210,"January 6, 1990",R,University of Cincinnati,MINNESOTA TIMBERWOLVES
+8,Zach LaVine,PG,6-5,200,"March 10, 1995",R,"University of California, Los Angeles",MINNESOTA TIMBERWOLVES
+23,Kevin Martin,SG,6-7,199,"February 1, 1983",10,Western Carolina University,MINNESOTA TIMBERWOLVES
+15,Shabazz Muhammad,SG,6-6,223,"November 13, 1992",1,"University of California, Los Angeles",MINNESOTA TIMBERWOLVES
+12,Gary Neal,SG,6-4,210,"October 3, 1984",4,"La Salle University, Towson University",MINNESOTA TIMBERWOLVES
+50,Arinze Onuaku,C,6-9,255,"July 13, 1987",1,Syracuse University,MINNESOTA TIMBERWOLVES
+3,Adreian Payne,PF,6-10,237,"February 19, 1991",R,Michigan State University,MINNESOTA TIMBERWOLVES
+14,Nikola Pekovic,C,6-11,307,"January 3, 1986",4,,MINNESOTA TIMBERWOLVES
+13,Miroslav Raduljica,C,7-0,250,"January 5, 1988",1,,MINNESOTA TIMBERWOLVES
+1,Glenn Robinson,SG,6-6,222,"January 8, 1994",R,University of Michigan,MINNESOTA TIMBERWOLVES
+9,Ricky Rubio,PG,6-4,190,"October 21, 1990",3,,MINNESOTA TIMBERWOLVES
+32,Ronny Turiaf,C,6-10,249,"January 13, 1983",9,Gonzaga University,MINNESOTA TIMBERWOLVES
+22,Andrew Wiggins,SF,6-8,194,"February 23, 1995",R,University of Kansas,MINNESOTA TIMBERWOLVES
+25,Mo Williams,PG,6-1,198,"December 19, 1982",11,University of Alabama,MINNESOTA TIMBERWOLVES
+33,Thaddeus Young,PF,6-8,221,"June 21, 1988",7,Georgia Institute of Technology,MINNESOTA TIMBERWOLVES
+19,Leandro Barbosa,SG,6-3,194,"November 28, 1982",11,,GOLDEN STATE WARRIORS
+40,Harrison Barnes,SF,6-8,225,"May 30, 1992",2,University of North Carolina,GOLDEN STATE WARRIORS
+12,Andrew Bogut,C,7-0,260,"November 28, 1984",9,University of Utah,GOLDEN STATE WARRIORS
+30,Stephen Curry,PG,6-3,190,"March 14, 1988",5,Davidson College,GOLDEN STATE WARRIORS
+31,Festus Ezeli,C,6-11,255,"October 21, 1989",1,Vanderbilt University,GOLDEN STATE WARRIORS
+23,Draymond Green,PF,6-7,230,"March 4, 1990",2,Michigan State University,GOLDEN STATE WARRIORS
+7,Justin Holiday,SG,6-6,181,"April 5, 1989",1,University of Washington,GOLDEN STATE WARRIORS
+9,Andre Iguodala,SF,6-6,215,"January 28, 1984",10,University of Arizona,GOLDEN STATE WARRIORS
+1,Ognjen Kuzmic,C,7-1,251,"May 16, 1990",1,,GOLDEN STATE WARRIORS
+10,David Lee,PF,6-9,245,"April 29, 1983",9,University of Florida,GOLDEN STATE WARRIORS
+34,Shaun Livingston,PG,6-7,192,"September 11, 1985",9,,GOLDEN STATE WARRIORS
+20,James Michael McAdoo,PF,6-9,230,"January 4, 1993",R,University of North Carolina,GOLDEN STATE WARRIORS
+4,Brandon Rush,SG,6-6,220,"July 7, 1985",6,University of Kansas,GOLDEN STATE WARRIORS
+5,Marreese Speights,C,6-10,255,"August 4, 1987",6,University of Florida,GOLDEN STATE WARRIORS
+11,Klay Thompson,SG,6-7,215,"February 8, 1990",3,Washington State University,GOLDEN STATE WARRIORS
+22,Matt Barnes,SF,6-7,226,"March 9, 1980",11,"University of California, Los Angeles",LOS ANGELES CLIPPERS
+25,Reggie Bullock,SF,6-7,205,"March 16, 1991",1,University of North Carolina,LOS ANGELES CLIPPERS
+11,Jamal Crawford,SG,6-5,185,"March 20, 1980",14,University of Michigan,LOS ANGELES CLIPPERS
+9,Jared Cunningham,SG,6-4,195,"May 22, 1991",2,Oregon State University,LOS ANGELES CLIPPERS
+0,Glen Davis,PF,6-9,289,"January 1, 1986",7,Louisiana State University,LOS ANGELES CLIPPERS
+14,Chris Douglas-Roberts,SG,6-7,200,"January 8, 1987",5,University of Memphis,LOS ANGELES CLIPPERS
+1,Jordan Farmar,PG,6-2,180,"November 30, 1986",7,"University of California, Los Angeles",LOS ANGELES CLIPPERS
+32,Blake Griffin,PF,6-10,250,"March 16, 1989",4,University of Oklahoma,LOS ANGELES CLIPPERS
+1,Jordan Hamilton,SF,6-7,220,"October 6, 1990",3,University of Texas at Austin,LOS ANGELES CLIPPERS
+10,Spencer Hawes,PF,7-1,245,"April 28, 1988",7,University of Washington,LOS ANGELES CLIPPERS
+14,Lester Hudson,SG,6-3,190,"August 7, 1984",3,University of Tennessee at Martin,LOS ANGELES CLIPPERS
+31,Dahntay Jones,SF,6-6,225,"December 27, 1980",10,"Rutgers University, Duke University",LOS ANGELES CLIPPERS
+6,DeAndre Jordan,C,6-11,265,"July 21, 1988",6,Texas A&M University,LOS ANGELES CLIPPERS
+3,Chris Paul,PG,6-0,175,"May 6, 1985",9,Wake Forest University,LOS ANGELES CLIPPERS
+4,J.J. Redick,SG,6-4,200,"June 24, 1984",8,Duke University,LOS ANGELES CLIPPERS
+25,Austin Rivers,PG,6-4,200,"August 1, 1992",2,Duke University,LOS ANGELES CLIPPERS
+8,Nate Robinson,PG,5-9,180,"May 31, 1984",9,University of Washington,LOS ANGELES CLIPPERS
+15,Hedo Turkoglu,SF,6-10,220,"March 19, 1979",14,,LOS ANGELES CLIPPERS
+13,Ekpe Udoh,PF,6-10,245,"May 20, 1987",4,"University of Michigan, Baylor University",LOS ANGELES CLIPPERS
+30,C.J. Wilcox,SG,6-5,195,"December 30, 1990",R,University of Washington,LOS ANGELES CLIPPERS
+30,Earl Barron,C,7-0,250,"August 14, 1981",7,University of Memphis,PHOENIX SUNS
+2,Eric Bledsoe,PG,6-1,205,"December 9, 1989",4,University of Kentucky,PHOENIX SUNS
+25,Reggie Bullock,SF,6-7,205,"March 16, 1991",1,University of North Carolina,PHOENIX SUNS
+10,Seth Curry,PG,6-2,185,"August 23, 1990",1,"Liberty University, Duke University",PHOENIX SUNS
+1,Goran Dragic,SG,6-3,190,"May 6, 1986",6,,PHOENIX SUNS
+10,Zoran Dragic,SG,6-5,200,"June 22, 1989",R,,PHOENIX SUNS
+4,Tyler Ennis,PG,6-3,194,"August 24, 1994",R,Syracuse University,PHOENIX SUNS
+20,Archie Goodwin,SG,6-5,200,"August 17, 1994",1,University of Kentucky,PHOENIX SUNS
+14,Gerald Green,SG,6-7,205,"January 26, 1986",7,,PHOENIX SUNS
+3,Brandon Knight,SG,6-3,195,"December 2, 1991",3,University of Kentucky,PHOENIX SUNS
+21,Alex Len,C,7-1,250,"June 16, 1993",1,University of Maryland,PHOENIX SUNS
+8,Jerel McNeal,PG,6-3,200,"June 1, 1987",R,Marquette University,PHOENIX SUNS
+15,Marcus Morris,PF,6-9,235,"September 2, 1989",3,University of Kansas,PHOENIX SUNS
+11,Markieff Morris,PF,6-10,245,"September 2, 1989",3,University of Kansas,PHOENIX SUNS
+22,Miles Plumlee,C,6-11,249,"September 1, 1988",2,Duke University,PHOENIX SUNS
+1,A.J. Price,PG,6-2,181,"October 7, 1986",5,University of Connecticut,PHOENIX SUNS
+43,Shavlik Randolph,PF,6-10,240,"November 24, 1983",7,Duke University,PHOENIX SUNS
+3,Isaiah Thomas,PG,5-9,185,"February 7, 1989",3,University of Washington,PHOENIX SUNS
+23,Marcus Thornton,SG,6-4,205,"June 5, 1987",5,Louisiana State University,PHOENIX SUNS
+40,Anthony Tolliver,PF,6-8,250,"June 1, 1985",6,Creighton University,PHOENIX SUNS
+17,P.J. Tucker,SF,6-6,245,"May 5, 1985",3,University of Texas at Austin,PHOENIX SUNS
+12,T.J. Warren,SF,6-8,215,"September 5, 1993",R,North Carolina State University,PHOENIX SUNS
+32,Brandan Wright,PF,6-10,210,"October 5, 1987",6,University of North Carolina,PHOENIX SUNS
+32,Sim Bhullar,C,7-5,360,"December 2, 1992",R,New Mexico State University,SACRAMENTO KINGS
+18,Omri Casspi,SF,6-9,225,"June 22, 1988",5,,SACRAMENTO KINGS
+7,Darren Collison,PG,6-0,175,"August 23, 1987",5,"University of California, Los Angeles",SACRAMENTO KINGS
+15,DeMarcus Cousins,C,6-11,270,"August 13, 1990",4,University of Kentucky,SACRAMENTO KINGS
+30,Reggie Evans,PF,6-8,245,"May 18, 1980",12,University of Iowa,SACRAMENTO KINGS
+8,Rudy Gay,SF,6-8,230,"August 17, 1986",8,University of Connecticut,SACRAMENTO KINGS
+5,Ryan Hollins,C,7-0,240,"October 10, 1984",8,"University of California, Los Angeles",SACRAMENTO KINGS
+24,Carl Landry,PF,6-9,248,"September 19, 1983",7,Purdue University,SACRAMENTO KINGS
+3,Ray McCallum,PG,6-3,190,"June 12, 1991",1,University of Detroit Mercy,SACRAMENTO KINGS
+23,Ben McLemore,SG,6-5,201,"February 11, 1993",1,University of Kansas,SACRAMENTO KINGS
+22,Andre Miller,PG,6-3,200,"March 19, 1976",15,University of Utah,SACRAMENTO KINGS
+20,Quincy Miller,PF,6-9,210,"November 18, 1992",2,Baylor University,SACRAMENTO KINGS
+25,Eric Moreland,PF,6-10,238,"December 24, 1991",R,Oregon State University,SACRAMENTO KINGS
+9,Ramon Sessions,PG,6-3,190,"April 11, 1986",7,"University of Nevada, Reno",SACRAMENTO KINGS
+10,Nik Stauskas,SG,6-6,205,"October 7, 1993",R,University of Michigan,SACRAMENTO KINGS
+9,David Stockton,PG,5-11,165,"June 24, 1991",R,Gonzaga University,SACRAMENTO KINGS
+34,Jason Thompson,PF,6-11,250,"July 21, 1986",6,Rider University,SACRAMENTO KINGS
+31,David Wear,PF,6-10,230,"September 21, 1990",R,"University of North Carolina, University of California, Los Angeles",SACRAMENTO KINGS
+13,Derrick Williams,PF,6-8,240,"May 25, 1991",3,University of Arizona,SACRAMENTO KINGS
+28,Tarik Black,C,6-9,250,"November 22, 1991",R,"University of Memphis, University of Kansas",LOS ANGELES LAKERS
+12,Vander Blue,SG,6-4,200,"July 17, 1992",1,Marquette University,LOS ANGELES LAKERS
+5,Carlos Boozer,PF,6-9,258,"November 20, 1981",12,Duke University,LOS ANGELES LAKERS
+15,Jabari Brown,SG,6-4,215,"December 18, 1992",R,"University of Oregon, University of Missouri",LOS ANGELES LAKERS
+24,Kobe Bryant,SG,6-6,212,"August 23, 1978",18,,LOS ANGELES LAKERS
+20,Dwight Buycks,PG,6-3,190,"March 6, 1989",1,Marquette University,LOS ANGELES LAKERS
+6,Jordan Clarkson,PG,6-5,194,"June 7, 1992",R,"University of Tulsa, University of Missouri",LOS ANGELES LAKERS
+21,Ed Davis,PF,6-10,225,"June 5, 1989",4,University of North Carolina,LOS ANGELES LAKERS
+2,Wayne Ellington,SG,6-5,200,"November 29, 1987",5,University of North Carolina,LOS ANGELES LAKERS
+7,Xavier Henry,SF,6-6,220,"March 15, 1991",4,University of Kansas,LOS ANGELES LAKERS
+27,Jordan Hill,C,6-10,235,"July 27, 1987",5,University of Arizona,LOS ANGELES LAKERS
+11,Wesley Johnson,SF,6-7,215,"July 11, 1987",4,"Iowa State University, Syracuse University",LOS ANGELES LAKERS
+4,Ryan Kelly,PF,6-11,230,"April 9, 1991",1,Duke University,LOS ANGELES LAKERS
+17,Jeremy Lin,PG,6-3,200,"August 23, 1988",4,Harvard University,LOS ANGELES LAKERS
+9,Ronnie Price,PG,6-2,190,"June 21, 1983",9,"Nicholls State University, Utah Valley State College",LOS ANGELES LAKERS
+30,Julius Randle,PF,6-9,250,"November 29, 1994",R,University of Kentucky,LOS ANGELES LAKERS
+50,Robert Sacre,C,7-0,270,"June 6, 1989",2,Gonzaga University,LOS ANGELES LAKERS
+0,Nick Young,SG,6-7,210,"June 1, 1985",7,University of Southern California,LOS ANGELES LAKERS
+1,Trevor Ariza,SF,6-8,215,"June 30, 1985",10,"University of California, Los Angeles",HOUSTON ROCKETS
+2,Patrick Beverley,PG,6-1,185,"July 12, 1988",2,University of Arkansas,HOUSTON ROCKETS
+10,Tarik Black,C,6-9,250,"November 22, 1991",R,"University of Memphis, University of Kansas",HOUSTON ROCKETS
+33,Corey Brewer,SF,6-9,186,"March 5, 1986",7,University of Florida,HOUSTON ROCKETS
+0,Isaiah Canaan,PG,6-0,201,"May 21, 1991",1,Murray State University,HOUSTON ROCKETS
+15,Clint Capela,C,6-10,240,"May 18, 1994",R,,HOUSTON ROCKETS
+30,Troy Daniels,SG,6-4,205,"July 15, 1991",1,Virginia Commonwealth University,HOUSTON ROCKETS
+8,Joey Dorsey,PF,6-8,268,"December 16, 1983",3,University of Memphis,HOUSTON ROCKETS
+32,Francisco Garcia,SF,6-7,195,"December 31, 1981",9,University of Louisville,HOUSTON ROCKETS
+13,James Harden,SG,6-5,220,"August 26, 1989",5,Arizona State University,HOUSTON ROCKETS
+12,Dwight Howard,C,6-11,265,"December 8, 1985",10,,HOUSTON ROCKETS
+3,Nick Johnson,SG,6-3,202,"December 22, 1992",R,University of Arizona,HOUSTON ROCKETS
+6,Terrence Jones,PF,6-9,252,"January 9, 1992",2,University of Kentucky,HOUSTON ROCKETS
+32,K.J. McDaniels,SG,6-6,205,"February 9, 1993",R,Clemson University,HOUSTON ROCKETS
+20,Donatas Motiejunas,PF,7-0,222,"September 20, 1990",2,,HOUSTON ROCKETS
+16,Kostas Papanikolaou,SF,6-8,225,"July 31, 1990",R,,HOUSTON ROCKETS
+9,Pablo Prigioni,PG,6-3,185,"May 17, 1977",2,,HOUSTON ROCKETS
+88,Alexey Shved,SG,6-6,190,"December 16, 1988",2,,HOUSTON ROCKETS
+5,Josh Smith,PF,6-9,225,"December 5, 1985",10,,HOUSTON ROCKETS
+31,Jason Terry,SG,6-2,185,"September 15, 1977",15,University of Arizona,HOUSTON ROCKETS
+1,Kyle Anderson,SF,6-9,230,"September 20, 1993",R,"University of California, Los Angeles",SAN ANTONIO SPURS
+11,Jeff Ayres,PF,6-9,240,"April 29, 1987",4,Arizona State University,SAN ANTONIO SPURS
+16,Aron Baynes,C,6-10,260,"December 9, 1986",2,Washington State University,SAN ANTONIO SPURS
+3,Marco Belinelli,SG,6-5,210,"March 25, 1986",7,,SAN ANTONIO SPURS
+15,Matt Bonner,PF,6-10,235,"April 5, 1980",10,University of Florida,SAN ANTONIO SPURS
+23,Austin Daye,SF,6-11,220,"June 5, 1988",5,Gonzaga University,SAN ANTONIO SPURS
+33,Boris Diaw,PF,6-8,250,"April 16, 1982",11,,SAN ANTONIO SPURS
+21,Tim Duncan,C,6-11,250,"April 25, 1976",17,Wake Forest University,SAN ANTONIO SPURS
+20,Manu Ginobili,SG,6-6,205,"July 28, 1977",12,,SAN ANTONIO SPURS
+14,Danny Green,SG,6-6,215,"June 22, 1987",5,University of North Carolina,SAN ANTONIO SPURS
+41,JaMychal Green,PF,6-9,227,"June 21, 1990",R,University of Alabama,SAN ANTONIO SPURS
+5,Cory Joseph,PG,6-3,193,"August 20, 1991",3,University of Texas at Austin,SAN ANTONIO SPURS
+2,Kawhi Leonard,SF,6-7,230,"June 29, 1991",3,San Diego State University,SAN ANTONIO SPURS
+8,Patty Mills,PG,6-0,180,"August 11, 1988",5,Saint Mary's College of California,SAN ANTONIO SPURS
+9,Tony Parker,PG,6-2,185,"May 17, 1982",13,,SAN ANTONIO SPURS
+22,Tiago Splitter,C,6-11,245,"January 1, 1985",4,,SAN ANTONIO SPURS
+55,Reggie Williams,SF,6-6,205,"September 14, 1986",5,Virginia Military Institute,SAN ANTONIO SPURS
+3,Jordan Adams,SG,6-5,209,"July 8, 1994",R,"University of California, Los Angeles",MEMPHIS GRIZZLIES
+9,Tony Allen,SG,6-4,213,"January 11, 1982",10,"Butler County Community College, Oklahoma State University",MEMPHIS GRIZZLIES
+12,Nick Calathes,SG,6-6,213,"February 7, 1989",1,University of Florida,MEMPHIS GRIZZLIES
+15,Vince Carter,SG,6-6,220,"January 26, 1977",16,University of North Carolina,MEMPHIS GRIZZLIES
+11,Mike Conley,PG,6-1,175,"October 11, 1987",7,Ohio State University,MEMPHIS GRIZZLIES
+33,Marc Gasol,C,7-1,255,"January 29, 1985",6,,MEMPHIS GRIZZLIES
+0,JaMychal Green,PF,6-9,227,"June 21, 1990",R,University of Alabama,MEMPHIS GRIZZLIES
+32,Jeff Green,SF,6-9,235,"August 28, 1986",6,Georgetown University,MEMPHIS GRIZZLIES
+41,Kosta Koufos,C,7-0,245,"February 24, 1989",6,Ohio State University,MEMPHIS GRIZZLIES
+5,Courtney Lee,SG,6-5,215,"October 3, 1985",6,Western Kentucky University,MEMPHIS GRIZZLIES
+30,Jon Leuer,PF,6-10,228,"May 14, 1989",3,University of Wisconsin,MEMPHIS GRIZZLIES
+27,Kalin Lucas,PG,6-1,195,"May 24, 1989",R,Michigan State University,MEMPHIS GRIZZLIES
+8,Quincy Pondexter,SG,6-7,230,"March 10, 1988",4,University of Washington,MEMPHIS GRIZZLIES
+21,Tayshaun Prince,SF,6-9,212,"February 28, 1980",12,University of Kentucky,MEMPHIS GRIZZLIES
+50,Zach Randolph,PF,6-9,250,"July 16, 1981",13,Michigan State University,MEMPHIS GRIZZLIES
+2,Russ Smith,PG,6-0,165,"April 19, 1991",R,University of Louisville,MEMPHIS GRIZZLIES
+1,Jarnell Stokes,PF,6-9,263,"January 7, 1994",R,University of Tennessee,MEMPHIS GRIZZLIES
+13,Tyrus Thomas,PF,6-9,215,"August 17, 1986",7,Louisiana State University,MEMPHIS GRIZZLIES
+19,Beno Udrih,PG,6-3,205,"July 5, 1982",10,,MEMPHIS GRIZZLIES
+7,Al-Farouq Aminu,SF,6-9,220,"September 21, 1990",4,Wake Forest University,DALLAS MAVERICKS
+5,J.J. Barea,PG,6-0,185,"June 26, 1984",8,Northeastern University,DALLAS MAVERICKS
+6,Tyson Chandler,C,7-1,240,"October 2, 1982",13,,DALLAS MAVERICKS
+9,Jae Crowder,SF,6-6,235,"July 6, 1990",2,Marquette University,DALLAS MAVERICKS
+11,Monta Ellis,SG,6-3,185,"October 26, 1985",9,,DALLAS MAVERICKS
+2,Raymond Felton,PG,6-1,205,"June 26, 1984",9,University of North Carolina,DALLAS MAVERICKS
+20,Devin Harris,PG,6-3,185,"February 27, 1983",10,University of Wisconsin,DALLAS MAVERICKS
+55,Bernard James,C,6-10,240,"February 7, 1985",2,Florida State University,DALLAS MAVERICKS
+24,Richard Jefferson,SF,6-7,233,"June 21, 1980",13,University of Arizona,DALLAS MAVERICKS
+1,Ricky Ledo,SG,6-7,195,"September 10, 1992",1,,DALLAS MAVERICKS
+14,Jameer Nelson,PG,6-0,190,"February 9, 1982",10,Saint Joseph's University,DALLAS MAVERICKS
+41,Dirk Nowitzki,PF,7-0,245,"June 19, 1978",16,,DALLAS MAVERICKS
+25,Chandler Parsons,SF,6-10,230,"October 25, 1988",3,University of Florida,DALLAS MAVERICKS
+8,Dwight Powell,PF,6-11,240,"July 20, 1991",R,Stanford University,DALLAS MAVERICKS
+9,Rajon Rondo,PG,6-1,186,"February 22, 1986",8,University of Kentucky,DALLAS MAVERICKS
+4,Greg Smith,PF,6-10,250,"January 8, 1991",3,"California State University, Fresno",DALLAS MAVERICKS
+1,Amar'e Stoudemire,PF,6-10,245,"November 16, 1982",12,,DALLAS MAVERICKS
+3,Charlie Villanueva,PF,6-11,232,"August 24, 1984",9,University of Connecticut,DALLAS MAVERICKS
+34,Brandan Wright,PF,6-10,210,"October 5, 1987",6,University of North Carolina,DALLAS MAVERICKS
+42,Alexis Ajinca,C,7-2,248,"May 6, 1988",4,,NEW ORLEANS PELICANS
+33,Ryan Anderson,PF,6-10,240,"May 6, 1988",6,University of California,NEW ORLEANS PELICANS
+3,Omer Asik,C,7-0,255,"July 4, 1986",4,,NEW ORLEANS PELICANS
+8,Luke Babbitt,SF,6-9,225,"June 20, 1989",4,"University of Nevada, Reno",NEW ORLEANS PELICANS
+30,Norris Cole,PG,6-2,175,"October 13, 1988",3,Cleveland State University,NEW ORLEANS PELICANS
+0,Dante Cunningham,PF,6-8,230,"April 22, 1987",5,Villanova University,NEW ORLEANS PELICANS
+23,Anthony Davis,PF,6-10,253,"March 11, 1993",2,University of Kentucky,NEW ORLEANS PELICANS
+16,Toney Douglas,SG,6-2,195,"March 16, 1986",5,"Auburn University, Florida State University",NEW ORLEANS PELICANS
+1,Tyreke Evans,SG,6-6,220,"September 19, 1989",5,University of Memphis,NEW ORLEANS PELICANS
+32,Jimmer Fredette,PG,6-2,195,"February 25, 1989",3,Brigham Young University,NEW ORLEANS PELICANS
+10,Eric Gordon,SG,6-4,215,"December 25, 1988",6,Indiana University,NEW ORLEANS PELICANS
+11,Jrue Holiday,PG,6-4,205,"June 12, 1990",5,"University of California, Los Angeles",NEW ORLEANS PELICANS
+24,Gal Mekel,PG,6-3,191,"March 4, 1988",1,Wichita State University,NEW ORLEANS PELICANS
+2,Darius Miller,SF,6-8,225,"March 21, 1990",2,University of Kentucky,NEW ORLEANS PELICANS
+20,Quincy Pondexter,SF,6-7,230,"March 10, 1988",4,University of Washington,NEW ORLEANS PELICANS
+25,Austin Rivers,SG,6-4,200,"August 1, 1992",2,Duke University,NEW ORLEANS PELICANS
+15,John Salmons,SF,6-7,210,"December 12, 1979",12,University of Miami,NEW ORLEANS PELICANS
+9,Russ Smith,PG,6-0,165,"April 19, 1991",R,University of Louisville,NEW ORLEANS PELICANS
+2,Elliot Williams,SG,6-5,190,"June 20, 1989",2,"Duke University, University of Memphis",NEW ORLEANS PELICANS
+5,Jeff Withey,C,7-0,231,"March 7, 1990",1,University of Kansas,NEW ORLEANS PELICANS
+4,Nate Wolters,PG,6-4,190,"May 15, 1991",1,South Dakota State University,NEW ORLEANS PELICANS
+5,Bruno Caboclo,SF,6-9,218,"September 21, 1995",R,,TORONTO RAPTORS
+10,DeMar DeRozan,SG,6-7,220,"August 7, 1989",5,University of Southern California,TORONTO RAPTORS
+2,Landry Fields,SF,6-7,210,"June 27, 1988",4,Stanford University,TORONTO RAPTORS
+50,Tyler Hansbrough,PF,6-9,250,"November 3, 1985",5,University of North Carolina,TORONTO RAPTORS
+44,Chuck Hayes,C,6-6,240,"June 11, 1983",9,University of Kentucky,TORONTO RAPTORS
+15,Amir Johnson,PF,6-9,240,"May 1, 1987",9,,TORONTO RAPTORS
+3,James Johnson,PF,6-8,240,"February 20, 1987",5,Wake Forest University,TORONTO RAPTORS
+7,Kyle Lowry,PG,6-1,196,"March 25, 1986",8,Villanova University,TORONTO RAPTORS
+92,Lucas Nogueira,C,7-0,241,"July 26, 1992",R,,TORONTO RAPTORS
+54,Patrick Patterson,PF,6-9,230,"March 14, 1989",4,University of Kentucky,TORONTO RAPTORS
+31,Terrence Ross,SF,6-7,206,"February 5, 1991",2,University of Washington,TORONTO RAPTORS
+34,Greg Stiemsma,C,6-11,260,"September 26, 1985",3,University of Wisconsin,TORONTO RAPTORS
+17,Jonas Valanciunas,C,7-0,265,"May 6, 1992",2,,TORONTO RAPTORS
+21,Greivis Vasquez,PG,6-6,217,"January 16, 1987",4,University of Maryland,TORONTO RAPTORS
+23,Lou Williams,SG,6-1,175,"October 27, 1986",9,,TORONTO RAPTORS
+30,Brandon Bass,PF,6-8,250,"April 30, 1985",9,Louisiana State University,BOSTON CELTICS
+0,Avery Bradley,SG,6-2,180,"November 26, 1990",4,University of Texas at Austin,BOSTON CELTICS
+99,Jae Crowder,SF,6-6,235,"July 6, 1990",2,Marquette University,BOSTON CELTICS
+70,Luigi Datome,SF,6-8,215,"November 27, 1987",1,,BOSTON CELTICS
+8,Jeff Green,SF,6-9,235,"August 28, 1986",6,Georgetown University,BOSTON CELTICS
+8,Jonas Jerebko,PF,6-10,231,"March 2, 1987",4,,BOSTON CELTICS
+28,Jameer Nelson,PG,6-0,190,"February 9, 1982",10,Saint Joseph's University,BOSTON CELTICS
+41,Kelly Olynyk,C,7-0,240,"April 19, 1991",1,Gonzaga University,BOSTON CELTICS
+12,Dwight Powell,PF,6-11,240,"July 20, 1991",R,Stanford University,BOSTON CELTICS
+26,Phil Pressey,PG,5-11,175,"February 17, 1991",1,University of Missouri,BOSTON CELTICS
+12,Tayshaun Prince,SF,6-9,212,"February 28, 1980",12,University of Kentucky,BOSTON CELTICS
+42,Shavlik Randolph,PF,6-10,240,"November 24, 1983",7,Duke University,BOSTON CELTICS
+9,Rajon Rondo,PG,6-1,186,"February 22, 1986",8,University of Kentucky,BOSTON CELTICS
+36,Marcus Smart,PG,6-4,220,"March 6, 1994",R,Oklahoma State University,BOSTON CELTICS
+7,Jared Sullinger,PF,6-9,260,"March 4, 1992",2,Ohio State University,BOSTON CELTICS
+4,Isaiah Thomas,PG,5-9,185,"February 7, 1989",3,University of Washington,BOSTON CELTICS
+4,Marcus Thornton,SG,6-4,205,"June 5, 1987",5,Louisiana State University,BOSTON CELTICS
+11,Evan Turner,SG,6-7,220,"October 27, 1988",4,Ohio State University,BOSTON CELTICS
+45,Gerald Wallace,SF,6-7,215,"July 23, 1982",13,University of Alabama,BOSTON CELTICS
+12,Brandan Wright,PF,6-10,210,"October 5, 1987",6,University of North Carolina,BOSTON CELTICS
+13,James Young,SG,6-6,215,"August 16, 1995",R,University of Kentucky,BOSTON CELTICS
+44,Tyler Zeller,C,7-0,253,"January 17, 1990",2,University of North Carolina,BOSTON CELTICS
+6,Alan Anderson,SG,6-6,220,"October 16, 1982",5,Michigan State University,BROOKLYN NETS
+44,Bojan Bogdanovic,SF,6-8,216,"April 18, 1989",R,,BROOKLYN NETS
+22,Markel Brown,SG,6-3,190,"January 29, 1992",R,Oklahoma State University,BROOKLYN NETS
+55,Earl Clark,PF,6-10,225,"January 17, 1988",5,University of Louisville,BROOKLYN NETS
+20,Brandon Davies,PF,6-10,240,"July 25, 1991",1,Brigham Young University,BROOKLYN NETS
+2,Kevin Garnett,PF,6-11,240,"May 19, 1976",19,,BROOKLYN NETS
+13,Jorge Gutierrez,PG,6-3,191,"December 27, 1988",1,University of California,BROOKLYN NETS
+0,Jarrett Jack,PG,6-3,200,"October 28, 1983",9,Georgia Institute of Technology,BROOKLYN NETS
+21,Cory Jefferson,PF,6-9,218,"December 26, 1990",R,Baylor University,BROOKLYN NETS
+7,Joe Johnson,SG,6-7,240,"June 29, 1981",13,University of Arkansas,BROOKLYN NETS
+9,Jerome Jordan,C,7-0,253,"September 29, 1986",1,University of Tulsa,BROOKLYN NETS
+10,Sergey Karasev,SG,6-7,208,"October 26, 1993",1,,BROOKLYN NETS
+47,Andrei Kirilenko,SF,6-9,220,"February 18, 1981",12,,BROOKLYN NETS
+11,Brook Lopez,C,7-0,270,"April 1, 1988",6,Stanford University,BROOKLYN NETS
+14,Darius Morris,PG,6-4,190,"January 3, 1991",3,University of Michigan,BROOKLYN NETS
+1,Mason Plumlee,C,6-11,235,"March 5, 1990",1,Duke University,BROOKLYN NETS
+33,Mirza Teletovic,PF,6-9,242,"September 18, 1985",2,,BROOKLYN NETS
+8,Deron Williams,PG,6-3,200,"June 26, 1984",9,University of Illinois at Urbana-Champaign,BROOKLYN NETS
+30,Thaddeus Young,PF,6-8,221,"June 21, 1988",7,Georgia Institute of Technology,BROOKLYN NETS
+19,Furkan Aldemir,PF,6-10,240,"August 9, 1991",R,,PHILADELPHIA 76ERS
+0,Isaiah Canaan,PG,6-0,201,"May 21, 1991",1,Murray State University,PHILADELPHIA 76ERS
+1,Michael Carter-Williams,PG,6-6,190,"October 10, 1991",1,Syracuse University,PHILADELPHIA 76ERS
+33,Robert Covington,SF,6-9,225,"December 14, 1990",1,Tennessee State University,PHILADELPHIA 76ERS
+0,Brandon Davies,PF,6-10,240,"July 25, 1991",1,Brigham Young University,PHILADELPHIA 76ERS
+7,Larry Drew,PG,6-2,180,"March 5, 1990",R,"University of North Carolina, University of California, Los Angeles",PHILADELPHIA 76ERS
+20,Tim Frazier,PG,6-1,170,"November 1, 1990",R,Pennsylvania State University,PHILADELPHIA 76ERS
+30,Drew Gordon,PF,6-9,245,"July 12, 1990",R,"University of California, Los Angeles, University of New Mexico",PHILADELPHIA 76ERS
+39,Jerami Grant,SF,6-9,220,"March 12, 1994",R,Syracuse University,PHILADELPHIA 76ERS
+16,Chris Johnson,SF,6-6,206,"April 29, 1990",2,University of Dayton,PHILADELPHIA 76ERS
+11,Malcolm Lee,SG,6-5,200,"May 22, 1990",2,"University of California, Los Angeles",PHILADELPHIA 76ERS
+12,Luc Mbah a Moute,PF,6-8,230,"September 9, 1986",6,"University of California, Los Angeles",PHILADELPHIA 76ERS
+14,K.J. McDaniels,SG,6-6,205,"February 9, 1993",R,Clemson University,PHILADELPHIA 76ERS
+1,JaVale McGee,C,7-0,270,"January 19, 1988",6,"University of Nevada, Reno",PHILADELPHIA 76ERS
+4,Nerlens Noel,C,6-11,220,"April 10, 1994",R,University of Kentucky,PHILADELPHIA 76ERS
+23,Jason Richardson,SG,6-6,220,"January 20, 1981",12,Michigan State University,PHILADELPHIA 76ERS
+1,Glenn Robinson,SF,6-6,222,"January 8, 1994",R,University of Michigan,PHILADELPHIA 76ERS
+41,Thomas Robinson,PF,6-10,237,"March 17, 1991",2,University of Kansas,PHILADELPHIA 76ERS
+9,JaKarr Sampson,SF,6-9,214,"March 20, 1993",R,St. John's University,PHILADELPHIA 76ERS
+88,Alexey Shved,SG,6-6,190,"December 16, 1988",2,,PHILADELPHIA 76ERS
+35,Henry Sims,C,6-10,248,"March 27, 1990",2,Georgetown University,PHILADELPHIA 76ERS
+5,Ish Smith,PG,6-0,175,"July 5, 1988",4,Wake Forest University,PHILADELPHIA 76ERS
+11,Malcolm Thomas,PF,6-9,225,"November 8, 1988",3,"Pepperdine University, San Diego State University",PHILADELPHIA 76ERS
+31,Hollis Thompson,SG,6-8,206,"April 3, 1991",1,Georgetown University,PHILADELPHIA 76ERS
+8,Tony Wroten,PG,6-6,205,"April 13, 1993",2,University of Washington,PHILADELPHIA 76ERS
+4,Quincy Acy,PF,6-7,240,"October 6, 1990",2,Baylor University,NEW YORK KNICKS
+45,Cole Aldrich,C,6-11,250,"October 31, 1988",4,University of Kansas,NEW YORK KNICKS
+21,Lou Amundson,PF,6-9,220,"December 7, 1982",8,"University of Nevada, Las Vegas",NEW YORK KNICKS
+7,Carmelo Anthony,SF,6-8,240,"May 29, 1984",11,Syracuse University,NEW YORK KNICKS
+77,Andrea Bargnani,C,7-0,245,"October 26, 1985",8,,NEW YORK KNICKS
+3,Jose Calderon,PG,6-3,200,"September 28, 1981",9,,NEW YORK KNICKS
+11,Samuel Dalembert,C,6-11,255,"May 10, 1981",12,Seton Hall University,NEW YORK KNICKS
+17,Cleanthony Early,SF,6-8,210,"April 17, 1991",R,Wichita State University,NEW YORK KNICKS
+2,Langston Galloway,PG,6-2,200,"December 9, 1991",R,Saint Joseph's University,NEW YORK KNICKS
+5,Tim Hardaway,SG,6-6,205,"March 16, 1992",1,University of Michigan,NEW YORK KNICKS
+0,Shane Larkin,PG,5-11,175,"October 2, 1992",1,University of Miami,NEW YORK KNICKS
+11,Ricky Ledo,SG,6-7,195,"September 10, 1992",1,,NEW YORK KNICKS
+9,Pablo Prigioni,PG,6-3,185,"May 17, 1977",2,,NEW YORK KNICKS
+21,Iman Shumpert,SG,6-5,215,"June 26, 1990",3,Georgia Institute of Technology,NEW YORK KNICKS
+1,Alexey Shved,SG,6-6,190,"December 16, 1988",2,,NEW YORK KNICKS
+8,J.R. Smith,SG,6-6,225,"September 9, 1985",10,,NEW YORK KNICKS
+14,Jason Smith,C,7-0,240,"March 2, 1986",6,Colorado State University,NEW YORK KNICKS
+1,Amar'e Stoudemire,PF,6-10,245,"November 16, 1982",12,,NEW YORK KNICKS
+42,Lance Thomas,PF,6-8,240,"April 24, 1988",3,Duke University,NEW YORK KNICKS
+6,Travis Wear,SF,6-10,230,"September 21, 1990",R,"University of North Carolina, University of California, Los Angeles",NEW YORK KNICKS
+89,Lou Amundson,PF,6-9,220,"December 7, 1982",8,"University of Nevada, Las Vegas",CLEVELAND CAVALIERS
+5,Will Cherry,PG,6-0,185,"February 8, 1991",R,University of Montana,CLEVELAND CAVALIERS
+8,Matthew Dellavedova,SG,6-4,200,"September 8, 1990",1,Saint Mary's College of California,CLEVELAND CAVALIERS
+12,Joe Harris,SG,6-6,218,"September 6, 1991",R,University of Virginia,CLEVELAND CAVALIERS
+33,Brendan Haywood,C,7-0,268,"November 27, 1979",12,University of North Carolina,CLEVELAND CAVALIERS
+2,Kyrie Irving,PG,6-3,193,"March 23, 1992",3,Duke University,CLEVELAND CAVALIERS
+23,LeBron James,SF,6-8,250,"December 30, 1984",11,,CLEVELAND CAVALIERS
+1,James Jones,SF,6-8,218,"October 4, 1980",11,University of Miami,CLEVELAND CAVALIERS
+53,Alex Kirk,C,7-0,245,"November 14, 1991",R,University of New Mexico,CLEVELAND CAVALIERS
+0,Kevin Love,PF,6-10,251,"September 7, 1988",6,"University of California, Los Angeles",CLEVELAND CAVALIERS
+31,Shawn Marion,SF,6-7,220,"May 7, 1978",15,"University of Nevada, Las Vegas",CLEVELAND CAVALIERS
+18,Mike Miller,SF,6-8,218,"February 19, 1980",14,University of Florida,CLEVELAND CAVALIERS
+20,Timofey Mozgov,C,7-1,275,"July 16, 1986",4,,CLEVELAND CAVALIERS
+3,Kendrick Perkins,C,6-10,270,"November 10, 1984",11,,CLEVELAND CAVALIERS
+21,A.J. Price,PG,6-2,181,"October 7, 1986",5,University of Connecticut,CLEVELAND CAVALIERS
+4,Iman Shumpert,SG,6-5,215,"June 26, 1990",3,Georgia Institute of Technology,CLEVELAND CAVALIERS
+5,J.R. Smith,SG,6-6,225,"September 9, 1985",10,,CLEVELAND CAVALIERS
+13,Tristan Thompson,PF,6-10,238,"March 13, 1991",3,University of Texas at Austin,CLEVELAND CAVALIERS
+17,Anderson Varejao,C,6-10,273,"September 28, 1982",10,,CLEVELAND CAVALIERS
+3,Dion Waiters,SG,6-4,215,"December 10, 1991",2,Syracuse University,CLEVELAND CAVALIERS
+41,Cameron Bairstow,PF,6-9,250,"December 7, 1990",R,University of New Mexico,CHICAGO BULLS
+0,Aaron Brooks,PG,6-0,161,"January 14, 1985",6,University of Oregon,CHICAGO BULLS
+21,Jimmy Butler,SG,6-8,232,"September 14, 1989",3,Marquette University,CHICAGO BULLS
+34,Mike Dunleavy,SF,6-9,230,"September 15, 1980",12,Duke University,CHICAGO BULLS
+16,Pau Gasol,PF,7-0,250,"July 6, 1980",13,,CHICAGO BULLS
+22,Taj Gibson,PF,6-9,232,"June 24, 1985",5,University of Southern California,CHICAGO BULLS
+12,Kirk Hinrich,SG,6-4,190,"January 2, 1981",11,University of Kansas,CHICAGO BULLS
+3,Doug McDermott,SF,6-8,225,"January 3, 1992",R,Creighton University,CHICAGO BULLS
+44,Nikola Mirotic,PF,6-10,250,"February 11, 1991",R,,CHICAGO BULLS
+48,Nazr Mohammed,C,6-10,221,"September 5, 1977",16,University of Kentucky,CHICAGO BULLS
+55,E'Twaun Moore,SG,6-4,191,"February 25, 1989",3,Purdue University,CHICAGO BULLS
+13,Joakim Noah,C,6-11,230,"February 25, 1985",7,University of Florida,CHICAGO BULLS
+1,Derrick Rose,PG,6-3,200,"October 4, 1988",5,University of Memphis,CHICAGO BULLS
+20,Tony Snell,SF,6-7,213,"November 10, 1991",1,University of New Mexico,CHICAGO BULLS
+34,Giannis Antetokounmpo,SG,6-11,242,"December 6, 1994",1,,MILWAUKEE BUCKS
+19,Jerryd Bayless,PG,6-3,200,"August 20, 1988",6,University of Arizona,MILWAUKEE BUCKS
+5,Michael Carter-Williams,PG,6-6,190,"October 10, 1991",1,Syracuse University,MILWAUKEE BUCKS
+9,Jared Dudley,SG,6-7,237,"July 10, 1985",7,Boston College,MILWAUKEE BUCKS
+11,Tyler Ennis,PG,6-3,194,"August 24, 1994",R,Syracuse University,MILWAUKEE BUCKS
+13,Jorge Gutierrez,PG,6-3,191,"December 27, 1988",1,University of California,MILWAUKEE BUCKS
+31,John Henson,C,6-11,219,"December 28, 1990",2,University of North Carolina,MILWAUKEE BUCKS
+7,Ersan Ilyasova,PF,6-10,235,"May 15, 1987",6,,MILWAUKEE BUCKS
+23,Chris Johnson,SF,6-6,206,"April 29, 1990",2,University of Dayton,MILWAUKEE BUCKS
+11,Brandon Knight,PG,6-3,195,"December 2, 1991",3,University of Kentucky,MILWAUKEE BUCKS
+5,Kendall Marshall,PG,6-4,200,"August 19, 1991",2,University of North Carolina,MILWAUKEE BUCKS
+6,Kenyon Martin,PF,6-9,234,"December 30, 1977",14,University of Cincinnati,MILWAUKEE BUCKS
+00,O.J. Mayo,SG,6-5,210,"November 5, 1987",6,University of Southern California,MILWAUKEE BUCKS
+22,Khris Middleton,SF,6-8,222,"August 12, 1991",2,Texas A&M University,MILWAUKEE BUCKS
+3,Johnny O'Bryant,PF,6-9,257,"June 1, 1993",R,Louisiana State University,MILWAUKEE BUCKS
+27,Zaza Pachulia,C,6-11,270,"February 10, 1984",11,,MILWAUKEE BUCKS
+12,Jabari Parker,PF,6-8,245,"March 15, 1995",R,Duke University,MILWAUKEE BUCKS
+21,Miles Plumlee,C,6-11,249,"September 1, 1988",2,Duke University,MILWAUKEE BUCKS
+8,Larry Sanders,C,6-11,235,"November 21, 1988",4,Virginia Commonwealth University,MILWAUKEE BUCKS
+6,Nate Wolters,PG,6-4,190,"May 15, 1991",1,South Dakota State University,MILWAUKEE BUCKS
+5,Lavoy Allen,C,6-9,260,"February 4, 1989",3,Temple University,INDIANA PACERS
+22,Chris Copeland,SF,6-9,239,"March 17, 1984",2,University of Colorado,INDIANA PACERS
+13,Paul George,SF,6-9,220,"May 2, 1990",4,"California State University, Fresno",INDIANA PACERS
+55,Roy Hibbert,C,7-2,270,"December 11, 1986",6,Georgetown University,INDIANA PACERS
+3,George Hill,PG,6-3,188,"May 4, 1986",6,Indiana University-Purdue University Indianapolis,INDIANA PACERS
+44,Solomon Hill,SF,6-7,225,"March 18, 1991",1,University of Arizona,INDIANA PACERS
+28,Ian Mahinmi,C,6-11,262,"November 5, 1986",6,,INDIANA PACERS
+0,C.J. Miles,SG,6-6,220,"March 18, 1987",9,,INDIANA PACERS
+12,A.J. Price,PG,6-2,181,"October 7, 1986",5,University of Connecticut,INDIANA PACERS
+9,Damjan Rudez,SF,6-10,228,"June 17, 1986",R,,INDIANA PACERS
+4,Luis Scola,PF,6-9,240,"April 30, 1980",7,,INDIANA PACERS
+15,Donald Sloan,PG,6-3,205,"January 15, 1988",3,Texas A&M University,INDIANA PACERS
+2,Rodney Stuckey,PG,6-5,210,"April 21, 1986",7,Eastern Washington University,INDIANA PACERS
+32,C.J. Watson,PG,6-2,175,"April 17, 1984",7,University of Tennessee,INDIANA PACERS
+21,David West,PF,6-9,250,"August 29, 1980",11,Xavier University,INDIANA PACERS
+42,Shayne Whittington,PF,6-11,250,"March 27, 1991",R,Western Michigan University,INDIANA PACERS
+50,Joel Anthony,C,6-9,245,"August 9, 1982",7,"University of Nevada, Las Vegas",DETROIT PISTONS
+14,D.J. Augustin,PG,6-0,183,"November 10, 1987",6,University of Texas at Austin,DETROIT PISTONS
+31,Caron Butler,SF,6-7,228,"March 13, 1980",12,University of Connecticut,DETROIT PISTONS
+5,Kentavious Caldwell-Pope,SG,6-5,205,"February 18, 1993",1,University of Georgia,DETROIT PISTONS
+13,Luigi Datome,SF,6-8,215,"November 27, 1987",1,,DETROIT PISTONS
+8,Spencer Dinwiddie,PG,6-6,210,"April 6, 1993",R,University of Colorado,DETROIT PISTONS
+0,Andre Drummond,C,6-11,279,"August 10, 1993",2,University of Connecticut,DETROIT PISTONS
+1,Reggie Jackson,PG,6-3,208,"April 16, 1990",3,Boston College,DETROIT PISTONS
+7,Brandon Jennings,PG,6-1,170,"September 23, 1989",5,,DETROIT PISTONS
+33,Jonas Jerebko,PF,6-10,231,"March 2, 1987",4,,DETROIT PISTONS
+9,John Lucas III,PG,5-11,166,"November 21, 1982",6,"Baylor University, Oklahoma State University",DETROIT PISTONS
+35,Cartier Martin,SF,6-7,220,"November 20, 1984",6,Kansas State University,DETROIT PISTONS
+20,Jodie Meeks,SG,6-4,210,"August 21, 1987",5,University of Kentucky,DETROIT PISTONS
+20,Quincy Miller,PF,6-9,210,"November 18, 1992",2,Baylor University,DETROIT PISTONS
+10,Greg Monroe,PF,6-11,265,"June 4, 1990",4,Georgetown University,DETROIT PISTONS
+22,Tayshaun Prince,SF,6-9,212,"February 28, 1980",12,University of Kentucky,DETROIT PISTONS
+25,Kyle Singler,SF,6-8,228,"May 4, 1988",2,Duke University,DETROIT PISTONS
+6,Josh Smith,PF,6-9,225,"December 5, 1985",10,,DETROIT PISTONS
+43,Anthony Tolliver,PF,6-8,250,"June 1, 1985",6,Creighton University,DETROIT PISTONS
+3,Shawne Williams,SF,6-9,225,"February 16, 1986",6,University of Memphis,DETROIT PISTONS
+6,Pero Antic,C,6-11,260,"July 29, 1982",1,,ATLANTA HAWKS
+24,Kent Bazemore,SG,6-5,201,"July 1, 1989",2,Old Dominion University,ATLANTA HAWKS
+7,Elton Brand,C,6-8,275,"March 11, 1979",15,Duke University,ATLANTA HAWKS
+5,DeMarre Carroll,SF,6-8,215,"July 27, 1986",5,"Vanderbilt University, University of Missouri",ATLANTA HAWKS
+3,Austin Daye,SF,6-11,220,"June 5, 1988",5,Gonzaga University,ATLANTA HAWKS
+15,Al Horford,C,6-10,245,"June 3, 1986",7,University of Florida,ATLANTA HAWKS
+12,John Jenkins,SG,6-4,215,"March 6, 1991",2,Vanderbilt University,ATLANTA HAWKS
+26,Kyle Korver,SG,6-7,212,"March 17, 1981",11,Creighton University,ATLANTA HAWKS
+8,Shelvin Mack,PG,6-3,203,"April 22, 1990",3,Butler University,ATLANTA HAWKS
+4,Paul Millsap,PF,6-8,246,"February 10, 1985",8,Louisiana Tech University,ATLANTA HAWKS
+31,Mike Muscala,PF,6-11,240,"July 1, 1991",1,Bucknell University,ATLANTA HAWKS
+33,Adreian Payne,PF,6-10,237,"February 19, 1991",R,Michigan State University,ATLANTA HAWKS
+17,Dennis Schroder,PG,6-1,172,"September 15, 1993",1,,ATLANTA HAWKS
+32,Mike Scott,PF,6-8,237,"July 16, 1988",2,University of Virginia,ATLANTA HAWKS
+25,Thabo Sefolosha,SF,6-7,220,"May 2, 1984",8,,ATLANTA HAWKS
+0,Jeff Teague,PG,6-2,195,"June 10, 1988",5,Wake Forest University,ATLANTA HAWKS
+3,Bradley Beal,SG,6-5,207,"June 28, 1993",2,University of Florida,WASHINGTON WIZARDS
+45,DeJuan Blair,PF,6-7,270,"April 22, 1989",5,University of Pittsburgh,WASHINGTON WIZARDS
+8,Rasual Butler,SF,6-7,215,"May 23, 1979",11,La Salle University,WASHINGTON WIZARDS
+1,Will Bynum,SG,6-0,185,"January 4, 1983",7,"University of Arizona, Georgia Institute of Technology",WASHINGTON WIZARDS
+90,Drew Gooden,PF,6-10,250,"September 24, 1981",12,University of Kansas,WASHINGTON WIZARDS
+4,Marcin Gortat,C,6-11,240,"February 17, 1984",7,,WASHINGTON WIZARDS
+42,Nene Hilario,PF,6-11,250,"September 13, 1982",12,,WASHINGTON WIZARDS
+43,Kris Humphries,PF,6-9,235,"February 6, 1985",10,University of Minnesota,WASHINGTON WIZARDS
+24,Andre Miller,PG,6-3,200,"March 19, 1976",15,University of Utah,WASHINGTON WIZARDS
+1,Toure' Murry,SG,6-5,195,"November 8, 1989",1,Wichita State University,WASHINGTON WIZARDS
+34,Paul Pierce,SF,6-7,235,"October 13, 1977",16,University of Kansas,WASHINGTON WIZARDS
+22,Otto Porter,SF,6-8,198,"June 3, 1993",1,Georgetown University,WASHINGTON WIZARDS
+14,Glen Rice,SG,6-6,206,"January 1, 1991",1,Georgia Institute of Technology,WASHINGTON WIZARDS
+13,Kevin Seraphin,C,6-9,285,"December 7, 1989",4,,WASHINGTON WIZARDS
+7,Ramon Sessions,PG,6-3,190,"April 11, 1986",7,"University of Nevada, Reno",WASHINGTON WIZARDS
+17,Garrett Temple,SG,6-6,195,"May 8, 1986",4,Louisiana State University,WASHINGTON WIZARDS
+2,John Wall,PG,6-4,210,"September 6, 1990",4,University of Kentucky,WASHINGTON WIZARDS
+9,Martell Webster,SF,6-7,230,"December 4, 1986",9,,WASHINGTON WIZARDS
+11,Chris Andersen,C,6-10,245,"July 7, 1978",12,Blinn College,MIAMI HEAT
+30,Michael Beasley,PF,6-9,235,"January 9, 1989",6,Kansas State University,MIAMI HEAT
+1,Chris Bosh,C,6-11,235,"March 24, 1984",11,Georgia Institute of Technology,MIAMI HEAT
+26,Shannon Brown,SG,6-4,205,"November 29, 1985",8,Michigan State University,MIAMI HEAT
+15,Mario Chalmers,PG,6-2,190,"May 19, 1986",6,University of Kansas,MIAMI HEAT
+30,Norris Cole,PG,6-2,175,"October 13, 1988",3,Cleveland State University,MIAMI HEAT
+24,Andre Dawkins,SG,6-5,215,"September 19, 1991",R,Duke University,MIAMI HEAT
+9,Luol Deng,SF,6-9,237,"April 16, 1985",10,Duke University,MIAMI HEAT
+7,Goran Dragic,PG,6-3,190,"May 6, 1986",6,,MIAMI HEAT
+12,Zoran Dragic,SG,6-5,200,"June 22, 1989",R,,MIAMI HEAT
+32,James Ennis,SF,6-7,210,"July 1, 1990",R,"California State University, Long Beach",MIAMI HEAT
+22,Danny Granger,SF,6-9,222,"April 20, 1983",9,"Bradley University, University of New Mexico",MIAMI HEAT
+7,Justin Hamilton,C,7-0,260,"April 1, 1990",1,"Iowa State University, Louisiana State University",MIAMI HEAT
+40,Udonis Haslem,PF,6-8,235,"June 9, 1980",11,University of Florida,MIAMI HEAT
+8,Tyler Johnson,SG,6-4,190,"May 7, 1992",R,"California State University, Fresno",MIAMI HEAT
+4,Josh McRoberts,PF,6-10,240,"February 28, 1987",7,Duke University,MIAMI HEAT
+13,Shabazz Napier,PG,6-1,180,"July 14, 1991",R,University of Connecticut,MIAMI HEAT
+3,Dwyane Wade,SG,6-4,220,"January 17, 1982",11,Marquette University,MIAMI HEAT
+5,Henry Walker,SF,6-6,220,"October 9, 1987",4,Kansas State University,MIAMI HEAT
+21,Hassan Whiteside,C,7-0,265,"June 13, 1989",2,Marshall University,MIAMI HEAT
+43,Shawne Williams,SF,6-9,225,"February 16, 1986",6,University of Memphis,MIAMI HEAT
+8,Bismack Biyombo,C,6-9,255,"August 28, 1992",3,,CHARLOTTE HORNETS
+30,Troy Daniels,SG,6-4,205,"July 15, 1991",1,Virginia Commonwealth University,CHARLOTTE HORNETS
+19,P.J. Hairston,SG,6-6,230,"December 24, 1992",R,University of North Carolina,CHARLOTTE HORNETS
+9,Gerald Henderson,SG,6-5,215,"December 9, 1987",5,Duke University,CHARLOTTE HORNETS
+25,Al Jefferson,C,6-10,289,"January 4, 1985",10,,CHARLOTTE HORNETS
+14,Michael Kidd-Gilchrist,SF,6-7,232,"September 26, 1993",2,University of Kentucky,CHARLOTTE HORNETS
+54,Jason Maxiell,PF,6-7,260,"February 18, 1983",9,University of Cincinnati,CHARLOTTE HORNETS
+12,Gary Neal,SG,6-4,210,"October 3, 1984",4,"La Salle University, Towson University",CHARLOTTE HORNETS
+5,Jannero Pargo,PG,6-1,175,"October 22, 1979",10,University of Arkansas,CHARLOTTE HORNETS
+22,Brian Roberts,PG,6-1,173,"December 3, 1985",2,University of Dayton,CHARLOTTE HORNETS
+1,Lance Stephenson,SG,6-6,230,"September 5, 1990",4,University of Cincinnati,CHARLOTTE HORNETS
+44,Jeffery Taylor,SF,6-7,225,"May 23, 1989",2,Vanderbilt University,CHARLOTTE HORNETS
+11,Noah Vonleh,PF,6-9,250,"August 24, 1995",R,Indiana University,CHARLOTTE HORNETS
+15,Kemba Walker,PG,6-1,184,"May 8, 1990",3,University of Connecticut,CHARLOTTE HORNETS
+2,Marvin Williams,PF,6-9,237,"June 19, 1986",9,University of North Carolina,CHARLOTTE HORNETS
+7,Mo Williams,PG,6-1,198,"December 19, 1982",11,University of Alabama,CHARLOTTE HORNETS
+40,Cody Zeller,C,7-0,240,"October 5, 1992",1,Indiana University,CHARLOTTE HORNETS
+3,Dewayne Dedmon,C,7-0,245,"August 12, 1989",1,University of Southern California,ORLANDO MAGIC
+10,Evan Fournier,SG,6-7,205,"October 29, 1992",2,,ORLANDO MAGIC
+8,Channing Frye,PF,7-0,255,"May 17, 1983",8,University of Arizona,ORLANDO MAGIC
+00,Aaron Gordon,PF,6-9,220,"September 16, 1995",R,University of Arizona,ORLANDO MAGIC
+7,Ben Gordon,SG,6-3,200,"April 4, 1983",10,University of Connecticut,ORLANDO MAGIC
+34,Willie Green,SG,6-4,200,"July 28, 1981",11,University of Detroit Mercy,ORLANDO MAGIC
+21,Maurice Harkless,SF,6-9,220,"May 11, 1993",2,St. John's University,ORLANDO MAGIC
+12,Tobias Harris,SF,6-9,235,"July 15, 1992",3,University of Tennessee,ORLANDO MAGIC
+11,Devyn Marble,SG,6-6,200,"September 21, 1992",R,University of Iowa,ORLANDO MAGIC
+44,Andrew Nicholson,PF,6-9,250,"December 8, 1989",2,St. Bonaventure University,ORLANDO MAGIC
+2,Kyle O'Quinn,PF,6-10,250,"March 26, 1990",2,Norfolk State University,ORLANDO MAGIC
+5,Victor Oladipo,SG,6-4,210,"May 4, 1992",1,Indiana University,ORLANDO MAGIC
+4,Elfrid Payton,PG,6-4,185,"February 22, 1994",R,University of Louisiana at Lafayette,ORLANDO MAGIC
+13,Luke Ridnour,PG,6-2,175,"February 13, 1981",11,University of Oregon,ORLANDO MAGIC
+9,Nikola Vucevic,C,7-0,260,"October 24, 1990",3,University of Southern California,ORLANDO MAGIC
