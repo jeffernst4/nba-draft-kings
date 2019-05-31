@@ -186,6 +186,15 @@ FeatureEngineering <- list(
   # Calculate player fantasy points
   Player_Stats_Per_Min = function(playerBoxScores, teamStats) {
     
+    ### remove stats per min for player box scores and replace with just stats
+    ### get fp_per_min_1:5,10,15,20 by using rollsum find a way to do last 20,
+    ### 40, 80, 120 minutes, otherwise, just use more general games to replace
+    ### more short-term games maybe sum up minutes for each date for each player
+    ### and pick out minutes that are at each level, I think the first option is
+    ### better
+    
+    ### analysis$fp_10[is.nan(analysis$fp_10)] <- fp_20[is.nan(analysis$fp_10)]
+    
     # Specify stats
     stats <- c(
       "points",
@@ -197,21 +206,6 @@ FeatureEngineering <- list(
       "turnovers"
     )
     
-    # Calculate stats per min
-    playerBoxScores <- eval(parse(
-      text = paste0(
-        "playerBoxScores %>% group_by() %>% dplyr::mutate(",
-        paste0(
-          stats,
-          "_per_min = ifelse(minutes_played > 0, ",
-          stats,
-          " / minutes_played, NA)",
-          collapse = ", "
-        ),
-        ")"
-      )
-    ))
-    
     # Filter player box scores
     playerBoxScores <-
       playerBoxScores[, c(
@@ -220,7 +214,7 @@ FeatureEngineering <- list(
         "opponent",
         "location",
         "minutes_played",
-        paste0(stats, "_per_min")
+        stats
       )]
     
     # Create stats analysis
@@ -307,17 +301,19 @@ FeatureEngineering <- list(
     playerStats <- eval(parse(
       text = paste0(
         "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
-        paste0(sapply(c(5, 10, 20), function(x)
+        paste0(sapply(c(1:5, 10, 20), function(x)
           paste0(
             "player_",
             stats,
             "_per_min_",
             x,
-            " = c(NA, head(rollmean(",
+            " = c(NA, head(rollsum(",
             stats,
-            "_per_min, ",
+            ", ",
             x,
-            ", na.pad = TRUE, align = 'right'), -1)) * ",
+            ", na.pad = TRUE, align = 'right') / round(rollsum(minutes_played, ",
+            x,
+            ", na.pad = TRUE, align = 'right'), 5), -1)) * ",
             stats,
             "_multiplier",
             collapse = ", "
@@ -328,13 +324,13 @@ FeatureEngineering <- list(
     
     # Remove columns
     playerStats <-
-      playerStats[, !(names(playerStats) %in% c(paste0(stats, "_per_min"), paste0(stats, "_multiplier")))]
+      playerStats[, !(names(playerStats) %in% c(stats, paste0(stats, "_multiplier")))]
     
     # Create rolling averages
     playerStats <- eval(parse(
       text = paste0(
         "playerStats %>% group_by() %>% dplyr::mutate(",
-        paste0(sapply(c(5, 10, 20), function(x)
+        paste0(sapply(c(1:5, 10, 20), function(x)
           paste0(
             "player_fp_per_min_",
             x,
@@ -349,7 +345,7 @@ FeatureEngineering <- list(
     
     # Remove columns
     playerStats <-
-      playerStats[, !(names(playerStats) %in% sapply(c(5, 10, 20), function(x)
+      playerStats[, !(names(playerStats) %in% sapply(c(1:5, 10, 20), function(x)
         paste0("player_", stats, "_per_min_", x)))]
     
     # Return player stats

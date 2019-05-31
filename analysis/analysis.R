@@ -1,63 +1,4 @@
 
-# To Do -----
-
-# put in correct order in optimizaiton part
-
-# Clean up code
-
-# Order columns same, date opponent slug, etc...
-
-# make stats and amounts for fantasy points as config
-
-# remove all group_by()
-
-# identify playoff games and possibly remove, see if they're harder to predict
-
-# Get player news from cbs to add to player salaries for predicting time played
-
-# Match up names from basketball reference and draft kings
-
-# Our projections are generated using sophisticated models that take into
-# account factors such as: per minute averages, opponents defense, vegas
-# odds/lines, rest
-
-# Scrape other projections to compare against my projections
-# http://www.dailyfantasyfuel.com/nba/projections/draftkings/2017-05-15/
-
-# Add in double_doubles and triple_doubles to player fantasy points feature
-
-# join salaries as a feature
-
-# Add in empty stats before transforming player box scores
-
-# maybe consider adding in defense against position or comparing fantasy points
-# method with/without matchup comparisons, test out all ways to calculate matchup
-# comparisons, maybe method for calculating fantasy points shouldn't be used in
-# minutes prediction
-
-# organize this notes section
-
-# maybe only use seasons >= 2016 since 2015 doesn't have players that didn't
-# play (12 vs 10k +), keep all dates until end to have data for league opponent
-# multipliers
-
-# Maybe use 1, 2, 3-5, 6-10, 10-20 averages instead of rolling averages all the
-# way back to 0 -- test this
-
-# Remove extra columns in player box scores, and order columns
-
-# opponent multipliers should be calculated just once in feature engineering,
-# but they may not be in player stats anyway (not per min)
-
-# Find a way to take into account location
-
-# When calculating player stats per min fantasy points prediction, only use games they actually played in?
-
-# Fix player fp_per_min for games that have 0 minutes
-
-# Maybe use home/away by grouping into player types that play better at home vs away
-
-
 # Setup -----
 
 # Load libraries
@@ -78,23 +19,23 @@ sapply(c("data load", "data transformation", "feature engineering"), function(sc
 
 # Data Load -----
 
-# Aggregate data
-data <- list(
-  NameCorrections = list(PlayerSalaries = dataLoad$NameCorrections("player salaries")),
-  PlayerHistories = dataLoad$PlayerHistories(),
-  PlayerSalaries = list(
-    DraftKings = dataLoad$PlayerSalaries(gameType = "draftkings"),
-    FanDuel = dataLoad$PlayerSalaries(gameType = "fanduel"),
-    Yahoo = dataLoad$PlayerSalaries(gameType = "yahoo")
-  ),
-  PlayerBoxScores = dataLoad$GameStats(dataType = "player box scores"),
-  TeamBoxScores = dataLoad$GameStats(dataType = "team box scores"),
-  PlayerSeasonTotals = dataLoad$GameStats(dataType = "player season totals"),
-  SeasonSchedules = dataLoad$GameStats(dataType = "season schedules")
-)
+# # Aggregate data
+# data <- list(
+#   NameCorrections = list(PlayerSalaries = dataLoad$NameCorrections("player salaries")),
+#   PlayerHistories = dataLoad$PlayerHistories(),
+#   PlayerSalaries = list(
+#     DraftKings = dataLoad$PlayerSalaries(gameType = "draftkings"),
+#     FanDuel = dataLoad$PlayerSalaries(gameType = "fanduel"),
+#     Yahoo = dataLoad$PlayerSalaries(gameType = "yahoo")
+#   ),
+#   PlayerBoxScores = dataLoad$GameStats(dataType = "player box scores"),
+#   TeamBoxScores = dataLoad$GameStats(dataType = "team box scores"),
+#   PlayerSeasonTotals = dataLoad$GameStats(dataType = "player season totals"),
+#   SeasonSchedules = dataLoad$GameStats(dataType = "season schedules")
+# )
 
-# Save data
-save(data, file = "analysis/data/data.RData")
+# # Save data
+# save(data, file = "analysis/data/data.RData")
 
 # Load data
 load("analysis/data/data.RData")
@@ -126,8 +67,6 @@ data$PlayerSalaries <-
     type = "full"
   )
 
-#### Sort player salaries or do it below when it gets joined ########
-
 # Join player history with player salaries
 data$PlayerSalaries <-
   join(data$PlayerSalaries, unique(data$PlayerHistories[, c("slug", "name", "team")]), type = "inner")
@@ -145,8 +84,6 @@ statsColumns <-
 
 # Replace na's
 data$PlayerBoxScores[statsColumns][is.na(data$PlayerBoxScores[statsColumns])] <- 0
-
-##### Make this more clean #############
 
 # Sort player box scores
 data$PlayerBoxScores <- data$PlayerBoxScores[with(data$PlayerBoxScores, order(date, team, slug, seconds_played)), ]
@@ -219,6 +156,7 @@ data$Analysis <-
     )
   )
 
+# Create player stats per min
 data$Analysis <-
   join(
     data$Analysis,
@@ -276,9 +214,13 @@ model$Outcome <- "fantasy_points_per_min"
 # Specify predictor variables
 model$Predictors <-
   c(
-    "player_fp_per_min5",
-    "player_fp_per_min10",
-    "player_fp_per_min20",
+    "player_fp_per_min_1",
+    "player_fp_per_min_2",
+    "player_fp_per_min_3",
+    "player_fp_per_min_4",
+    "player_fp_per_min_5",
+    "player_fp_per_min_10",
+    "player_fp_per_min_20",
     "salary_yahoo",
     "salary_draftkings",
     "salary_fanduel"
@@ -293,28 +235,70 @@ na.omit(data$Analysis[, c(model$Outcome, model$Predictors)]))
 summary(model$OLS)
 
 
+# Create random forest model
+model$RandomForest2 <- randomForest(as.formula(paste0(
+  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
+)),
+data = na.omit(data$Analysis[sample(nrow(data$Analysis), 20000), c(model$Outcome, model$Predictors)]),
+importance = TRUE)
+
+
+### Chance of Playing
+
+# Specify outcome variable
+model$Outcome <- "played_10"
+
+# Specify predictor variables
+model$Predictors <-
+  c(
+    "player_fp_20",
+    "player_fp_10",
+    "player_fp_5",
+    "player_fp_4",
+    "player_fp_3",
+    "player_fp_2",
+    "player_fp_1",
+    "player_minutes_20",
+    "player_minutes_15",
+    "player_minutes_10",
+    "player_minutes_9",
+    "player_minutes_8",
+    "player_minutes_7",
+    "player_minutes_6",
+    "player_minutes_3",
+    "player_minutes_2",
+    "player_minutes_1",
+    "salary_yahoo",
+    "salary_draftkings",
+    "salary_fanduel"
+  )
+
+# Create linear model
+model$OLS <- lm(as.formula(paste0(
+  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
+)),
+na.omit(data$Analysis[, c(model$Outcome, model$Predictors)]))
+
+summary(model$OLS)
+
+
+# Create random forest model
+model$RandomForest2 <- randomForest(as.formula(paste0(
+  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
+)),
+data = na.omit(data$Analysis[sample(nrow(data$Analysis), 20000), c(model$Outcome, model$Predictors)]),
+importance = TRUE)
+
+
+
+
 ### MINUTES PLAYED
-
-# predictors: news, minutes_played (last games), fantasy points (last games),
-# salary, difference of opponent vs team (maybe?, chance of overtime and also
-# better players play more, more difference means worse player will play more),
-# account for blowouts and overtimes (maybe use % of total team time rather than
-# actual playing time), maybe add in age (more likely to be hurt), rest (more
-# rest is less likely to be hurt), look at other players on team who are injured
-# (that will give subs more playing time)
-
-# compare usual salary vs current salary instead of just salary, combine all 3
-# salary measurements (may have to do all of this in transformations)
-
-# https://cran.r-project.org/web/packages/ngram/vignettes/ngram-guide.pdf
-
-# https://www.dataquest.io/blog/natural-language-processing-with-python/
 
 # Create random forest model
 model$RandomForest <-
   randomForest(
     minutes_played ~ salary_draftkings + salary_fanduel + salary_yahoo + player_fp_20 + player_fp_10 + player_fp_5 + player_fp_4 + player_fp_3 + player_fp_2 + player_fp_1 + player_minutes_20 + player_minutes_15 + player_minutes_10 + player_minutes_9 + player_minutes_8 + player_minutes_7 + player_minutes_6 + player_minutes_3 + player_minutes_2 + player_minutes_1,
-    data = na.omit(data$Analysis[sample(nrow(data$Analysis), 20000), ]),
+    data = na.omit(data$Analysis2[sample(nrow(data$Analysis), 20000), ]),
     importance = TRUE
   )
 
@@ -325,20 +309,29 @@ analysis <- data$Analysis
 
 analysis$minute_predictions <- predict(model$RandomForest, analysis)
 
-analysis$fp_predictions <- predict(model$OLS, analysis)
+analysis$fp_predictions <- predict(model$RandomForest2, analysis)
 
 analysis$total_predictions <- analysis$minute_predictions * analysis$fp_predictions
 
+summary(lm(fantasy_points ~ total_predictions, analysis))
+
+modelValidation <- analysis[, c("name", "date", "fantasy_points", "total_predictions", "fantasy_points_per_min", "fp_predictions", "minutes_played", "minute_predictions")]
+
+modelValidation$residuals <- abs(modelValidation$total_predictions - modelValidation$fantasy_points)
+
+summary(modelValidation$residuals[modelValidation$minutes_played == 0])
+
+summary(modelValidation$residuals[modelValidation$minutes_played != 0])
 
 # Prediction -----
 
 # Load data
 data$Salaries <-
-  read.csv("Data/Draft Kings/DKSalaries.csv", stringsAsFactors = FALSE, encoding = "utf-8")
+  read.csv("data/draft kings/dk salaries.csv", stringsAsFactors = FALSE, encoding = "utf-8")
 data$Abbreviations <-
-  read.csv("Data/Draft Kings/Abbreviations.csv", stringsAsFactors = FALSE, encoding = "utf-8")
+  read.csv("data/draft kings/abbreviations.csv", stringsAsFactors = FALSE, encoding = "utf-8")
 data$NameCorrections <-
-  read.csv("Data/Draft Kings/Name Corrections.csv", stringsAsFactors = FALSE, encoding = "utf-8")
+  read.csv("data/draft kings/name corrections.csv", stringsAsFactors = FALSE, encoding = "utf-8")
 
 # Join salaries and abbreviations
 data$Salaries <- join(data$Salaries, data$Abbreviations)
@@ -425,7 +418,11 @@ predictions <- join(predictions, availablePositions)
 
 # Optimization -----
 
-injuries <- read.csv("Data/Draft Kings/injuries.csv")
+####### https://stackoverflow.com/questions/34480151/r-combinations-of-a-dataframe-with-constraints/34480260 ######### how to get all combinations of lineups
+
+### https://rotogrinders.com/articles/what-it-really-takes-to-win-an-nba-gpp-1210935### required winning scores
+
+injuries <- read.csv("data/draft kings/injuries.csv")
 
 predictions$injury[predictions$name %in% c(injuries$name, "DeAndre Jordan", "Julius Randle", "Jamal Murray")] <- 1
 
