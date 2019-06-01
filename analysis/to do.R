@@ -1,7 +1,7 @@
 
 ### General -----
 
-# Make stats and amounts for fantasy points as config
+# Make stats and rules for fantasy points as config
 
 # Remove all group_by() potentially
 
@@ -31,18 +31,19 @@
 
 # Remove extra columns in player box scores, and order columns
 
-# Sort player salaries when it gets created or after it's joined to player box scores
-
-# Clean up code
-
 # Remove team stats and add player box scores stats used in team stats in
-# feature engineering to team box scores transformation
+# feature engineering to team box scores transformation (rebounds, 3 pointers,
+# etc.)
 
 # There are some players that are in the player box scores, but not in the
 # player salaries, wait until modeling to omit them since they can be useful to
 # create rolling player averages
 
 # Combine 3 salary metrics
+
+# Remove tot from player histories
+
+# Maybe only load seasons >= 2015 for all data sources
 
 
 
@@ -70,6 +71,13 @@
 
 
 ### Model -----
+
+# Make sure outcome variable for playing likelihood is categorical, so that
+# randomforest converts to classification
+
+# Create a dataset for each model
+
+# Maybe put predictors and outcome in the config
 
 # Change minutes played > 10 to minutes played > 6
 

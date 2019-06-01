@@ -52,6 +52,16 @@ dataTransformation <- list(
   # Transform player box scores
   PlayerBoxScores = function(playerBoxScores) {
     
+    # Identify stats columns
+    statsColumnNames <-
+      names(playerBoxScores)[!(names(playerBoxScores) %in% c("slug", "name", "team", grep(
+        "salary\\_", names(playerBoxScores), value = TRUE
+      )))]
+    
+    # Replace na's
+    playerBoxScores[statsColumnNames][is.na(playerBoxScores[statsColumnNames])] <-
+      0
+    
     # Rename columns
     names(playerBoxScores) <- gsub("made_field_goals", "field_goals_made", names(playerBoxScores))
     names(playerBoxScores) <- gsub("attempted_field_goals", "field_goals_attempted", names(playerBoxScores))
@@ -93,7 +103,7 @@ dataTransformation <- list(
     playerBoxScores$double_doubles <-
       rowSums(playerBoxScores[, c("points", "rebounds", "assists", "blocks", "steals")] > 10) >= 2
     
-    # Identify double-doubles
+    # Identify triple-doubles
     playerBoxScores$triple_doubles <-
       rowSums(playerBoxScores[, c("points", "rebounds", "assists", "blocks", "steals")] > 10) >= 3
     
@@ -123,6 +133,11 @@ dataTransformation <- list(
         playerBoxScores$fantasy_points / playerBoxScores$minutes_played,
         NA
       )
+    
+    # Sort player box scores
+    playerBoxScores <-
+      playerBoxScores[with(playerBoxScores, order(date, slug)),]
+    
     
     # Return player box scores
     return(playerBoxScores)

@@ -13,7 +13,7 @@ library(tcltk2)
 library(zoo)
 
 # Load scripts
-sapply(c("data load", "data transformation", "feature engineering"), function(script)
+sapply(c("data load", "data transformation", "feature engineering", "modeling"), function(script)
   source(paste0("analysis/scripts/", script, ".R")))
 
 
@@ -43,6 +43,22 @@ load("analysis/data/data.RData")
 
 # Data Transformation -----
 
+# Transform season schedules
+data$SeasonSchedules <-
+  dataTransformation$SeasonSchedules(data$SeasonSchedules)
+
+# Join season schedules with team box scores
+data$TeamBoxScores <-
+  join(data$TeamBoxScores, data$SeasonSchedules[, c("date", "team", "points", "opponent")])
+
+# Transform team box scores
+data$TeamBoxScores <-
+  dataTransformation$TeamBoxScores(data$TeamBoxScores)
+
+# Transform player season totals
+data$PlayerSeasonTotals <-
+  dataTransformation$PlayerSeasonTotals(data$PlayerSeasonTotals)
+
 # Transform player history
 data$PlayerHistories <-
   dataTransformation$PlayerHistories(data$PlayerHistories)
@@ -67,42 +83,12 @@ data$PlayerSalaries <-
     type = "full"
   )
 
-# Join player history with player salaries
+# Join player histories with player salaries
 data$PlayerSalaries <-
   join(data$PlayerSalaries, unique(data$PlayerHistories[, c("slug", "name", "team")]), type = "inner")
 
-# Join player box scores with player salaries
-data$PlayerSalaries <-
-  join(data$PlayerSalaries, unique(data$PlayerBoxScores[, c("team", "date", "location", "opponent", "outcome")]))
-
 # Join player salaries with player box scores
-data$PlayerBoxScores <- join(data$PlayerBoxScores, data$PlayerSalaries, type = "right")
-
-# Identify stats columns
-statsColumns <-
-  names(data$PlayerBoxScores)[!(names(data$PlayerBoxScores) %in% grep("salary\\_", names(data$PlayerBoxScores), value = TRUE))]
-
-# Replace na's
-data$PlayerBoxScores[statsColumns][is.na(data$PlayerBoxScores[statsColumns])] <- 0
-
-# Sort player box scores
-data$PlayerBoxScores <- data$PlayerBoxScores[with(data$PlayerBoxScores, order(date, team, slug, seconds_played)), ]
-
-# Transform season schedules
-data$SeasonSchedules <-
-  dataTransformation$SeasonSchedules(data$SeasonSchedules)
-
-# Join season schedules with team box scores
-data$TeamBoxScores <-
-  join(data$TeamBoxScores, data$SeasonSchedules[, c("date", "team", "points", "opponent")])
-
-# Transform team box scores
-data$TeamBoxScores <-
-  dataTransformation$TeamBoxScores(data$TeamBoxScores)
-
-# Transform player season totals
-data$PlayerSeasonTotals <-
-  dataTransformation$PlayerSeasonTotals(data$PlayerSeasonTotals)
+data$PlayerBoxScores <- join(data$PlayerBoxScores, data$PlayerSalaries, type = "full")
 
 # Transform player box scores
 data$PlayerBoxScores <-
@@ -167,142 +153,91 @@ data$Analysis <-
   )
 
 
-# Model -----
+# Modeling -----
 
 # Create empty list
-model <- list()
-
-# Specify outcome variable
-model$Outcome <- "fantasy_points"
-
-# Specify predictor variables
-model$Predictors <-
-  c(
-    "player_fp_1",
-    "player_fp_2",
-    "player_fp_3",
-    "player_fp_6",
-    "player_fp_10",
-    "player_fp_20",
-    "player_minutes_20",
-    "player_minutes_5",
-    "player_minutes_1",
-    "salary_draftkings",
-    "salary_yahoo"
+model <- list(
+  PlayingLikelihood = Modeling$RandomForest(
+    data = data$Analysis,
+    outcome = "played_10",
+    predictors = c(
+      "player_fp_20",
+      "player_fp_10",
+      "player_fp_5",
+      "player_fp_4",
+      "player_fp_3",
+      "player_fp_2",
+      "player_fp_1",
+      "player_minutes_20",
+      "player_minutes_15",
+      "player_minutes_10",
+      "player_minutes_9",
+      "player_minutes_8",
+      "player_minutes_7",
+      "player_minutes_6",
+      "player_minutes_3",
+      "player_minutes_2",
+      "player_minutes_1",
+      "salary_yahoo",
+      "salary_draftkings",
+      "salary_fanduel"
+    ),
+    sample = 2000,
+    ntree = 250
+  ),
+  PlayingTime = Modeling$RandomForest(
+    data = na.omit(data$Analysis),
+    outcome = "minutes_played",
+    predictors = c(
+      "salary_draftkings",
+      "salary_fanduel",
+      "salary_yahoo",
+      "player_fp_20",
+      "player_fp_10",
+      "player_fp_5",
+      "player_fp_4",
+      "player_fp_3",
+      "player_fp_2",
+      "player_fp_1",
+      "player_minutes_20",
+      "player_minutes_15",
+      "player_minutes_10",
+      "player_minutes_9",
+      "player_minutes_8",
+      "player_minutes_7",
+      "player_minutes_6",
+      "player_minutes_3",
+      "player_minutes_2",
+      "player_minutes_1"
+    ),
+    sample = 2000,
+    ntree = 250
+  ),
+  FantasyPoints = Modeling$RandomForest(
+    data = na.omit(data$Analysis),
+    outcome = "fantasy_points_per_min",
+    predictors = c(
+      "player_fp_per_min_1",
+      "player_fp_per_min_2",
+      "player_fp_per_min_3",
+      "player_fp_per_min_4",
+      "player_fp_per_min_5",
+      "player_fp_per_min_10",
+      "player_fp_per_min_20",
+      "salary_yahoo",
+      "salary_draftkings",
+      "salary_fanduel"
+    ),
+    sample = 5000,
+    ntree = 250
   )
-
-# Create linear model
-model$OLS <- lm(as.formula(paste0(
-  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
-)),
-na.omit(data$Analysis))
-
-summary(model$OLS)
-
-# # Create random forest model
-# model$RandomForest <- randomForest(as.formula(paste0(
-#   model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
-# )),
-# data = na.omit(data$Analysis[sample(257015, 5000), ]),
-# importance = TRUE)
-
-### Fantasy Points / min
-
-# Specify outcome variable
-model$Outcome <- "fantasy_points_per_min"
-
-# Specify predictor variables
-model$Predictors <-
-  c(
-    "player_fp_per_min_1",
-    "player_fp_per_min_2",
-    "player_fp_per_min_3",
-    "player_fp_per_min_4",
-    "player_fp_per_min_5",
-    "player_fp_per_min_10",
-    "player_fp_per_min_20",
-    "salary_yahoo",
-    "salary_draftkings",
-    "salary_fanduel"
-  )
-
-# Create linear model
-model$OLS <- lm(as.formula(paste0(
-  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
-)),
-na.omit(data$Analysis[, c(model$Outcome, model$Predictors)]))
-
-summary(model$OLS)
-
-
-# Create random forest model
-model$RandomForest2 <- randomForest(as.formula(paste0(
-  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
-)),
-data = na.omit(data$Analysis[sample(nrow(data$Analysis), 20000), c(model$Outcome, model$Predictors)]),
-importance = TRUE)
-
-
-### Chance of Playing
-
-# Specify outcome variable
-model$Outcome <- "played_10"
-
-# Specify predictor variables
-model$Predictors <-
-  c(
-    "player_fp_20",
-    "player_fp_10",
-    "player_fp_5",
-    "player_fp_4",
-    "player_fp_3",
-    "player_fp_2",
-    "player_fp_1",
-    "player_minutes_20",
-    "player_minutes_15",
-    "player_minutes_10",
-    "player_minutes_9",
-    "player_minutes_8",
-    "player_minutes_7",
-    "player_minutes_6",
-    "player_minutes_3",
-    "player_minutes_2",
-    "player_minutes_1",
-    "salary_yahoo",
-    "salary_draftkings",
-    "salary_fanduel"
-  )
-
-# Create linear model
-model$OLS <- lm(as.formula(paste0(
-  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
-)),
-na.omit(data$Analysis[, c(model$Outcome, model$Predictors)]))
-
-summary(model$OLS)
-
-
-# Create random forest model
-model$RandomForest2 <- randomForest(as.formula(paste0(
-  model$Outcome, " ~ ", paste(model$Predictors, collapse = " + ")
-)),
-data = na.omit(data$Analysis[sample(nrow(data$Analysis), 20000), c(model$Outcome, model$Predictors)]),
-importance = TRUE)
+)
 
 
 
 
-### MINUTES PLAYED
 
-# Create random forest model
-model$RandomForest <-
-  randomForest(
-    minutes_played ~ salary_draftkings + salary_fanduel + salary_yahoo + player_fp_20 + player_fp_10 + player_fp_5 + player_fp_4 + player_fp_3 + player_fp_2 + player_fp_1 + player_minutes_20 + player_minutes_15 + player_minutes_10 + player_minutes_9 + player_minutes_8 + player_minutes_7 + player_minutes_6 + player_minutes_3 + player_minutes_2 + player_minutes_1,
-    data = na.omit(data$Analysis2[sample(nrow(data$Analysis), 20000), ]),
-    importance = TRUE
-  )
 
-### R2 currently at .5471 with "player_fp_1", "player_fp_2", "player_fp_3", "player_fp_6", "player_fp_10", "player_fp_20"
 
 
 analysis <- data$Analysis
@@ -417,10 +352,6 @@ predictions <- join(predictions, availablePositions)
 
 
 # Optimization -----
-
-####### https://stackoverflow.com/questions/34480151/r-combinations-of-a-dataframe-with-constraints/34480260 ######### how to get all combinations of lineups
-
-### https://rotogrinders.com/articles/what-it-really-takes-to-win-an-nba-gpp-1210935### required winning scores
 
 injuries <- read.csv("data/draft kings/injuries.csv")
 

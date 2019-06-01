@@ -30,6 +30,13 @@ FeatureEngineering <- list(
     
   },
   
+  # Calculate player salaries
+  Player_Salaries = function(playerSalaries) {
+    
+    
+    
+  },
+  
   # Calculate player fantasy points
   Player_Stats = function(playerBoxScores, teamStats) {
     
