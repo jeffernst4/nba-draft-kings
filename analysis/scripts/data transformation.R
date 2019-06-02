@@ -54,9 +54,19 @@ dataTransformation <- list(
     
     # Identify stats columns
     statsColumnNames <-
-      names(playerBoxScores)[!(names(playerBoxScores) %in% c("slug", "name", "team", grep(
-        "salary\\_", names(playerBoxScores), value = TRUE
-      )))]
+      names(playerBoxScores)[!(
+        names(playerBoxScores) %in% c(
+          "slug",
+          "name",
+          "team",
+          "opponent",
+          "location",
+          "opponent",
+          "outcome",
+          "date",
+          grep("salary\\_", names(playerBoxScores), value = TRUE)
+        )
+      )]
     
     # Replace na's
     playerBoxScores[statsColumnNames][is.na(playerBoxScores[statsColumnNames])] <-
@@ -76,6 +86,10 @@ dataTransformation <- list(
     # Rename column
     names(playerBoxScores) <-
       gsub("seconds_played", "minutes_played", names(playerBoxScores))
+    
+    # Identify players who played significant minutes
+    playerBoxScores$played_game <-
+      factor(ifelse(playerBoxScores$minutes_played >= 6, 1, 0)) 
     
     # Calculate made two points field goals
     playerBoxScores$two_pointers_made <-

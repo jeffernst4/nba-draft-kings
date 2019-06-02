@@ -87,6 +87,10 @@ data$PlayerSalaries <-
 data$PlayerSalaries <-
   join(data$PlayerSalaries, unique(data$PlayerHistories[, c("slug", "name", "team")]), type = "inner")
 
+# Join player box scores with player salaries
+data$PlayerSalaries <-
+  join(data$PlayerSalaries, unique(data$PlayerBoxScores[, c("team", "date", "location", "opponent", "outcome")]))
+
 # Join player salaries with player box scores
 data$PlayerBoxScores <- join(data$PlayerBoxScores, data$PlayerSalaries, type = "full")
 
@@ -116,6 +120,7 @@ data$Analysis <-
                            "team",
                            "opponent",
                            "location",
+                           "played_game",
                            "minutes_played",
                            "salary_draftkings",
                            "salary_fanduel",
@@ -130,7 +135,6 @@ data$Analysis <-
 data$Analysis <-
   join(data$Analysis,
        FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
-  
 
 # Create player stats
 data$Analysis <-
@@ -159,31 +163,22 @@ data$Analysis <-
 model <- list(
   PlayingLikelihood = Modeling$RandomForest(
     data = data$Analysis,
-    outcome = "played_10",
+    outcome = "played_game",
     predictors = c(
-      "player_fp_20",
-      "player_fp_10",
-      "player_fp_5",
-      "player_fp_4",
-      "player_fp_3",
-      "player_fp_2",
-      "player_fp_1",
-      "player_minutes_20",
-      "player_minutes_15",
-      "player_minutes_10",
-      "player_minutes_9",
-      "player_minutes_8",
-      "player_minutes_7",
-      "player_minutes_6",
-      "player_minutes_3",
-      "player_minutes_2",
-      "player_minutes_1",
-      "salary_yahoo",
       "salary_draftkings",
-      "salary_fanduel"
+      "salary_draftkings_change_1",
+      "salary_draftkings_change_3",
+      "salary_draftkings_change_5",
+      "player_salary_change_10",
+      "player_salary_change_20",
+      "player_minutes_20",
+      "player_minutes_10",
+      "player_minutes_5",
+      "player_minutes_3",
+      "player_minutes_1"
     ),
-    sample = 2000,
-    ntree = 250
+    sample = 20000,
+    ntree = 100
   ),
   PlayingTime = Modeling$RandomForest(
     data = na.omit(data$Analysis),

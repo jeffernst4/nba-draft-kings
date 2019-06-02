@@ -18,7 +18,7 @@ FeatureEngineering <- list(
             x,
             " = c(NA, head(rollmean(minutes_played, ",
             x,
-            ", na.pad = TRUE, align = 'right'), -1))",
+            ", fill = NA, align = 'right'), -1))",
             collapse = ", "
           )), collapse = ", "),
         ")"
@@ -31,9 +31,70 @@ FeatureEngineering <- list(
   },
   
   # Calculate player salaries
-  Player_Salaries = function(playerSalaries) {
+  Player_Salaries = function(playerBoxScores) {
     
+    # Declare salary types
+    salaryTypes <- c("draftkings")
     
+    # Create rolling averages
+    playerBoxScores <- eval(parse(
+      text = paste0(
+        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+        paste0(sapply(c(1, 3, 5, 10, 20), function(x)
+          paste0(
+            "salary_",
+            salaryTypes,
+            "_change_",
+            x,
+            " = round(salary_",
+            salaryTypes,
+            " / c(NA, head(rollmean(salary_",
+            salaryTypes,
+            ", ",
+            x,
+            ", fill = NA, align = 'right', na.rm = TRUE), -1)) - 1, 5)",
+            collapse = ", "
+          )), collapse = ", "),
+        ")"
+      )
+    ))
+    
+    playerBoxScores$salary_draftkings_change_10[is.nan(playerBoxScores$salary_draftkings_change_10)] <-
+      playerBoxScores$salary_draftkings_change_20[is.nan(playerBoxScores$salary_draftkings_change_10)]
+    
+    playerBoxScores$salary_draftkings_change_5[is.nan(playerBoxScores$salary_draftkings_change_5)] <-
+      playerBoxScores$salary_draftkings_change_10[is.nan(playerBoxScores$salary_draftkings_change_5)]
+    
+    playerBoxScores$salary_draftkings_change_3[is.nan(playerBoxScores$salary_draftkings_change_3)] <-
+      playerBoxScores$salary_draftkings_change_5[is.nan(playerBoxScores$salary_draftkings_change_3)]
+    
+    playerBoxScores$salary_draftkings_change_1[is.nan(playerBoxScores$salary_draftkings_change_1)] <-
+      playerBoxScores$salary_draftkings_change_3[is.nan(playerBoxScores$salary_draftkings_change_1)]
+    
+    model1 <- Modeling$RandomForest(
+      data = playerBoxScores,
+      outcome = "played_game",
+      predictors = c(
+        "salary_draftkings",
+        "salary_draftkings_change_1",
+        "salary_draftkings_change_3",
+        "salary_draftkings_change_5",
+        "salary_draftkings_change_10",
+        "salary_draftkings_change_20",
+        "player_minutes_20",
+        "player_minutes_10",
+        "player_minutes_5",
+        "player_minutes_3",
+        "player_minutes_1"
+      ),
+      sample = 50000,
+      ntree = 100
+    )
+    
+    playerBoxScores$prediction_orig <- predict(model1, playerBoxScores)
+    playerBoxScores$prediction_new <- predict(model2, playerBoxScores)
+    playerBoxScores$residuals_orig <- playerBoxScores$prediction_orig == playerBoxScores$played_game
+    playerBoxScores$residuals_new <- playerBoxScores$prediction_new == playerBoxScores$played_game
     
   },
   
@@ -71,7 +132,7 @@ FeatureEngineering <- list(
           stats,
           "_25 = c(NA, head(rollmean(",
           stats,
-          ", 25, na.pad = TRUE, align = 'right'), -1))",
+          ", 25, fill = NA, align = 'right'), -1))",
           collapse = ", "
         ),
         ")"
@@ -94,7 +155,7 @@ FeatureEngineering <- list(
           stats,
           "_100 = c(NA, head(rollmean(",
           stats,
-          ", 100, na.pad = TRUE, align = 'right'), -1))",
+          ", 100, fill = NA, align = 'right'), -1))",
           collapse = ", "
         ),
         ")"
@@ -150,7 +211,7 @@ FeatureEngineering <- list(
             stats,
             ", ",
             x,
-            ", na.pad = TRUE, align = 'right'), -1)) * ",
+            ", fill = NA, align = 'right'), -1)) * ",
             stats,
             "_multiplier",
             collapse = ", "
@@ -240,7 +301,7 @@ FeatureEngineering <- list(
           stats,
           "_per_min_25 = c(NA, head(rollsum(",
           stats,
-          ", 25, na.pad = TRUE, align = 'right') / rollsum(minutes_played, 25, na.pad = TRUE, align = 'right'), -1))",
+          ", 25, fill = NA, align = 'right') / rollsum(minutes_played, 25, fill = NA, align = 'right'), -1))",
           collapse = ", "
         ),
         ")"
@@ -263,7 +324,7 @@ FeatureEngineering <- list(
           stats,
           "_per_min_100 = c(NA, head(rollsum(",
           stats,
-          ", 100, na.pad = TRUE, align = 'right') / rollsum(minutes_played, 100, na.pad = TRUE, align = 'right'), -1))",
+          ", 100, fill = NA, align = 'right') / rollsum(minutes_played, 100, fill = NA, align = 'right'), -1))",
           collapse = ", "
         ),
         ")"
@@ -318,9 +379,9 @@ FeatureEngineering <- list(
             stats,
             ", ",
             x,
-            ", na.pad = TRUE, align = 'right') / round(rollsum(minutes_played, ",
+            ", fill = NA, align = 'right') / round(rollsum(minutes_played, ",
             x,
-            ", na.pad = TRUE, align = 'right'), 5), -1)) * ",
+            ", fill = NA, align = 'right'), 5), -1)) * ",
             stats,
             "_multiplier",
             collapse = ", "

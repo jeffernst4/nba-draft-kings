@@ -1,9 +1,9 @@
 
 ### General -----
 
-# Make stats and rules for fantasy points as config
-
 # Remove all group_by() potentially
+
+# Remove player_ from engineered features
 
 
 
@@ -14,6 +14,16 @@
 
 # Scrape other projections to compare against my projections
 # http://www.dailyfantasyfuel.com/nba/projections/draftkings/2017-05-15/
+
+
+
+### Config -----
+
+# Add salary types - draftkings, fanduel, yahoo
+
+# Maybe put predictors and outcome
+
+# Make stats and rules for fantasy points
 
 
 
@@ -38,8 +48,6 @@
 # There are some players that are in the player box scores, but not in the
 # player salaries, wait until modeling to omit them since they can be useful to
 # create rolling player averages
-
-# Combine 3 salary metrics
 
 # Remove tot from player histories
 
@@ -68,6 +76,10 @@
 # https://cran.r-project.org/web/packages/ngram/vignettes/ngram-guide.pdf
 # https://www.dataquest.io/blog/natural-language-processing-with-python/
 
+# Formula to replace nan's with earlier values:
+# analysis$fp_10[is.nan(analysis$fp_10)] <- fp_20[is.nan(analysis$fp_10)], do
+# this for both stats per min and salary change
+
 
 
 ### Model -----
@@ -76,8 +88,6 @@
 # randomforest converts to classification
 
 # Create a dataset for each model
-
-# Maybe put predictors and outcome in the config
 
 # Change minutes played > 10 to minutes played > 6
 

@@ -19,7 +19,7 @@ Modeling <- list(
     model <- randomForest(as.formula(paste0(
       outcome, " ~ ", paste(predictors, collapse = " + ")
     )),
-    data = data[sample(nrow(data), sample), c(outcome, predictors)],
+    data = na.omit(data[sample(nrow(data), sample), c(outcome, predictors)]),
     ntree = ntree,
     importance = TRUE)
     
