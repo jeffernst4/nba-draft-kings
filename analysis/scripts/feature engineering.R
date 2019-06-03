@@ -87,7 +87,7 @@ FeatureEngineering <- list(
         "player_minutes_3",
         "player_minutes_1"
       ),
-      sample = 50000,
+      sample = 5000,
       ntree = 100
     )
     
