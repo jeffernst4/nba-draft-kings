@@ -1,20 +1,64 @@
 
 FeatureEngineering <- list(
   
-  # Calculate player fantasy points
-  Player_Minutes = function(playerBoxScores) {
+  # Calculate player salaries
+  SalaryChange = function(playerBoxScores, config) {
+    
+    # Filter player box scores
+    playerBoxScores <-
+      playerBoxScores[, c("slug", "date", paste0("salary_", tolower(config$SalaryTypes)))]
+    
+    # Create rolling averages
+    salaryChange <- eval(parse(
+      text = paste0(
+        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+        paste0(
+          sapply(config$FeaturePeriods$Salary, function(x)
+            paste0(
+              "salary_",
+              tolower(config$SalaryTypes),
+              "_change_",
+              x,
+              " = round(salary_",
+              tolower(config$SalaryTypes),
+              " / c(NA, head(rollapply(salary_",
+              tolower(config$SalaryTypes),
+              ", ",
+              x + 10,
+              ", FUN = function(x) mean(tail(na.omit(x), n = ",
+              x,
+              ")), fill = NA, partial = TRUE, align = 'right'), -1)) -1, 5)",
+              collapse = ", "
+            )),
+          collapse = ", "
+        ),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    salaryChange <-
+      salaryChange[, !(names(salaryChange) %in% paste0("salary_", tolower(config$SalaryTypes)))]
+    
+    # Return player box scores
+    return(salaryChange)
+    
+  },
+  
+  # Calculate minutes played
+  MinutesPlayed = function(playerBoxScores, config) {
     
     # Filter player box scores
     playerBoxScores <-
       playerBoxScores[, c("slug", "date", "minutes_played")]
     
     # Create rolling averages
-    playerMinutes <- eval(parse(
+    minutesPlayed <- eval(parse(
       text = paste0(
         "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
-        paste0(sapply(c(1:10, 15, 20), function(x)
+        paste0(sapply(config$FeaturePeriods$MinutesPlayed, function(x)
           paste0(
-            "player_minutes_",
+            "minutes_played_",
             x,
             " = c(NA, head(rollmean(minutes_played, ",
             x,
@@ -25,81 +69,17 @@ FeatureEngineering <- list(
       )
     ))
     
+    # Remove columns
+    minutesPlayed <-
+      minutesPlayed[, !(names(minutesPlayed) %in% "minutes_played")]
+    
     # Return player stats
-    return(playerMinutes)
-    
-  },
-  
-  # Calculate player salaries
-  Player_Salaries = function(playerBoxScores) {
-    
-    # Declare salary types
-    salaryTypes <- c("draftkings")
-    
-    # Create rolling averages
-    playerBoxScores <- eval(parse(
-      text = paste0(
-        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
-        paste0(sapply(c(1, 3, 5, 10, 20), function(x)
-          paste0(
-            "salary_",
-            salaryTypes,
-            "_change_",
-            x,
-            " = round(salary_",
-            salaryTypes,
-            " / c(NA, head(rollmean(salary_",
-            salaryTypes,
-            ", ",
-            x,
-            ", fill = NA, align = 'right', na.rm = TRUE), -1)) - 1, 5)",
-            collapse = ", "
-          )), collapse = ", "),
-        ")"
-      )
-    ))
-    
-    playerBoxScores$salary_draftkings_change_10[is.nan(playerBoxScores$salary_draftkings_change_10)] <-
-      playerBoxScores$salary_draftkings_change_20[is.nan(playerBoxScores$salary_draftkings_change_10)]
-    
-    playerBoxScores$salary_draftkings_change_5[is.nan(playerBoxScores$salary_draftkings_change_5)] <-
-      playerBoxScores$salary_draftkings_change_10[is.nan(playerBoxScores$salary_draftkings_change_5)]
-    
-    playerBoxScores$salary_draftkings_change_3[is.nan(playerBoxScores$salary_draftkings_change_3)] <-
-      playerBoxScores$salary_draftkings_change_5[is.nan(playerBoxScores$salary_draftkings_change_3)]
-    
-    playerBoxScores$salary_draftkings_change_1[is.nan(playerBoxScores$salary_draftkings_change_1)] <-
-      playerBoxScores$salary_draftkings_change_3[is.nan(playerBoxScores$salary_draftkings_change_1)]
-    
-    model1 <- Modeling$RandomForest(
-      data = playerBoxScores,
-      outcome = "played_game",
-      predictors = c(
-        "salary_draftkings",
-        "salary_draftkings_change_1",
-        "salary_draftkings_change_3",
-        "salary_draftkings_change_5",
-        "salary_draftkings_change_10",
-        "salary_draftkings_change_20",
-        "player_minutes_20",
-        "player_minutes_10",
-        "player_minutes_5",
-        "player_minutes_3",
-        "player_minutes_1"
-      ),
-      sample = 5000,
-      ntree = 100
-    )
-    
-    playerBoxScores$prediction_orig <- predict(model1, playerBoxScores)
-    playerBoxScores$prediction_new <- predict(model2, playerBoxScores)
-    playerBoxScores$residuals_orig <- playerBoxScores$prediction_orig == playerBoxScores$played_game
-    playerBoxScores$residuals_new <- playerBoxScores$prediction_new == playerBoxScores$played_game
+    return(minutesPlayed)
     
   },
   
   # Calculate player fantasy points
-  Player_Stats = function(playerBoxScores, teamStats) {
+  Fantasy_Points = function(playerBoxScores, teamStats) {
     
     # Specify stats
     stats <- c(
@@ -252,7 +232,7 @@ FeatureEngineering <- list(
   },
   
   # Calculate player fantasy points
-  Player_Stats_Per_Min = function(playerBoxScores, teamStats) {
+  FantasyPointsPerMin = function(playerBoxScores, teamBoxScores, config) {
     
     ### remove stats per min for player box scores and replace with just stats
     ### get fp_per_min_1:5,10,15,20 by using rollsum find a way to do last 20,
@@ -263,44 +243,32 @@ FeatureEngineering <- list(
     
     ### analysis$fp_10[is.nan(analysis$fp_10)] <- fp_20[is.nan(analysis$fp_10)]
     
-    # Specify stats
-    stats <- c(
-      "points",
-      "three_pointers_made",
-      "rebounds",
-      "assists",
-      "steals",
-      "blocks",
-      "turnovers"
-    )
-    
     # Filter player box scores
     playerBoxScores <-
       playerBoxScores[, c(
         "slug",
         "date",
         "opponent",
-        "location",
         "minutes_played",
-        stats
+        config$Stats
       )]
     
     # Create stats analysis
-    statsAnalysis <- teamStats[, c("opponent", "date", "location")]
+    statsAnalysis <- teamBoxScores[, c("opponent", "date")]
     
-    # Filter team stats
-    teamStats <-
-      teamStats[, c("opponent", "date", "location", "minutes_played", stats)]
+    # Filter team box scores
+    teamBoxScores <-
+      teamBoxScores[, c("opponent", "date", "minutes_played", config$Stats)]
     
     # Create opponent stats
     opponentStats <- eval(parse(
       text = paste0(
-        "teamStats %>% group_by(opponent, location) %>% dplyr::mutate(",
+        "teamBoxScores %>% group_by(opponent) %>% dplyr::mutate(",
         paste0(
           "opponent_",
-          stats,
+          config$Stats,
           "_per_min_25 = c(NA, head(rollsum(",
-          stats,
+          config$Stats,
           ", 25, fill = NA, align = 'right') / rollsum(minutes_played, 25, fill = NA, align = 'right'), -1))",
           collapse = ", "
         ),
@@ -310,7 +278,7 @@ FeatureEngineering <- list(
     
     # Remove columns
     opponentStats <-
-      opponentStats[, !(names(opponentStats) %in% c("minutes_played", stats))]
+      opponentStats[, !(names(opponentStats) %in% c("minutes_played", config$Stats))]
     
     # Join opponent stats
     statsAnalysis <- join(statsAnalysis, opponentStats)
@@ -318,12 +286,12 @@ FeatureEngineering <- list(
     # Create league stats
     leagueStats <- eval(parse(
       text = paste0(
-        "teamStats %>% group_by() %>% dplyr::mutate(",
+        "teamBoxScores %>% group_by() %>% dplyr::mutate(",
         paste0(
           "league_",
-          stats,
+          config$Stats,
           "_per_min_100 = c(NA, head(rollsum(",
-          stats,
+          config$Stats,
           ", 100, fill = NA, align = 'right') / rollsum(minutes_played, 100, fill = NA, align = 'right'), -1))",
           collapse = ", "
         ),
@@ -333,7 +301,7 @@ FeatureEngineering <- list(
     
     # Remove columns
     leagueStats <-
-      leagueStats[, !(names(leagueStats) %in% c("minutes_played", stats))]
+      leagueStats[, !(names(leagueStats) %in% c("minutes_played", config$Stats))]
     
     # Join league stats
     statsAnalysis <- join(statsAnalysis, leagueStats)
@@ -343,11 +311,11 @@ FeatureEngineering <- list(
       text = paste0(
         "statsAnalysis %>% group_by() %>% dplyr::mutate(",
         paste0(
-          stats,
+          config$Stats,
           "_multiplier = opponent_",
-          stats,
+          config$Stats,
           "_per_min_25 / league_",
-          stats,
+          config$Stats,
           "_per_min_100",
           collapse = ", "
         ),
@@ -358,66 +326,282 @@ FeatureEngineering <- list(
     # Remove columns
     opponentMultipliers <-
       opponentMultipliers[,!(names(opponentMultipliers) %in% c(
-        paste0("opponent_", stats, "_per_min_25"),
-        paste0("league_", stats, "_per_min_100")
+        paste0("opponent_", config$Stats, "_per_min_25"),
+        paste0("league_", config$Stats, "_per_min_100")
       ))]
     
     # Join opponent analysis
     playerBoxScores <- join(playerBoxScores, opponentMultipliers)
     
+    # Replace minutes played residual with NA when players didn't play
+    playerBoxScores[playerBoxScores$minutes_played == 0, c("minutes_played", config$Stats)] <-
+      NA
+    
     # Create rolling averages
     playerStats <- eval(parse(
       text = paste0(
         "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
-        paste0(sapply(c(1:5, 10, 20), function(x)
-          paste0(
-            "player_",
-            stats,
-            "_per_min_",
-            x,
-            " = c(NA, head(rollsum(",
-            stats,
-            ", ",
-            x,
-            ", fill = NA, align = 'right') / round(rollsum(minutes_played, ",
-            x,
-            ", fill = NA, align = 'right'), 5), -1)) * ",
-            stats,
-            "_multiplier",
-            collapse = ", "
-          )), collapse = ", "),
+        paste0(
+          sapply(config$FeaturePeriods$FantasyPointsPerMin, function(x)
+            paste0(
+              "player_",
+              config$Stats,
+              "_per_min_",
+              x,
+              " = c(NA, head(rollapply(",
+              config$Stats,
+              ", ",
+              x + 10,
+              ", FUN = function(x) mean(tail(na.omit(x), n = ",
+              x,
+              ")), fill = NA, partial = TRUE, align = 'right') / rollapply(minutes_played, ",
+              x + 10,
+              ", FUN = function(x) mean(tail(na.omit(x), n = ",
+              x,
+              ")), fill = NA, partial = TRUE, align = 'right'), -1)) * ",
+              config$Stats,
+              "_multiplier",
+              collapse = ", "
+            )),
+          collapse = ", "
+        ),
         ")"
       )
     ))
     
     # Remove columns
     playerStats <-
-      playerStats[, !(names(playerStats) %in% c(stats, paste0(stats, "_multiplier")))]
+      playerStats[, !(names(playerStats) %in% c("minutes_played", config$Stats, paste0(config$Stats, "_multiplier")))]
     
     # Create rolling averages
     playerStats <- eval(parse(
       text = paste0(
         "playerStats %>% group_by() %>% dplyr::mutate(",
-        paste0(sapply(c(1:5, 10, 20), function(x)
-          paste0(
-            "player_fp_per_min_",
-            x,
-            " = colSums(apply(X = playerStats[, c(paste0('player_', stats, '_per_min_', ",
-            x,
-            "))], MARGIN = 1, FUN = function(x) x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)))",
-            collapse = ", "
-          )), collapse = ", "),
+        paste0(
+          sapply(config$FeaturePeriods$FantasyPointsPerMin, function(x)
+            paste0(
+              "fantasy_points_per_min_",
+              x,
+              " = colSums(apply(X = playerStats[, c(paste0('player_', config$Stats, '_per_min_', ",
+              x,
+              "))], MARGIN = 1, FUN = function(x) x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5)))",
+              collapse = ", "
+            )),
+          collapse = ", "
+        ),
         ")"
       )
     ))
     
     # Remove columns
     playerStats <-
-      playerStats[, !(names(playerStats) %in% sapply(c(1:5, 10, 20), function(x)
-        paste0("player_", stats, "_per_min_", x)))]
+      playerStats[,!(
+        names(playerStats) %in% sapply(config$FeaturePeriods$FantasyPointsPerMin, function(x)
+          paste0("player_", config$Stats, "_per_min_", x))
+      )]
     
     # Return player stats
     return(playerStats)
+    
+  },
+  
+  # Calculate player fantasy points
+  StatsPerMin = function(playerBoxScores, teamBoxScores, config) {
+    
+    # Filter player box scores
+    playerBoxScores <-
+      playerBoxScores[, c(
+        "slug",
+        "date",
+        "opponent",
+        "minutes_played",
+        config$StatsNew
+      )]
+    
+    # Replace minutes played residual with NA when players didn't play
+    playerBoxScores[playerBoxScores$minutes_played < 6, c("minutes_played", config$StatsNew)] <-
+      NA
+    
+    # Create rolling averages
+    statsPerMin <- eval(parse(
+      text = paste0(
+        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+        paste0(mapply(
+          function(windowWidth,
+                   minWindowWidth,
+                   maxWindowWidth)
+            paste0(
+              config$StatsNew,
+              "_per_min_",
+              windowWidth,
+              " = c(NA, head(rollapply(",
+              config$StatsNew,
+              ", ",
+              minWindowWidth,
+              ", FUN = function(x) mean(tail(na.omit(x)[length(na.omit(x)) >= ",
+              minWindowWidth,
+              "], n = ",
+              windowWidth,
+              ")), fill = NA, partial = TRUE, align = 'right') / rollapply(minutes_played, ",
+              minWindowWidth,
+              ", FUN = function(x) mean(tail(na.omit(x)[length(na.omit(x)) >= ",
+              minWindowWidth,
+              "], n = ",
+              windowWidth,
+              ")), fill = NA, partial = TRUE, align = 'right'), -1))",
+              collapse = ", "
+            ),
+          10,
+          7,
+          50
+        ),
+        collapse = ", "),
+        ")"
+      )
+    ))
+    
+    # Remove columns
+    statsPerMin <-
+      statsPerMin[, !(names(statsPerMin) %in% c("minutes_played", config$StatsNew))]
+    
+    # Return stats per min
+    return(statsPerMin)
+    
+  },
+  
+  # Calculate minutes played standard deviation
+  MinutesPlayedStdDev = function(analysis) {
+    
+    # Filter player box scores
+    analysis <-
+      analysis[, c("slug",
+                   "date",
+                   "played_game",
+                   "minutes_played",
+                   "minutes_played_prediction")]
+    
+    # Calculate minutes played residual
+    analysis$minutes_played_residual <-
+      analysis$minutes_played_prediction - analysis$minutes_played
+    
+    # Replace minutes played residual with NA when players didn't play
+    analysis[analysis$minutes_played == 0, c("minutes_played", "minutes_played_residual")] <-
+      NA
+    
+    # Create rolling averages
+    minutesPlayedStdDev <-
+      analysis %>% group_by(slug) %>% dplyr::mutate(
+        minutes_played_std_dev = c(NA, head(
+          rollapply(
+            minutes_played,
+            50,
+            FUN = function(x)
+              sd(x[length(na.omit(x)) >= 7], na.rm = TRUE),
+            partial = TRUE,
+            align = 'right'
+          ),-1
+        )),
+        minutes_played_residual_std_dev = c(NA, head(
+          rollapply(
+            minutes_played_residual,
+            50,
+            FUN = function(x)
+              sd(x[length(na.omit(x)) >= 7], na.rm = TRUE),
+            partial = TRUE,
+            align = 'right'
+          ),-1
+        ))
+      )
+    
+    # Combine minutes played residual with minutes played standard deviation
+    minutesPlayedStdDev <-
+      minutesPlayedStdDev %>% mutate(
+        minutes_played_std_dev = coalesce(minutes_played_residual_std_dev, minutes_played_std_dev)
+      )
+    
+    # Remove columns
+    minutesPlayedStdDev <-
+      minutesPlayedStdDev[,!(
+        names(minutesPlayedStdDev) %in% c(
+          "played_game",
+          "minutes_played",
+          "minutes_played_prediction",
+          "minutes_played_residual",
+          "minutes_played_residual_std_dev"
+        ))]
+    
+    # Return player stats
+    return(minutesPlayedStdDev)
+    
+  },
+  
+  # Calculate fantasy points per min standard deviation
+  FantasyPointsPerMinStdDev = function(analysis) {
+    
+    # Filter player box scores
+    analysis <-
+      analysis[, c("slug",
+                   "date",
+                   "played_game",
+                   "fantasy_points_per_min",
+                   "fantasy_points_per_min_prediction")]
+    
+    # Calculate fantasy points per min residual
+    analysis$fantasy_points_per_min_residual <-
+      analysis$fantasy_points_per_min_prediction - analysis$fantasy_points_per_min
+    
+    # Replace fantasy points per min residual with NA when players didn't play
+    analysis$fantasy_points_per_min_residual[analysis$played_game == "0"] <-
+      NA
+    
+    # Replace fantasy points per min with NA when players don't play
+    analysis$fantasy_points_per_min[analysis$played_game == "0"] <-
+      NA
+    
+    # Create rolling averages
+    fantasyPointsPerMinStdDev <-
+      analysis %>% group_by(slug) %>% dplyr::mutate(
+        fantasy_points_per_min_std_dev = c(NA, head(
+          rollapply(
+            fantasy_points_per_min,
+            50,
+            FUN = function(x)
+              sd(x[length(na.omit(x)) >= 7], na.rm = TRUE),
+            partial = TRUE,
+            align = 'right'
+          ),-1
+        )),
+        fantasy_points_per_min_residual_std_dev = c(NA, head(
+          rollapply(
+            fantasy_points_per_min_residual,
+            50,
+            FUN = function(x)
+              sd(x[length(na.omit(x)) >= 7], na.rm = TRUE),
+            partial = TRUE,
+            align = 'right'
+          ),-1
+        ))
+      )
+    
+    # Combine fantasy points per min residual with fantasy points per min standard deviation
+    fantasyPointsPerMinStdDev <-
+      fantasyPointsPerMinStdDev %>% mutate(
+        fantasy_points_per_min_std_dev = coalesce(fantasy_points_per_min_residual_std_dev, fantasy_points_per_min_std_dev)
+      )
+    
+    # Remove columns
+    fantasyPointsPerMinStdDev <-
+      fantasyPointsPerMinStdDev[,!(
+        names(fantasyPointsPerMinStdDev) %in% c(
+          "played_game",
+          "fantasy_points_per_min",
+          "fantasy_points_per_min_prediction",
+          "fantasy_points_per_min_residual",
+          "fantasy_points_per_min_residual_std_dev"
+        ))]
+    
+    # Return fantasy points per min standard deviation
+    return(fantasyPointsPerMinStdDev)
     
   }
   

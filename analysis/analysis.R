@@ -13,7 +13,7 @@ library(tcltk2)
 library(zoo)
 
 # Load scripts
-sapply(c("data load", "data transformation", "feature engineering", "modeling"), function(script)
+sapply(c("config", "data load", "data transformation", "feature engineering", "modeling"), function(script)
   source(paste0("analysis/scripts/", script, ".R")))
 
 
@@ -65,23 +65,16 @@ data$PlayerHistories <-
 
 # Transform player salaries
 data$PlayerSalaries <-
-  lapply(c("DraftKings", "FanDuel", "Yahoo"), function(x)
+  lapply(config$SalaryTypes, function(x)
     dataTransformation$PlayerSalaries(data$PlayerSalaries[[x]], x, data$NameCorrections$PlayerSalaries))
 
 # Rename player salary list
-names(data$PlayerSalaries) <- c("DraftKings", "FanDuel", "Yahoo")
+names(data$PlayerSalaries) <- config$SalaryTypes
 
 # Join all player salaries
 data$PlayerSalaries <-
-  join(
-    join(
-      data$PlayerSalaries$DraftKings,
-      data$PlayerSalaries$FanDuel,
-      type = "full"
-    ),
-    data$PlayerSalaries$Yahoo,
-    type = "full"
-  )
+  Reduce(function(x, y)
+    join(x, y, type = "full"), data$PlayerSalaries)
 
 # Join player histories with player salaries
 data$PlayerSalaries <-
@@ -96,7 +89,7 @@ data$PlayerBoxScores <- join(data$PlayerBoxScores, data$PlayerSalaries, type = "
 
 # Transform player box scores
 data$PlayerBoxScores <-
-  dataTransformation$PlayerBoxScores(data$PlayerBoxScores)
+  dataTransformation$PlayerBoxScores(data$PlayerBoxScores, config)
 
 # Join season schedules with player box scores
 data$PlayerBoxScores <-
@@ -106,9 +99,9 @@ data$PlayerBoxScores <-
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$PlayerSeasonTotals[, c("slug", "season", "team", "position")])
 
-# Transform team stats
-data$TeamStats <-
-  dataTransformation$TeamStats(data$PlayerBoxScores)
+# # Transform team stats
+# data$TeamStats <-
+#   dataTransformation$TeamStats(data$PlayerBoxScores)
 
 # Create player analysis
 data$Analysis <-
@@ -122,112 +115,248 @@ data$Analysis <-
                            "location",
                            "played_game",
                            "minutes_played",
-                           "salary_draftkings",
-                           "salary_fanduel",
-                           "salary_yahoo",
+                           config$StatsNew,
+                           paste0("salary_", tolower(config$SalaryTypes)),
                            "fantasy_points",
                            "fantasy_points_per_min")]
 
 
 # Feature Engineering -----
 
+# Create salary change
+data$Analysis <-
+  join(data$Analysis,
+       FeatureEngineering$SalaryChange(data$PlayerBoxScores, config))
+
 # Create player minutes
 data$Analysis <-
   join(data$Analysis,
-       FeatureEngineering$Player_Minutes(data$PlayerBoxScores))
+       FeatureEngineering$MinutesPlayed(data$PlayerBoxScores, config))
 
-# Create player stats
+# # Create player stats
+# data$Analysis <-
+#   join(
+#     data$Analysis,
+#     FeatureEngineering$Player_Stats(
+#       data$PlayerBoxScores,
+#       data$TeamStats
+#     )
+#   )
+
+# # Create fantasy points per min
+# data$Analysis <-
+#   join(
+#     data$Analysis,
+#     FeatureEngineering$FantasyPointsPerMin(
+#       data$PlayerBoxScores,
+#       data$TeamBoxScores,
+#       config
+#     )
+#   )
+
+# Create stats per min
 data$Analysis <-
   join(
     data$Analysis,
-    FeatureEngineering$Player_Stats(
+    FeatureEngineering$StatsPerMin(
       data$PlayerBoxScores,
-      data$TeamStats
-    )
-  )
-
-# Create player stats per min
-data$Analysis <-
-  join(
-    data$Analysis,
-    FeatureEngineering$Player_Stats_Per_Min(
-      data$PlayerBoxScores,
-      data$TeamStats
+      data$TeamBoxScores,
+      config
     )
   )
 
 
 # Modeling -----
 
+# Create modeling data
+data$Modeling <- list(
+  
+  PlayedGame = data$Analysis[, c(
+    "played_game",
+    "salary_draftkings",
+    "salary_draftkings_change_1",
+    "salary_draftkings_change_3",
+    "salary_draftkings_change_5",
+    "salary_draftkings_change_10",
+    # "salary_draftkings_change_20",
+    "minutes_played_1",
+    "minutes_played_3",
+    "minutes_played_5",
+    "minutes_played_10"
+    # "minutes_played_20"
+  )],
+  
+  MinutesPlayed = data$Analysis[data$Analysis$played_game == "1", c(
+    "minutes_played",
+    "salary_draftkings",
+    # "salary_draftkings_change_1",
+    "salary_draftkings_change_3",
+    # "salary_draftkings_change_5",
+    "salary_draftkings_change_10",
+    # "salary_draftkings_change_20",
+    "minutes_played_1",
+    "minutes_played_3",
+    "minutes_played_5",
+    "minutes_played_10"
+    # "minutes_played_20"
+  )],
+  
+  FantasyPoints = data$Analysis[data$Analysis$played_game == "1", c(
+    "fantasy_points_per_min",
+    # "salary_draftkings",
+    # "salary_draftkings_change_1",
+    # # "salary_draftkings_change_3",
+    # "salary_draftkings_change_5",
+    # "salary_draftkings_change_10",
+    config$StatsNew,
+    "two_pointers_made_per_min_10",
+    "three_pointers_made_per_min_10",
+    "rebounds_per_min_10",
+    "assists_per_min_10",
+    "steals_per_min_10",
+    "blocks_per_min_10",
+    "turnovers_per_min_10"
+    # "location",
+    # "season",
+    # "position"
+  )],
+  
+  Rebounds = data$Analysis[data$Analysis$played_game == "1", c(
+    "rebounds_per_min",
+    "rebounds_per_min_10"
+  )]
+  
+)
+
 # Create empty list
 model <- list(
-  PlayingLikelihood = Modeling$RandomForest(
-    data = data$Analysis,
+  PlayedGame = Modeling$RandomForest(
+    data = data$Modeling$PlayedGame,
     outcome = "played_game",
-    predictors = c(
-      "salary_draftkings",
-      "salary_draftkings_change_1",
-      "salary_draftkings_change_3",
-      "salary_draftkings_change_5",
-      "player_salary_change_10",
-      "player_salary_change_20",
-      "player_minutes_20",
-      "player_minutes_10",
-      "player_minutes_5",
-      "player_minutes_3",
-      "player_minutes_1"
-    ),
-    sample = 20000,
-    ntree = 100
+    sampleSize = 10000,
+    ntree = 100,
+    train = FALSE
   ),
-  PlayingTime = Modeling$RandomForest(
-    data = na.omit(data$Analysis),
+  MinutesPlayed = Modeling$RandomForest(
+    data = data$Modeling$MinutesPlayed,
     outcome = "minutes_played",
-    predictors = c(
-      "salary_draftkings",
-      "salary_fanduel",
-      "salary_yahoo",
-      "player_fp_20",
-      "player_fp_10",
-      "player_fp_5",
-      "player_fp_4",
-      "player_fp_3",
-      "player_fp_2",
-      "player_fp_1",
-      "player_minutes_20",
-      "player_minutes_15",
-      "player_minutes_10",
-      "player_minutes_9",
-      "player_minutes_8",
-      "player_minutes_7",
-      "player_minutes_6",
-      "player_minutes_3",
-      "player_minutes_2",
-      "player_minutes_1"
-    ),
-    sample = 2000,
-    ntree = 250
+    sampleSize = 5000,
+    ntree = 100,
+    train = FALSE
   ),
+  # MinutesPlayed = Modeling$OLS(
+  #   data = data$Modeling$MinutesPlayed,
+  #   outcome = "minutes_played"
+  # ),
   FantasyPoints = Modeling$RandomForest(
-    data = na.omit(data$Analysis),
+    data = data$Modeling$FantasyPoints,
     outcome = "fantasy_points_per_min",
-    predictors = c(
-      "player_fp_per_min_1",
-      "player_fp_per_min_2",
-      "player_fp_per_min_3",
-      "player_fp_per_min_4",
-      "player_fp_per_min_5",
-      "player_fp_per_min_10",
-      "player_fp_per_min_20",
-      "salary_yahoo",
-      "salary_draftkings",
-      "salary_fanduel"
-    ),
-    sample = 5000,
-    ntree = 250
+    sampleSize = 5000,
+    ntree = 100,
+    train = TRUE
+  ),
+  FantasyPoints = Modeling$OLS(
+    data = data$Modeling$FantasyPoints,
+    outcome = "fantasy_points_per_min"
+  ),
+  Rebounds = Modeling$RandomForest(
+    data = data$Modeling$Rebounds,
+    outcome = "rebounds_per_min",
+    sampleSize = 5000,
+    ntree = 100,
+    train = TRUE
   )
 )
 
+
+
+
+# Prediction
+data$Analysis$played_game_prediction <-
+  predict(model$PlayedGame$Model, data$Analysis, type = "prob")[, "1"]
+
+data$Analysis$minutes_played_prediction <-
+  predict(model$MinutesPlayed$Model, data$Analysis)
+
+data$Analysis$fantasy_points_per_min_prediction <-
+  predict(model$FantasyPoints, data$Analysis)
+
+# Create minutes played standard deviation
+data$Analysis <-
+  join(
+    data$Analysis,
+    FeatureEngineering$MinutesPlayedStdDev(data$Analysis)
+  )
+
+# Create fantasy points per min standard deviation
+data$Analysis <-
+  join(
+    data$Analysis,
+    FeatureEngineering$FantasyPointsPerMinStdDev(data$Analysis)
+  )
+
+
+
+
+
+simulationData <- data$Analysis[data$Analysis$date == "2019-04-01", ]
+
+# sum(
+#   simulationData$minutes_played_prediction[!is.na(simulationData$minutes_played_prediction) &
+#                                              !is.na(simulationData$minutes_played_std_dev)] * simulationData$played_game_prediction[!is.na(simulationData$minutes_played_prediction) &
+#                                                                                                                                       !is.na(simulationData$minutes_played_std_dev)]
+# )
+# 
+# sum(simulationData$minutes_played[!is.na(simulationData$minutes_played_prediction) &
+#                                     !is.na(simulationData$minutes_played_std_dev)])
+
+
+played_game_simulation <-
+  lapply(simulationData$played_game_prediction, function(x)
+    rbinom(10000, 1, x))
+
+minutes_played_simulation <-
+  mapply(
+    function(x, y)
+      rnorm(10000, x, y),
+    simulationData$minutes_played_prediction,
+    simulationData$minutes_played_std_dev,
+    SIMPLIFY = FALSE
+  )
+
+fantasy_points_per_min_simulation <-
+  mapply(
+    function(x, y)
+      rnorm(10000, x, y),
+    simulationData$fantasy_points_per_min_prediction,
+    simulationData$fantasy_points_per_min_std_dev,
+    SIMPLIFY = FALSE
+  )
+
+test <- mapply(function(x, y, z)
+  x * y * z,
+  played_game_simulation,
+  minutes_played_simulation,
+  fantasy_points_per_min_simulation,
+  SIMPLIFY = FALSE)
+
+# test <- unlist(test)
+# 
+# test[test < 0] <- 0
+# 
+# 
+# quantile(simulationData$minutes_played[!is.na(simulationData$minutes_played_prediction) & !is.na(simulationData$minutes_played_std_dev)], probs = seq(0,1, .05))
+# 
+# minplayedsum <- sum(simulationData$minutes_played[!is.na(simulationData$minutes_played_prediction) & !is.na(simulationData$minutes_played_std_dev)])
+# 
+# quantile(unlist(test), probs = seq(0, 1, .05), na.rm = TRUE)
+# 
+# testsum <- sum(unlist(test), na.rm = TRUE) / 10000
+# 
+# minplayedsum
+# testsum
+# 
+# testsum / minplayedsum
 
 
 

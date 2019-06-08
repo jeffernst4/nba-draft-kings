@@ -50,38 +50,62 @@ dataTransformation <- list(
   },
   
   # Transform player box scores
-  PlayerBoxScores = function(playerBoxScores) {
+  PlayerBoxScores = function(playerBoxScores, config) {
     
     # Identify stats columns
-    statsColumnNames <-
-      names(playerBoxScores)[!(
-        names(playerBoxScores) %in% c(
-          "slug",
-          "name",
-          "team",
-          "opponent",
-          "location",
-          "opponent",
-          "outcome",
-          "date",
-          grep("salary\\_", names(playerBoxScores), value = TRUE)
-        )
-      )]
+    statsColumnNames <- c(
+      "seconds_played",
+      "made_field_goals",
+      "attempted_field_goals",
+      "made_three_point_field_goals",
+      "attempted_three_point_field_goals",
+      "made_free_throws",
+      "attempted_free_throws",
+      "offensive_rebounds",
+      "defensive_rebounds",
+      "assists",
+      "steals",
+      "blocks",
+      "turnovers",
+      "personal_fouls",
+      "game_score"
+    )
     
     # Replace na's
     playerBoxScores[statsColumnNames][is.na(playerBoxScores[statsColumnNames])] <-
       0
     
     # Rename columns
-    names(playerBoxScores) <- gsub("made_field_goals", "field_goals_made", names(playerBoxScores))
-    names(playerBoxScores) <- gsub("attempted_field_goals", "field_goals_attempted", names(playerBoxScores))
-    names(playerBoxScores) <- gsub("made_three_point_field_goals", "three_pointers_made", names(playerBoxScores))
-    names(playerBoxScores) <- gsub("attempted_three_point_field_goals", "three_pointers_attempted", names(playerBoxScores))
-    names(playerBoxScores) <- gsub("made_free_throws", "free_throws_made", names(playerBoxScores))
-    names(playerBoxScores) <- gsub("attempted_free_throws", "free_throws_attempted", names(playerBoxScores))
+    names(playerBoxScores) <-
+      gsub("made_field_goals",
+           "field_goals_made",
+           names(playerBoxScores))
+    names(playerBoxScores) <-
+      gsub("attempted_field_goals",
+           "field_goals_attempted",
+           names(playerBoxScores))
+    names(playerBoxScores) <-
+      gsub("made_three_point_field_goals",
+           "three_pointers_made",
+           names(playerBoxScores))
+    names(playerBoxScores) <-
+      gsub(
+        "attempted_three_point_field_goals",
+        "three_pointers_attempted",
+        names(playerBoxScores)
+      )
+    names(playerBoxScores) <-
+      gsub("made_free_throws",
+           "free_throws_made",
+           names(playerBoxScores))
+    names(playerBoxScores) <-
+      gsub("attempted_free_throws",
+           "free_throws_attempted",
+           names(playerBoxScores))
     
     # Convert seconds to minutes
-    playerBoxScores$seconds_played <- playerBoxScores$seconds_played / 60
+    playerBoxScores$seconds_played <-
+      playerBoxScores$seconds_played / 60
     
     # Rename column
     names(playerBoxScores) <-
@@ -89,7 +113,7 @@ dataTransformation <- list(
     
     # Identify players who played significant minutes
     playerBoxScores$played_game <-
-      factor(ifelse(playerBoxScores$minutes_played >= 6, 1, 0)) 
+      factor(ifelse(playerBoxScores$minutes_played > 0, 1, 0)) 
     
     # Calculate made two points field goals
     playerBoxScores$two_pointers_made <-
@@ -100,7 +124,8 @@ dataTransformation <- list(
       playerBoxScores$field_goals_attempted - playerBoxScores$three_pointers_attempted
     
     # Calculate rebounds
-    playerBoxScores$rebounds <- playerBoxScores$offensive_rebounds + playerBoxScores$defensive_rebounds
+    playerBoxScores$rebounds <-
+      playerBoxScores$offensive_rebounds + playerBoxScores$defensive_rebounds
     
     # Calculate points
     playerBoxScores$points <-
@@ -140,13 +165,28 @@ dataTransformation <- list(
           x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5, 1.5, 3)
       ))
     
-    # Calculate fantasy points per minute
-    playerBoxScores$fantasy_points_per_min <-
-      ifelse(
-        playerBoxScores$minutes_played > 0,
-        playerBoxScores$fantasy_points / playerBoxScores$minutes_played,
-        NA
+    # # Calculate fantasy points per minute
+    # playerBoxScores$fantasy_points_per_min <-
+    #   ifelse(
+    #     playerBoxScores$minutes_played > 0,
+    #     playerBoxScores$fantasy_points / playerBoxScores$minutes_played,
+    #     NA
+    #   )
+    
+    # Create stats per minute
+    playerBoxScores <- eval(parse(
+      text = paste0(
+        "playerBoxScores %>% group_by(slug) %>% dplyr::mutate(",
+        paste0(
+          c(config$StatsNew, "fantasy_points"),
+          "_per_min = ifelse(minutes_played > 0, ",
+          c(config$StatsNew, "fantasy_points"),
+          " / minutes_played, NA)",
+          collapse = ","
+        ),
+        ")"
       )
+    ))
     
     # Sort player box scores
     playerBoxScores <-
@@ -154,7 +194,7 @@ dataTransformation <- list(
     
     
     # Return player box scores
-    return(playerBoxScores)
+    return(as.data.frame(playerBoxScores))
     
   },
   
@@ -177,6 +217,11 @@ dataTransformation <- list(
       gsub("team", "opponent", names(oppTeamBoxScores))
     names(oppTeamBoxScores) <-
       gsub("points", "opponent_points", names(oppTeamBoxScores))
+    
+    # Calculate rebounds
+    teamBoxScores$rebounds <-
+      teamBoxScores$offensive_rebounds + teamBoxScores$defensive_rebounds
+    
     
     # Join opponent team box scores with team box scores
     teamBoxScores <- join(teamBoxScores, oppTeamBoxScores)

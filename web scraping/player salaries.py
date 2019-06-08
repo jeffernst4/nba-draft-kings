@@ -154,6 +154,6 @@ def ScrapePlayerSalaries(startDate, endDate, game):
         date = date + timedelta(days=1)
         
 # Scrape player salaries
-ScrapePlayerSalaries('05/01/2019', '05/21/2019', 'draftkings')
+ScrapePlayerSalaries('05/01/2019', '05/31/2019', 'draftkings')
 ScrapePlayerSalaries('05/01/2019', '05/21/2019', 'fanduel')
 ScrapePlayerSalaries('05/01/2019', '05/21/2019', 'yahoo')
