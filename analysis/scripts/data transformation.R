@@ -184,7 +184,7 @@ dataTransformation <- list(
           " / minutes_played, NA)",
           collapse = ","
         ),
-        ")"
+        ") %>% ungroup()"
       )
     ))
     
@@ -193,7 +193,7 @@ dataTransformation <- list(
       playerBoxScores[with(playerBoxScores, order(date, slug)),]
     
     # Convert player box scores to data frame
-    playerBoxScores <- as.data.frame(PlayerBoxScores)
+    playerBoxScores <- as.data.frame(playerBoxScores)
     
     # Return player box scores
     return(playerBoxScores)

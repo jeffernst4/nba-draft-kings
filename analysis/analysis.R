@@ -222,9 +222,42 @@ data$Modeling <- list(
     # "position"
   )],
   
-  Rebounds = data$Analysis[data$Analysis$played_game == "1", c(
+  TwoPointersMade = data$Analysis[data$Analysis$minutes_played >= 6, c(
+    "two_pointers_made_per_min",
+    "two_pointers_made_per_min_10"
+  )],
+  
+  ThreePointersMade = data$Analysis[data$Analysis$minutes_played >= 6, c(
+    "three_pointers_made_per_min",
+    "three_pointers_made_per_min_10"
+  )],
+  
+  Rebounds = data$Analysis[data$Analysis$minutes_played >= 6, c(
     "rebounds_per_min",
-    "rebounds_per_min_10"
+    "rebounds_per_min_10",
+    "salary_draftkings",
+    "location",
+    "position"
+  )],
+  
+  Assists = data$Analysis[data$Analysis$minutes_played >= 6, c(
+    "assists_per_min",
+    "assists_per_min_10"
+  )],
+  
+  Steals = data$Analysis[data$Analysis$minutes_played >= 6, c(
+    "steals_per_min",
+    "steals_per_min_10"
+  )],
+  
+  Blocks = data$Analysis[data$Analysis$minutes_played >= 6, c(
+    "blocks_per_min",
+    "blocks_per_min_10"
+  )],
+  
+  Turnovers = data$Analysis[data$Analysis$minutes_played >= 12, c(
+    "turnovers_per_min",
+    "turnovers_per_min_10"
   )]
   
 )
@@ -245,10 +278,6 @@ model <- list(
     ntree = 100,
     train = FALSE
   ),
-  # MinutesPlayed = Modeling$OLS(
-  #   data = data$Modeling$MinutesPlayed,
-  #   outcome = "minutes_played"
-  # ),
   FantasyPoints = Modeling$RandomForest(
     data = data$Modeling$FantasyPoints,
     outcome = "fantasy_points_per_min",
@@ -260,12 +289,40 @@ model <- list(
     data = data$Modeling$FantasyPoints,
     outcome = "fantasy_points_per_min"
   ),
+  TwoPointersMade = Modeling$OLS(
+    data = data$Modeling$TwoPointersMade,
+    outcome = "two_pointers_made_per_min"
+  ),
+  ThreePointersMade = Modeling$OLS(
+    data = data$Modeling$ThreePointersMade,
+    outcome = "three_pointers_made_per_min"
+  ),
   Rebounds = Modeling$RandomForest(
     data = data$Modeling$Rebounds,
     outcome = "rebounds_per_min",
     sampleSize = 5000,
-    ntree = 100,
+    ntree = 150,
     train = TRUE
+  ),
+  Rebounds = Modeling$OLS(
+    data = data$Modeling$Rebounds,
+    outcome = "rebounds_per_min"
+  ),
+  Assists = Modeling$OLS(
+    data = data$Modeling$Assists,
+    outcome = "assists_per_min"
+  ),
+  Steals = Modeling$OLS(
+    data = data$Modeling$Steals,
+    outcome = "steals_per_min"
+  ),
+  Blocks = Modeling$OLS(
+    data = data$Modeling$Blocks,
+    outcome = "blocks_per_min"
+  ),
+  Turnovers = Modeling$OLS(
+    data = data$Modeling$Turnovers,
+    outcome = "turnovers_per_min"
   )
 )
 

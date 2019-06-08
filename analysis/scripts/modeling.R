@@ -31,7 +31,7 @@ Modeling <- list(
       model <- randomForest(
         data = data[trainSample, ],
         as.formula(paste0(outcome, " ~ .")),
-        xtest = data[testSample, !(names(data) %in% outcome)],
+        xtest = data[testSample, !(names(data) %in% outcome), drop = FALSE],
         ytest = data[testSample, outcome],
         ntree = ntree,
         importance = TRUE

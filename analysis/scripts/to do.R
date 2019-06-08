@@ -7,6 +7,11 @@
 
 # Maybe replace fantasy points per min with something shorter
 
+# ungroup() all group_by()'s
+
+# Find a better place for standard deviation calculations outside of feature
+# engineering
+
 
 
 ### Web Scraping -----
