@@ -116,6 +116,7 @@ data$Analysis <-
                            "played_game",
                            "minutes_played",
                            config$StatsNew,
+                           paste0(config$StatsNew, "_per_min"),
                            paste0("salary_", tolower(config$SalaryTypes)),
                            "fantasy_points",
                            "fantasy_points_per_min")]

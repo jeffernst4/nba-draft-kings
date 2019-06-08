@@ -192,9 +192,11 @@ dataTransformation <- list(
     playerBoxScores <-
       playerBoxScores[with(playerBoxScores, order(date, slug)),]
     
+    # Convert player box scores to data frame
+    playerBoxScores <- as.data.frame(PlayerBoxScores)
     
     # Return player box scores
-    return(as.data.frame(playerBoxScores))
+    return(playerBoxScores)
     
   },
   
