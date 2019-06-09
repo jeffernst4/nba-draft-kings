@@ -206,7 +206,7 @@ data$Modeling <- list(
     "fantasy_points_per_min",
     # "salary_draftkings",
     # "salary_draftkings_change_1",
-    # # "salary_draftkings_change_3",
+    # "salary_draftkings_change_3",
     # "salary_draftkings_change_5",
     # "salary_draftkings_change_10",
     config$StatsNew,
@@ -234,10 +234,7 @@ data$Modeling <- list(
   
   Rebounds = data$Analysis[data$Analysis$minutes_played >= 6, c(
     "rebounds_per_min",
-    "rebounds_per_min_10",
-    "salary_draftkings",
-    "location",
-    "position"
+    "rebounds_per_min_10"
   )],
   
   Assists = data$Analysis[data$Analysis$minutes_played >= 6, c(
@@ -278,13 +275,13 @@ model <- list(
     ntree = 100,
     train = FALSE
   ),
-  FantasyPoints = Modeling$RandomForest(
-    data = data$Modeling$FantasyPoints,
-    outcome = "fantasy_points_per_min",
-    sampleSize = 5000,
-    ntree = 100,
-    train = TRUE
-  ),
+  # FantasyPoints = Modeling$RandomForest(
+  #   data = data$Modeling$FantasyPoints,
+  #   outcome = "fantasy_points_per_min",
+  #   sampleSize = 5000,
+  #   ntree = 100,
+  #   train = TRUE
+  # ),
   FantasyPoints = Modeling$OLS(
     data = data$Modeling$FantasyPoints,
     outcome = "fantasy_points_per_min"
@@ -297,13 +294,13 @@ model <- list(
     data = data$Modeling$ThreePointersMade,
     outcome = "three_pointers_made_per_min"
   ),
-  Rebounds = Modeling$RandomForest(
-    data = data$Modeling$Rebounds,
-    outcome = "rebounds_per_min",
-    sampleSize = 5000,
-    ntree = 150,
-    train = TRUE
-  ),
+  # Rebounds = Modeling$RandomForest(
+  #   data = data$Modeling$Rebounds,
+  #   outcome = "rebounds_per_min",
+  #   sampleSize = 5000,
+  #   ntree = 150,
+  #   train = TRUE
+  # ),
   Rebounds = Modeling$OLS(
     data = data$Modeling$Rebounds,
     outcome = "rebounds_per_min"
@@ -339,6 +336,27 @@ data$Analysis$minutes_played_prediction <-
 data$Analysis$fantasy_points_per_min_prediction <-
   predict(model$FantasyPoints, data$Analysis)
 
+data$Analysis$two_pointers_made_per_min_prediction <-
+  predict(model$TwoPointersMade, data$Analysis)
+
+data$Analysis$three_pointers_made_per_min_prediction <-
+  predict(model$ThreePointersMade, data$Analysis)
+
+data$Analysis$rebounds_per_min_prediction <-
+  predict(model$Rebounds, data$Analysis)
+
+data$Analysis$assists_per_min_prediction <-
+  predict(model$Assists, data$Analysis)
+
+data$Analysis$steals_per_min_prediction <-
+  predict(model$Steals, data$Analysis)
+
+data$Analysis$blocks_per_min_prediction <-
+  predict(model$Blocks, data$Analysis)
+
+data$Analysis$turnovers_per_min_prediction <-
+  predict(model$Turnovers, data$Analysis)
+
 # Create minutes played standard deviation
 data$Analysis <-
   join(
@@ -353,11 +371,27 @@ data$Analysis <-
     FeatureEngineering$FantasyPointsPerMinStdDev(data$Analysis)
   )
 
+# Create standard deviations for each stat per minute
+data$Analysis <-
+  Reduce(
+    function(x, y)
+      join(x, y, type = "full"),
+    list(
+      data$Analysis,
+      FeatureEngineering$StandardDeviation(data$Analysis, "two_pointers_made", 6),
+      FeatureEngineering$StandardDeviation(data$Analysis, "three_pointers_made", 6),
+      FeatureEngineering$StandardDeviation(data$Analysis, "rebounds", 6),
+      FeatureEngineering$StandardDeviation(data$Analysis, "assists", 6),
+      FeatureEngineering$StandardDeviation(data$Analysis, "steals", 6),
+      FeatureEngineering$StandardDeviation(data$Analysis, "blocks", 6),
+      FeatureEngineering$StandardDeviation(data$Analysis, "turnovers", 12)
+    )
+  )
+    
 
+simulation <- list()
 
-
-
-simulationData <- data$Analysis[data$Analysis$date == "2019-04-01", ]
+simulation$Data <- data$Analysis[data$Analysis$date == "2019-04-03", ]
 
 # sum(
 #   simulationData$minutes_played_prediction[!is.na(simulationData$minutes_played_prediction) &
@@ -369,34 +403,46 @@ simulationData <- data$Analysis[data$Analysis$date == "2019-04-01", ]
 #                                     !is.na(simulationData$minutes_played_std_dev)])
 
 
-played_game_simulation <-
-  lapply(simulationData$played_game_prediction, function(x)
-    rbinom(10000, 1, x))
+simulation$PlayedGame <-
+  lapply(simulation$Data$played_game_prediction, function(prediction)
+    rbinom(10000, 1, prediction))
 
-minutes_played_simulation <-
+simulation$MinutesPlayed <-
   mapply(
-    function(x, y)
-      rnorm(10000, x, y),
-    simulationData$minutes_played_prediction,
-    simulationData$minutes_played_std_dev,
+    function(prediction, stdDev)
+      rnorm(10000, prediction, stdDev),
+    simulation$Data$minutes_played_prediction,
+    simulation$Data$minutes_played_std_dev,
     SIMPLIFY = FALSE
   )
 
-fantasy_points_per_min_simulation <-
-  mapply(
-    function(x, y)
-      rnorm(10000, x, y),
-    simulationData$fantasy_points_per_min_prediction,
-    simulationData$fantasy_points_per_min_std_dev,
-    SIMPLIFY = FALSE
-  )
+simulation$StatsPerMin <-
+  lapply(config$StatsNew, function(stat) {
+    mapply(
+      function(prediction, stdDev)
+        rnorm(10000, prediction, stdDev),
+      simulation$Data[[paste0(stat, "_per_min_prediction")]],
+      simulation$Data[[paste0(stat, "_per_min_std_dev")]],
+      SIMPLIFY = FALSE
+    )
+  })
 
-test <- mapply(function(x, y, z)
-  x * y * z,
-  played_game_simulation,
-  minutes_played_simulation,
-  fantasy_points_per_min_simulation,
-  SIMPLIFY = FALSE)
+names(simulation$StatsPerMin) <- config$StatsNew
+
+simulation$Stats <-
+  lapply(config$StatsNew, function(stat) {
+    mapply(
+      function(playedGame, minutesPlayed, statPerMin)
+        playedGame * minutesPlayed * statPerMin,
+      simulation$PlayedGame,
+      simulation$MinutesPlayed,
+      simulation$StatsPerMin[[stat]],
+      SIMPLIFY = FALSE
+    )
+  })
+
+names(simulation$Stats) <- config$StatsNew
+
 
 # test <- unlist(test)
 # 

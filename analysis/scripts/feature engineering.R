@@ -437,14 +437,14 @@ FeatureEngineering <- list(
               " = c(NA, head(rollapply(",
               config$StatsNew,
               ", ",
-              minWindowWidth,
-              ", FUN = function(x) mean(tail(na.omit(x)[length(na.omit(x)) >= ",
+              maxWindowWidth,
+              ", FUN = function(x) sum(tail(na.omit(x)[length(na.omit(x)) >= ",
               minWindowWidth,
               "], n = ",
               windowWidth,
               ")), fill = NA, partial = TRUE, align = 'right') / rollapply(minutes_played, ",
-              minWindowWidth,
-              ", FUN = function(x) mean(tail(na.omit(x)[length(na.omit(x)) >= ",
+              maxWindowWidth,
+              ", FUN = function(x) sum(tail(na.omit(x)[length(na.omit(x)) >= ",
               minWindowWidth,
               "], n = ",
               windowWidth,
@@ -602,6 +602,83 @@ FeatureEngineering <- list(
     
     # Return fantasy points per min standard deviation
     return(fantasyPointsPerMinStdDev)
+    
+  },
+  
+  # Calculate stat per minute standard deviation
+  StandardDeviation = function(analysis, stat, minutesPlayedMinimum) {
+    
+    # Filter player box scores
+    analysis <-
+      analysis[, c("slug",
+                   "date",
+                   "minutes_played",
+                   paste0(stat, "_per_min"),
+                   paste0(stat, "_per_min_prediction"))]
+    
+    # Calculate stat per minute residual
+    analysis[[paste0(stat, "_per_min_residual")]] <-
+      analysis[[paste0(stat, "_per_min_prediction")]] - analysis[[paste0(stat, "_per_min")]]
+    
+    # Replace stat per minute residual with NA when players didn't play
+    analysis[analysis$minutes_played < minutesPlayedMinimum, paste0(stat, c("_per_min", "_per_min_residual"))] <-
+      NA
+    
+    # Create rolling averages
+    standardDeviation <- eval(parse(text = mapply(
+      function(minWindowWidth, maxWindowWidth)
+        paste0(
+          "analysis %>% group_by(slug) %>% dplyr::mutate(",
+          stat,
+          "_per_min_std_dev = c(NA, head(rollapply(",
+          stat,
+          "_per_min, ",
+          maxWindowWidth,
+          ", FUN = function(x) sd(x[length(na.omit(x)) >= ",
+          minWindowWidth,
+          "], na.rm = TRUE), partial = TRUE, align = 'right'), -1)),",
+          stat,
+          "_per_min_residual_std_dev = c(NA, head(rollapply(",
+          stat,
+          "_per_min_residual, ",
+          maxWindowWidth,
+          ", FUN = function(x) sd(x[length(na.omit(x)) >= ",
+          minWindowWidth,
+          "], na.rm = TRUE), partial = TRUE, align = 'right'), -1)))"
+        ),
+      7,
+      50
+    )))
+    
+    # Combine stat per minute residual with stat per minute standard deviation
+    standardDeviation <- eval(parse(
+      text = paste0(
+        "standardDeviation %>% mutate(",
+        stat,
+        "_per_min_std_dev = coalesce(",
+        stat,
+        "_per_min_residual_std_dev, ",
+        stat,
+        "_per_min_std_dev)
+      )"
+      )
+    ))
+    
+    # Remove columns
+    standardDeviation <-
+      standardDeviation[, !(names(standardDeviation) %in% c("minutes_played",
+                                                            paste0(
+                                                              stat,
+                                                              c(
+                                                                "_per_min",
+                                                                "_per_min_prediction",
+                                                                "_per_min_residual",
+                                                                "_per_min_residual_std_dev"
+                                                              )
+                                                            )))]
+    
+    # Return stat per minute standard deviation
+    return(standardDeviation)
     
   }
   

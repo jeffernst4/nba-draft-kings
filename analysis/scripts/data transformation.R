@@ -165,14 +165,6 @@ dataTransformation <- list(
           x * c(1, 0.5, 1.25, 1.5, 2, 2, -0.5, 1.5, 3)
       ))
     
-    # # Calculate fantasy points per minute
-    # playerBoxScores$fantasy_points_per_min <-
-    #   ifelse(
-    #     playerBoxScores$minutes_played > 0,
-    #     playerBoxScores$fantasy_points / playerBoxScores$minutes_played,
-    #     NA
-    #   )
-    
     # Create stats per minute
     playerBoxScores <- eval(parse(
       text = paste0(

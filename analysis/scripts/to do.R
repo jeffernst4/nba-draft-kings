@@ -9,8 +9,13 @@
 
 # ungroup() all group_by()'s
 
-# Find a better place for standard deviation calculations outside of feature
-# engineering
+# Maybe remove fantasy_points_per_min (is there any need to have this anymore?)
+# and model to predict fantasy points per min
+
+# Find a way to add in new salary data from draft kings export and load it into
+# engineered features
+
+# Change stdDev to sd?
 
 
 
@@ -62,11 +67,13 @@
 
 ### Feature Engineering -----
 
+# Calculate opponent multipliers
+
+# Make minutes played std deviation using general std deviation formula
+
 # Rename player stats for fantasy points per min to fantasy points per min
 
 # Change function variables to be meaningful, like feature periods
-
-# Should the residual be created in the feature engineering or earlier?
 
 # Maybe consider adding in defense against position or comparing fantasy points
 # method with/without matchup comparisons, test out all ways to calculate matchup
@@ -76,20 +83,9 @@
 # Maybe take into account location, see if individual players, clusters of
 # players, teams, or all players are affected by location
 
-# Maybe calculate opponent multipliers separately if used in both fp_per_min and
-# fp
-
-# Use team box scores intead of team stats
-
 # Create bag of words news metric
 # https://cran.r-project.org/web/packages/ngram/vignettes/ngram-guide.pdf
 # https://www.dataquest.io/blog/natural-language-processing-with-python/
-
-# Formula to replace nan's with earlier values:
-# analysis$fp_10[is.nan(analysis$fp_10)] <- fp_20[is.nan(analysis$fp_10)], do
-# this for both stats per min and salary change, MAKE THIS SIMPLER
-
-# Generalize standard deviation calculation for feature
 
 
 
@@ -115,7 +111,7 @@
 # - salary / difference of salary
 # - difference of skill with opponent, maybe use vegas line difference (closer
 # games = better players play more and higher chance of overtime)
-# - age
+# - age, height and weight (all factors in getting injured)
 # - rest (higher rest = lower chance of being rested/injured), difference
 # between being injured/rested?
 # - number of teammates who are injured (weighted by skill and position)
@@ -123,7 +119,14 @@
 # salaries data
 
 
-### Optimization
+
+### Simulation -----
+
+# Capitalize list names for stats per min
+
+
+
+### Optimization -----
 
 # Calculate required winning scores for every threshold
 # https://rotogrinders.com/articles/what-it-really-takes-to-win-an-nba-gpp-1210935
