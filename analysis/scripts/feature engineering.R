@@ -129,7 +129,7 @@ FeatureEngineering <- list(
     # Create league stats
     leagueStats <- eval(parse(
       text = paste0(
-        "teamStats %>% group_by() %>% dplyr::mutate(",
+        "teamStats %>% dplyr::mutate(",
         paste0(
           "league_",
           stats,
@@ -152,7 +152,7 @@ FeatureEngineering <- list(
     # Calculate opponent multipliers
     opponentMultipliers <- eval(parse(
       text = paste0(
-        "statsAnalysis %>% group_by() %>% dplyr::mutate(",
+        "statsAnalysis %>% dplyr::mutate(",
         paste0(
           stats,
           "_multiplier = opponent_",
@@ -207,7 +207,7 @@ FeatureEngineering <- list(
     # Create rolling averages
     playerStats <- eval(parse(
       text = paste0(
-        "playerStats %>% group_by() %>% dplyr::mutate(",
+        "playerStats %>% dplyr::mutate(",
         paste0(sapply(c(1:10, 15, 20), function(x)
           paste0(
             "player_fp_",
@@ -286,7 +286,7 @@ FeatureEngineering <- list(
     # Create league stats
     leagueStats <- eval(parse(
       text = paste0(
-        "teamBoxScores %>% group_by() %>% dplyr::mutate(",
+        "teamBoxScores %>% dplyr::mutate(",
         paste0(
           "league_",
           config$Stats,
@@ -309,7 +309,7 @@ FeatureEngineering <- list(
     # Calculate opponent multipliers
     opponentMultipliers <- eval(parse(
       text = paste0(
-        "statsAnalysis %>% group_by() %>% dplyr::mutate(",
+        "statsAnalysis %>% dplyr::mutate(",
         paste0(
           config$Stats,
           "_multiplier = opponent_",
@@ -376,7 +376,7 @@ FeatureEngineering <- list(
     # Create rolling averages
     playerStats <- eval(parse(
       text = paste0(
-        "playerStats %>% group_by() %>% dplyr::mutate(",
+        "playerStats %>% dplyr::mutate(",
         paste0(
           sapply(config$FeaturePeriods$FantasyPointsPerMin, function(x)
             paste0(
