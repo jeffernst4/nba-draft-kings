@@ -99,10 +99,6 @@ data$PlayerBoxScores <-
 data$PlayerBoxScores <-
   join(data$PlayerBoxScores, data$PlayerSeasonTotals[, c("slug", "season", "team", "position")])
 
-# # Transform team stats
-# data$TeamStats <-
-#   dataTransformation$TeamStats(data$PlayerBoxScores)
-
 # Create player analysis
 data$Analysis <-
   data$PlayerBoxScores[, c("date",
@@ -259,8 +255,9 @@ data$Modeling <- list(
   
 )
 
-# Create empty list
+# Create modeling list
 model <- list(
+  
   PlayedGame = Modeling$RandomForest(
     data = data$Modeling$PlayedGame,
     outcome = "played_game",
@@ -268,6 +265,7 @@ model <- list(
     ntree = 100,
     train = FALSE
   ),
+  
   MinutesPlayed = Modeling$RandomForest(
     data = data$Modeling$MinutesPlayed,
     outcome = "minutes_played",
@@ -275,72 +273,55 @@ model <- list(
     ntree = 100,
     train = FALSE
   ),
-  # FantasyPoints = Modeling$RandomForest(
-  #   data = data$Modeling$FantasyPoints,
-  #   outcome = "fantasy_points_per_min",
-  #   sampleSize = 5000,
-  #   ntree = 100,
-  #   train = TRUE
-  # ),
-  FantasyPoints = Modeling$OLS(
-    data = data$Modeling$FantasyPoints,
-    outcome = "fantasy_points_per_min"
-  ),
+  
+  FantasyPoints = Modeling$OLS(data = data$Modeling$FantasyPoints,
+                               outcome = "fantasy_points_per_min"),
+  
   TwoPointersMade = Modeling$OLS(
     data = data$Modeling$TwoPointersMade,
     outcome = "two_pointers_made_per_min"
   ),
+  
   ThreePointersMade = Modeling$OLS(
     data = data$Modeling$ThreePointersMade,
     outcome = "three_pointers_made_per_min"
   ),
-  # Rebounds = Modeling$RandomForest(
-  #   data = data$Modeling$Rebounds,
-  #   outcome = "rebounds_per_min",
-  #   sampleSize = 5000,
-  #   ntree = 150,
-  #   train = TRUE
-  # ),
-  Rebounds = Modeling$OLS(
-    data = data$Modeling$Rebounds,
-    outcome = "rebounds_per_min"
-  ),
-  Assists = Modeling$OLS(
-    data = data$Modeling$Assists,
-    outcome = "assists_per_min"
-  ),
-  Steals = Modeling$OLS(
-    data = data$Modeling$Steals,
-    outcome = "steals_per_min"
-  ),
-  Blocks = Modeling$OLS(
-    data = data$Modeling$Blocks,
-    outcome = "blocks_per_min"
-  ),
-  Turnovers = Modeling$OLS(
-    data = data$Modeling$Turnovers,
-    outcome = "turnovers_per_min"
-  )
+  
+  Rebounds = Modeling$OLS(data = data$Modeling$Rebounds,
+                          outcome = "rebounds_per_min"),
+  
+  Assists = Modeling$OLS(data = data$Modeling$Assists,
+                         outcome = "assists_per_min"),
+  
+  Steals = Modeling$OLS(data = data$Modeling$Steals,
+                        outcome = "steals_per_min"),
+  
+  Blocks = Modeling$OLS(data = data$Modeling$Blocks,
+                        outcome = "blocks_per_min"),
+  
+  Turnovers = Modeling$OLS(data = data$Modeling$Turnovers,
+                           outcome = "turnovers_per_min")
+  
 )
 
 
-
-
-# Prediction
+# Prediction -----
 data$Analysis$played_game_prediction <-
   predict(model$PlayedGame$Model, data$Analysis, type = "prob")[, "1"]
 
 data$Analysis$minutes_played_prediction <-
   predict(model$MinutesPlayed$Model, data$Analysis)
 
-data$Analysis$fantasy_points_per_min_prediction <-
-  predict(model$FantasyPoints, data$Analysis)
+# data$Analysis$fantasy_points_per_min_prediction <-
+#   predict(model$FantasyPoints, data$Analysis)
 
 data$Analysis$two_pointers_made_per_min_prediction <-
   predict(model$TwoPointersMade, data$Analysis)
 
 data$Analysis$three_pointers_made_per_min_prediction <-
   predict(model$ThreePointersMade, data$Analysis)
+
+# Calcualte points_per_min_prediction
 
 data$Analysis$rebounds_per_min_prediction <-
   predict(model$Rebounds, data$Analysis)
@@ -387,30 +368,24 @@ data$Analysis <-
       FeatureEngineering$StandardDeviation(data$Analysis, "turnovers", 12)
     )
   )
-    
+
+
+# Simulation -----
 
 simulation <- list()
 
+simulationSize <- 10000
+
 simulation$Data <- data$Analysis[data$Analysis$date == "2019-04-03", ]
-
-# sum(
-#   simulationData$minutes_played_prediction[!is.na(simulationData$minutes_played_prediction) &
-#                                              !is.na(simulationData$minutes_played_std_dev)] * simulationData$played_game_prediction[!is.na(simulationData$minutes_played_prediction) &
-#                                                                                                                                       !is.na(simulationData$minutes_played_std_dev)]
-# )
-# 
-# sum(simulationData$minutes_played[!is.na(simulationData$minutes_played_prediction) &
-#                                     !is.na(simulationData$minutes_played_std_dev)])
-
 
 simulation$PlayedGame <-
   lapply(simulation$Data$played_game_prediction, function(prediction)
-    rbinom(10000, 1, prediction))
+    rbinom(simulationSize, 1, prediction))
 
 simulation$MinutesPlayed <-
   mapply(
     function(prediction, stdDev)
-      rnorm(10000, prediction, stdDev),
+      rnorm(simulationSize, prediction, stdDev),
     simulation$Data$minutes_played_prediction,
     simulation$Data$minutes_played_std_dev,
     SIMPLIFY = FALSE
@@ -420,7 +395,7 @@ simulation$StatsPerMin <-
   lapply(config$StatsNew, function(stat) {
     mapply(
       function(prediction, stdDev)
-        rnorm(10000, prediction, stdDev),
+        rnorm(simulationSize, prediction, stdDev),
       simulation$Data[[paste0(stat, "_per_min_prediction")]],
       simulation$Data[[paste0(stat, "_per_min_std_dev")]],
       SIMPLIFY = FALSE
@@ -443,24 +418,58 @@ simulation$Stats <-
 
 names(simulation$Stats) <- config$StatsNew
 
+simulation$Stats$points <-
+  mapply(
+    function(two_pointers_made, three_pointers_made)
+      two_pointers_made + three_pointers_made,
+    lapply(simulation$Stats$two_pointers_made, function(x)
+      x * 2),
+    lapply(simulation$Stats$three_pointers_made, function(x)
+      x * 3),
+    SIMPLIFY = FALSE
+  )
 
-# test <- unlist(test)
-# 
-# test[test < 0] <- 0
-# 
-# 
-# quantile(simulationData$minutes_played[!is.na(simulationData$minutes_played_prediction) & !is.na(simulationData$minutes_played_std_dev)], probs = seq(0,1, .05))
-# 
-# minplayedsum <- sum(simulationData$minutes_played[!is.na(simulationData$minutes_played_prediction) & !is.na(simulationData$minutes_played_std_dev)])
-# 
-# quantile(unlist(test), probs = seq(0, 1, .05), na.rm = TRUE)
-# 
-# testsum <- sum(unlist(test), na.rm = TRUE) / 10000
-# 
-# minplayedsum
-# testsum
-# 
-# testsum / minplayedsum
+simulation$Stats$double_double <-
+  do.call(mapply, c(
+    lapply(c("points", "rebounds", "assists", "steals", "blocks"), function(x)
+      simulation$Stats[[x]]),
+    FUN = function(points, rebounds, assists, steals, blocks)
+      ((points >= 10) + (rebounds >= 10) + (assists >= 10) + (steals >= 10) + (blocks >= 10)) >= 2,
+    SIMPLIFY = FALSE
+  ))
+
+simulation$Stats$triple_double <-
+  do.call(mapply, c(
+    lapply(c("points", "rebounds", "assists", "steals", "blocks"), function(x)
+      simulation$Stats[[x]]),
+    FUN = function(points, rebounds, assists, steals, blocks)
+      ((points >= 10) + (rebounds >= 10) + (assists >= 10) + (steals >= 10) + (blocks >= 10)) >= 3,
+    SIMPLIFY = FALSE
+  ))
+
+simulation$Stats$fantasy_points <-
+  do.call(mapply,
+          c(
+            lapply(c(
+              "points",
+              "three_pointers_made",
+              "rebounds",
+              "assists",
+              "steals",
+              "blocks",
+              "turnovers"
+            ), function(x)
+              simulation$Stats[[x]]),
+            FUN = function(points,
+                           three_pointers_made,
+                           rebounds,
+                           assists,
+                           steals,
+                           blocks,
+                           turnovers)
+              (points * 1) + (three_pointers_made * 0.5) + (rebounds * 1.25) + (assists * 1.5) + (steals * 2) + (blocks * 2) + (turnovers * -0.5),
+            SIMPLIFY = FALSE
+          ))
 
 
 
@@ -581,27 +590,55 @@ predictions <- join(predictions, availablePositions)
 
 # Optimization -----
 
-injuries <- read.csv("data/draft kings/injuries.csv")
+simulation$Data$fantasy_points_prediction <-
+  simulation$Data$played_game_prediction * simulation$Data$minutes_played_prediction * (
+    (
+      simulation$Data$two_pointers_made_per_min_prediction * 2 + simulation$Data$three_pointers_made_per_min_prediction * 3
+    ) * 1 + (simulation$Data$three_pointers_made_per_min_prediction * 0.5) + (simulation$Data$rebounds_per_min_prediction * 1.25) + (simulation$Data$assists_per_min_prediction * 1.5) + (simulation$Data$steals_per_min_prediction * 2) + (simulation$Data$blocks_per_min_prediction * 2) + (simulation$Data$turnovers_per_min_prediction * -0.5)
+  )
 
-predictions$injury[predictions$name %in% c(injuries$name, "DeAndre Jordan", "Julius Randle", "Jamal Murray")] <- 1
+optimization <- list()
+
+optimization$Data <-
+  na.omit(simulation$Data[, c("slug",
+                      "salary_draftkings",
+                      "name",
+                      "position",
+                      "fantasy_points_prediction")])
 
 direction <- 'max'
-objective.in <- predictions$predictions
-const.mat <- rbind(1 * (predictions$salary),
-                   1 * (predictions$name != ""),
-                   1 * (predictions$position == "PG"),
-                   1 * (predictions$position == "SG"),
-                   1 * (predictions$position == "SF"),
-                   1 * (predictions$position == "PF"),
-                   1 * (predictions$position == "C"),
-                   1 * (predictions$position == "G"),
-                   1 * (predictions$position == "F"),
-                   1 * (predictions$position == "UTIL"),
-                   t(model.matrix(~ -1 + name, predictions)),
-                   1 * (predictions$injury == 1),
+objective.in <- optimization$Data$fantasy_points_prediction
+const.mat <- rbind(1 * (optimization$Data$salary_draftkings),
+                   1 * (optimization$Data$slug != ""),
+                   1 * (optimization$Data$position == "PG"),
+                   1 * (optimization$Data$position == "SG"),
+                   1 * (optimization$Data$position == "SF"),
+                   1 * (optimization$Data$position == "PF"),
+                   1 * (optimization$Data$position == "C"),
+                   1 * (optimization$Data$position == "G"),
+                   1 * (optimization$Data$position == "F"),
+                   1 * (optimization$Data$position == "UTIL"),
+                   t(model.matrix(~ -1 + slug, optimization$Data)),
+                   # 1 * (simulation$Data$injury == 1),simulation$Data
                    deparse.level = 0)
-const.dir <- c('<=', '<=', '=', '=', '=', '=', '=', '=', '=', '=', rep("<=", length(unique(predictions$name))), "=")
-const.rhs <- c(50000, 8, 1, 1, 1, 1, 1, 1, 1, 1, rep(1, length(unique(predictions$name))), 0)
+const.dir <-
+  c('<=',
+    '<=',
+    '=',
+    '=',
+    '=',
+    '=',
+    '=',
+    '=',
+    '=',
+    '=',
+    rep("<=", length(unique(
+      optimization$Data$slug
+    ))))
+const.rhs <-
+  c(50000, 8, 1, 1, 1, 1, 1, 1, 1, 1, rep(1, length(unique(
+    optimization$Data$slug
+  ))))
 
 
 lp_solution <- lp(
@@ -613,7 +650,9 @@ lp_solution <- lp(
   all.bin = TRUE,
   num.bin.solns = 1)
 
-predictionssolution <- predictions[lp_solution$solution == TRUE,]
+
+
+predictionssolution <- optimization$Data[lp_solution$solution == TRUE,]
 
 predictionssolution$position <- factor(predictionssolution$position, levels = c("PG", "SG", "SF", "PF", "C", "G", "F", "UTIL"))
 
