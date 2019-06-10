@@ -1,10 +1,6 @@
 
 ### General -----
 
-# Remove all group_by() potentially
-
-# Remove player_ from engineered features
-
 # Maybe replace fantasy points per min with something shorter
 
 # ungroup() all group_by()'s
@@ -26,6 +22,9 @@
 
 # Scrape other projections to compare against my projections
 # http://www.dailyfantasyfuel.com/nba/projections/draftkings/2017-05-15/
+
+# Scrape draft king positions for every player using player ids (find a place for this file)
+# http://rotoguru1.com/cgi-bin/playrh.cgi?4224
 
 
 
@@ -102,8 +101,6 @@
 # account factors such as: per minute averages, opponents defense, vegas
 # odds/lines, rest - fantasycruncher
 
-# Add in double_doubles and triple_doubles to player fantasy points feature
-
 # Minutes played predictors
 # - news
 # - minutes played (rolling), maybe use % of total time to account for overtime
@@ -111,7 +108,7 @@
 # - salary / difference of salary
 # - difference of skill with opponent, maybe use vegas line difference (closer
 # games = better players play more and higher chance of overtime)
-# - age, height and weight (all factors in getting injured)
+# - age, height and weight (all factors in getting injured) use team rosters for this
 # - rest (higher rest = lower chance of being rested/injured), difference
 # between being injured/rested?
 # - number of teammates who are injured (weighted by skill and position)
@@ -120,9 +117,24 @@
 
 
 
+### Prediction -----
+
+# Calculate fantasy_points_prediction earlier and use points_per_min_prediction
+
+# Generalize prediction formulas
+
+# Predicted fantasy points doesn't include double doubles or triple doubles
+
+# Test out modeling turnovers with 12 minutes vs 6 minutes minimum, possibly put
+# this in config since it needs to be calculated with std deviation
+
+
+
 ### Simulation -----
 
-# Capitalize list names for stats per min
+# Capitalize list names for stats per min with no underscores
+
+# Make point values for draft kings based on formula
 
 
 
