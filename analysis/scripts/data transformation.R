@@ -287,30 +287,6 @@ dataTransformation <- list(
     # Return season schedules
     return(seasonSchedules)
     
-  },
-  
-  TeamStats = function(playerBoxScores) {
-    
-    # Create team stats
-    teamStats <-
-      aggregate(
-        cbind(
-          minutes_played,
-          points,
-          three_pointers_made,
-          rebounds,
-          assists,
-          steals,
-          blocks,
-          turnovers
-        ) ~ location + team + opponent + season + date,
-        playerBoxScores,
-        sum
-      )
-    
-    # Return team stats
-    return(teamStats)
-    
   }
   
   # TeamRosters = function(teamRosters) {
